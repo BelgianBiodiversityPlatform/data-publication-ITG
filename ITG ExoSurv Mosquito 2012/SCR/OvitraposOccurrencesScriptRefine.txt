@@ -1,0 +1,309 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column occurrenceID at index 1 based on column Tube number using expression grel:\"ITG\"+\":\"+\"MOSQ\"+\":\"+\"VECT\"+\":\"+value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "occurrenceID",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Tube number",
+    "expression": "grel:\"ITG\"+\":\"+\"MOSQ\"+\":\"+\"VECT\"+\":\"+value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Adult/Larva to lifeStage",
+    "oldColumnName": "Adult/Larva",
+    "newColumnName": "lifeStage"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Genus to genus",
+    "oldColumnName": "Genus",
+    "newColumnName": "genus"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Species to species",
+    "oldColumnName": "Species",
+    "newColumnName": "species"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Sex to sex",
+    "oldColumnName": "Sex",
+    "newColumnName": "sex"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lifeStage",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "lifeStage",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Adult"
+        ],
+        "to": "adult"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lifeStage",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "lifeStage",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Larva"
+        ],
+        "to": "larvae"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lifeStage",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "lifeStage",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "larvae"
+        ],
+        "to": "larva"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Number to individualCount",
+    "oldColumnName": "Number",
+    "newColumnName": "individualCount"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Box to position 36",
+    "columnName": "Box",
+    "index": 36
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Eclosion Date A/L to position 36",
+    "columnName": "Eclosion Date A/L",
+    "index": 36
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column scientificName at index 6 based on column genus using expression grel:value +  \" \" +cells[\"species\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "scientificName",
+    "columnInsertIndex": 6,
+    "baseColumnName": "genus",
+    "expression": "grel:value +  \" \" +cells[\"species\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column scientificName to position 5",
+    "columnName": "scientificName",
+    "index": 5
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Identifier",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Identifier",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Isra"
+        ],
+        "to": "Isra Deblauwe"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Date ID to dataIdentified",
+    "oldColumnName": "Date ID",
+    "newColumnName": "dataIdentified"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Identifier to identifiedBy",
+    "oldColumnName": "Identifier",
+    "newColumnName": "identifiedBy"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Storage of Box to position 37",
+    "columnName": "Storage of Box",
+    "index": 37
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Sampling ovitraps_Subsite Code to locationID",
+    "oldColumnName": "Sampling ovitraps_Subsite Code",
+    "newColumnName": "locationID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Sampling ovitraps_Site Code",
+    "columnName": "Sampling ovitraps_Site Code"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column verbatimEventDate at index 17 based on column Start Date using expression grel:value +  \" \" + \"/\" +cells[\"End Date\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "verbatimEventDate",
+    "columnInsertIndex": 17,
+    "baseColumnName": "Start Date",
+    "expression": "grel:value +  \" \" + \"/\" +cells[\"End Date\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Start Date to eventDate",
+    "oldColumnName": "Start Date",
+    "newColumnName": "eventDate"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column End Date to position 37",
+    "columnName": "End Date",
+    "index": 37
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Max temp (°C)",
+    "columnName": "Max temp (°C)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Min temp (°C)",
+    "columnName": "Min temp (°C)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Humidity (%)",
+    "columnName": "Humidity (%)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Subsite Form_Subsite code",
+    "columnName": "Subsite Form_Subsite code"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Subsite Form_Site Code",
+    "columnName": "Subsite Form_Site Code"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Adress",
+    "columnName": "Adress"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Municipality to municipality",
+    "oldColumnName": "Municipality",
+    "newColumnName": "municipality"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Zip Code",
+    "columnName": "Zip Code"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Land cover level 1",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Land cover level 1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "3 Forest and semi-natural areas"
+        ],
+        "to": "Forest and semi-natural areas"
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Subsite Form_Comments",
+    "columnName": "Subsite Form_Comments"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Land cover level 3",
+    "columnName": "Land cover level 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Land cover level 2",
+    "columnName": "Land cover level 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Box",
+    "columnName": "Box"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column End Date",
+    "columnName": "End Date"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column eventID at index 14 based on column Sampling ovitraps_Sampling Code using expression grel:\"ITG:MOSQ:VECT:\" + value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "eventID",
+    "columnInsertIndex": 14,
+    "baseColumnName": "Sampling ovitraps_Sampling Code",
+    "expression": "grel:\"ITG:MOSQ:VECT:\" + value",
+    "onError": "set-to-blank"
+  }
+]
