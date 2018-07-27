@@ -1,5 +1,5 @@
 Drop view MMLP_LatinSamplingJoined;
-create view MMLP_LatinSamplingJoined as
+create table MMLP_LatinSamplingJoined as
 select 
      SamplingCode
 	,SiteCode
@@ -9,7 +9,7 @@ select
 	,'MMLP' as samplingProtocol 
 
 FROM SamplingMMLP
-WHERE Presencemosquitos 
+WHERE Presencemosquitoes = 1
 UNION 
 
 SELECT  
