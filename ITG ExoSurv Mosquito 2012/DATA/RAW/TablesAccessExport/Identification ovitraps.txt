@@ -1,0 +1,42 @@
+"Tube number";"Sampling Code";"Subsite Code";"Adult/Larva";"Eclosion Date A/L";"Genus";"Species";"Sex";"Number";"Box";"Storage of Box";"Identifier";"Date ID";"Comments"
+"EO001";"N1PP11Jun";"N1003";"Larva";2012/6/26 0:00:00;"Culex";"pipiens/torrentium?";"NA";1;"N1";"KB25, on rack";"Isra";2012/7/5 0:00:00;"already in water of ovitrap"
+"EO002";"N1P1-4Jun";"N1010";"Larva";2012/7/24 0:00:00;"Aedes";"j. japonicus";"NA";3;"N1";"KB25, on rack";"Isra";2012/7/24 0:00:00;
+"EO003";"N1P1-4Jun";"N1010";"Larva";2012/7/12 0:00:00;"Aedes";"j. japonicus";"NA";1;"N1";"KB25, on rack";"Isra";2012/7/24 0:00:00;
+"EO004";"N1P1-4Jun";"N1010";"Larva";2012/7/19 0:00:00;"Aedes";"j. japonicus";"NA";2;"N1";"KB25, on rack";"Isra";2012/7/24 0:00:00;
+"EO005";"N1P1-1Jun";"N1010";"Larva";2012/7/12 0:00:00;"Aedes";"j. japonicus";"NA";24;"N1";"KB25, on rack";"Isra";2012/7/24 0:00:00;
+"EO006";"N1PP11Jun";"N1003";"Larva";2012/7/24 0:00:00;"Aedes";"j. japonicus";"NA";3;"N1";"KB25, on rack";"Isra";2012/7/24 0:00:00;
+"EO007";"N1P2-5Jun";"N108a";"Larva";2012/7/19 0:00:00;"Aedes";"j. japonicus";"NA";1;"N1";"KB25, on rack";"Isra";2012/7/24 0:00:00;"eclosion date not sure"
+"EO008";"N1PP13Jun";"N1011";"Larva";2012/7/24 0:00:00;"Aedes";"j. japonicus";"NA";3;"N1";"KB25, on rack";"Isra";2012/7/24 0:00:00;"already dead, eclosion date earlier"
+"EO009";"N1P1-1Jun";"N1010";"Larva";2012/7/26 0:00:00;"Aedes";"j. japonicus";"NA";20;"N1";"KB25, on rack";"Isra";2012/8/13 0:00:00;"7 pupae"
+"EO010";"N1P1-1Jul";"N1010";"Larva";2012/8/6 0:00:00;"Aedes";"geniculatus";"NA";5;"N1";"KB25, on rack";"Isra";2012/8/6 0:00:00;
+"EO011";"N1P1-5Jul";"N1009";"Larva";2012/8/8 0:00:00;"Aedes";"j. japonicus";"NA";85;"N1";"KB25, on rack";"Isra";2012/8/10 0:00:00;"+ 10 eggs, also ID on 14/8/12"
+"EO012";"N1O021Jul";"N1033";"Larva";2012/8/8 0:00:00;"Aedes";"j. japonicus";"NA";53;"N1";"KB25, on rack";"Isra";2012/8/10 0:00:00;"+ 1 egg"
+"EO013";"N1O022Jul";"N1033";"Larva";2012/8/8 0:00:00;"Aedes";"j. japonicus";"NA";36;"N1";"KB25, on rack";"Isra";2012/8/10 0:00:00;"+ 1 egg"
+"EO014";"N1P1-3My2";"N1012";"Larva";2012/6/5 0:00:00;"Culex";"pipiens/torrentium?";"NA";118;"N1";"KB25, on rack";"Isra";2012/8/10 0:00:00;"already in water of ovitrap"
+"EO015";"N1P1-1Jun";"N1010";"Adult";2012/7/19 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO016";"N1P1-1Jun";"N1010";"Adult";2012/7/19 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO017";"N1P1-1Jun";"N1010";"Adult";2012/7/19 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO018";"N1P1-1Jun";"N1010";"Adult";2012/7/19 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO019";"N1P1-1Jun";"N1010";"Adult";2012/7/24 0:00:00;"Aedes";"j. japonicus";"F";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO020";"N1P1-1Jun";"N1010";"Adult";2012/7/24 0:00:00;"Aedes";"j. japonicus";"F";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO021";"N1P1-1Jun";"N1010";"Adult";2012/7/26 0:00:00;"Aedes";"j. japonicus";"F";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO022";"N1PP13Jun";"N1011";"Adult";2012/7/20 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO023";"N1PP13Jun";"N1011";"Adult";2012/7/20 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO024";"N1PP13Jun";"N1011";"Adult";2012/7/24 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO025";"N1PP13Jun";"N1011";"Adult";2012/7/24 0:00:00;"Aedes";"j. japonicus";"F";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO026";"N1PP13Jun";"N1011";"Adult";2012/7/26 0:00:00;"Aedes";"j. japonicus";"F";1;"N101";"KB25, closet 123";"Isra";2012/8/13 0:00:00;
+"EO027";"N1O021Jul";"N1033";"Larva";2012/8/8 0:00:00;"Aedes";"j. japonicus";"NA";71;"N1";"KB25, on rack";"Isra";2012/8/13 0:00:00;"+ 3 eggs"
+"EO028";"N1O022Jul";"N1033";"Larva";2012/8/8 0:00:00;"Aedes";"j. japonicus";"NA";13;"N1";"KB25, on rack";"Isra";2012/8/13 0:00:00;
+"EO029";"N1O007Jul";"N1026";"Larva";2012/8/9 0:00:00;"Aedes";"j. japonicus";"NA";26;"N1";"KB25, on rack";"Isra";2012/8/13 0:00:00;"+ 2 eggs"
+"EO030";"N1P2-1Jul";"N108b";"Larva";2012/8/8 0:00:00;"Aedes";"j. japonicus";"NA";86;"N1";"KB25, on rack";"Isra";2012/8/14 0:00:00;"+ 3 eggs"
+"EO031";"N1O022Jul";"N1033";"Adult";2012/8/20 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/9/5 0:00:00;
+"EO032";"N1O022Jul";"N1033";"Adult";2012/8/20 0:00:00;"Aedes";"j. japonicus";"F";1;"N101";"KB25, closet 123";"Isra";2012/9/5 0:00:00;
+"EO033";"N1P1-5Jul";"N1009";"Adult";2012/8/20 0:00:00;"Aedes";"j. japonicus";"M";1;"N101";"KB25, closet 123";"Isra";2012/9/5 0:00:00;
+"EO034";"N1O021Aug";"N1033";"Larva";2012/9/6 0:00:00;"Aedes";"j. japonicus";"NA";8;"N1";"KB25, on rack";"Isra";2012/9/11 0:00:00;
+"EO035";"N1B003Aug";"N1014";"Larva";2012/9/3 0:00:00;"Aedes";"j. japonicus";"NA";8;"N1";"KB25, on rack";"Isra";2012/9/11 0:00:00;
+"EO036";"N1P1-4Aug";"N1010";"Larva";2012/9/3 0:00:00;"Aedes";"j. japonicus";"NA";13;"N1";"KB25, on rack";"Isra";2012/9/11 0:00:00;"+ 1 open egg"
+"EO037";"N1P1-4Aug";"N1010";"Larva";2012/9/3 0:00:00;"Aedes";"geniculatus";"NA";1;"N1";"KB25, on rack";"Isra";2012/9/11 0:00:00;
+"EO038";"N1P2-5Aug";"N108a";"Larva";2012/9/4 0:00:00;"Aedes";"j. japonicus";"NA";1;"N1";"KB25, on rack";"Isra";2012/9/11 0:00:00;"very small larva"
+"EO039";"N1B001Jul";"N1007";"Larva";2012/9/4 0:00:00;"Aedes";"geniculatus";"NA";1;"N1";"KB25, on rack";"Isra";2012/9/11 0:00:00;"eclosion date  is rather collection date"
+"EO040";"N1B001Aug";"N1007";"Larva";2012/9/4 0:00:00;"Aedes";"j. japonicus";"NA";13;"N1";"KB25, on rack";"Isra";2012/9/11 0:00:00;
+"EO041";"M2O036Aug";"M2001";"Larva";2012/9/4 0:00:00;"Anopheles";"plumbeus";"NA";1;"M2";"KB25, on rack";"Isra";2012/9/13 0:00:00;"on polystyrene?"
