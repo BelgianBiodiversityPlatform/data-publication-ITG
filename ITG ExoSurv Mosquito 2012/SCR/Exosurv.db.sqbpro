@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/dimitri_brosens/Documents/SQLite/Exosurv.db" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1431"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name=""/><default_encoding codec=""/><browsetable_info data="AAAAAwAAAA4AZQB4AG8AcwB1AHIAdgAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////AAAAAP////8AAAASAFMAaQB0AGUAIABGAG8AcgBtAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAACQAQgByAGUAZQBkAGkAbgBnACAAUwBpAHQAZQAgAEYAbwByAG0AAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////"/></tab_browse><tab_sql><sql name="SQL 1">Drop view exosurv;
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/dimitri_brosens/Documents/SQLite/Exosurv.db" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3437"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="BreedingSiteForm"/><default_encoding codec=""/><browsetable_info data="AAAAAwAAAA4AZQB4AG8AcwB1AHIAdgAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////AAAAAP////8AAAASAFMAaQB0AGUAIABGAG8AcgBtAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAACQAQgByAGUAZQBkAGkAbgBnACAAUwBpAHQAZQAgAEYAbwByAG0AAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////"/></tab_browse><tab_sql><sql name="SQL 1">Drop view exosurv;
 create view exosurv as
 SELECT SiteCode as [locationID]
 	, SiteName as [locality]
@@ -6,22 +6,22 @@ SELECT SiteCode as [locationID]
 FROM SiteForm
 
 
-select SiteCode as [locationID] from SiteForm</sql><sql name="ExosurvQuerie1SQLITE.sql">Drop view exosurv;
-create view exosurvSiteInfo as
-SELECT SiteForm.[SiteCode] as [locationIDSiteCode]
-	, SiteForm.[SiteName] as [locality]
-	, SiteForm.[Latitutde] as [decimalLatitudeSiteForm]
-	, SiteForm.[Longitude] as [decimalLongitudeSiteForm]
-	, SiteForm.[comments]
-	, SiteForm.[landCoverLevel1]
-	, BreedingSiteCode as [locationIDBreedingSiteCode]
-	, BreedingSiteForm.[LandCoverLevel1] as [landcoverlevel1BreedingSiteForm]
-	, BreedingSiteForm.[Municipality]
-	, LarvalHabitatSurface
-	
-	
-FROM SiteForm
-	 LEFT join BreedingSiteForm  ON BreedingSiteForm.[Sitecode] = SiteForm.[SiteCode]
-	 LEFT join SubsiteForm on SubsiteForm.SiteCode = SiteForm.SiteCode ;
-	 
+select SiteCode as [locationID] from SiteForm</sql><sql name="ExosurvQuerie1SQLITE.sql">Drop view exosurvSiteInfo;
+create view exosurvSiteInfo as
+SELECT SiteForm.[SiteCode] as [locationIDSiteCode]
+	, SiteForm.[SiteName] as [locality]
+	, BreedingSiteForm.[Latitutde] as [decimalLatitudeSiteForm]
+	, BreedingSiteForm.[Longitude] as [decimalLongitudeSiteForm]
+	, SiteForm.[comments]
+	, SiteForm.[landCoverLevel1]
+	, BreedingSiteCode as [locationIDBreedingSiteCode]
+	, BreedingSiteForm.[LandCoverLevel1] as [landcoverlevel1BreedingSiteForm]
+	, BreedingSiteForm.[Municipality]
+	, LarvalHabitatSurface
+	
+	
+FROM SiteForm
+	 LEFT join BreedingSiteForm  ON BreedingSiteForm.[Sitecode] = SiteForm.[SiteCode]
+	 LEFT join SubsiteForm on SubsiteForm.SiteCode = SiteForm.SiteCode ;
+	 
 	 </sql><current_tab id="1"/></tab_sql></sqlb_project>
