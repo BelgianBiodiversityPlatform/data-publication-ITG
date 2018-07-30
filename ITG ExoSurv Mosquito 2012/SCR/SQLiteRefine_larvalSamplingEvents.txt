@@ -1,0 +1,110 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column lifeStage",
+    "columnName": "lifeStage"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column sex",
+    "columnName": "sex"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column scientificName",
+    "columnName": "scientificName"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column genus",
+    "columnName": "genus"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column specificEpithet",
+    "columnName": "specificEpithet"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column identificationRemarks",
+    "columnName": "identificationRemarks"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column occurrenceID",
+    "columnName": "occurrenceID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column occurrenceRemarks",
+    "columnName": "occurrenceRemarks"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column dateIdentified",
+    "columnName": "dateIdentified"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column individualCount",
+    "columnName": "individualCount"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column identifiedBy",
+    "columnName": "identifiedBy"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column eventID to position 0",
+    "columnName": "eventID",
+    "index": 0
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "record-based",
+    "sorting": {
+      "criteria": [
+        {
+          "errorPosition": 1,
+          "caseSensitive": false,
+          "valueType": "string",
+          "column": "eventID",
+          "blankPosition": 2,
+          "reverse": false
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column eventID",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "eventID"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [],
+          "selectError": false,
+          "invert": false,
+          "name": "eventID",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "eventID"
+        }
+      ]
+    }
+  }
+]

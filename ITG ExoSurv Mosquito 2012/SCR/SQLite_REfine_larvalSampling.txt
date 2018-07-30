@@ -1,0 +1,749 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column type at index 1 based on column samplingID using expression grel:\"event\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "annulata",
+                "l": "annulata"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "scientificName",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "scientificName"
+        }
+      ]
+    },
+    "newColumnName": "type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "samplingID",
+    "expression": "grel:\"event\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column type to position 0",
+    "columnName": "type",
+    "index": 0
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column type",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [],
+        "to": "event"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column language at index 1 based on column type using expression grel:\"en\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "language",
+    "columnInsertIndex": 1,
+    "baseColumnName": "type",
+    "expression": "grel:\"en\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column licence at index 2 based on column language using expression grel:\"https://creativecommons.org/licenses/by/2.0/\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "licence",
+    "columnInsertIndex": 2,
+    "baseColumnName": "language",
+    "expression": "grel:\"https://creativecommons.org/licenses/by/2.0/\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column rightsHolder at index 3 based on column licence using expression grel:\"ITG\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "rightsHolder",
+    "columnInsertIndex": 3,
+    "baseColumnName": "licence",
+    "expression": "grel:\"ITG\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column institutionCode at index 4 based on column rightsHolder using expression grel:\"ITG\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "institutionCode",
+    "columnInsertIndex": 4,
+    "baseColumnName": "rightsHolder",
+    "expression": "grel:\"ITG\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column datasetName at index 5 based on column institutionCode using expression grel:\"Exosurvey Larval Sampling\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "datasetName",
+    "columnInsertIndex": 5,
+    "baseColumnName": "institutionCode",
+    "expression": "grel:\"Exosurvey Larval Sampling\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column basisOfRecord at index 6 based on column datasetName using expression grel:\"preservedSpecimen\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "basisOfRecord",
+    "columnInsertIndex": 6,
+    "baseColumnName": "datasetName",
+    "expression": "grel:\"preservedSpecimen\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column sex",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "sex",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "F"
+        ],
+        "to": "female"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column sex",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "sex",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "M"
+        ],
+        "to": "male"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column sex",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "sex",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NA"
+        ],
+        "to": "unknown"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lifeStage",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "lifeStage",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Adult"
+        ],
+        "to": "adult"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lifeStage",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "lifeStage",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Larva"
+        ],
+        "to": "larvae"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column scientificName to specificEpithet",
+    "oldColumnName": "scientificName",
+    "newColumnName": "specificEpithet"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column genus to position 9",
+    "columnName": "genus",
+    "index": 9
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column genus to position 10",
+    "columnName": "genus",
+    "index": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column genus to position 11",
+    "columnName": "genus",
+    "index": 11
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column genus to position 10",
+    "columnName": "genus",
+    "index": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column genus to position 11",
+    "columnName": "genus",
+    "index": 11
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column identificationRemarks at index 13 based on column specificEpithet using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "identificationRemarks",
+    "columnInsertIndex": 13,
+    "baseColumnName": "specificEpithet",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "annulata"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "annulata?"
+        ],
+        "to": "determination uncertain"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "geniculatus"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "geniculatus??"
+        ],
+        "to": "determination uncertain"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "h. hortensis"
+        ],
+        "to": "hortensis hortensis"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "j. japonicus"
+        ],
+        "to": "japonicus japonicus"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "pipiens?"
+        ],
+        "to": "determination uncertain"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "hortensis hortensis"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "japonicus japonicus"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "koreicus"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "maculipennis/messae"
+        ],
+        "to": "determination uncertain"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "pipiens"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "pipiens/torrentium"
+        ],
+        "to": "determination uncertain"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "plumbeus"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column identificationRemarks",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "identificationRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "torrentium"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column specificEpithet",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "specificEpithet",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "h. hortensis"
+        ],
+        "to": "hortensis hortensis"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column specificEpithet",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "specificEpithet",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "annulata?"
+        ],
+        "to": "annulata"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column specificEpithet",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "specificEpithet",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "geniculatus??"
+        ],
+        "to": "geniculatus"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column specificEpithet",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "specificEpithet",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "j. japonicus"
+        ],
+        "to": "japonicus japonicus"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column specificEpithet",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "specificEpithet",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "pipiens?"
+        ],
+        "to": "pipiens"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column scientificName at index 12 based on column genus using expression grel:value + \" \" + cells[\"specificEpithet\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "scientificName",
+    "columnInsertIndex": 12,
+    "baseColumnName": "genus",
+    "expression": "grel:value + \" \" + cells[\"specificEpithet\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column genus to position 12",
+    "columnName": "genus",
+    "index": 12
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column occurrenceID using expression grel:\"ITG\"+\":\"+\"MOSQ\"+\":\"+\"LARV\"+\":\"+value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "occurrenceID",
+    "expression": "grel:\"ITG\"+\":\"+\"MOSQ\"+\":\"+\"LARV\"+\":\"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column dateIdentified by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "dateIdentified",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column dateIdentified 2",
+    "columnName": "dateIdentified 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column dateIdentified",
+    "columnName": "dateIdentified"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column dateIdentified 1 to dateIdentified",
+    "oldColumnName": "dateIdentified 1",
+    "newColumnName": "dateIdentified"
+  }
+]
