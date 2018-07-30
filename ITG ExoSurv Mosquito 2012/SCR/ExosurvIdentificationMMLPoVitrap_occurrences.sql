@@ -1,0 +1,5 @@
+
+CREATE VIEW exosurvIdentificationMMLPoVitrap_occurrences as
+SELECT * FROM UNION_OVITRAPS_MMLP_LATIN_occurrences
+LEFT JOIN UNION_OVITRAPS_MMLP_LATIN_sampling ON UNION_OVITRAPS_MMLP_LATIN_sampling.SamplingCode = UNION_OVITRAPS_MMLP_LATIN_occurrences.sampleID
+LEFT JOIN SiteForm ON SiteForm.SiteCode = UNION_OVITRAPS_MMLP_LATIN_sampling.SiteCode
