@@ -1,0 +1,299 @@
+samplingID,genus,lifeStage,locationID,sex,scientificName,occurrenceID,occurrenceRemarks,dateIdentified,individualCount,identifiedBy,decimalLatitude,decimalLongitude,habitat,municipality,comments,SiteCode,sampleSizeValue,sampleSizeUnit,SamplingDate
+N1L018Jun,Culex,Larva,N1L018,NA,pipiens/torrentium,EL001,also 2 pupae,2012/7/24 0:00:00,2,Isra Deblauwe,"50,36","4,99",tyre,Assesse,tyres next to field,N1,"0,05",m²,2012/6/26 0:00:00
+N1L010Ju2,Aedes,Adult,N1L010,M,j. japonicus,EL002,tyres on silage,2012/7/5 0:00:00,1,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/6/26 0:00:00
+N1L010Ju2,Culex,Larva,N1L010,NA,pipiens/torrentium,EL003,tyres on silage,2012/7/5 0:00:00,6,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/6/26 0:00:00
+VPL001Jun,Culex,Larva,VPL001,NA,pipiens/torrentium,EL004,,2012/7/5 0:00:00,4,Isra Deblauwe,"50,58","5,25",tyre,Villers Le Bouillet,,VP,"0,10",m²,2012/6/29 0:00:00
+M2L001Jul,Culex,Larva,M2L001,NA,pipiens/torrentium,EL005,a lot of small larvae,2012/7/26 0:00:00,37,Isra Deblauwe,"50,99","5,62",dirt tracks,Maasmechelen,next to forest M1,M2,"6,00",m²,2012/7/25 0:00:00
+M2L002Jul,Aedes,Larva,M2L002,NA,koreicus,EL006,+ 1 pupa,2012/7/26 0:00:00,13,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/7/25 0:00:00
+M2L003Jul,Culex,Larva,M2L003,NA,pipiens/torrentium,EL007,a lot of small larvae,2012/7/26 0:00:00,27,Isra Deblauwe,"50,99","5,62",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie,M2,"0,13",m²,2012/7/25 0:00:00
+M2L004Jul,Aedes,Larva,M2L004,NA,koreicus,EL008,+ pupae,2012/7/26 0:00:00,20,Isra Deblauwe,"50,98","5,63",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg',M2,"0,13",m²,2012/7/25 0:00:00
+M2L004Jul,Culex,Larva,M2L004,NA,pipiens/torrentium,EL009,,2012/7/26 0:00:00,7,Isra Deblauwe,"50,98","5,63",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg',M2,"0,13",m²,2012/7/25 0:00:00
+M2L009Jul,Culex,Larva,M2L009,NA,pipiens/torrentium,EL010,"a lot of small larvae, + 5 pupae",2012/7/26 0:00:00,65,Isra Deblauwe,"50,95","5,56",water trough,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/7/25 0:00:00
+M2L010Jul,Culex,Larva,M2L010,NA,pipiens/torrentium,EL011,1 already dead,2012/7/26 0:00:00,2,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/7/25 0:00:00
+M2L011Jul,Culex,Larva,M2L011,NA,pipiens/torrentium,EL012,a lot of small larvae,2012/7/26 0:00:00,38,Isra Deblauwe,"50,95","5,56",puddle,Zutendaal,"in meadow, Wiemesmeer",M2,"1,50",m²,2012/7/25 0:00:00
+M2L013Jul,Culex,Larva,M2L013,NA,pipiens/torrentium,EL013,also small larvae,2012/7/26 0:00:00,35,Isra Deblauwe,"50,96","5,55",bucket,Zutendaal,next to old house in forest,M2,"0,13",m²,2012/7/25 0:00:00
+M2L014Jul,Culex,Larva,M2L014,NA,pipiens/torrentium,EL014,a lot of small larvae,2012/7/30 0:00:00,107,Isra Deblauwe,"51,01","5,58",water through,As,"Niel-bij-As, in meadow",M2,"0,50",m²,2012/7/25 0:00:00
+M2L015Jul,Culex,Larva,M2L015,NA,pipiens/torrentium,EL015,2 pupae,2012/7/31 0:00:00,47,Isra Deblauwe,"51,01","5,58",water through,As,"Niel-bij-As, next to meadow",M2,"0,01",m²,2012/7/25 0:00:00
+N1L001Jul,Culex,Larva,N1L001,NA,pipiens/torrentium,EL016,from both sides of building,2012/7/30 0:00:00,47,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/7/27 0:00:00
+N1L001Jul,Aedes,Larva,N1L001,NA,j. japonicus,EL017,from both sides of building,2012/7/30 0:00:00,7,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/7/27 0:00:00
+N1L001Jul,Culex,Larva,N1L001,NA,h. hortensis,EL018,from both sides of building,2012/7/30 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/7/27 0:00:00
+N1L002Jul,Aedes,Larva,N1L002,NA,j. japonicus,EL019,,2012/7/30 0:00:00,5,Isra Deblauwe,"50,33","5,04",tree hole,Hamois,"Natoye, Havelange",N1,"0,01",m²,2012/7/27 0:00:00
+N1L002Jul,Anopheles,Larva,N1L002,NA,plumbeus,EL020,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,33","5,04",tree hole,Hamois,"Natoye, Havelange",N1,"0,01",m²,2012/7/27 0:00:00
+N1L010Jul,Culex,Larva,N1L010,NA,pipiens/torrentium,EL021,tyres on silage,2012/7/30 0:00:00,18,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/7/27 0:00:00
+N1L010Jul,Aedes,Larva,N1L010,NA,j. japonicus,EL022,tyres next to stable,2012/7/30 0:00:00,2,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/7/27 0:00:00
+N1L009Jul,Culex,Larva,N1L009,NA,pipiens/torrentium,EL023,"decomposed, a lot of small larvae",2012/7/30 0:00:00,47,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/7/27 0:00:00
+N1L020Jul,Anopheles,Larva,N1L020,NA,maculipennis/messae,EL024,,2012/7/30 0:00:00,2,Isra Deblauwe,"50,31","5,00",water trough,Yvoir,3 water troughs in front of football field,N1,"4,00",m²,2012/7/27 0:00:00
+N1L022Jul,Culex,Larva,N1L022,NA,pipiens/torrentium,EL025,2 pupae,2012/7/30 0:00:00,39,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/7/27 0:00:00
+N1L023Jul,Culex,Larva,N1L023,NA,pipiens/torrentium,EL026,1 pupa,2012/7/31 0:00:00,28,Isra Deblauwe,"50,27","4,98",water trough,Dinant,,N1,"2,00",m²,2012/7/27 0:00:00
+M2L007Jul,Culex,Larva,M2L007,NA,pipiens/torrentium,EL027,,2012/7/31 0:00:00,20,Isra Deblauwe,"50,97","5,65",puddle,Maasmechelen,in Nationaal Park Hoge Kempen,M2,"2,00",m²,2012/7/25 0:00:00
+TRL001Jul,Culex,Larva,TRL001,NA,pipiens/torrentium,EL028,3 pupae,2012/7/31 0:00:00,36,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/7/26 0:00:00
+TRL001Jul,Aedes,Larva,TRL001,NA,geniculatus,EL029,,2012/7/31 0:00:00,1,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/7/26 0:00:00
+M2L016Jul,Culex,Larva,M2L016,NA,pipiens/torrentium,EL030,,2012/8/2 0:00:00,33,Isra Deblauwe,"51,01","5,59",water through,As,"Niel-bij-As, in meadow",M2,"0,50",m²,2012/7/25 0:00:00
+M2L006Jul,Culex,Larva,M2L006,NA,pipiens/torrentium,EL031,,2012/8/2 0:00:00,39,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,10",m²,2012/7/25 0:00:00
+DIL001Aug,Culex,Larva,DIL001,NA,pipiens/torrentium,EL032,,2012/8/2 0:00:00,58,Isra Deblauwe,"51,03","5,39",tyre,Houthalen-Helchteren,,DI,"0,05",m²,2012/8/1 0:00:00
+TRL001Au1,Culex,Larva,TRL001,NA,pipiens/torrentium,EL033,,2012/8/2 0:00:00,49,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/8/2 0:00:00
+N1L020Jul,Culex,Larva,N1L020,NA,pipiens/torrentium,EL034,,2012/7/31 0:00:00,2,Isra Deblauwe,"50,31","5,00",water trough,Yvoir,3 water troughs in front of football field,N1,"4,00",m²,2012/7/27 0:00:00
+N1L004Au1,Culex,Larva,N1L004,NA,pipiens/torrentium,EL035,also 9/8/12 ID,2012/8/8 0:00:00,138,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/3 0:00:00
+N1L004Au1,Anopheles,Larva,N1L004,NA,plumbeus,EL036,,2012/8/10 0:00:00,2,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/3 0:00:00
+ATL001Au1,Aedes,Larva,ATL001,NA,geniculatus,EL037,,2012/8/8 0:00:00,1,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/8/7 0:00:00
+ATL001Au1,Culex,Larva,ATL001,NA,pipiens/torrentium,EL038,,2012/8/8 0:00:00,5,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/8/7 0:00:00
+ATL001Au1,Anopheles,Larva,ATL001,NA,plumbeus,EL039,1 broken,2012/8/8 0:00:00,4,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/8/7 0:00:00
+M2L007Jul,Culex,Larva,M2L007,NA,pipiens/torrentium,EL040,,2012/8/8 0:00:00,11,Isra Deblauwe,"50,97","5,65",puddle,Maasmechelen,in Nationaal Park Hoge Kempen,M2,"2,00",m²,2012/7/25 0:00:00
+N1L019Jul,Culex,Larva,N1L019,NA,pipiens/torrentium,EL041,on plastic sheet,2012/8/8 0:00:00,24,Isra Deblauwe,"50,33","5,03",plastic sheet,Ciney,plastic on ground,N1,"0,50",m²,2012/7/27 0:00:00
+M2L012Jul,Culex,Larva,M2L012,NA,pipiens/torrentium,EL042,,2012/8/9 0:00:00,34,Isra Deblauwe,"50,96","5,55",bucket,Zutendaal,next to old house in forest,M2,"0,13",m²,2012/7/25 0:00:00
+TRL001Au1,Culiseta,Larva,TRL001,NA,annulata,EL043,,2012/8/9 0:00:00,8,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/8/2 0:00:00
+TRL001Au1,Anopheles,Larva,TRL001,NA,plumbeus,EL044,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/8/2 0:00:00
+TRL002Au1,Culex,Larva,TRL002,NA,pipiens/torrentium,EL045,,2012/8/9 0:00:00,26,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,inside,TR,"0,10",m²,2012/8/2 0:00:00
+TRL002Au1,Culex,Larva,TRL002,NA,h. hortensis,EL046,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,inside,TR,"0,10",m²,2012/8/2 0:00:00
+TRL002Au1,Anopheles,Larva,TRL002,NA,plumbeus,EL047,,2012/8/9 0:00:00,33,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,inside,TR,"0,10",m²,2012/8/2 0:00:00
+N1L010Ju2,Culex,Larva,N1L010,NA,pipiens/torrentium,EL048,tyres next to stable,2012/8/9 0:00:00,7,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/6/26 0:00:00
+N1L011Ju2,Anopheles,Larva,N1L011,NA,maculipennis/messae,EL049,,2012/8/9 0:00:00,14,Isra Deblauwe,"50,32","5,03",water trough,Ciney,"Reuleau, open tank",N1,"3,00",m²,2012/6/26 0:00:00
+N1L001Ju2,Culex,Larva,N1L001,NA,pipiens/torrentium,EL050,,2012/8/9 0:00:00,2,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/6/26 0:00:00
+N1L016Jun,Aedes,Adult,N1L016,F,geniculatus,EL051,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,34","5,06",tyre,Hamois,"Natoye, on silage",N1,"0,05",m²,2012/6/5 0:00:00
+N1L016Jun,Culex,Larva,N1L016,NA,pipiens/torrentium,EL052,,2012/8/9 0:00:00,27,Isra Deblauwe,"50,34","5,06",tyre,Hamois,"Natoye, on silage",N1,"0,05",m²,2012/6/5 0:00:00
+N1L016Jun,Culiseta,Larva,N1L016,NA,annulata,EL053,,2012/8/9 0:00:00,3,Isra Deblauwe,"50,34","5,06",tyre,Hamois,"Natoye, on silage",N1,"0,05",m²,2012/6/5 0:00:00
+N1L004Ju1,Aedes,Larva,N1L004,NA,geniculatus,EL054,tyres at the back,2012/8/9 0:00:00,2,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/6/5 0:00:00
+N1L004Ju1,Culex,Larva,N1L004,NA,pipiens/torrentium,EL055,"tyres at the back, 1 pupa/mosquito & 7 pupae",2012/8/10 0:00:00,64,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/6/5 0:00:00
+N1L015Jun,Culex,Larva,N1L015,NA,pipiens/torrentium,EL056,,2012/8/10 0:00:00,19,Isra Deblauwe,"50,34","5,03",tyre,Assesse,,N1,"0,10",m²,2012/6/5 0:00:00
+N1L014Jun,Culex,Larva,N1L014,NA,pipiens/torrentium,EL057,+ 1 pupa,2012/8/10 0:00:00,18,Isra Deblauwe,"50,32","5,02",tyre,Ciney,"Reuleau, on silage",N1,"0,05",m²,2012/6/5 0:00:00
+N1L001Ju2,Culex,Adult,N1L001,F,torrentium,EL058,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/6/26 0:00:00
+N1L009Ju2,Culex,Adult,N1L009,F,pipiens?,EL059,"rain water barrel, broken",2012/8/10 0:00:00,1,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/6/26 0:00:00
+N1L009Ju2,Culex,Adult,N1L009,F,torrentium,EL060,rain water barrel,2012/8/10 0:00:00,1,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/6/26 0:00:00
+N1L009Ju2,Culex,Adult,N1L009,M,pipiens?,EL061,"rain water barrel, broken",2012/8/10 0:00:00,1,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/6/26 0:00:00
+N1L018Jun,Culex,Adult,N1L018,M,torrentium,EL062,,2012/8/10 0:00:00,1,Isra Deblauwe,"50,36","4,99",tyre,Assesse,tyres next to field,N1,"0,05",m²,2012/6/26 0:00:00
+N1L018Jun,Culex,Adult,N1L018,M,torrentium,EL063,,2012/8/10 0:00:00,1,Isra Deblauwe,"50,36","4,99",tyre,Assesse,tyres next to field,N1,"0,05",m²,2012/6/26 0:00:00
+N1L020Jul,Culex,Adult,N1L020,F,pipiens,EL064,,2012/8/13 0:00:00,1,Isra Deblauwe,"50,31","5,00",water trough,Yvoir,3 water troughs in front of football field,N1,"4,00",m²,2012/7/27 0:00:00
+N1L020Jul,Culex,Adult,N1L020,F,torrentium,EL065,,2012/8/13 0:00:00,1,Isra Deblauwe,"50,31","5,00",water trough,Yvoir,3 water troughs in front of football field,N1,"4,00",m²,2012/7/27 0:00:00
+N1L020Jul,Culex,Adult,N1L020,F,pipiens,EL066,,2012/8/13 0:00:00,1,Isra Deblauwe,"50,31","5,00",water trough,Yvoir,3 water troughs in front of football field,N1,"4,00",m²,2012/7/27 0:00:00
+N1L011May,Aedes,Adult,N1L011,F,j. japonicus,EL067,broken,2012/8/13 0:00:00,1,Isra Deblauwe,"50,32","5,03",water trough,Ciney,"Reuleau, open tank",N1,"3,00",m²,2012/5/18 0:00:00
+N1L019Aug,Culex,Adult,N1L019,M,pipiens,EL068,on plastic sheet,2012/9/5 0:00:00,1,Isra Deblauwe,"50,33","5,03",plastic sheet,Ciney,plastic on ground,N1,"0,50",m²,2012/8/24 0:00:00
+N1L028Aug,Culex,Larva,N1L028,NA,pipiens/torrentium,EL069,1 pupa,2012/9/7 0:00:00,37,Isra Deblauwe,"50,34","5,04",water trough,Hamois,"Natoye, in front of football field",N1,"3,00",m²,2012/8/31 0:00:00
+N1L012Aug,Culex,Larva,N1L012,NA,pipiens/torrentium,EL070,very small larvae,2012/9/7 0:00:00,13,Isra Deblauwe,"50,32","5,02",tyre,Ciney,"Vincon, tyres in field",N1,"0,10",m²,2012/8/24 0:00:00
+N1L012Aug,Aedes,Larva,N1L012,NA,geniculatus??,EL071,very small larvae,2012/9/7 0:00:00,6,Isra Deblauwe,"50,32","5,02",tyre,Ciney,"Vincon, tyres in field",N1,"0,10",m²,2012/8/24 0:00:00
+N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL072,"left, tyre 23",2012/9/11 0:00:00,41,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/8/24 0:00:00
+N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL073,"left, 2 tyres",2012/9/11 0:00:00,5,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/8/24 0:00:00
+N1L001Aug,Aedes,Larva,N1L001,NA,j. japonicus,EL074,"left, 2 tyres",2012/9/11 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/8/24 0:00:00
+N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL075,"left, tyre 26, very small larvae",2012/9/11 0:00:00,25,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/8/24 0:00:00
+N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL076,"right, back",2012/9/11 0:00:00,36,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/8/24 0:00:00
+N1L001Aug,Aedes,Larva,N1L001,NA,j. japonicus,EL077,"right, back",2012/9/11 0:00:00,2,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL078,in front,2012/9/12 0:00:00,18,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL079,in middle at the back,2012/9/12 0:00:00,17,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Anopheles,Larva,N1L004,NA,plumbeus,EL080,in middle at the back,2012/9/12 0:00:00,2,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL081,"end at the back, small larvae",2012/9/12 0:00:00,25,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Anopheles,Larva,N1L004,NA,plumbeus,EL082,"end at the back, small larvae",2012/9/12 0:00:00,1,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Aedes,Larva,N1L004,NA,j. japonicus,EL083,"end at the back, small larvae",2012/9/12 0:00:00,1,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL084,"end at the back, small larvae",2012/9/12 0:00:00,10,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL085,end at the back,2012/9/12 0:00:00,76,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+N1L004Au2,Anopheles,Larva,N1L004,NA,plumbeus,EL086,end at the back,2012/9/12 0:00:00,2,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/8/24 0:00:00
+TRL001Sep,Culex,Larva,TRL001,NA,pipiens/torrentium,EL087,,2012/8/12 0:00:00,39,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/9/10 0:00:00
+TRL001Sep,Anopheles,Larva,TRL001,NA,plumbeus,EL088,1 pupa,2012/8/12 0:00:00,32,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/9/10 0:00:00
+N1L009Aug,Culex,Larva,N1L009,NA,pipiens/torrentium,EL089,bucket,2012/9/12 0:00:00,34,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/8/24 0:00:00
+N1L009Aug,Culex,Larva,N1L009,NA,pipiens/torrentium,EL090,"rain water barrel, very small larvae",2012/9/12 0:00:00,19,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/8/24 0:00:00
+N1L010Aug,Culex,Larva,N1L010,NA,pipiens/torrentium,EL091,"tyres on silage, a lot of small larvae",2012/9/12 0:00:00,85,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/8/24 0:00:00
+N1L019Aug,Culex,Larva,N1L019,NA,pipiens/torrentium,EL092,plastic sheet,2012/9/12 0:00:00,14,Isra Deblauwe,"50,33","5,03",plastic sheet,Ciney,plastic on ground,N1,"0,50",m²,2012/8/24 0:00:00
+N1L018Aug,Culex,Larva,N1L018,NA,pipiens/torrentium,EL093,tyres,2012/9/12 0:00:00,101,Isra Deblauwe,"50,36","4,99",tyre,Assesse,tyres next to field,N1,"0,05",m²,2012/8/31 0:00:00
+N1L018Aug,Culiseta,Larva,N1L018,NA,annulata,EL094,tyres,2012/9/12 0:00:00,9,Isra Deblauwe,"50,36","4,99",tyre,Assesse,tyres next to field,N1,"0,05",m²,2012/8/31 0:00:00
+N1L027Aug,Culex,Larva,N1L027,NA,pipiens/torrentium,EL095,2 blue plastic containers,2012/9/12 0:00:00,39,Isra Deblauwe,"50,36","4,99",plastic container,Assesse,next to N1L018,N1,"1,00",m²,2012/8/31 0:00:00
+N1L027Aug,Culiseta,Larva,N1L027,NA,annulata,EL096,2 blue plastic containers,2012/9/12 0:00:00,3,Isra Deblauwe,"50,36","4,99",plastic container,Assesse,next to N1L018,N1,"1,00",m²,2012/8/31 0:00:00
+N1L020Aug,Culex,Larva,N1L020,NA,h. hortensis,EL097,+ 3 small larvae?,2012/9/12 0:00:00,6,Isra Deblauwe,"50,31","5,00",water trough,Yvoir,3 water troughs in front of football field,N1,"4,00",m²,2012/8/24 0:00:00
+N1L022Aug,Culex,Larva,N1L022,NA,pipiens/torrentium,EL098,in front,2012/9/12 0:00:00,17,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/8/24 0:00:00
+N1L022Aug,Culex,Larva,N1L022,NA,pipiens/torrentium,EL099,on courtyard,2012/9/12 0:00:00,43,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/8/24 0:00:00
+N1L023Aug,Culex,Larva,N1L023,NA,pipiens/torrentium,EL100,a lot of small larvae,2012/9/12 0:00:00,31,Isra Deblauwe,"50,27","4,98",water trough,Dinant,,N1,"2,00",m²,2012/8/24 0:00:00
+N1L023Aug,Culex,Larva,N1L023,NA,h. hortensis,EL101,,2012/9/12 0:00:00,8,Isra Deblauwe,"50,27","4,98",water trough,Dinant,,N1,"2,00",m²,2012/8/24 0:00:00
+N1L025Aug,Culex,Larva,N1L025,NA,pipiens/torrentium,EL102,+ 6 pupae,2012/9/13 0:00:00,53,Isra Deblauwe,"50,31","4,97",mud puddle,Yvoir,mud next to water trough,N1,"3,00",m²,2012/8/24 0:00:00
+N1L024Aug,Anopheles,Larva,N1L024,NA,maculipennis/messae,EL103,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,31","4,97",water trough,Yvoir,open tank,N1,"2,00",m²,2012/8/24 0:00:00
+M2L002Aug,Aedes,Larva,M2L002,NA,koreicus,EL104,,2012/9/13 0:00:00,6,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/8/30 0:00:00
+M2L004Aug,Culex,Larva,M2L004,NA,pipiens/torrentium,EL105,,2012/9/13 0:00:00,13,Isra Deblauwe,"50,98","5,63",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg',M2,"0,13",m²,2012/8/30 0:00:00
+M2L004Aug,Aedes,Larva,M2L004,NA,koreicus,EL106,,2012/9/13 0:00:00,12,Isra Deblauwe,"50,98","5,63",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg',M2,"0,13",m²,2012/8/30 0:00:00
+M2L006Aug,Culex,Larva,M2L006,NA,pipiens/torrentium,EL107,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,10",m²,2012/8/30 0:00:00
+M2L006Aug,Aedes,Larva,M2L006,NA,koreicus,EL108,,2012/9/13 0:00:00,3,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,10",m²,2012/8/30 0:00:00
+M2L010Aug,Culex,Larva,M2L010,NA,pipiens/torrentium,EL109,,2012/9/13 0:00:00,19,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/8/30 0:00:00
+M2L019Aug,Culex,Larva,M2L019,NA,pipiens/torrentium,EL110,,2012/9/13 0:00:00,9,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,13",m²,2012/8/30 0:00:00
+M2L019Aug,Aedes,Larva,M2L019,NA,koreicus,EL111,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,13",m²,2012/8/30 0:00:00
+M2L020Aug,Culex,Larva,M2L020,NA,pipiens/torrentium,EL112,,2012/9/13 0:00:00,2,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/8/30 0:00:00
+M2L020Aug,Aedes,Larva,M2L020,NA,koreicus,EL113,,2012/9/13 0:00:00,8,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/8/30 0:00:00
+M2L021Aug,Aedes,Larva,M2L021,NA,koreicus,EL114,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/8/30 0:00:00
+M2L023Aug,Culex,Larva,M2L023,NA,pipiens/torrentium,EL115,,2012/9/13 0:00:00,11,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/8/30 0:00:00
+M2L023Aug,Anopheles,Larva,M2L023,NA,plumbeus,EL116,,2012/9/13 0:00:00,8,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/8/30 0:00:00
+M2L024Aug,Culex,Larva,M2L024,NA,pipiens/torrentium,EL117,open bidon,2012/9/13 0:00:00,42,Isra Deblauwe,"50,99","5,63",plastic container,Maasmechelen,close to car cemetry Armand Lowie,M2,"0,13",m²,2012/8/30 0:00:00
+M2L024Aug,Culiseta,Larva,M2L024,NA,annulata,EL118,open bidon,2012/9/13 0:00:00,1,Isra Deblauwe,"50,99","5,63",plastic container,Maasmechelen,close to car cemetry Armand Lowie,M2,"0,13",m²,2012/8/30 0:00:00
+M2L024Aug,Culex,Larva,M2L024,NA,pipiens/torrentium,EL119,white plate,2012/9/13 0:00:00,18,Isra Deblauwe,"50,99","5,63",plastic container,Maasmechelen,close to car cemetry Armand Lowie,M2,"0,13",m²,2012/8/30 0:00:00
+M2L024Aug,Aedes,Larva,M2L024,NA,koreicus,EL120,white plate,2012/9/13 0:00:00,26,Isra Deblauwe,"50,99","5,63",plastic container,Maasmechelen,close to car cemetry Armand Lowie,M2,"0,13",m²,2012/8/30 0:00:00
+M2L025Aug,Culex,Larva,M2L025,NA,pipiens/torrentium,EL121,tyre,2012/9/13 0:00:00,5,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,next to car cemetry Armand Lowie,M2,"0,05",m²,2012/8/30 0:00:00
+M2L025Aug,Culiseta,Larva,M2L025,NA,annulata,EL122,tyre,2012/9/13 0:00:00,3,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,next to car cemetry Armand Lowie,M2,"0,05",m²,2012/8/30 0:00:00
+M2L026Aug,Culex,Larva,M2L026,NA,pipiens/torrentium,EL123,yellow sheet,2012/9/13 0:00:00,69,Isra Deblauwe,"50,99","5,63",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,50",m²,2012/8/30 0:00:00
+M2L026Aug,Aedes,Larva,M2L026,NA,koreicus,EL124,yellow sheet,2012/9/13 0:00:00,8,Isra Deblauwe,"50,99","5,63",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,50",m²,2012/8/30 0:00:00
+M2L022Aug,Aedes,Larva,M2L022,NA,koreicus,EL125,,2012/9/13 0:00:00,33,Isra Deblauwe,"50,99","5,62",plastic sheet,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/8/30 0:00:00
+TRL002Au2,Culex,Larva,TRL002,NA,pipiens/torrentium,EL126,,2012/9/14 0:00:00,8,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,inside,TR,"0,10",m²,2012/8/20 0:00:00
+TRL002Au2,Anopheles,Larva,TRL002,NA,plumbeus,EL127,1 pupa,2012/9/14 0:00:00,3,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,inside,TR,"0,10",m²,2012/8/20 0:00:00
+TRL001Au2,Culex,Larva,TRL001,NA,pipiens/torrentium,EL128,,2012/9/14 0:00:00,21,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/8/20 0:00:00
+TRL001Au2,Anopheles,Larva,TRL001,NA,plumbeus,EL129,,2012/9/14 0:00:00,4,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/8/20 0:00:00
+TRL001Au2,Culiseta,Larva,TRL001,NA,annulata,EL130,small larvae,2012/9/14 0:00:00,2,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/8/20 0:00:00
+VPL001Aug,Culex,Larva,VPL001,NA,pipiens/torrentium,EL131,,2012/9/14 0:00:00,6,Isra Deblauwe,"50,58","5,25",tyre,Villers Le Bouillet,,VP,"0,10",m²,2012/8/16 0:00:00
+VPL001Sep,Culex,Larva,VPL001,NA,pipiens/torrentium,EL132,,2012/9/14 0:00:00,80,Isra Deblauwe,"50,58","5,25",tyre,Villers Le Bouillet,,VP,"0,10",m²,2012/9/5 0:00:00
+ATL001Au2,Culex,Larva,ATL001,NA,pipiens/torrentium,EL133,,2012/9/14 0:00:00,16,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/8/29 0:00:00
+ATL001Au2,Anopheles,Larva,ATL001,NA,plumbeus,EL134,,2012/9/14 0:00:00,3,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/8/29 0:00:00
+ATL001Sep,Culex,Larva,ATL001,NA,pipiens/torrentium,EL135,,2012/9/14 0:00:00,17,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/9/11 0:00:00
+N1L028Sep,Culex,Larva,N1L028,NA,pipiens/torrentium,EL136,small larvae,2012/10/1 0:00:00,6,Isra Deblauwe,"50,34","5,04",water trough,Hamois,"Natoye, in front of football field",N1,"3,00",m²,2012/9/28 0:00:00
+N1L027Sep,Culex,Larva,N1L027,NA,pipiens/torrentium,EL137,small larvae,2012/10/1 0:00:00,81,Isra Deblauwe,"50,36","4,99",plastic container,Assesse,next to N1L018,N1,"1,00",m²,2012/9/28 0:00:00
+N1L018Sep,Culex,Larva,N1L018,NA,pipiens/torrentium,EL138,,2012/10/1 0:00:00,32,Isra Deblauwe,"50,36","4,99",tyre,Assesse,tyres next to field,N1,"0,05",m²,2012/9/28 0:00:00
+N1L023Sep,Culex,Larva,N1L023,NA,h. hortensis,EL139,,2012/10/1 0:00:00,2,Isra Deblauwe,"50,27","4,98",water trough,Dinant,,N1,"2,00",m²,2012/9/28 0:00:00
+N1L023Sep,Culex,Larva,N1L023,NA,pipiens/torrentium,EL140,,2012/10/1 0:00:00,3,Isra Deblauwe,"50,27","4,98",water trough,Dinant,,N1,"2,00",m²,2012/9/28 0:00:00
+N1L029Sep,Culex,Larva,N1L029,NA,pipiens/torrentium,EL141,,2012/10/1 0:00:00,109,Isra Deblauwe,"50,36","5,04",water trough,Assesse,,N1,"2,00",m²,2012/9/28 0:00:00
+N1L001Sep,Culex,Larva,N1L001,NA,pipiens/torrentium,EL142,"left, in front",2012/10/1 0:00:00,33,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/9/20 0:00:00
+N1L001Sep,Culex,Larva,N1L001,NA,pipiens/torrentium,EL143,"right, back",2012/10/1 0:00:00,100,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/9/20 0:00:00
+N1L001Sep,Aedes,Larva,N1L001,NA,j. japonicus,EL144,"right, back",2012/10/1 0:00:00,7,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/9/20 0:00:00
+N1L001Sep,Culex,Larva,N1L001,NA,h. hortensis,EL145,"right, back",2012/10/1 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/9/20 0:00:00
+N1L004Sep,Culex,Larva,N1L004,NA,pipiens/torrentium,EL146,in front,2012/10/1 0:00:00,34,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/9/20 0:00:00
+N1L004Sep,Culex,Larva,N1L004,NA,h. hortensis,EL147,in front,2012/10/1 0:00:00,3,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/9/20 0:00:00
+N1L004Sep,Anopheles,Larva,N1L004,NA,plumbeus,EL148,"in front, small larvae",2012/10/1 0:00:00,2,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/9/20 0:00:00
+N1L004Sep,Culiseta,Larva,N1L004,NA,annulata,EL149,in front,2012/10/1 0:00:00,2,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/9/20 0:00:00
+N1L004Sep,Culex,Larva,N1L004,NA,pipiens/torrentium,EL150,at the back,2012/10/2 0:00:00,25,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/9/20 0:00:00
+N1L009Sep,Culex,Larva,N1L009,NA,pipiens/torrentium,EL151,rain water barrel,2012/10/2 0:00:00,14,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/9/20 0:00:00
+N1L009Sep,Aedes,Larva,N1L009,NA,j. japonicus,EL152,rain water barrel,2012/10/2 0:00:00,2,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/9/20 0:00:00
+N1L010Sep,Culex,Larva,N1L010,NA,pipiens/torrentium,EL153,tyres next to stable,2012/10/2 0:00:00,12,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/9/20 0:00:00
+N1L010Sep,Culex,Larva,N1L010,NA,pipiens/torrentium,EL154,tyres on silage,2012/10/2 0:00:00,42,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/9/20 0:00:00
+N1L010Sep,Aedes,Larva,N1L010,NA,j. japonicus,EL155,tyres on silage,2012/10/2 0:00:00,1,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/9/20 0:00:00
+N1L010Sep,Culex,Larva,N1L010,NA,pipiens/torrentium,EL156,tyres at the back,2012/10/2 0:00:00,7,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/9/20 0:00:00
+N1L019Sep,Culex,Larva,N1L019,NA,pipiens/torrentium,EL157,plastic sheet,2012/10/2 0:00:00,53,Isra Deblauwe,"50,33","5,03",plastic sheet,Ciney,plastic on ground,N1,"0,50",m²,2012/9/20 0:00:00
+N1L022Sep,Culex,Larva,N1L022,NA,pipiens/torrentium,EL158,in front,2012/10/2 0:00:00,90,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/9/20 0:00:00
+N1L022Sep,Culex,Larva,N1L022,NA,pipiens/torrentium,EL159,on courtyard,2012/10/2 0:00:00,85,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/9/20 0:00:00
+M2L002Se1,Culex,Larva,M2L002,NA,pipiens/torrentium,EL160,,2012/10/2 0:00:00,5,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/9/19 0:00:00
+M2L002Se1,Culiseta,Larva,M2L002,NA,annulata,EL161,,2012/10/2 0:00:00,8,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/9/19 0:00:00
+M2L002Se1,Aedes,Larva,M2L002,NA,koreicus,EL162,,2012/10/2 0:00:00,2,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/9/19 0:00:00
+M2L002Se1,Culiseta,Larva,M2L002,NA,annulata?,EL163,small larvae (unidentified sp.2) + 1 pupa,2012/10/2 0:00:00,3,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/9/19 0:00:00
+M2L020Sep,Culex,Larva,M2L020,NA,pipiens/torrentium,EL164,,2012/10/2 0:00:00,41,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/9/26 0:00:00
+M2L020Sep,Aedes,Larva,M2L020,NA,koreicus,EL165,,2012/10/2 0:00:00,16,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/9/26 0:00:00
+M2L021Sep,Aedes,Larva,M2L021,NA,koreicus,EL166,,2012/10/2 0:00:00,24,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/9/26 0:00:00
+M2L019Sep,Culex,Larva,M2L019,NA,pipiens/torrentium,EL167,,2012/10/2 0:00:00,26,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,13",m²,2012/9/26 0:00:00
+M2L019Sep,Aedes,Larva,M2L019,NA,koreicus,EL168,,2012/10/2 0:00:00,2,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,13",m²,2012/9/26 0:00:00
+M2L022Sep,Aedes,Larva,M2L022,NA,koreicus,EL169,,2012/10/2 0:00:00,5,Isra Deblauwe,"50,99","5,62",plastic sheet,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/9/26 0:00:00
+M2L004Sep,Culex,Larva,M2L004,NA,pipiens/torrentium,EL170,,2012/10/2 0:00:00,46,Isra Deblauwe,"50,98","5,63",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg',M2,"0,13",m²,2012/9/26 0:00:00
+M2L004Sep,Aedes,Larva,M2L004,NA,koreicus,EL171,,2012/10/2 0:00:00,1,Isra Deblauwe,"50,98","5,63",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg',M2,"0,13",m²,2012/9/26 0:00:00
+M2L003Sep,Culex,Larva,M2L003,NA,pipiens/torrentium,EL172,,2012/10/2 0:00:00,8,Isra Deblauwe,"50,99","5,62",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie,M2,"0,13",m²,2012/9/26 0:00:00
+M2L003Sep,Aedes,Larva,M2L003,NA,koreicus,EL173,,2012/10/2 0:00:00,1,Isra Deblauwe,"50,99","5,62",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie,M2,"0,13",m²,2012/9/26 0:00:00
+M2L024Sep,Culex,Larva,M2L024,NA,pipiens/torrentium,EL174,open bidon,2012/10/2 0:00:00,24,Isra Deblauwe,"50,99","5,63",plastic container,Maasmechelen,close to car cemetry Armand Lowie,M2,"0,13",m²,2012/9/19 0:00:00
+M2L025Sep,Culiseta,Larva,M2L025,NA,annulata,EL175,tyres,2012/10/2 0:00:00,2,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,next to car cemetry Armand Lowie,M2,"0,05",m²,2012/9/19 0:00:00
+M2L026Sep,Culex,Larva,M2L026,NA,pipiens/torrentium,EL176,yellow sheet,2012/10/2 0:00:00,28,Isra Deblauwe,"50,99","5,63",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,50",m²,2012/9/19 0:00:00
+M2L029Sep,Aedes,Larva,M2L029,NA,koreicus,EL177,,2012/10/2 0:00:00,26,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,06",m²,2012/9/26 0:00:00
+M2L029Sep,Culex,Larva,M2L029,NA,pipiens/torrentium,EL178,small larvae,2012/10/2 0:00:00,16,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,06",m²,2012/9/26 0:00:00
+M2L030Sep,Culex,Larva,M2L030,NA,pipiens/torrentium,EL179,+ 1 pupa,2012/10/2 0:00:00,13,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,entrance car cemetry Armand Lowie,M2,"1,00",m²,2012/9/26 0:00:00
+M2L023Sep,Culex,Larva,M2L023,NA,pipiens/torrentium,EL180,1 pupa,2012/10/2 0:00:00,15,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/9/19 0:00:00
+M2L023Sep,Anopheles,Larva,M2L023,NA,plumbeus,EL181,a lot of small larvae,2012/10/2 0:00:00,36,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/9/19 0:00:00
+M2L009Sep,Culex,Larva,M2L009,NA,pipiens/torrentium,EL182,,2012/10/3 0:00:00,5,Isra Deblauwe,"50,95","5,56",water trough,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/9/26 0:00:00
+M2L010Sep,Culex,Larva,M2L010,NA,pipiens/torrentium,EL183,bucket 1,2012/10/3 0:00:00,19,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/9/26 0:00:00
+M2L010Sep,Culex,Larva,M2L010,NA,pipiens/torrentium,EL184,bucket 2,2012/10/3 0:00:00,28,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/9/26 0:00:00
+M2L010Sep,Culiseta,Larva,M2L010,NA,annulata,EL185,"bucket 2, + small larvae (unidentified sp.2)",2012/10/3 0:00:00,9,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/9/26 0:00:00
+M2L016Sep,Culex,Larva,M2L016,NA,pipiens/torrentium,EL186,,2012/10/3 0:00:00,31,Isra Deblauwe,"51,01","5,59",water through,As,"Niel-bij-As, in meadow",M2,"0,50",m²,2012/9/26 0:00:00
+M2L017Sep,Culex,Larva,M2L017,NA,pipiens/torrentium,EL187,,2012/10/3 0:00:00,26,Isra Deblauwe,"51,01","5,60",water through,As,"Niel-bij-As, in meadow",M2,"2,00",m²,2012/9/26 0:00:00
+M2L033Sep,Culex,Larva,M2L033,NA,pipiens/torrentium,EL188,,2012/10/3 0:00:00,29,Isra Deblauwe,"51,01","5,58",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)",M2,"0,10",m²,2012/9/26 0:00:00
+M2L033Sep,Culiseta,Larva,M2L033,NA,annulata,EL189,+ small larvae (unidentified sp.2),2012/10/3 0:00:00,15,Isra Deblauwe,"51,01","5,58",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)",M2,"0,10",m²,2012/9/26 0:00:00
+VPL001Oct,Culex,Larva,VPL001,NA,pipiens/torrentium,EL190,1 pupa,2012/10/18 0:00:00,59,Isra Deblauwe,"50,58","5,25",tyre,Villers Le Bouillet,,VP,"0,10",m²,2012/10/11 0:00:00
+TRL001Oct,Culex,Larva,TRL001,NA,pipiens/torrentium,EL191,,2012/10/18 0:00:00,9,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/10/10 0:00:00
+TRL001Oct,Anopheles,Larva,TRL001,NA,plumbeus,EL192,2 pupae,2012/10/18 0:00:00,11,Isra Deblauwe,"50,47","4,14",tyre,La Louviere,outside,TR,"0,10",m²,2012/10/10 0:00:00
+M2L002Oc1,Culiseta,Larva,M2L002,NA,annulata,EL193,,2012/10/18 0:00:00,1,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/10/17 0:00:00
+M2L002Oc1,Culex,Larva,M2L002,NA,pipiens/torrentium,EL194,,2012/10/18 0:00:00,1,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/10/17 0:00:00
+M2L019Oct,Aedes,Adult,M2L019,F,koreicus,EL195,in collection,2012/10/18 0:00:00,1,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,13",m²,2012/10/17 0:00:00
+M2L019Oct,Aedes,Adult,M2L019,F,koreicus,EL196,in collection,2012/10/18 0:00:00,1,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,13",m²,2012/10/17 0:00:00
+M2L003Oct,Culex,Larva,M2L003,NA,pipiens/torrentium,EL197,2 pupae,2012/10/18 0:00:00,36,Isra Deblauwe,"50,99","5,62",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie,M2,"0,13",m²,2012/10/17 0:00:00
+M2L003Oct,Aedes,Larva,M2L003,NA,koreicus,EL198,1 small larva,2012/10/18 0:00:00,3,Isra Deblauwe,"50,99","5,62",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie,M2,"0,13",m²,2012/10/17 0:00:00
+M2L020Oc1,Culex,Larva,M2L020,NA,pipiens/torrentium,EL199,,2012/10/18 0:00:00,42,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/17 0:00:00
+M2L020Oc1,Aedes,Larva,M2L020,NA,koreicus,EL200,,2012/10/18 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/17 0:00:00
+M2L021Oc1,Aedes,Larva,M2L021,NA,koreicus,EL201,,2012/10/18 0:00:00,4,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/10/17 0:00:00
+M2L022Oc1,Aedes,Larva,M2L022,NA,koreicus,EL202,,2012/10/18 0:00:00,6,Isra Deblauwe,"50,99","5,62",plastic sheet,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/10/17 0:00:00
+M2L004Oct,Culex,Larva,M2L004,NA,pipiens/torrentium,EL203,1 pupa,2012/10/23 0:00:00,23,Isra Deblauwe,"50,98","5,63",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg',M2,"0,13",m²,2012/10/17 0:00:00
+M2L006Oct,Aedes,Larva,M2L006,NA,koreicus,EL204,,2012/10/23 0:00:00,15,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,10",m²,2012/10/17 0:00:00
+M2L024Oct,Culex,Larva,M2L024,NA,pipiens/torrentium,EL205,,2012/10/23 0:00:00,11,Isra Deblauwe,"50,99","5,63",plastic container,Maasmechelen,close to car cemetry Armand Lowie,M2,"0,13",m²,2012/10/17 0:00:00
+M2L025Oct,Aedes,Larva,M2L025,NA,koreicus,EL206,,2012/10/23 0:00:00,3,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,next to car cemetry Armand Lowie,M2,"0,05",m²,2012/10/17 0:00:00
+M2L025Oct,Culex,Larva,M2L025,NA,pipiens/torrentium,EL207,,2012/10/23 0:00:00,6,Isra Deblauwe,"50,99","5,63",tyre,Maasmechelen,next to car cemetry Armand Lowie,M2,"0,05",m²,2012/10/17 0:00:00
+M2L026Oct,Culex,Larva,M2L026,NA,pipiens/torrentium,EL208,,2012/10/23 0:00:00,5,Isra Deblauwe,"50,99","5,63",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,50",m²,2012/10/17 0:00:00
+M2L026Oct,Culiseta,Larva,M2L026,NA,annulata,EL209,1 small larvae,2012/10/23 0:00:00,9,Isra Deblauwe,"50,99","5,63",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos,M2,"0,50",m²,2012/10/17 0:00:00
+M2L019Oct,Culex,Adult,M2L019,M,pipiens,EL210,,2012/10/23 0:00:00,1,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,on private property of APK Infra & Bouw,M2,"0,13",m²,2012/10/17 0:00:00
+N1L009Oct,Aedes,Adult,N1L009,F,j. japonicus,EL211,1 leg broken,2012/10/23 0:00:00,1,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/10/19 0:00:00
+N1L009Oct,Aedes,Adult,N1L009,F,j. japonicus,EL212,few legs,2012/10/23 0:00:00,1,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/10/19 0:00:00
+M2L010Oct,Culex,Larva,M2L010,NA,pipiens/torrentium,EL213,"bucket 2, 1 pupa",2012/10/23 0:00:00,12,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/10/17 0:00:00
+M2L010Oct,Culiseta,Larva,M2L010,NA,annulata,EL214,bucket 2,2012/10/23 0:00:00,13,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/10/17 0:00:00
+M2L010Oct,Culex,Larva,M2L010,NA,pipiens/torrentium,EL215,bucket 1,2012/10/23 0:00:00,25,Isra Deblauwe,"50,95","5,56",water through,Zutendaal,"in meadow, Wiemesmeer",M2,"0,50",m²,2012/10/17 0:00:00
+M2L016Oct,Culex,Larva,M2L016,NA,pipiens/torrentium,EL216,metal water through,2012/10/23 0:00:00,4,Isra Deblauwe,"51,01","5,59",water through,As,"Niel-bij-As, in meadow",M2,"0,50",m²,2012/10/17 0:00:00
+M2L017Oct,Culex,Larva,M2L017,NA,pipiens/torrentium,EL217,,2012/10/25 0:00:00,1,Isra Deblauwe,"51,01","5,60",water through,As,"Niel-bij-As, in meadow",M2,"2,00",m²,2012/10/17 0:00:00
+M2L033Oct,Culex,Larva,M2L033,NA,pipiens/torrentium,EL218,,2012/10/25 0:00:00,13,Isra Deblauwe,"51,01","5,58",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)",M2,"0,10",m²,2012/10/17 0:00:00
+M2L033Oct,Culiseta,Larva,M2L033,NA,annulata,EL219,,2012/10/25 0:00:00,18,Isra Deblauwe,"51,01","5,58",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)",M2,"0,10",m²,2012/10/17 0:00:00
+M2L035Oct,Culex,Larva,M2L035,NA,pipiens/torrentium,EL220,,2012/10/25 0:00:00,1,Isra Deblauwe,"50,99","5,62",bucket,Maasmechelen,"black bucket, on private property of APK Infra & Bouw",M2,"0,13",m²,2012/10/17 0:00:00
+M2L037Oct,Culex,Larva,M2L037,NA,pipiens/torrentium,EL221,,2012/10/25 0:00:00,25,Isra Deblauwe,"51,00","5,63",water trough,Dilsen-Stokkem,horse meadow with a lot of water troughs,M2,"0,50",m²,2012/10/17 0:00:00
+M2L020Oc1,Aedes,Adult,M2L020,F,koreicus,EL222,in collection,2012/10/25 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/17 0:00:00
+M2L020Oc1,Aedes,Adult,M2L020,F,koreicus,EL223,in collection,2012/10/25 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/17 0:00:00
+M2L020Oc1,Aedes,Adult,M2L020,F,koreicus,EL224,complete,2012/10/25 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/17 0:00:00
+M2L020Oc1,Aedes,Adult,M2L020,M,koreicus,EL225,in collection,2012/10/25 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/17 0:00:00
+ATL001Oct,Culex,Larva,ATL001,NA,pipiens/torrentium,EL226,,2012/10/25 0:00:00,60,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/10/1 0:00:00
+ATL001Oct,Aedes,Larva,ATL001,NA,geniculatus,EL227,,2012/10/25 0:00:00,1,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/10/1 0:00:00
+ATL001Oct,Anopheles,Larva,ATL001,NA,plumbeus,EL228,Small larvae,2012/10/25 0:00:00,4,Isra Deblauwe,"51,21","4,19",tyre,Beveren,Vrasene,AT,"0,10",m²,2012/10/1 0:00:00
+M2L022Oc2,Aedes,Larva,M2L022,NA,koreicus,EL229,,2012/10/25 0:00:00,2,Isra Deblauwe,"50,99","5,62",plastic sheet,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/10/24 0:00:00
+M2L023Oct,Culex,Larva,M2L023,NA,pipiens/torrentium,EL230,,2012/10/25 0:00:00,2,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/10/24 0:00:00
+M2L023Oct,Anopheles,Larva,M2L023,NA,plumbeus,EL231,,2012/10/25 0:00:00,32,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/10/24 0:00:00
+M2L040Oct,Culex,Larva,M2L040,NA,pipiens/torrentium,EL232,,2012/10/25 0:00:00,11,Isra Deblauwe,"50,99","5,67",water recipient for flowers,Maasmechelen,cemetry,M2,"3,0e-03",m²,2012/10/24 0:00:00
+M2L039Oct,Culex,Larva,M2L039,NA,pipiens/torrentium,EL233,,2012/10/25 0:00:00,9,Isra Deblauwe,"50,99","5,60",tyre,Maasmechelen,Sand and gravel quarry,M2,"0,50",m²,2012/10/24 0:00:00
+M2L038Oct,Culex,Larva,M2L038,NA,pipiens/torrentium,EL234,1 pupa,2012/10/25 0:00:00,17,Isra Deblauwe,"50,99","5,60",metal container,Maasmechelen,Sand and gravel quarry,M2,"1,00",m²,2012/10/24 0:00:00
+N1L001Oc1,Culex,Larva,N1L001,NA,pipiens/torrentium,EL235,"right, in front",2012/10/25 0:00:00,61,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/19 0:00:00
+N1L001Oc1,Aedes,Larva,N1L001,NA,j. japonicus,EL236,"right, in front",2012/10/25 0:00:00,9,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/19 0:00:00
+N1L001Oc1,Culex,Larva,N1L001,NA,h. hortensis,EL237,"right, in front",2012/10/25 0:00:00,6,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/19 0:00:00
+N1L001Oc1,Aedes,Larva,N1L001,NA,j. japonicus,EL238,"left, in front",2012/10/25 0:00:00,15,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/19 0:00:00
+N1L004Oct,Culex,Larva,N1L004,NA,pipiens/torrentium,EL239,"in front, a lot of small larvae",2012/10/25 0:00:00,25,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/10/19 0:00:00
+N1L004Oct,Anopheles,Larva,N1L004,NA,plumbeus,EL240,in front,2012/10/25 0:00:00,7,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/10/19 0:00:00
+N1L004Oct,Aedes,Larva,N1L004,NA,geniculatus,EL241,"at the back, tyres in meadow",2012/10/31 0:00:00,3,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/10/19 0:00:00
+N1L004Oct,Culex,Larva,N1L004,NA,pipiens/torrentium,EL242,"at the back, tyres in meadow",2012/10/31 0:00:00,7,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/10/19 0:00:00
+N1L004Oct,Anopheles,Larva,N1L004,NA,plumbeus,EL243,"at the back, tyres in meadow",2012/10/31 0:00:00,36,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/10/19 0:00:00
+N1L004Oct,Culex,Larva,N1L004,NA,pipiens/torrentium,EL244,at the back (2/27),2012/10/31 0:00:00,28,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/10/19 0:00:00
+N1L009Oct,Aedes,Larva,N1L009,NA,j. japonicus,EL245,"rain water barrel, small larva",2012/10/31 0:00:00,1,Isra Deblauwe,"50,33","5,03",rain water barrel,Ciney,"Vincon, + 2 buckets",N1,"0,13",m²,2012/10/19 0:00:00
+N1L010Oct,Culex,Larva,N1L010,NA,pipiens/torrentium,EL246,"tyres on old silage, 1 pupa",2012/10/31 0:00:00,21,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/10/19 0:00:00
+N1L010Oct,Culex,Larva,N1L010,NA,pipiens/torrentium,EL247,tyres on new silage + stable,2012/10/31 0:00:00,17,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/10/19 0:00:00
+N1L001Oc1,Culex,Larva,N1L001,NA,pipiens/torrentium,EL248,"right, at the back",2012/10/31 0:00:00,191,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/19 0:00:00
+N1L001Oc1,Aedes,Larva,N1L001,NA,j. japonicus,EL249,"right, at the back",2012/10/31 0:00:00,25,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/19 0:00:00
+N1L001Oc1,Anopheles,Larva,N1L001,NA,plumbeus,EL250,"right, at the back, small larva",2012/10/31 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/19 0:00:00
+N1L010Oct,Culiseta,Larva,N1L010,NA,annulata,EL251,tyres on new silage + stable,2012/10/31 0:00:00,1,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/10/19 0:00:00
+N1L019Oct,Culex,Larva,N1L019,NA,pipiens/torrentium,EL252,plastic sheet,2012/10/31 0:00:00,1,Isra Deblauwe,"50,33","5,03",plastic sheet,Ciney,plastic on ground,N1,"0,50",m²,2012/10/19 0:00:00
+N1L022Oct,Culex,Larva,N1L022,NA,pipiens/torrentium,EL253,in front,2012/10/31 0:00:00,93,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/10/19 0:00:00
+N1L022Oct,Culiseta,Larva,N1L022,NA,annulata,EL254,in front,2012/10/31 0:00:00,1,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/10/19 0:00:00
+N1L022Oct,Culex,Larva,N1L022,NA,pipiens/torrentium,EL255,on courtyard,2012/10/31 0:00:00,54,Isra Deblauwe,"50,30","4,99",tyre,Yvoir,"farm, tyres in grass and on silage",N1,"0,05",m²,2012/10/19 0:00:00
+M2L020Oc2,Culex,Larva,M2L020,NA,pipiens/torrentium,EL256,,2012/10/31 0:00:00,3,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/31 0:00:00
+M2L002Oc2,Culex,Larva,M2L002,NA,pipiens/torrentium,EL257,,2012/10/31 0:00:00,4,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/10/31 0:00:00
+N1L023Oct,Culex,Larva,N1L023,NA,pipiens/torrentium,EL258,,2012/10/31 0:00:00,1,Isra Deblauwe,"50,27","4,98",water trough,Dinant,,N1,"2,00",m²,2012/10/19 0:00:00
+N1L030Oc1,Culex,Larva,N1L030,NA,pipiens/torrentium,EL259,,2012/10/31 0:00:00,17,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/19 0:00:00
+N1L030Oc1,Aedes,Larva,N1L030,NA,j. japonicus,EL260,,2012/10/31 0:00:00,1,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/19 0:00:00
+N1L001Oc2,Culex,Larva,N1L001,NA,pipiens/torrentium,EL261,at the back,2012/10/31 0:00:00,4,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/26 0:00:00
+N1L018Oct,Culex,Larva,N1L018,NA,pipiens/torrentium,EL262,,2012/10/31 0:00:00,10,Isra Deblauwe,"50,36","4,99",tyre,Assesse,tyres next to field,N1,"0,05",m²,2012/10/26 0:00:00
+N1L027Oct,Culex,Larva,N1L027,NA,pipiens/torrentium,EL263,,2012/10/31 0:00:00,46,Isra Deblauwe,"50,36","4,99",plastic container,Assesse,next to N1L018,N1,"1,00",m²,2012/10/26 0:00:00
+N1L029Oct,Culex,Larva,N1L029,NA,pipiens/torrentium,EL264,,2012/10/31 0:00:00,2,Isra Deblauwe,"50,36","5,04",water trough,Assesse,,N1,"2,00",m²,2012/10/26 0:00:00
+N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL265,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/26 0:00:00
+N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL266,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/26 0:00:00
+N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL267,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/26 0:00:00
+N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL268,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/26 0:00:00
+N1L030Oc2,Aedes,Adult,N1L030,F,j. japonicus,EL269,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/26 0:00:00
+N1L001Oc2,Aedes,Adult,N1L001,F,j. japonicus,EL270,at the back,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/26 0:00:00
+N1L001Oc2,Aedes,Adult,N1L001,M,j. japonicus,EL271,at the back,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/26 0:00:00
+M2L002Oc2,Culex,Adult,M2L002,F,pipiens,EL272,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/10/31 0:00:00
+M2L020Oc2,Culex,Adult,M2L020,M,pipiens,EL273,fallen in water after eclosion,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/31 0:00:00
+M2L020Oc2,Culex,Adult,M2L020,M,pipiens,EL274,fallen in water after eclosion,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/31 0:00:00
+M2L020Oc2,Culex,Adult,M2L020,F,pipiens,EL275,fallen in water after eclosion,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,62",metal container,Maasmechelen,on private property of APK Infra & Bouw,M2,"1,00",m²,2012/10/31 0:00:00
+N1L001Oc2,Culex,Larva,N1L001,NA,pipiens/torrentium,EL276,"right, in front",2012/11/5 0:00:00,12,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/26 0:00:00
+N1L001Oc2,Aedes,Adult,N1L001,F,j. japonicus,EL277,at the back,2012/11/5 0:00:00,1,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/10/26 0:00:00
+M2L002Oc2,Culex,Adult,M2L002,F,pipiens,EL278,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,62",tyre,Maasmechelen,,M2,"0,10",m²,2012/10/31 0:00:00
+M2L022Oc2,Aedes,Adult,M2L022,F,koreicus,EL279,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,62",plastic sheet,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/10/24 0:00:00
+M2L022Oc2,Aedes,Adult,M2L022,M,koreicus,EL280,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,62",plastic sheet,Maasmechelen,APK Infra & Bouw,M2,"0,05",m²,2012/10/24 0:00:00
+M2L023Oct,Culex,Adult,M2L023,F,torrentium,EL281,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/10/24 0:00:00
+M2L023Oct,Culex,Adult,M2L023,F,torrentium,EL282,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/10/24 0:00:00
+M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL283,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,60",metal container,Maasmechelen,Sand and gravel quarry,M2,"1,00",m²,2012/10/24 0:00:00
+M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL284,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,60",metal container,Maasmechelen,Sand and gravel quarry,M2,"1,00",m²,2012/10/24 0:00:00
+M2L038Oct,Culex,Adult,M2L038,M,torrentium,EL285,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,60",metal container,Maasmechelen,Sand and gravel quarry,M2,"1,00",m²,2012/10/24 0:00:00
+M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL286,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,60",metal container,Maasmechelen,Sand and gravel quarry,M2,"1,00",m²,2012/10/24 0:00:00
+M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL287,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,99","5,60",metal container,Maasmechelen,Sand and gravel quarry,M2,"1,00",m²,2012/10/24 0:00:00
+M2L023Oct,Culex,Adult,M2L023,M,pipiens/torrentium,EL288,1 prealar scale,2012/11/6 0:00:00,1,Isra Deblauwe,"50,99","5,67",tyre,Maasmechelen,close to road,M2,"0,05",m²,2012/10/24 0:00:00
+N1L030Oc2,Aedes,Adult,N1L030,F,j. japonicus,EL289,in collection,2012/11/6 0:00:00,1,Isra Deblauwe,"50,33","5,03",plant box,Ciney,"Vincon, at entry, stone plant box",N1,"0,10",m²,2012/10/26 0:00:00
+N1L001Ap1,Aedes,Larva,N1L001,NA,j. japonicus,EL290,,2012/4/17 0:00:00,122,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/4/13 0:00:00
+N1L001Ap1,Aedes,Larva,N1L001,NA,geniculatus,EL291,,2012/4/17 0:00:00,319,Isra Deblauwe,"50,33","5,04",tyre,Hamois,"Natoye, Havelange",N1,"0,10",m²,2012/4/13 0:00:00
+N1L004Ap1,Aedes,Larva,N1L004,NA,geniculatus,EL292,,2012/4/17 0:00:00,100,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/4/13 0:00:00
+N1L011Ap1,Aedes,Larva,N1L011,NA,j. japonicus,EL293,,2012/4/18 0:00:00,49,Isra Deblauwe,"50,32","5,03",water trough,Ciney,"Reuleau, open tank",N1,"3,00",m²,2012/4/13 0:00:00
+N1L012Ap1,Aedes,Larva,N1L012,NA,j. japonicus,EL294,,2012/4/18 0:00:00,1,Isra Deblauwe,"50,32","5,02",tyre,Ciney,"Vincon, tyres in field",N1,"0,10",m²,2012/4/13 0:00:00
+N1L010Apr,Culiseta,Larva,N1L010,NA,annulata,EL295,,2012/4/18 0:00:00,24,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/4/13 0:00:00
+N1L010Apr,Culex,Larva,N1L010,NA,pipiens/torrentium,EL296,,2012/4/18 0:00:00,1,Isra Deblauwe,"50,33","5,03",tyre,Ciney,"Vincon, on silage & next to stable",N1,"0,05",m²,2012/4/13 0:00:00
+N1L004Ap1,Culiseta,Larva,N1L004,NA,annulata,EL297,small larvae (unid sp.1),2012/4/17 0:00:00,19,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/4/13 0:00:00
+N1L004Ap2,Aedes,Larva,N1L004,NA,geniculatus,EL298,,2012/4/30 0:00:00,9,Isra Deblauwe,"50,33","5,07",tyre,Hamois,"Natoye, N2 Sarri Pneus",N1,"0,10",m²,2012/4/27 0:00:00
