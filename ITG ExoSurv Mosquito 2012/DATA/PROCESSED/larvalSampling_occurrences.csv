@@ -1,299 +1,299 @@
-samplingID,genus,lifeStage,locationID,sex,scientificName,occurrenceID,occurrenceRemarks,dateIdentified,individualCount,identifiedBy,decimalLatitude,decimalLongitude,habitat,municipality,comments
-N1L018Jun,Culex,Larva,N1L018,NA,pipiens/torrentium,EL001,also 2 pupae,2012/7/24 0:00:00,2,Isra Deblauwe,"50,3649676625777","4,9985009538961",tyre,Assesse,tyres next to field
-N1L010Ju2,Aedes,Adult,N1L010,M,j. japonicus,EL002,tyres on silage,2012/7/5 0:00:00,1,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L010Ju2,Culex,Larva,N1L010,NA,pipiens/torrentium,EL003,tyres on silage,2012/7/5 0:00:00,6,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-VPL001Jun,Culex,Larva,VPL001,NA,pipiens/torrentium,EL004,,2012/7/5 0:00:00,4,Isra Deblauwe,"50,585328","5,259748",tyre,Villers Le Bouillet,
-M2L001Jul,Culex,Larva,M2L001,NA,pipiens/torrentium,EL005,a lot of small larvae,2012/7/26 0:00:00,37,Isra Deblauwe,"50,996036","5,620467",dirt tracks,Maasmechelen,next to forest M1
-M2L002Jul,Aedes,Larva,M2L002,NA,koreicus,EL006,+ 1 pupa,2012/7/26 0:00:00,13,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L003Jul,Culex,Larva,M2L003,NA,pipiens/torrentium,EL007,a lot of small larvae,2012/7/26 0:00:00,27,Isra Deblauwe,"50,991993","5,624796",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie
-M2L004Jul,Aedes,Larva,M2L004,NA,koreicus,EL008,+ pupae,2012/7/26 0:00:00,20,Isra Deblauwe,"50,989847","5,63037",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg'
-M2L004Jul,Culex,Larva,M2L004,NA,pipiens/torrentium,EL009,,2012/7/26 0:00:00,7,Isra Deblauwe,"50,989847","5,63037",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg'
-M2L009Jul,Culex,Larva,M2L009,NA,pipiens/torrentium,EL010,"a lot of small larvae, + 5 pupae",2012/7/26 0:00:00,65,Isra Deblauwe,"50,950262","5,56362",water trough,Zutendaal,"in meadow, Wiemesmeer"
-M2L010Jul,Culex,Larva,M2L010,NA,pipiens/torrentium,EL011,1 already dead,2012/7/26 0:00:00,2,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L011Jul,Culex,Larva,M2L011,NA,pipiens/torrentium,EL012,a lot of small larvae,2012/7/26 0:00:00,38,Isra Deblauwe,"50,959844","5,560445",puddle,Zutendaal,"in meadow, Wiemesmeer"
-M2L013Jul,Culex,Larva,M2L013,NA,pipiens/torrentium,EL013,also small larvae,2012/7/26 0:00:00,35,Isra Deblauwe,"50,96364","5,554471",bucket,Zutendaal,next to old house in forest
-M2L014Jul,Culex,Larva,M2L014,NA,pipiens/torrentium,EL014,a lot of small larvae,2012/7/30 0:00:00,107,Isra Deblauwe,"51,014708","5,588637",water through,As,"Niel-bij-As, in meadow"
-M2L015Jul,Culex,Larva,M2L015,NA,pipiens/torrentium,EL015,2 pupae,2012/7/31 0:00:00,47,Isra Deblauwe,"51,016441","5,589064",water through,As,"Niel-bij-As, next to meadow"
-N1L001Jul,Culex,Larva,N1L001,NA,pipiens/torrentium,EL016,from both sides of building,2012/7/30 0:00:00,47,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Jul,Aedes,Larva,N1L001,NA,j. japonicus,EL017,from both sides of building,2012/7/30 0:00:00,7,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Jul,Culex,Larva,N1L001,NA,h. hortensis,EL018,from both sides of building,2012/7/30 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L002Jul,Aedes,Larva,N1L002,NA,j. japonicus,EL019,,2012/7/30 0:00:00,5,Isra Deblauwe,"50,338784","5,044747",tree hole,Hamois,"Natoye, Havelange"
-N1L002Jul,Anopheles,Larva,N1L002,NA,plumbeus,EL020,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,338784","5,044747",tree hole,Hamois,"Natoye, Havelange"
-N1L010Jul,Culex,Larva,N1L010,NA,pipiens/torrentium,EL021,tyres on silage,2012/7/30 0:00:00,18,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L010Jul,Aedes,Larva,N1L010,NA,j. japonicus,EL022,tyres next to stable,2012/7/30 0:00:00,2,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L009Jul,Culex,Larva,N1L009,NA,pipiens/torrentium,EL023,"decomposed, a lot of small larvae",2012/7/30 0:00:00,47,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L020Jul,Anopheles,Larva,N1L020,NA,maculipennis/messae,EL024,,2012/7/30 0:00:00,2,Isra Deblauwe,"50,315843","5,00615",water trough,Yvoir,3 water troughs in front of football field
-N1L022Jul,Culex,Larva,N1L022,NA,pipiens/torrentium,EL025,2 pupae,2012/7/30 0:00:00,39,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-N1L023Jul,Culex,Larva,N1L023,NA,pipiens/torrentium,EL026,1 pupa,2012/7/31 0:00:00,28,Isra Deblauwe,"50,270289","4,985958",water trough,Dinant,
-M2L007Jul,Culex,Larva,M2L007,NA,pipiens/torrentium,EL027,,2012/7/31 0:00:00,20,Isra Deblauwe,"50,972468","5,653667",puddle,Maasmechelen,in Nationaal Park Hoge Kempen
-TRL001Jul,Culex,Larva,TRL001,NA,pipiens/torrentium,EL028,3 pupae,2012/7/31 0:00:00,36,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-TRL001Jul,Aedes,Larva,TRL001,NA,geniculatus,EL029,,2012/7/31 0:00:00,1,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-M2L016Jul,Culex,Larva,M2L016,NA,pipiens/torrentium,EL030,,2012/8/2 0:00:00,33,Isra Deblauwe,"51,015543","5,597542",water through,As,"Niel-bij-As, in meadow"
-M2L006Jul,Culex,Larva,M2L006,NA,pipiens/torrentium,EL031,,2012/8/2 0:00:00,39,Isra Deblauwe,"50,995636","5,634575",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-DIL001Aug,Culex,Larva,DIL001,NA,pipiens/torrentium,EL032,,2012/8/2 0:00:00,58,Isra Deblauwe,"51,039147","5,398155",tyre,Houthalen-Helchteren,
-TRL001Au1,Culex,Larva,TRL001,NA,pipiens/torrentium,EL033,,2012/8/2 0:00:00,49,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-N1L020Jul,Culex,Larva,N1L020,NA,pipiens/torrentium,EL034,,2012/7/31 0:00:00,2,Isra Deblauwe,"50,315843","5,00615",water trough,Yvoir,3 water troughs in front of football field
-N1L004Au1,Culex,Larva,N1L004,NA,pipiens/torrentium,EL035,also 9/8/12 ID,2012/8/8 0:00:00,138,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au1,Anopheles,Larva,N1L004,NA,plumbeus,EL036,,2012/8/10 0:00:00,2,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-ATL001Au1,Aedes,Larva,ATL001,NA,geniculatus,EL037,,2012/8/8 0:00:00,1,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-ATL001Au1,Culex,Larva,ATL001,NA,pipiens/torrentium,EL038,,2012/8/8 0:00:00,5,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-ATL001Au1,Anopheles,Larva,ATL001,NA,plumbeus,EL039,1 broken,2012/8/8 0:00:00,4,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-M2L007Jul,Culex,Larva,M2L007,NA,pipiens/torrentium,EL040,,2012/8/8 0:00:00,11,Isra Deblauwe,"50,972468","5,653667",puddle,Maasmechelen,in Nationaal Park Hoge Kempen
-N1L019Jul,Culex,Larva,N1L019,NA,pipiens/torrentium,EL041,on plastic sheet,2012/8/8 0:00:00,24,Isra Deblauwe,"50,331517","5,032999",plastic sheet,Ciney,plastic on ground
-M2L012Jul,Culex,Larva,M2L012,NA,pipiens/torrentium,EL042,,2012/8/9 0:00:00,34,Isra Deblauwe,"50,963654","5,554426",bucket,Zutendaal,next to old house in forest
-TRL001Au1,Culiseta,Larva,TRL001,NA,annulata,EL043,,2012/8/9 0:00:00,8,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-TRL001Au1,Anopheles,Larva,TRL001,NA,plumbeus,EL044,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-TRL002Au1,Culex,Larva,TRL002,NA,pipiens/torrentium,EL045,,2012/8/9 0:00:00,26,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,inside
-TRL002Au1,Culex,Larva,TRL002,NA,h. hortensis,EL046,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,inside
-TRL002Au1,Anopheles,Larva,TRL002,NA,plumbeus,EL047,,2012/8/9 0:00:00,33,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,inside
-N1L010Ju2,Culex,Larva,N1L010,NA,pipiens/torrentium,EL048,tyres next to stable,2012/8/9 0:00:00,7,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L011Ju2,Anopheles,Larva,N1L011,NA,maculipennis/messae,EL049,,2012/8/9 0:00:00,14,Isra Deblauwe,"50,327532","5,035719",water trough,Ciney,"Reuleau, open tank"
-N1L001Ju2,Culex,Larva,N1L001,NA,pipiens/torrentium,EL050,,2012/8/9 0:00:00,2,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L016Jun,Aedes,Adult,N1L016,F,geniculatus,EL051,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,3404118069542","5,0640483970491",tyre,Hamois,"Natoye, on silage"
-N1L016Jun,Culex,Larva,N1L016,NA,pipiens/torrentium,EL052,,2012/8/9 0:00:00,27,Isra Deblauwe,"50,3404118069542","5,0640483970491",tyre,Hamois,"Natoye, on silage"
-N1L016Jun,Culiseta,Larva,N1L016,NA,annulata,EL053,,2012/8/9 0:00:00,3,Isra Deblauwe,"50,3404118069542","5,0640483970491",tyre,Hamois,"Natoye, on silage"
-N1L004Ju1,Aedes,Larva,N1L004,NA,geniculatus,EL054,tyres at the back,2012/8/9 0:00:00,2,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Ju1,Culex,Larva,N1L004,NA,pipiens/torrentium,EL055,"tyres at the back, 1 pupa/mosquito & 7 pupae",2012/8/10 0:00:00,64,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L015Jun,Culex,Larva,N1L015,NA,pipiens/torrentium,EL056,,2012/8/10 0:00:00,19,Isra Deblauwe,"50,346665","5,035574",tyre,Assesse,
-N1L014Jun,Culex,Larva,N1L014,NA,pipiens/torrentium,EL057,+ 1 pupa,2012/8/10 0:00:00,18,Isra Deblauwe,"50,32406","5,027415",tyre,Ciney,"Reuleau, on silage"
-N1L001Ju2,Culex,Adult,N1L001,F,torrentium,EL058,,2012/8/9 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L009Ju2,Culex,Adult,N1L009,F,pipiens?,EL059,"rain water barrel, broken",2012/8/10 0:00:00,1,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L009Ju2,Culex,Adult,N1L009,F,torrentium,EL060,rain water barrel,2012/8/10 0:00:00,1,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L009Ju2,Culex,Adult,N1L009,M,pipiens?,EL061,"rain water barrel, broken",2012/8/10 0:00:00,1,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L018Jun,Culex,Adult,N1L018,M,torrentium,EL062,,2012/8/10 0:00:00,1,Isra Deblauwe,"50,3649676625777","4,9985009538961",tyre,Assesse,tyres next to field
-N1L018Jun,Culex,Adult,N1L018,M,torrentium,EL063,,2012/8/10 0:00:00,1,Isra Deblauwe,"50,3649676625777","4,9985009538961",tyre,Assesse,tyres next to field
-N1L020Jul,Culex,Adult,N1L020,F,pipiens,EL064,,2012/8/13 0:00:00,1,Isra Deblauwe,"50,315843","5,00615",water trough,Yvoir,3 water troughs in front of football field
-N1L020Jul,Culex,Adult,N1L020,F,torrentium,EL065,,2012/8/13 0:00:00,1,Isra Deblauwe,"50,315843","5,00615",water trough,Yvoir,3 water troughs in front of football field
-N1L020Jul,Culex,Adult,N1L020,F,pipiens,EL066,,2012/8/13 0:00:00,1,Isra Deblauwe,"50,315843","5,00615",water trough,Yvoir,3 water troughs in front of football field
-N1L011May,Aedes,Adult,N1L011,F,j. japonicus,EL067,broken,2012/8/13 0:00:00,1,Isra Deblauwe,"50,327532","5,035719",water trough,Ciney,"Reuleau, open tank"
-N1L019Aug,Culex,Adult,N1L019,M,pipiens,EL068,on plastic sheet,2012/9/5 0:00:00,1,Isra Deblauwe,"50,331517","5,032999",plastic sheet,Ciney,plastic on ground
-N1L028Aug,Culex,Larva,N1L028,NA,pipiens/torrentium,EL069,1 pupa,2012/9/7 0:00:00,37,Isra Deblauwe,"50,34128","5,048784",water trough,Hamois,"Natoye, in front of football field"
-N1L012Aug,Culex,Larva,N1L012,NA,pipiens/torrentium,EL070,very small larvae,2012/9/7 0:00:00,13,Isra Deblauwe,"50,328419","5,028772",tyre,Ciney,"Vincon, tyres in field"
-N1L012Aug,Aedes,Larva,N1L012,NA,geniculatus??,EL071,very small larvae,2012/9/7 0:00:00,6,Isra Deblauwe,"50,328419","5,028772",tyre,Ciney,"Vincon, tyres in field"
-N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL072,"left, tyre 23",2012/9/11 0:00:00,41,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL073,"left, 2 tyres",2012/9/11 0:00:00,5,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Aug,Aedes,Larva,N1L001,NA,j. japonicus,EL074,"left, 2 tyres",2012/9/11 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL075,"left, tyre 26, very small larvae",2012/9/11 0:00:00,25,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Aug,Culex,Larva,N1L001,NA,pipiens/torrentium,EL076,"right, back",2012/9/11 0:00:00,36,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Aug,Aedes,Larva,N1L001,NA,j. japonicus,EL077,"right, back",2012/9/11 0:00:00,2,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL078,in front,2012/9/12 0:00:00,18,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL079,in middle at the back,2012/9/12 0:00:00,17,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Anopheles,Larva,N1L004,NA,plumbeus,EL080,in middle at the back,2012/9/12 0:00:00,2,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL081,"end at the back, small larvae",2012/9/12 0:00:00,25,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Anopheles,Larva,N1L004,NA,plumbeus,EL082,"end at the back, small larvae",2012/9/12 0:00:00,1,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Aedes,Larva,N1L004,NA,j. japonicus,EL083,"end at the back, small larvae",2012/9/12 0:00:00,1,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL084,"end at the back, small larvae",2012/9/12 0:00:00,10,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Culex,Larva,N1L004,NA,pipiens/torrentium,EL085,end at the back,2012/9/12 0:00:00,76,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Au2,Anopheles,Larva,N1L004,NA,plumbeus,EL086,end at the back,2012/9/12 0:00:00,2,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-TRL001Sep,Culex,Larva,TRL001,NA,pipiens/torrentium,EL087,,2012/8/12 0:00:00,39,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-TRL001Sep,Anopheles,Larva,TRL001,NA,plumbeus,EL088,1 pupa,2012/8/12 0:00:00,32,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-N1L009Aug,Culex,Larva,N1L009,NA,pipiens/torrentium,EL089,bucket,2012/9/12 0:00:00,34,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L009Aug,Culex,Larva,N1L009,NA,pipiens/torrentium,EL090,"rain water barrel, very small larvae",2012/9/12 0:00:00,19,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L010Aug,Culex,Larva,N1L010,NA,pipiens/torrentium,EL091,"tyres on silage, a lot of small larvae",2012/9/12 0:00:00,85,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L019Aug,Culex,Larva,N1L019,NA,pipiens/torrentium,EL092,plastic sheet,2012/9/12 0:00:00,14,Isra Deblauwe,"50,331517","5,032999",plastic sheet,Ciney,plastic on ground
-N1L018Aug,Culex,Larva,N1L018,NA,pipiens/torrentium,EL093,tyres,2012/9/12 0:00:00,101,Isra Deblauwe,"50,3649676625777","4,9985009538961",tyre,Assesse,tyres next to field
-N1L018Aug,Culiseta,Larva,N1L018,NA,annulata,EL094,tyres,2012/9/12 0:00:00,9,Isra Deblauwe,"50,3649676625777","4,9985009538961",tyre,Assesse,tyres next to field
-N1L027Aug,Culex,Larva,N1L027,NA,pipiens/torrentium,EL095,2 blue plastic containers,2012/9/12 0:00:00,39,Isra Deblauwe,"50,3649676625777","4,9985009538961",plastic container,Assesse,next to N1L018
-N1L027Aug,Culiseta,Larva,N1L027,NA,annulata,EL096,2 blue plastic containers,2012/9/12 0:00:00,3,Isra Deblauwe,"50,3649676625777","4,9985009538961",plastic container,Assesse,next to N1L018
-N1L020Aug,Culex,Larva,N1L020,NA,h. hortensis,EL097,+ 3 small larvae?,2012/9/12 0:00:00,6,Isra Deblauwe,"50,315843","5,00615",water trough,Yvoir,3 water troughs in front of football field
-N1L022Aug,Culex,Larva,N1L022,NA,pipiens/torrentium,EL098,in front,2012/9/12 0:00:00,17,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-N1L022Aug,Culex,Larva,N1L022,NA,pipiens/torrentium,EL099,on courtyard,2012/9/12 0:00:00,43,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-N1L023Aug,Culex,Larva,N1L023,NA,pipiens/torrentium,EL100,a lot of small larvae,2012/9/12 0:00:00,31,Isra Deblauwe,"50,270289","4,985958",water trough,Dinant,
-N1L023Aug,Culex,Larva,N1L023,NA,h. hortensis,EL101,,2012/9/12 0:00:00,8,Isra Deblauwe,"50,270289","4,985958",water trough,Dinant,
-N1L025Aug,Culex,Larva,N1L025,NA,pipiens/torrentium,EL102,+ 6 pupae,2012/9/13 0:00:00,53,Isra Deblauwe,"50,311804","4,978475",mud puddle,Yvoir,mud next to water trough
-N1L024Aug,Anopheles,Larva,N1L024,NA,maculipennis/messae,EL103,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,311804","4,978475",water trough,Yvoir,open tank
-M2L002Aug,Aedes,Larva,M2L002,NA,koreicus,EL104,,2012/9/13 0:00:00,6,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L004Aug,Culex,Larva,M2L004,NA,pipiens/torrentium,EL105,,2012/9/13 0:00:00,13,Isra Deblauwe,"50,989847","5,63037",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg'
-M2L004Aug,Aedes,Larva,M2L004,NA,koreicus,EL106,,2012/9/13 0:00:00,12,Isra Deblauwe,"50,989847","5,63037",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg'
-M2L006Aug,Culex,Larva,M2L006,NA,pipiens/torrentium,EL107,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,995636","5,634575",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L006Aug,Aedes,Larva,M2L006,NA,koreicus,EL108,,2012/9/13 0:00:00,3,Isra Deblauwe,"50,995636","5,634575",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L010Aug,Culex,Larva,M2L010,NA,pipiens/torrentium,EL109,,2012/9/13 0:00:00,19,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L019Aug,Culex,Larva,M2L019,NA,pipiens/torrentium,EL110,,2012/9/13 0:00:00,9,Isra Deblauwe,"50,996691","5,621658",bucket,Maasmechelen,on private property of APK Infra & Bouw
-M2L019Aug,Aedes,Larva,M2L019,NA,koreicus,EL111,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,996691","5,621658",bucket,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Aug,Culex,Larva,M2L020,NA,pipiens/torrentium,EL112,,2012/9/13 0:00:00,2,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Aug,Aedes,Larva,M2L020,NA,koreicus,EL113,,2012/9/13 0:00:00,8,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L021Aug,Aedes,Larva,M2L021,NA,koreicus,EL114,,2012/9/13 0:00:00,1,Isra Deblauwe,"50,9977608044105","5,6225054870487",tyre,Maasmechelen,APK Infra & Bouw
-M2L023Aug,Culex,Larva,M2L023,NA,pipiens/torrentium,EL115,,2012/9/13 0:00:00,11,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L023Aug,Anopheles,Larva,M2L023,NA,plumbeus,EL116,,2012/9/13 0:00:00,8,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L024Aug,Culex,Larva,M2L024,NA,pipiens/torrentium,EL117,open bidon,2012/9/13 0:00:00,42,Isra Deblauwe,"50,992849","5,633004",plastic container,Maasmechelen,close to car cemetry Armand Lowie
-M2L024Aug,Culiseta,Larva,M2L024,NA,annulata,EL118,open bidon,2012/9/13 0:00:00,1,Isra Deblauwe,"50,992849","5,633004",plastic container,Maasmechelen,close to car cemetry Armand Lowie
-M2L024Aug,Culex,Larva,M2L024,NA,pipiens/torrentium,EL119,white plate,2012/9/13 0:00:00,18,Isra Deblauwe,"50,992849","5,633004",plastic container,Maasmechelen,close to car cemetry Armand Lowie
-M2L024Aug,Aedes,Larva,M2L024,NA,koreicus,EL120,white plate,2012/9/13 0:00:00,26,Isra Deblauwe,"50,992849","5,633004",plastic container,Maasmechelen,close to car cemetry Armand Lowie
-M2L025Aug,Culex,Larva,M2L025,NA,pipiens/torrentium,EL121,tyre,2012/9/13 0:00:00,5,Isra Deblauwe,"50,992564","5,632722",tyre,Maasmechelen,next to car cemetry Armand Lowie
-M2L025Aug,Culiseta,Larva,M2L025,NA,annulata,EL122,tyre,2012/9/13 0:00:00,3,Isra Deblauwe,"50,992564","5,632722",tyre,Maasmechelen,next to car cemetry Armand Lowie
-M2L026Aug,Culex,Larva,M2L026,NA,pipiens/torrentium,EL123,yellow sheet,2012/9/13 0:00:00,69,Isra Deblauwe,"50,995305","5,634417",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L026Aug,Aedes,Larva,M2L026,NA,koreicus,EL124,yellow sheet,2012/9/13 0:00:00,8,Isra Deblauwe,"50,995305","5,634417",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L022Aug,Aedes,Larva,M2L022,NA,koreicus,EL125,,2012/9/13 0:00:00,33,Isra Deblauwe,"50,997734","5,622481",plastic sheet,Maasmechelen,APK Infra & Bouw
-TRL002Au2,Culex,Larva,TRL002,NA,pipiens/torrentium,EL126,,2012/9/14 0:00:00,8,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,inside
-TRL002Au2,Anopheles,Larva,TRL002,NA,plumbeus,EL127,1 pupa,2012/9/14 0:00:00,3,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,inside
-TRL001Au2,Culex,Larva,TRL001,NA,pipiens/torrentium,EL128,,2012/9/14 0:00:00,21,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-TRL001Au2,Anopheles,Larva,TRL001,NA,plumbeus,EL129,,2012/9/14 0:00:00,4,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-TRL001Au2,Culiseta,Larva,TRL001,NA,annulata,EL130,small larvae,2012/9/14 0:00:00,2,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-VPL001Aug,Culex,Larva,VPL001,NA,pipiens/torrentium,EL131,,2012/9/14 0:00:00,6,Isra Deblauwe,"50,585328","5,259748",tyre,Villers Le Bouillet,
-VPL001Sep,Culex,Larva,VPL001,NA,pipiens/torrentium,EL132,,2012/9/14 0:00:00,80,Isra Deblauwe,"50,585328","5,259748",tyre,Villers Le Bouillet,
-ATL001Au2,Culex,Larva,ATL001,NA,pipiens/torrentium,EL133,,2012/9/14 0:00:00,16,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-ATL001Au2,Anopheles,Larva,ATL001,NA,plumbeus,EL134,,2012/9/14 0:00:00,3,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-ATL001Sep,Culex,Larva,ATL001,NA,pipiens/torrentium,EL135,,2012/9/14 0:00:00,17,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-N1L028Sep,Culex,Larva,N1L028,NA,pipiens/torrentium,EL136,small larvae,2012/10/1 0:00:00,6,Isra Deblauwe,"50,34128","5,048784",water trough,Hamois,"Natoye, in front of football field"
-N1L027Sep,Culex,Larva,N1L027,NA,pipiens/torrentium,EL137,small larvae,2012/10/1 0:00:00,81,Isra Deblauwe,"50,3649676625777","4,9985009538961",plastic container,Assesse,next to N1L018
-N1L018Sep,Culex,Larva,N1L018,NA,pipiens/torrentium,EL138,,2012/10/1 0:00:00,32,Isra Deblauwe,"50,3649676625777","4,9985009538961",tyre,Assesse,tyres next to field
-N1L023Sep,Culex,Larva,N1L023,NA,h. hortensis,EL139,,2012/10/1 0:00:00,2,Isra Deblauwe,"50,270289","4,985958",water trough,Dinant,
-N1L023Sep,Culex,Larva,N1L023,NA,pipiens/torrentium,EL140,,2012/10/1 0:00:00,3,Isra Deblauwe,"50,270289","4,985958",water trough,Dinant,
-N1L029Sep,Culex,Larva,N1L029,NA,pipiens/torrentium,EL141,,2012/10/1 0:00:00,109,Isra Deblauwe,"50,363868","5,041324",water trough,Assesse,
-N1L001Sep,Culex,Larva,N1L001,NA,pipiens/torrentium,EL142,"left, in front",2012/10/1 0:00:00,33,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Sep,Culex,Larva,N1L001,NA,pipiens/torrentium,EL143,"right, back",2012/10/1 0:00:00,100,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Sep,Aedes,Larva,N1L001,NA,j. japonicus,EL144,"right, back",2012/10/1 0:00:00,7,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Sep,Culex,Larva,N1L001,NA,h. hortensis,EL145,"right, back",2012/10/1 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L004Sep,Culex,Larva,N1L004,NA,pipiens/torrentium,EL146,in front,2012/10/1 0:00:00,34,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Sep,Culex,Larva,N1L004,NA,h. hortensis,EL147,in front,2012/10/1 0:00:00,3,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Sep,Anopheles,Larva,N1L004,NA,plumbeus,EL148,"in front, small larvae",2012/10/1 0:00:00,2,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Sep,Culiseta,Larva,N1L004,NA,annulata,EL149,in front,2012/10/1 0:00:00,2,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Sep,Culex,Larva,N1L004,NA,pipiens/torrentium,EL150,at the back,2012/10/2 0:00:00,25,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L009Sep,Culex,Larva,N1L009,NA,pipiens/torrentium,EL151,rain water barrel,2012/10/2 0:00:00,14,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L009Sep,Aedes,Larva,N1L009,NA,j. japonicus,EL152,rain water barrel,2012/10/2 0:00:00,2,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L010Sep,Culex,Larva,N1L010,NA,pipiens/torrentium,EL153,tyres next to stable,2012/10/2 0:00:00,12,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L010Sep,Culex,Larva,N1L010,NA,pipiens/torrentium,EL154,tyres on silage,2012/10/2 0:00:00,42,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L010Sep,Aedes,Larva,N1L010,NA,j. japonicus,EL155,tyres on silage,2012/10/2 0:00:00,1,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L010Sep,Culex,Larva,N1L010,NA,pipiens/torrentium,EL156,tyres at the back,2012/10/2 0:00:00,7,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L019Sep,Culex,Larva,N1L019,NA,pipiens/torrentium,EL157,plastic sheet,2012/10/2 0:00:00,53,Isra Deblauwe,"50,331517","5,032999",plastic sheet,Ciney,plastic on ground
-N1L022Sep,Culex,Larva,N1L022,NA,pipiens/torrentium,EL158,in front,2012/10/2 0:00:00,90,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-N1L022Sep,Culex,Larva,N1L022,NA,pipiens/torrentium,EL159,on courtyard,2012/10/2 0:00:00,85,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-M2L002Se1,Culex,Larva,M2L002,NA,pipiens/torrentium,EL160,,2012/10/2 0:00:00,5,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L002Se1,Culiseta,Larva,M2L002,NA,annulata,EL161,,2012/10/2 0:00:00,8,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L002Se1,Aedes,Larva,M2L002,NA,koreicus,EL162,,2012/10/2 0:00:00,2,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L002Se1,Culiseta,Larva,M2L002,NA,annulata?,EL163,small larvae (unidentified sp.2) + 1 pupa,2012/10/2 0:00:00,3,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L020Sep,Culex,Larva,M2L020,NA,pipiens/torrentium,EL164,,2012/10/2 0:00:00,41,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Sep,Aedes,Larva,M2L020,NA,koreicus,EL165,,2012/10/2 0:00:00,16,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L021Sep,Aedes,Larva,M2L021,NA,koreicus,EL166,,2012/10/2 0:00:00,24,Isra Deblauwe,"50,9977608044105","5,6225054870487",tyre,Maasmechelen,APK Infra & Bouw
-M2L019Sep,Culex,Larva,M2L019,NA,pipiens/torrentium,EL167,,2012/10/2 0:00:00,26,Isra Deblauwe,"50,996691","5,621658",bucket,Maasmechelen,on private property of APK Infra & Bouw
-M2L019Sep,Aedes,Larva,M2L019,NA,koreicus,EL168,,2012/10/2 0:00:00,2,Isra Deblauwe,"50,996691","5,621658",bucket,Maasmechelen,on private property of APK Infra & Bouw
-M2L022Sep,Aedes,Larva,M2L022,NA,koreicus,EL169,,2012/10/2 0:00:00,5,Isra Deblauwe,"50,997734","5,622481",plastic sheet,Maasmechelen,APK Infra & Bouw
-M2L004Sep,Culex,Larva,M2L004,NA,pipiens/torrentium,EL170,,2012/10/2 0:00:00,46,Isra Deblauwe,"50,989847","5,63037",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg'
-M2L004Sep,Aedes,Larva,M2L004,NA,koreicus,EL171,,2012/10/2 0:00:00,1,Isra Deblauwe,"50,989847","5,63037",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg'
-M2L003Sep,Culex,Larva,M2L003,NA,pipiens/torrentium,EL172,,2012/10/2 0:00:00,8,Isra Deblauwe,"50,991993","5,624796",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie
-M2L003Sep,Aedes,Larva,M2L003,NA,koreicus,EL173,,2012/10/2 0:00:00,1,Isra Deblauwe,"50,991993","5,624796",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie
-M2L024Sep,Culex,Larva,M2L024,NA,pipiens/torrentium,EL174,open bidon,2012/10/2 0:00:00,24,Isra Deblauwe,"50,992849","5,633004",plastic container,Maasmechelen,close to car cemetry Armand Lowie
-M2L025Sep,Culiseta,Larva,M2L025,NA,annulata,EL175,tyres,2012/10/2 0:00:00,2,Isra Deblauwe,"50,992564","5,632722",tyre,Maasmechelen,next to car cemetry Armand Lowie
-M2L026Sep,Culex,Larva,M2L026,NA,pipiens/torrentium,EL176,yellow sheet,2012/10/2 0:00:00,28,Isra Deblauwe,"50,995305","5,634417",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L029Sep,Aedes,Larva,M2L029,NA,koreicus,EL177,,2012/10/2 0:00:00,26,Isra Deblauwe,"50,996684","5,621599",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L029Sep,Culex,Larva,M2L029,NA,pipiens/torrentium,EL178,small larvae,2012/10/2 0:00:00,16,Isra Deblauwe,"50,996684","5,621599",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L030Sep,Culex,Larva,M2L030,NA,pipiens/torrentium,EL179,+ 1 pupa,2012/10/2 0:00:00,13,Isra Deblauwe,"50,99201","5,624144",metal container,Maasmechelen,entrance car cemetry Armand Lowie
-M2L023Sep,Culex,Larva,M2L023,NA,pipiens/torrentium,EL180,1 pupa,2012/10/2 0:00:00,15,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L023Sep,Anopheles,Larva,M2L023,NA,plumbeus,EL181,a lot of small larvae,2012/10/2 0:00:00,36,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L009Sep,Culex,Larva,M2L009,NA,pipiens/torrentium,EL182,,2012/10/3 0:00:00,5,Isra Deblauwe,"50,950262","5,56362",water trough,Zutendaal,"in meadow, Wiemesmeer"
-M2L010Sep,Culex,Larva,M2L010,NA,pipiens/torrentium,EL183,bucket 1,2012/10/3 0:00:00,19,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L010Sep,Culex,Larva,M2L010,NA,pipiens/torrentium,EL184,bucket 2,2012/10/3 0:00:00,28,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L010Sep,Culiseta,Larva,M2L010,NA,annulata,EL185,"bucket 2, + small larvae (unidentified sp.2)",2012/10/3 0:00:00,9,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L016Sep,Culex,Larva,M2L016,NA,pipiens/torrentium,EL186,,2012/10/3 0:00:00,31,Isra Deblauwe,"51,015543","5,597542",water through,As,"Niel-bij-As, in meadow"
-M2L017Sep,Culex,Larva,M2L017,NA,pipiens/torrentium,EL187,,2012/10/3 0:00:00,26,Isra Deblauwe,"51,01663","5,600211",water through,As,"Niel-bij-As, in meadow"
-M2L033Sep,Culex,Larva,M2L033,NA,pipiens/torrentium,EL188,,2012/10/3 0:00:00,29,Isra Deblauwe,"51,016436","5,589155",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)"
-M2L033Sep,Culiseta,Larva,M2L033,NA,annulata,EL189,+ small larvae (unidentified sp.2),2012/10/3 0:00:00,15,Isra Deblauwe,"51,016436","5,589155",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)"
-VPL001Oct,Culex,Larva,VPL001,NA,pipiens/torrentium,EL190,1 pupa,2012/10/18 0:00:00,59,Isra Deblauwe,"50,585328","5,259748",tyre,Villers Le Bouillet,
-TRL001Oct,Culex,Larva,TRL001,NA,pipiens/torrentium,EL191,,2012/10/18 0:00:00,9,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-TRL001Oct,Anopheles,Larva,TRL001,NA,plumbeus,EL192,2 pupae,2012/10/18 0:00:00,11,Isra Deblauwe,"50,472498","4,141277",tyre,La Louviere,outside
-M2L002Oc1,Culiseta,Larva,M2L002,NA,annulata,EL193,,2012/10/18 0:00:00,1,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L002Oc1,Culex,Larva,M2L002,NA,pipiens/torrentium,EL194,,2012/10/18 0:00:00,1,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L019Oct,Aedes,Adult,M2L019,F,koreicus,EL195,in collection,2012/10/18 0:00:00,1,Isra Deblauwe,"50,996691","5,621658",bucket,Maasmechelen,on private property of APK Infra & Bouw
-M2L019Oct,Aedes,Adult,M2L019,F,koreicus,EL196,in collection,2012/10/18 0:00:00,1,Isra Deblauwe,"50,996691","5,621658",bucket,Maasmechelen,on private property of APK Infra & Bouw
-M2L003Oct,Culex,Larva,M2L003,NA,pipiens/torrentium,EL197,2 pupae,2012/10/18 0:00:00,36,Isra Deblauwe,"50,991993","5,624796",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie
-M2L003Oct,Aedes,Larva,M2L003,NA,koreicus,EL198,1 small larva,2012/10/18 0:00:00,3,Isra Deblauwe,"50,991993","5,624796",rain water barrel,Maasmechelen,entrance car cemetry Armand Lowie
-M2L020Oc1,Culex,Larva,M2L020,NA,pipiens/torrentium,EL199,,2012/10/18 0:00:00,42,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Oc1,Aedes,Larva,M2L020,NA,koreicus,EL200,,2012/10/18 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L021Oc1,Aedes,Larva,M2L021,NA,koreicus,EL201,,2012/10/18 0:00:00,4,Isra Deblauwe,"50,9977608044105","5,6225054870487",tyre,Maasmechelen,APK Infra & Bouw
-M2L022Oc1,Aedes,Larva,M2L022,NA,koreicus,EL202,,2012/10/18 0:00:00,6,Isra Deblauwe,"50,997734","5,622481",plastic sheet,Maasmechelen,APK Infra & Bouw
-M2L004Oct,Culex,Larva,M2L004,NA,pipiens/torrentium,EL203,1 pupa,2012/10/23 0:00:00,23,Isra Deblauwe,"50,989847","5,63037",bucket,Maasmechelen,road next to Mechelse Bos close to industrial zone 'Op de Berg'
-M2L006Oct,Aedes,Larva,M2L006,NA,koreicus,EL204,,2012/10/23 0:00:00,15,Isra Deblauwe,"50,995636","5,634575",tyre,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L024Oct,Culex,Larva,M2L024,NA,pipiens/torrentium,EL205,,2012/10/23 0:00:00,11,Isra Deblauwe,"50,992849","5,633004",plastic container,Maasmechelen,close to car cemetry Armand Lowie
-M2L025Oct,Aedes,Larva,M2L025,NA,koreicus,EL206,,2012/10/23 0:00:00,3,Isra Deblauwe,"50,992564","5,632722",tyre,Maasmechelen,next to car cemetry Armand Lowie
-M2L025Oct,Culex,Larva,M2L025,NA,pipiens/torrentium,EL207,,2012/10/23 0:00:00,6,Isra Deblauwe,"50,992564","5,632722",tyre,Maasmechelen,next to car cemetry Armand Lowie
-M2L026Oct,Culex,Larva,M2L026,NA,pipiens/torrentium,EL208,,2012/10/23 0:00:00,5,Isra Deblauwe,"50,995305","5,634417",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L026Oct,Culiseta,Larva,M2L026,NA,annulata,EL209,1 small larvae,2012/10/23 0:00:00,9,Isra Deblauwe,"50,995305","5,634417",plastic sheet,Maasmechelen,Grondzorg Limburg NV at end of road next to Mechelse Bos
-M2L019Oct,Culex,Adult,M2L019,M,pipiens,EL210,,2012/10/23 0:00:00,1,Isra Deblauwe,"50,996691","5,621658",bucket,Maasmechelen,on private property of APK Infra & Bouw
-N1L009Oct,Aedes,Adult,N1L009,F,j. japonicus,EL211,1 leg broken,2012/10/23 0:00:00,1,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L009Oct,Aedes,Adult,N1L009,F,j. japonicus,EL212,few legs,2012/10/23 0:00:00,1,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-M2L010Oct,Culex,Larva,M2L010,NA,pipiens/torrentium,EL213,"bucket 2, 1 pupa",2012/10/23 0:00:00,12,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L010Oct,Culiseta,Larva,M2L010,NA,annulata,EL214,bucket 2,2012/10/23 0:00:00,13,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L010Oct,Culex,Larva,M2L010,NA,pipiens/torrentium,EL215,bucket 1,2012/10/23 0:00:00,25,Isra Deblauwe,"50,959876","5,56041",water through,Zutendaal,"in meadow, Wiemesmeer"
-M2L016Oct,Culex,Larva,M2L016,NA,pipiens/torrentium,EL216,metal water through,2012/10/23 0:00:00,4,Isra Deblauwe,"51,015543","5,597542",water through,As,"Niel-bij-As, in meadow"
-M2L017Oct,Culex,Larva,M2L017,NA,pipiens/torrentium,EL217,,2012/10/25 0:00:00,1,Isra Deblauwe,"51,01663","5,600211",water through,As,"Niel-bij-As, in meadow"
-M2L033Oct,Culex,Larva,M2L033,NA,pipiens/torrentium,EL218,,2012/10/25 0:00:00,13,Isra Deblauwe,"51,016436","5,589155",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)"
-M2L033Oct,Culiseta,Larva,M2L033,NA,annulata,EL219,,2012/10/25 0:00:00,18,Isra Deblauwe,"51,016436","5,589155",plastic container,As,"Niel-bij-As, next to meadow (next to M2L015)"
-M2L035Oct,Culex,Larva,M2L035,NA,pipiens/torrentium,EL220,,2012/10/25 0:00:00,1,Isra Deblauwe,"50,996316","5,621583",bucket,Maasmechelen,"black bucket, on private property of APK Infra & Bouw"
-M2L037Oct,Culex,Larva,M2L037,NA,pipiens/torrentium,EL221,,2012/10/25 0:00:00,25,Isra Deblauwe,"51,003673","5,634747",water trough,Dilsen-Stokkem,horse meadow with a lot of water troughs
-M2L020Oc1,Aedes,Adult,M2L020,F,koreicus,EL222,in collection,2012/10/25 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Oc1,Aedes,Adult,M2L020,F,koreicus,EL223,in collection,2012/10/25 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Oc1,Aedes,Adult,M2L020,F,koreicus,EL224,complete,2012/10/25 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Oc1,Aedes,Adult,M2L020,M,koreicus,EL225,in collection,2012/10/25 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-ATL001Oct,Culex,Larva,ATL001,NA,pipiens/torrentium,EL226,,2012/10/25 0:00:00,60,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-ATL001Oct,Aedes,Larva,ATL001,NA,geniculatus,EL227,,2012/10/25 0:00:00,1,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-ATL001Oct,Anopheles,Larva,ATL001,NA,plumbeus,EL228,Small larvae,2012/10/25 0:00:00,4,Isra Deblauwe,"51,213511","4,193505",tyre,Beveren,Vrasene
-M2L022Oc2,Aedes,Larva,M2L022,NA,koreicus,EL229,,2012/10/25 0:00:00,2,Isra Deblauwe,"50,997734","5,622481",plastic sheet,Maasmechelen,APK Infra & Bouw
-M2L023Oct,Culex,Larva,M2L023,NA,pipiens/torrentium,EL230,,2012/10/25 0:00:00,2,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L023Oct,Anopheles,Larva,M2L023,NA,plumbeus,EL231,,2012/10/25 0:00:00,32,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L040Oct,Culex,Larva,M2L040,NA,pipiens/torrentium,EL232,,2012/10/25 0:00:00,11,Isra Deblauwe,"50,994709","5,674278",water recipient for flowers,Maasmechelen,cemetry
-M2L039Oct,Culex,Larva,M2L039,NA,pipiens/torrentium,EL233,,2012/10/25 0:00:00,9,Isra Deblauwe,"50,994426","5,604197",tyre,Maasmechelen,Sand and gravel quarry
-M2L038Oct,Culex,Larva,M2L038,NA,pipiens/torrentium,EL234,1 pupa,2012/10/25 0:00:00,17,Isra Deblauwe,"50,997802","5,605077",metal container,Maasmechelen,Sand and gravel quarry
-N1L001Oc1,Culex,Larva,N1L001,NA,pipiens/torrentium,EL235,"right, in front",2012/10/25 0:00:00,61,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Oc1,Aedes,Larva,N1L001,NA,j. japonicus,EL236,"right, in front",2012/10/25 0:00:00,9,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Oc1,Culex,Larva,N1L001,NA,h. hortensis,EL237,"right, in front",2012/10/25 0:00:00,6,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Oc1,Aedes,Larva,N1L001,NA,j. japonicus,EL238,"left, in front",2012/10/25 0:00:00,15,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L004Oct,Culex,Larva,N1L004,NA,pipiens/torrentium,EL239,"in front, a lot of small larvae",2012/10/25 0:00:00,25,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Oct,Anopheles,Larva,N1L004,NA,plumbeus,EL240,in front,2012/10/25 0:00:00,7,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Oct,Aedes,Larva,N1L004,NA,geniculatus,EL241,"at the back, tyres in meadow",2012/10/31 0:00:00,3,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Oct,Culex,Larva,N1L004,NA,pipiens/torrentium,EL242,"at the back, tyres in meadow",2012/10/31 0:00:00,7,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Oct,Anopheles,Larva,N1L004,NA,plumbeus,EL243,"at the back, tyres in meadow",2012/10/31 0:00:00,36,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Oct,Culex,Larva,N1L004,NA,pipiens/torrentium,EL244,at the back (2/27),2012/10/31 0:00:00,28,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L009Oct,Aedes,Larva,N1L009,NA,j. japonicus,EL245,"rain water barrel, small larva",2012/10/31 0:00:00,1,Isra Deblauwe,"50,331197","5,031301",rain water barrel,Ciney,"Vincon, + 2 buckets"
-N1L010Oct,Culex,Larva,N1L010,NA,pipiens/torrentium,EL246,"tyres on old silage, 1 pupa",2012/10/31 0:00:00,21,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L010Oct,Culex,Larva,N1L010,NA,pipiens/torrentium,EL247,tyres on new silage + stable,2012/10/31 0:00:00,17,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L001Oc1,Culex,Larva,N1L001,NA,pipiens/torrentium,EL248,"right, at the back",2012/10/31 0:00:00,191,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Oc1,Aedes,Larva,N1L001,NA,j. japonicus,EL249,"right, at the back",2012/10/31 0:00:00,25,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Oc1,Anopheles,Larva,N1L001,NA,plumbeus,EL250,"right, at the back, small larva",2012/10/31 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L010Oct,Culiseta,Larva,N1L010,NA,annulata,EL251,tyres on new silage + stable,2012/10/31 0:00:00,1,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L019Oct,Culex,Larva,N1L019,NA,pipiens/torrentium,EL252,plastic sheet,2012/10/31 0:00:00,1,Isra Deblauwe,"50,331517","5,032999",plastic sheet,Ciney,plastic on ground
-N1L022Oct,Culex,Larva,N1L022,NA,pipiens/torrentium,EL253,in front,2012/10/31 0:00:00,93,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-N1L022Oct,Culiseta,Larva,N1L022,NA,annulata,EL254,in front,2012/10/31 0:00:00,1,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-N1L022Oct,Culex,Larva,N1L022,NA,pipiens/torrentium,EL255,on courtyard,2012/10/31 0:00:00,54,Isra Deblauwe,"50,301707","4,994397",tyre,Yvoir,"farm, tyres in grass and on silage"
-M2L020Oc2,Culex,Larva,M2L020,NA,pipiens/torrentium,EL256,,2012/10/31 0:00:00,3,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L002Oc2,Culex,Larva,M2L002,NA,pipiens/torrentium,EL257,,2012/10/31 0:00:00,4,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-N1L023Oct,Culex,Larva,N1L023,NA,pipiens/torrentium,EL258,,2012/10/31 0:00:00,1,Isra Deblauwe,"50,270289","4,985958",water trough,Dinant,
-N1L030Oc1,Culex,Larva,N1L030,NA,pipiens/torrentium,EL259,,2012/10/31 0:00:00,17,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L030Oc1,Aedes,Larva,N1L030,NA,j. japonicus,EL260,,2012/10/31 0:00:00,1,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L001Oc2,Culex,Larva,N1L001,NA,pipiens/torrentium,EL261,at the back,2012/10/31 0:00:00,4,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L018Oct,Culex,Larva,N1L018,NA,pipiens/torrentium,EL262,,2012/10/31 0:00:00,10,Isra Deblauwe,"50,3649676625777","4,9985009538961",tyre,Assesse,tyres next to field
-N1L027Oct,Culex,Larva,N1L027,NA,pipiens/torrentium,EL263,,2012/10/31 0:00:00,46,Isra Deblauwe,"50,3649676625777","4,9985009538961",plastic container,Assesse,next to N1L018
-N1L029Oct,Culex,Larva,N1L029,NA,pipiens/torrentium,EL264,,2012/10/31 0:00:00,2,Isra Deblauwe,"50,363868","5,041324",water trough,Assesse,
-N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL265,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL266,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL267,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L030Oc2,Culex,Adult,N1L030,F,pipiens,EL268,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L030Oc2,Aedes,Adult,N1L030,F,j. japonicus,EL269,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L001Oc2,Aedes,Adult,N1L001,F,j. japonicus,EL270,at the back,2012/11/5 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Oc2,Aedes,Adult,N1L001,M,j. japonicus,EL271,at the back,2012/11/5 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-M2L002Oc2,Culex,Adult,M2L002,F,pipiens,EL272,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L020Oc2,Culex,Adult,M2L020,M,pipiens,EL273,fallen in water after eclosion,2012/11/5 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Oc2,Culex,Adult,M2L020,M,pipiens,EL274,fallen in water after eclosion,2012/11/5 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-M2L020Oc2,Culex,Adult,M2L020,F,pipiens,EL275,fallen in water after eclosion,2012/11/5 0:00:00,1,Isra Deblauwe,"50,996136","5,621494",metal container,Maasmechelen,on private property of APK Infra & Bouw
-N1L001Oc2,Culex,Larva,N1L001,NA,pipiens/torrentium,EL276,"right, in front",2012/11/5 0:00:00,12,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Oc2,Aedes,Adult,N1L001,F,j. japonicus,EL277,at the back,2012/11/5 0:00:00,1,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-M2L002Oc2,Culex,Adult,M2L002,F,pipiens,EL278,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,996695","5,621543",tyre,Maasmechelen,
-M2L022Oc2,Aedes,Adult,M2L022,F,koreicus,EL279,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,997734","5,622481",plastic sheet,Maasmechelen,APK Infra & Bouw
-M2L022Oc2,Aedes,Adult,M2L022,M,koreicus,EL280,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,997734","5,622481",plastic sheet,Maasmechelen,APK Infra & Bouw
-M2L023Oct,Culex,Adult,M2L023,F,torrentium,EL281,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L023Oct,Culex,Adult,M2L023,F,torrentium,EL282,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL283,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,997802","5,605077",metal container,Maasmechelen,Sand and gravel quarry
-M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL284,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,997802","5,605077",metal container,Maasmechelen,Sand and gravel quarry
-M2L038Oct,Culex,Adult,M2L038,M,torrentium,EL285,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,997802","5,605077",metal container,Maasmechelen,Sand and gravel quarry
-M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL286,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,997802","5,605077",metal container,Maasmechelen,Sand and gravel quarry
-M2L038Oct,Culex,Adult,M2L038,F,pipiens,EL287,,2012/11/5 0:00:00,1,Isra Deblauwe,"50,997802","5,605077",metal container,Maasmechelen,Sand and gravel quarry
-M2L023Oct,Culex,Adult,M2L023,M,pipiens/torrentium,EL288,1 prealar scale,2012/11/6 0:00:00,1,Isra Deblauwe,"50,994774","5,672062",tyre,Maasmechelen,close to road
-N1L030Oc2,Aedes,Adult,N1L030,F,j. japonicus,EL289,in collection,2012/11/6 0:00:00,1,Isra Deblauwe,"50,331272","5,03139",plant box,Ciney,"Vincon, at entry, stone plant box"
-N1L001Ap1,Aedes,Larva,N1L001,NA,j. japonicus,EL290,,2012/4/17 0:00:00,122,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L001Ap1,Aedes,Larva,N1L001,NA,geniculatus,EL291,,2012/4/17 0:00:00,319,Isra Deblauwe,"50,339200617","5,0457397",tyre,Hamois,"Natoye, Havelange"
-N1L004Ap1,Aedes,Larva,N1L004,NA,geniculatus,EL292,,2012/4/17 0:00:00,100,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L011Ap1,Aedes,Larva,N1L011,NA,j. japonicus,EL293,,2012/4/18 0:00:00,49,Isra Deblauwe,"50,327532","5,035719",water trough,Ciney,"Reuleau, open tank"
-N1L012Ap1,Aedes,Larva,N1L012,NA,j. japonicus,EL294,,2012/4/18 0:00:00,1,Isra Deblauwe,"50,328419","5,028772",tyre,Ciney,"Vincon, tyres in field"
-N1L010Apr,Culiseta,Larva,N1L010,NA,annulata,EL295,,2012/4/18 0:00:00,24,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L010Apr,Culex,Larva,N1L010,NA,pipiens/torrentium,EL296,,2012/4/18 0:00:00,1,Isra Deblauwe,"50,3316001165932","5,0328486104137",tyre,Ciney,"Vincon, on silage & next to stable"
-N1L004Ap1,Culiseta,Larva,N1L004,NA,annulata,EL297,small larvae (unid sp.1),2012/4/17 0:00:00,19,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
-N1L004Ap2,Aedes,Larva,N1L004,NA,geniculatus,EL298,,2012/4/30 0:00:00,9,Isra Deblauwe,"50,3358627277969","5,0716363022496",tyre,Hamois,"Natoye, N2 Sarri Pneus"
+occurrenceID,type,basisOfRecord,eventID,lifeStage,locationID,sex,scientificName,genus,specificEpithet,identificationRemarks,occurrenceRemarks,dateIdentified,individualCount,identifiedBy,decimalLatitude,decimalLongitude
+ITG:MOSQ:LARV:EL001,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L018Jun,larvae,N1L018,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,also 2 pupae,2012/7/24,2,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL002,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Ju2,adult,N1L010,male,Aedes japonicus japonicus,Aedes,japonicus japonicus,,tyres on silage,2012/7/5,1,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL003,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Ju2,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres on silage,2012/7/5,6,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL004,event,preservedSpecimen,ITG:MOSQ:LARV:EV:VPL001Jun,larvae,VPL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/7/5,4,Isra Deblauwe,50.585328,5.259748
+ITG:MOSQ:LARV:EL005,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L001Jul,larvae,M2L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,a lot of small larvae,2012/7/26,37,Isra Deblauwe,50.996036,5.620467
+ITG:MOSQ:LARV:EL006,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Jul,larvae,M2L002,unknown,Aedes koreicus,Aedes,koreicus,,+ 1 pupa,2012/7/26,13,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL007,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L003Jul,larvae,M2L003,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,a lot of small larvae,2012/7/26,27,Isra Deblauwe,50.991993,5.624796
+ITG:MOSQ:LARV:EL008,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L004Jul,larvae,M2L004,unknown,Aedes koreicus,Aedes,koreicus,,+ pupae,2012/7/26,20,Isra Deblauwe,50.989847,5.63037
+ITG:MOSQ:LARV:EL009,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L004Jul,larvae,M2L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/7/26,7,Isra Deblauwe,50.989847,5.63037
+ITG:MOSQ:LARV:EL010,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L009Jul,larvae,M2L009,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"a lot of small larvae, + 5 pupae",2012/7/26,65,Isra Deblauwe,50.950262,5.56362
+ITG:MOSQ:LARV:EL011,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Jul,larvae,M2L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 already dead,2012/7/26,2,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL012,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L011Jul,larvae,M2L011,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,a lot of small larvae,2012/7/26,38,Isra Deblauwe,50.959844,5.560445
+ITG:MOSQ:LARV:EL013,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L013Jul,larvae,M2L013,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,also small larvae,2012/7/26,35,Isra Deblauwe,50.96364,5.554471
+ITG:MOSQ:LARV:EL014,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L014Jul,larvae,M2L014,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,a lot of small larvae,2012/7/30,107,Isra Deblauwe,51.014708,5.588637
+ITG:MOSQ:LARV:EL015,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L015Jul,larvae,M2L015,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,2 pupae,2012/7/31,47,Isra Deblauwe,51.016441,5.589064
+ITG:MOSQ:LARV:EL016,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Jul,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,from both sides of building,2012/7/30,47,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL017,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Jul,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,from both sides of building,2012/7/30,7,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL018,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Jul,larvae,N1L001,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,from both sides of building,2012/7/30,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL019,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L002Jul,larvae,N1L002,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,,2012/7/30,5,Isra Deblauwe,50.338784,5.044747
+ITG:MOSQ:LARV:EL020,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L002Jul,larvae,N1L002,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/8/9,1,Isra Deblauwe,50.338784,5.044747
+ITG:MOSQ:LARV:EL021,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Jul,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres on silage,2012/7/30,18,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL022,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Jul,larvae,N1L010,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,tyres next to stable,2012/7/30,2,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL023,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Jul,larvae,N1L009,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"decomposed, a lot of small larvae",2012/7/30,47,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL024,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L020Jul,larvae,N1L020,unknown,Anopheles maculipennis/messae,Anopheles,maculipennis/messae,determination uncertain,,2012/7/30,2,Isra Deblauwe,50.315843,5.00615
+ITG:MOSQ:LARV:EL025,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Jul,larvae,N1L022,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,2 pupae,2012/7/30,39,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL026,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L023Jul,larvae,N1L023,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 pupa,2012/7/31,28,Isra Deblauwe,50.270289,4.985958
+ITG:MOSQ:LARV:EL027,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L007Jul,larvae,M2L007,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/7/31,20,Isra Deblauwe,50.972468,5.653667
+ITG:MOSQ:LARV:EL028,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Jul,larvae,TRL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,3 pupae,2012/7/31,36,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL029,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Jul,larvae,TRL001,unknown,Aedes geniculatus,Aedes,geniculatus,,,2012/7/31,1,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL030,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L016Jul,larvae,M2L016,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/2,33,Isra Deblauwe,51.015543,5.597542
+ITG:MOSQ:LARV:EL031,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L006Jul,larvae,M2L006,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/2,39,Isra Deblauwe,50.995636,5.634575
+ITG:MOSQ:LARV:EL032,event,preservedSpecimen,ITG:MOSQ:LARV:EV:DIL001Aug,larvae,DIL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/2,58,Isra Deblauwe,51.039147,5.398155
+ITG:MOSQ:LARV:EL033,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Au1,larvae,TRL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/2,49,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL034,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L020Jul,larvae,N1L020,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/7/31,2,Isra Deblauwe,50.315843,5.00615
+ITG:MOSQ:LARV:EL035,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au1,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,also 9/8/12 ID,2012/8/8,138,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL036,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au1,larvae,N1L004,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/8/10,2,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL037,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Au1,larvae,ATL001,unknown,Aedes geniculatus,Aedes,geniculatus,,,2012/8/8,1,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL038,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Au1,larvae,ATL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/8,5,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL039,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Au1,larvae,ATL001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,1 broken,2012/8/8,4,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL040,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L007Jul,larvae,M2L007,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/8,11,Isra Deblauwe,50.972468,5.653667
+ITG:MOSQ:LARV:EL041,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L019Jul,larvae,N1L019,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,on plastic sheet,2012/8/8,24,Isra Deblauwe,50.331517,5.032999
+ITG:MOSQ:LARV:EL042,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L012Jul,larvae,M2L012,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/9,34,Isra Deblauwe,50.963654,5.554426
+ITG:MOSQ:LARV:EL043,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Au1,larvae,TRL001,unknown,Culiseta annulata,Culiseta,annulata,,,2012/8/9,8,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL044,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Au1,larvae,TRL001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/8/9,1,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL045,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL002Au1,larvae,TRL002,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/9,26,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL046,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL002Au1,larvae,TRL002,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,,2012/8/9,1,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL047,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL002Au1,larvae,TRL002,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/8/9,33,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL048,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Ju2,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres next to stable,2012/8/9,7,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL049,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L011Ju2,larvae,N1L011,unknown,Anopheles maculipennis/messae,Anopheles,maculipennis/messae,determination uncertain,,2012/8/9,14,Isra Deblauwe,50.327532,5.035719
+ITG:MOSQ:LARV:EL050,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Ju2,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/9,2,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL051,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L016Jun,adult,N1L016,female,Aedes geniculatus,Aedes,geniculatus,,,2012/8/9,1,Isra Deblauwe,50.3404118069542,5.0640483970491
+ITG:MOSQ:LARV:EL052,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L016Jun,larvae,N1L016,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/9,27,Isra Deblauwe,50.3404118069542,5.0640483970491
+ITG:MOSQ:LARV:EL053,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L016Jun,larvae,N1L016,unknown,Culiseta annulata,Culiseta,annulata,,,2012/8/9,3,Isra Deblauwe,50.3404118069542,5.0640483970491
+ITG:MOSQ:LARV:EL054,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Ju1,larvae,N1L004,unknown,Aedes geniculatus,Aedes,geniculatus,,tyres at the back,2012/8/9,2,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL055,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Ju1,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"tyres at the back, 1 pupa/mosquito & 7 pupae",2012/8/10,64,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL056,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L015Jun,larvae,N1L015,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/10,19,Isra Deblauwe,50.346665,5.035574
+ITG:MOSQ:LARV:EL057,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L014Jun,larvae,N1L014,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,+ 1 pupa,2012/8/10,18,Isra Deblauwe,50.32406,5.027415
+ITG:MOSQ:LARV:EL058,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Ju2,adult,N1L001,female,Culex torrentium,Culex,torrentium,,,2012/8/9,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL059,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Ju2,adult,N1L009,female,Culex pipiens,Culex,pipiens,determination uncertain,"rain water barrel, broken",2012/8/10,1,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL060,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Ju2,adult,N1L009,female,Culex torrentium,Culex,torrentium,,rain water barrel,2012/8/10,1,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL061,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Ju2,adult,N1L009,male,Culex pipiens,Culex,pipiens,determination uncertain,"rain water barrel, broken",2012/8/10,1,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL062,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L018Jun,adult,N1L018,male,Culex torrentium,Culex,torrentium,,,2012/8/10,1,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL063,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L018Jun,adult,N1L018,male,Culex torrentium,Culex,torrentium,,,2012/8/10,1,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL064,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L020Jul,adult,N1L020,female,Culex pipiens,Culex,pipiens,,,2012/8/13,1,Isra Deblauwe,50.315843,5.00615
+ITG:MOSQ:LARV:EL065,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L020Jul,adult,N1L020,female,Culex torrentium,Culex,torrentium,,,2012/8/13,1,Isra Deblauwe,50.315843,5.00615
+ITG:MOSQ:LARV:EL066,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L020Jul,adult,N1L020,female,Culex pipiens,Culex,pipiens,,,2012/8/13,1,Isra Deblauwe,50.315843,5.00615
+ITG:MOSQ:LARV:EL067,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L011May,adult,N1L011,female,Aedes japonicus japonicus,Aedes,japonicus japonicus,,broken,2012/8/13,1,Isra Deblauwe,50.327532,5.035719
+ITG:MOSQ:LARV:EL068,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L019Aug,adult,N1L019,male,Culex pipiens,Culex,pipiens,,on plastic sheet,2012/9/5,1,Isra Deblauwe,50.331517,5.032999
+ITG:MOSQ:LARV:EL069,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L028Aug,larvae,N1L028,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 pupa,2012/9/7,37,Isra Deblauwe,50.34128,5.048784
+ITG:MOSQ:LARV:EL070,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L012Aug,larvae,N1L012,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,very small larvae,2012/9/7,13,Isra Deblauwe,50.328419,5.028772
+ITG:MOSQ:LARV:EL071,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L012Aug,larvae,N1L012,unknown,Aedes geniculatus,Aedes,geniculatus,determination uncertain,very small larvae,2012/9/7,6,Isra Deblauwe,50.328419,5.028772
+ITG:MOSQ:LARV:EL072,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Aug,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"left, tyre 23",2012/9/11,41,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL073,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Aug,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"left, 2 tyres",2012/9/11,5,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL074,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Aug,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"left, 2 tyres",2012/9/11,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL075,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Aug,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"left, tyre 26, very small larvae",2012/9/11,25,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL076,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Aug,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"right, back",2012/9/11,36,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL077,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Aug,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"right, back",2012/9/11,2,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL078,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,in front,2012/9/12,18,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL079,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,in middle at the back,2012/9/12,17,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL080,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Anopheles plumbeus,Anopheles,plumbeus,,in middle at the back,2012/9/12,2,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL081,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"end at the back, small larvae",2012/9/12,25,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL082,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Anopheles plumbeus,Anopheles,plumbeus,,"end at the back, small larvae",2012/9/12,1,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL083,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"end at the back, small larvae",2012/9/12,1,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL084,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"end at the back, small larvae",2012/9/12,10,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL085,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,end at the back,2012/9/12,76,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL086,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Au2,larvae,N1L004,unknown,Anopheles plumbeus,Anopheles,plumbeus,,end at the back,2012/9/12,2,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL087,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Sep,larvae,TRL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/8/12,39,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL088,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Sep,larvae,TRL001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,1 pupa,2012/8/12,32,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL089,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Aug,larvae,N1L009,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,bucket,2012/9/12,34,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL090,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Aug,larvae,N1L009,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"rain water barrel, very small larvae",2012/9/12,19,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL091,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Aug,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"tyres on silage, a lot of small larvae",2012/9/12,85,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL092,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L019Aug,larvae,N1L019,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,plastic sheet,2012/9/12,14,Isra Deblauwe,50.331517,5.032999
+ITG:MOSQ:LARV:EL093,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L018Aug,larvae,N1L018,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres,2012/9/12,101,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL094,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L018Aug,larvae,N1L018,unknown,Culiseta annulata,Culiseta,annulata,,tyres,2012/9/12,9,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL095,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L027Aug,larvae,N1L027,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,2 blue plastic containers,2012/9/12,39,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL096,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L027Aug,larvae,N1L027,unknown,Culiseta annulata,Culiseta,annulata,,2 blue plastic containers,2012/9/12,3,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL097,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L020Aug,larvae,N1L020,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,+ 3 small larvae?,2012/9/12,6,Isra Deblauwe,50.315843,5.00615
+ITG:MOSQ:LARV:EL098,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Aug,larvae,N1L022,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,in front,2012/9/12,17,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL099,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Aug,larvae,N1L022,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,on courtyard,2012/9/12,43,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL100,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L023Aug,larvae,N1L023,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,a lot of small larvae,2012/9/12,31,Isra Deblauwe,50.270289,4.985958
+ITG:MOSQ:LARV:EL101,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L023Aug,larvae,N1L023,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,,2012/9/12,8,Isra Deblauwe,50.270289,4.985958
+ITG:MOSQ:LARV:EL102,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L025Aug,larvae,N1L025,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,+ 6 pupae,2012/9/13,53,Isra Deblauwe,50.311804,4.978475
+ITG:MOSQ:LARV:EL103,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L024Aug,larvae,N1L024,unknown,Anopheles maculipennis/messae,Anopheles,maculipennis/messae,determination uncertain,,2012/9/13,1,Isra Deblauwe,50.311804,4.978475
+ITG:MOSQ:LARV:EL104,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Aug,larvae,M2L002,unknown,Aedes koreicus,Aedes,koreicus,,,2012/9/13,6,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL105,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L004Aug,larvae,M2L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/13,13,Isra Deblauwe,50.989847,5.63037
+ITG:MOSQ:LARV:EL106,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L004Aug,larvae,M2L004,unknown,Aedes koreicus,Aedes,koreicus,,,2012/9/13,12,Isra Deblauwe,50.989847,5.63037
+ITG:MOSQ:LARV:EL107,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L006Aug,larvae,M2L006,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/13,1,Isra Deblauwe,50.995636,5.634575
+ITG:MOSQ:LARV:EL108,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L006Aug,larvae,M2L006,unknown,Aedes koreicus,Aedes,koreicus,,,2012/9/13,3,Isra Deblauwe,50.995636,5.634575
+ITG:MOSQ:LARV:EL109,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Aug,larvae,M2L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/13,19,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL110,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L019Aug,larvae,M2L019,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/13,9,Isra Deblauwe,50.996691,5.621658
+ITG:MOSQ:LARV:EL111,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L019Aug,larvae,M2L019,unknown,Aedes koreicus,Aedes,koreicus,,,2012/9/13,1,Isra Deblauwe,50.996691,5.621658
+ITG:MOSQ:LARV:EL112,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Aug,larvae,M2L020,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/13,2,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL113,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Aug,larvae,M2L020,unknown,Aedes koreicus,Aedes,koreicus,,,2012/9/13,8,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL114,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L021Aug,larvae,M2L021,unknown,Aedes koreicus,Aedes,koreicus,,,2012/9/13,1,Isra Deblauwe,50.9977608044105,5.6225054870487
+ITG:MOSQ:LARV:EL115,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Aug,larvae,M2L023,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/13,11,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL116,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Aug,larvae,M2L023,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/9/13,8,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL117,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L024Aug,larvae,M2L024,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,open bidon,2012/9/13,42,Isra Deblauwe,50.992849,5.633004
+ITG:MOSQ:LARV:EL118,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L024Aug,larvae,M2L024,unknown,Culiseta annulata,Culiseta,annulata,,open bidon,2012/9/13,1,Isra Deblauwe,50.992849,5.633004
+ITG:MOSQ:LARV:EL119,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L024Aug,larvae,M2L024,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,white plate,2012/9/13,18,Isra Deblauwe,50.992849,5.633004
+ITG:MOSQ:LARV:EL120,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L024Aug,larvae,M2L024,unknown,Aedes koreicus,Aedes,koreicus,,white plate,2012/9/13,26,Isra Deblauwe,50.992849,5.633004
+ITG:MOSQ:LARV:EL121,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L025Aug,larvae,M2L025,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyre,2012/9/13,5,Isra Deblauwe,50.992564,5.632722
+ITG:MOSQ:LARV:EL122,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L025Aug,larvae,M2L025,unknown,Culiseta annulata,Culiseta,annulata,,tyre,2012/9/13,3,Isra Deblauwe,50.992564,5.632722
+ITG:MOSQ:LARV:EL123,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L026Aug,larvae,M2L026,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,yellow sheet,2012/9/13,69,Isra Deblauwe,50.995305,5.634417
+ITG:MOSQ:LARV:EL124,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L026Aug,larvae,M2L026,unknown,Aedes koreicus,Aedes,koreicus,,yellow sheet,2012/9/13,8,Isra Deblauwe,50.995305,5.634417
+ITG:MOSQ:LARV:EL125,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L022Aug,larvae,M2L022,unknown,Aedes koreicus,Aedes,koreicus,,,2012/9/13,33,Isra Deblauwe,50.997734,5.622481
+ITG:MOSQ:LARV:EL126,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL002Au2,larvae,TRL002,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/14,8,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL127,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL002Au2,larvae,TRL002,unknown,Anopheles plumbeus,Anopheles,plumbeus,,1 pupa,2012/9/14,3,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL128,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Au2,larvae,TRL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/14,21,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL129,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Au2,larvae,TRL001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/9/14,4,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL130,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Au2,larvae,TRL001,unknown,Culiseta annulata,Culiseta,annulata,,small larvae,2012/9/14,2,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL131,event,preservedSpecimen,ITG:MOSQ:LARV:EV:VPL001Aug,larvae,VPL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/14,6,Isra Deblauwe,50.585328,5.259748
+ITG:MOSQ:LARV:EL132,event,preservedSpecimen,ITG:MOSQ:LARV:EV:VPL001Sep,larvae,VPL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/14,80,Isra Deblauwe,50.585328,5.259748
+ITG:MOSQ:LARV:EL133,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Au2,larvae,ATL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/14,16,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL134,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Au2,larvae,ATL001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/9/14,3,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL135,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Sep,larvae,ATL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/9/14,17,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL136,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L028Sep,larvae,N1L028,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,small larvae,2012/10/1,6,Isra Deblauwe,50.34128,5.048784
+ITG:MOSQ:LARV:EL137,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L027Sep,larvae,N1L027,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,small larvae,2012/10/1,81,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL138,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L018Sep,larvae,N1L018,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/1,32,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL139,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L023Sep,larvae,N1L023,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,,2012/10/1,2,Isra Deblauwe,50.270289,4.985958
+ITG:MOSQ:LARV:EL140,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L023Sep,larvae,N1L023,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/1,3,Isra Deblauwe,50.270289,4.985958
+ITG:MOSQ:LARV:EL141,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L029Sep,larvae,N1L029,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/1,109,Isra Deblauwe,50.363868,5.041324
+ITG:MOSQ:LARV:EL142,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Sep,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"left, in front",2012/10/1,33,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL143,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Sep,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"right, back",2012/10/1,100,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL144,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Sep,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"right, back",2012/10/1,7,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL145,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Sep,larvae,N1L001,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,"right, back",2012/10/1,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL146,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Sep,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,in front,2012/10/1,34,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL147,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Sep,larvae,N1L004,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,in front,2012/10/1,3,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL148,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Sep,larvae,N1L004,unknown,Anopheles plumbeus,Anopheles,plumbeus,,"in front, small larvae",2012/10/1,2,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL149,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Sep,larvae,N1L004,unknown,Culiseta annulata,Culiseta,annulata,,in front,2012/10/1,2,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL150,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Sep,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,at the back,2012/10/2,25,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL151,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Sep,larvae,N1L009,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,rain water barrel,2012/10/2,14,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL152,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Sep,larvae,N1L009,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,rain water barrel,2012/10/2,2,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL153,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Sep,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres next to stable,2012/10/2,12,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL154,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Sep,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres on silage,2012/10/2,42,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL155,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Sep,larvae,N1L010,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,tyres on silage,2012/10/2,1,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL156,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Sep,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres at the back,2012/10/2,7,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL157,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L019Sep,larvae,N1L019,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,plastic sheet,2012/10/2,53,Isra Deblauwe,50.331517,5.032999
+ITG:MOSQ:LARV:EL158,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Sep,larvae,N1L022,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,in front,2012/10/2,90,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL159,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Sep,larvae,N1L022,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,on courtyard,2012/10/2,85,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL160,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Se1,larvae,M2L002,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/2,5,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL161,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Se1,larvae,M2L002,unknown,Culiseta annulata,Culiseta,annulata,,,2012/10/2,8,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL162,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Se1,larvae,M2L002,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,2,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL163,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Se1,larvae,M2L002,unknown,Culiseta annulata,Culiseta,annulata,determination uncertain,small larvae (unidentified sp.2) + 1 pupa,2012/10/2,3,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL164,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Sep,larvae,M2L020,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/2,41,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL165,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Sep,larvae,M2L020,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,16,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL166,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L021Sep,larvae,M2L021,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,24,Isra Deblauwe,50.9977608044105,5.6225054870487
+ITG:MOSQ:LARV:EL167,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L019Sep,larvae,M2L019,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/2,26,Isra Deblauwe,50.996691,5.621658
+ITG:MOSQ:LARV:EL168,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L019Sep,larvae,M2L019,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,2,Isra Deblauwe,50.996691,5.621658
+ITG:MOSQ:LARV:EL169,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L022Sep,larvae,M2L022,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,5,Isra Deblauwe,50.997734,5.622481
+ITG:MOSQ:LARV:EL170,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L004Sep,larvae,M2L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/2,46,Isra Deblauwe,50.989847,5.63037
+ITG:MOSQ:LARV:EL171,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L004Sep,larvae,M2L004,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,1,Isra Deblauwe,50.989847,5.63037
+ITG:MOSQ:LARV:EL172,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L003Sep,larvae,M2L003,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/2,8,Isra Deblauwe,50.991993,5.624796
+ITG:MOSQ:LARV:EL173,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L003Sep,larvae,M2L003,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,1,Isra Deblauwe,50.991993,5.624796
+ITG:MOSQ:LARV:EL174,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L024Sep,larvae,M2L024,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,open bidon,2012/10/2,24,Isra Deblauwe,50.992849,5.633004
+ITG:MOSQ:LARV:EL175,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L025Sep,larvae,M2L025,unknown,Culiseta annulata,Culiseta,annulata,,tyres,2012/10/2,2,Isra Deblauwe,50.992564,5.632722
+ITG:MOSQ:LARV:EL176,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L026Sep,larvae,M2L026,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,yellow sheet,2012/10/2,28,Isra Deblauwe,50.995305,5.634417
+ITG:MOSQ:LARV:EL177,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L029Sep,larvae,M2L029,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/2,26,Isra Deblauwe,50.996684,5.621599
+ITG:MOSQ:LARV:EL178,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L029Sep,larvae,M2L029,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,small larvae,2012/10/2,16,Isra Deblauwe,50.996684,5.621599
+ITG:MOSQ:LARV:EL179,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L030Sep,larvae,M2L030,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,+ 1 pupa,2012/10/2,13,Isra Deblauwe,50.99201,5.624144
+ITG:MOSQ:LARV:EL180,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Sep,larvae,M2L023,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 pupa,2012/10/2,15,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL181,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Sep,larvae,M2L023,unknown,Anopheles plumbeus,Anopheles,plumbeus,,a lot of small larvae,2012/10/2,36,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL182,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L009Sep,larvae,M2L009,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/3,5,Isra Deblauwe,50.950262,5.56362
+ITG:MOSQ:LARV:EL183,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Sep,larvae,M2L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,bucket 1,2012/10/3,19,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL184,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Sep,larvae,M2L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,bucket 2,2012/10/3,28,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL185,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Sep,larvae,M2L010,unknown,Culiseta annulata,Culiseta,annulata,,"bucket 2, + small larvae (unidentified sp.2)",2012/10/3,9,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL186,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L016Sep,larvae,M2L016,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/3,31,Isra Deblauwe,51.015543,5.597542
+ITG:MOSQ:LARV:EL187,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L017Sep,larvae,M2L017,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/3,26,Isra Deblauwe,51.01663,5.600211
+ITG:MOSQ:LARV:EL188,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L033Sep,larvae,M2L033,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/3,29,Isra Deblauwe,51.016436,5.589155
+ITG:MOSQ:LARV:EL189,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L033Sep,larvae,M2L033,unknown,Culiseta annulata,Culiseta,annulata,,+ small larvae (unidentified sp.2),2012/10/3,15,Isra Deblauwe,51.016436,5.589155
+ITG:MOSQ:LARV:EL190,event,preservedSpecimen,ITG:MOSQ:LARV:EV:VPL001Oct,larvae,VPL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 pupa,2012/10/18,59,Isra Deblauwe,50.585328,5.259748
+ITG:MOSQ:LARV:EL191,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Oct,larvae,TRL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/18,9,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL192,event,preservedSpecimen,ITG:MOSQ:LARV:EV:TRL001Oct,larvae,TRL001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,2 pupae,2012/10/18,11,Isra Deblauwe,50.472498,4.141277
+ITG:MOSQ:LARV:EL193,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Oc1,larvae,M2L002,unknown,Culiseta annulata,Culiseta,annulata,,,2012/10/18,1,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL194,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Oc1,larvae,M2L002,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/18,1,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL195,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L019Oct,adult,M2L019,female,Aedes koreicus,Aedes,koreicus,,in collection,2012/10/18,1,Isra Deblauwe,50.996691,5.621658
+ITG:MOSQ:LARV:EL196,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L019Oct,adult,M2L019,female,Aedes koreicus,Aedes,koreicus,,in collection,2012/10/18,1,Isra Deblauwe,50.996691,5.621658
+ITG:MOSQ:LARV:EL197,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L003Oct,larvae,M2L003,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,2 pupae,2012/10/18,36,Isra Deblauwe,50.991993,5.624796
+ITG:MOSQ:LARV:EL198,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L003Oct,larvae,M2L003,unknown,Aedes koreicus,Aedes,koreicus,,1 small larva,2012/10/18,3,Isra Deblauwe,50.991993,5.624796
+ITG:MOSQ:LARV:EL199,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc1,larvae,M2L020,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/18,42,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL200,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc1,larvae,M2L020,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/18,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL201,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L021Oc1,larvae,M2L021,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/18,4,Isra Deblauwe,50.9977608044105,5.6225054870487
+ITG:MOSQ:LARV:EL202,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L022Oc1,larvae,M2L022,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/18,6,Isra Deblauwe,50.997734,5.622481
+ITG:MOSQ:LARV:EL203,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L004Oct,larvae,M2L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 pupa,2012/10/23,23,Isra Deblauwe,50.989847,5.63037
+ITG:MOSQ:LARV:EL204,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L006Oct,larvae,M2L006,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/23,15,Isra Deblauwe,50.995636,5.634575
+ITG:MOSQ:LARV:EL205,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L024Oct,larvae,M2L024,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/23,11,Isra Deblauwe,50.992849,5.633004
+ITG:MOSQ:LARV:EL206,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L025Oct,larvae,M2L025,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/23,3,Isra Deblauwe,50.992564,5.632722
+ITG:MOSQ:LARV:EL207,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L025Oct,larvae,M2L025,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/23,6,Isra Deblauwe,50.992564,5.632722
+ITG:MOSQ:LARV:EL208,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L026Oct,larvae,M2L026,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/23,5,Isra Deblauwe,50.995305,5.634417
+ITG:MOSQ:LARV:EL209,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L026Oct,larvae,M2L026,unknown,Culiseta annulata,Culiseta,annulata,,1 small larvae,2012/10/23,9,Isra Deblauwe,50.995305,5.634417
+ITG:MOSQ:LARV:EL210,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L019Oct,adult,M2L019,male,Culex pipiens,Culex,pipiens,,,2012/10/23,1,Isra Deblauwe,50.996691,5.621658
+ITG:MOSQ:LARV:EL211,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Oct,adult,N1L009,female,Aedes japonicus japonicus,Aedes,japonicus japonicus,,1 leg broken,2012/10/23,1,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL212,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Oct,adult,N1L009,female,Aedes japonicus japonicus,Aedes,japonicus japonicus,,few legs,2012/10/23,1,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL213,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Oct,larvae,M2L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"bucket 2, 1 pupa",2012/10/23,12,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL214,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Oct,larvae,M2L010,unknown,Culiseta annulata,Culiseta,annulata,,bucket 2,2012/10/23,13,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL215,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L010Oct,larvae,M2L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,bucket 1,2012/10/23,25,Isra Deblauwe,50.959876,5.56041
+ITG:MOSQ:LARV:EL216,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L016Oct,larvae,M2L016,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,metal water through,2012/10/23,4,Isra Deblauwe,51.015543,5.597542
+ITG:MOSQ:LARV:EL217,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L017Oct,larvae,M2L017,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,1,Isra Deblauwe,51.01663,5.600211
+ITG:MOSQ:LARV:EL218,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L033Oct,larvae,M2L033,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,13,Isra Deblauwe,51.016436,5.589155
+ITG:MOSQ:LARV:EL219,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L033Oct,larvae,M2L033,unknown,Culiseta annulata,Culiseta,annulata,,,2012/10/25,18,Isra Deblauwe,51.016436,5.589155
+ITG:MOSQ:LARV:EL220,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L035Oct,larvae,M2L035,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,1,Isra Deblauwe,50.996316,5.621583
+ITG:MOSQ:LARV:EL221,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L037Oct,larvae,M2L037,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,25,Isra Deblauwe,51.003673,5.634747
+ITG:MOSQ:LARV:EL222,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc1,adult,M2L020,female,Aedes koreicus,Aedes,koreicus,,in collection,2012/10/25,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL223,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc1,adult,M2L020,female,Aedes koreicus,Aedes,koreicus,,in collection,2012/10/25,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL224,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc1,adult,M2L020,female,Aedes koreicus,Aedes,koreicus,,complete,2012/10/25,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL225,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc1,adult,M2L020,male,Aedes koreicus,Aedes,koreicus,,in collection,2012/10/25,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL226,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Oct,larvae,ATL001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,60,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL227,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Oct,larvae,ATL001,unknown,Aedes geniculatus,Aedes,geniculatus,,,2012/10/25,1,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL228,event,preservedSpecimen,ITG:MOSQ:LARV:EV:ATL001Oct,larvae,ATL001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,Small larvae,2012/10/25,4,Isra Deblauwe,51.213511,4.193505
+ITG:MOSQ:LARV:EL229,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L022Oc2,larvae,M2L022,unknown,Aedes koreicus,Aedes,koreicus,,,2012/10/25,2,Isra Deblauwe,50.997734,5.622481
+ITG:MOSQ:LARV:EL230,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Oct,larvae,M2L023,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,2,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL231,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Oct,larvae,M2L023,unknown,Anopheles plumbeus,Anopheles,plumbeus,,,2012/10/25,32,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL232,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L040Oct,larvae,M2L040,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,11,Isra Deblauwe,50.994709,5.674278
+ITG:MOSQ:LARV:EL233,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L039Oct,larvae,M2L039,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/25,9,Isra Deblauwe,50.994426,5.604197
+ITG:MOSQ:LARV:EL234,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L038Oct,larvae,M2L038,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 pupa,2012/10/25,17,Isra Deblauwe,50.997802,5.605077
+ITG:MOSQ:LARV:EL235,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc1,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"right, in front",2012/10/25,61,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL236,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc1,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"right, in front",2012/10/25,9,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL237,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc1,larvae,N1L001,unknown,Culex hortensis hortensis,Culex,hortensis hortensis,,"right, in front",2012/10/25,6,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL238,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc1,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"left, in front",2012/10/25,15,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL239,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Oct,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"in front, a lot of small larvae",2012/10/25,25,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL240,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Oct,larvae,N1L004,unknown,Anopheles plumbeus,Anopheles,plumbeus,,in front,2012/10/25,7,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL241,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Oct,larvae,N1L004,unknown,Aedes geniculatus,Aedes,geniculatus,,"at the back, tyres in meadow",2012/10/31,3,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL242,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Oct,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"at the back, tyres in meadow",2012/10/31,7,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL243,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Oct,larvae,N1L004,unknown,Anopheles plumbeus,Anopheles,plumbeus,,"at the back, tyres in meadow",2012/10/31,36,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL244,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Oct,larvae,N1L004,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,at the back (2/27),2012/10/31,28,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL245,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L009Oct,larvae,N1L009,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"rain water barrel, small larva",2012/10/31,1,Isra Deblauwe,50.331197,5.031301
+ITG:MOSQ:LARV:EL246,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Oct,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"tyres on old silage, 1 pupa",2012/10/31,21,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL247,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Oct,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,tyres on new silage + stable,2012/10/31,17,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL248,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc1,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"right, at the back",2012/10/31,191,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL249,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc1,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,"right, at the back",2012/10/31,25,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL250,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc1,larvae,N1L001,unknown,Anopheles plumbeus,Anopheles,plumbeus,,"right, at the back, small larva",2012/10/31,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL251,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Oct,larvae,N1L010,unknown,Culiseta annulata,Culiseta,annulata,,tyres on new silage + stable,2012/10/31,1,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL252,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L019Oct,larvae,N1L019,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,plastic sheet,2012/10/31,1,Isra Deblauwe,50.331517,5.032999
+ITG:MOSQ:LARV:EL253,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Oct,larvae,N1L022,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,in front,2012/10/31,93,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL254,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Oct,larvae,N1L022,unknown,Culiseta annulata,Culiseta,annulata,,in front,2012/10/31,1,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL255,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L022Oct,larvae,N1L022,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,on courtyard,2012/10/31,54,Isra Deblauwe,50.301707,4.994397
+ITG:MOSQ:LARV:EL256,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc2,larvae,M2L020,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/31,3,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL257,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Oc2,larvae,M2L002,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/31,4,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL258,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L023Oct,larvae,N1L023,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/31,1,Isra Deblauwe,50.270289,4.985958
+ITG:MOSQ:LARV:EL259,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc1,larvae,N1L030,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/31,17,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL260,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc1,larvae,N1L030,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,,2012/10/31,1,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL261,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc2,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,at the back,2012/10/31,4,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL262,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L018Oct,larvae,N1L018,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/31,10,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL263,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L027Oct,larvae,N1L027,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/31,46,Isra Deblauwe,50.3649676625777,4.9985009538961
+ITG:MOSQ:LARV:EL264,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L029Oct,larvae,N1L029,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/10/31,2,Isra Deblauwe,50.363868,5.041324
+ITG:MOSQ:LARV:EL265,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc2,adult,N1L030,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL266,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc2,adult,N1L030,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL267,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc2,adult,N1L030,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL268,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc2,adult,N1L030,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL269,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc2,adult,N1L030,female,Aedes japonicus japonicus,Aedes,japonicus japonicus,,,2012/11/5,1,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL270,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc2,adult,N1L001,female,Aedes japonicus japonicus,Aedes,japonicus japonicus,,at the back,2012/11/5,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL271,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc2,adult,N1L001,male,Aedes japonicus japonicus,Aedes,japonicus japonicus,,at the back,2012/11/5,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL272,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Oc2,adult,M2L002,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL273,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc2,adult,M2L020,male,Culex pipiens,Culex,pipiens,,fallen in water after eclosion,2012/11/5,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL274,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc2,adult,M2L020,male,Culex pipiens,Culex,pipiens,,fallen in water after eclosion,2012/11/5,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL275,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L020Oc2,adult,M2L020,female,Culex pipiens,Culex,pipiens,,fallen in water after eclosion,2012/11/5,1,Isra Deblauwe,50.996136,5.621494
+ITG:MOSQ:LARV:EL276,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc2,larvae,N1L001,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,"right, in front",2012/11/5,12,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL277,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Oc2,adult,N1L001,female,Aedes japonicus japonicus,Aedes,japonicus japonicus,,at the back,2012/11/5,1,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL278,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L002Oc2,adult,M2L002,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.996695,5.621543
+ITG:MOSQ:LARV:EL279,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L022Oc2,adult,M2L022,female,Aedes koreicus,Aedes,koreicus,,,2012/11/5,1,Isra Deblauwe,50.997734,5.622481
+ITG:MOSQ:LARV:EL280,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L022Oc2,adult,M2L022,male,Aedes koreicus,Aedes,koreicus,,,2012/11/5,1,Isra Deblauwe,50.997734,5.622481
+ITG:MOSQ:LARV:EL281,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Oct,adult,M2L023,female,Culex torrentium,Culex,torrentium,,,2012/11/5,1,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL282,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Oct,adult,M2L023,female,Culex torrentium,Culex,torrentium,,,2012/11/5,1,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL283,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L038Oct,adult,M2L038,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.997802,5.605077
+ITG:MOSQ:LARV:EL284,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L038Oct,adult,M2L038,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.997802,5.605077
+ITG:MOSQ:LARV:EL285,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L038Oct,adult,M2L038,male,Culex torrentium,Culex,torrentium,,,2012/11/5,1,Isra Deblauwe,50.997802,5.605077
+ITG:MOSQ:LARV:EL286,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L038Oct,adult,M2L038,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.997802,5.605077
+ITG:MOSQ:LARV:EL287,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L038Oct,adult,M2L038,female,Culex pipiens,Culex,pipiens,,,2012/11/5,1,Isra Deblauwe,50.997802,5.605077
+ITG:MOSQ:LARV:EL288,event,preservedSpecimen,ITG:MOSQ:LARV:EV:M2L023Oct,adult,M2L023,male,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,1 prealar scale,2012/11/6,1,Isra Deblauwe,50.994774,5.672062
+ITG:MOSQ:LARV:EL289,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L030Oc2,adult,N1L030,female,Aedes japonicus japonicus,Aedes,japonicus japonicus,,in collection,2012/11/6,1,Isra Deblauwe,50.331272,5.03139
+ITG:MOSQ:LARV:EL290,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Ap1,larvae,N1L001,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,,2012/4/17,122,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL291,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L001Ap1,larvae,N1L001,unknown,Aedes geniculatus,Aedes,geniculatus,,,2012/4/17,319,Isra Deblauwe,50.339200617,5.0457397
+ITG:MOSQ:LARV:EL292,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Ap1,larvae,N1L004,unknown,Aedes geniculatus,Aedes,geniculatus,,,2012/4/17,100,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL293,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L011Ap1,larvae,N1L011,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,,2012/4/18,49,Isra Deblauwe,50.327532,5.035719
+ITG:MOSQ:LARV:EL294,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L012Ap1,larvae,N1L012,unknown,Aedes japonicus japonicus,Aedes,japonicus japonicus,,,2012/4/18,1,Isra Deblauwe,50.328419,5.028772
+ITG:MOSQ:LARV:EL295,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Apr,larvae,N1L010,unknown,Culiseta annulata,Culiseta,annulata,,,2012/4/18,24,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL296,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L010Apr,larvae,N1L010,unknown,Culex pipiens/torrentium,Culex,pipiens/torrentium,determination uncertain,,2012/4/18,1,Isra Deblauwe,50.3316001165932,5.0328486104137
+ITG:MOSQ:LARV:EL297,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Ap1,larvae,N1L004,unknown,Culiseta annulata,Culiseta,annulata,,small larvae (unid sp.1),2012/4/17,19,Isra Deblauwe,50.3358627277969,5.0716363022496
+ITG:MOSQ:LARV:EL298,event,preservedSpecimen,ITG:MOSQ:LARV:EV:N1L004Ap2,larvae,N1L004,unknown,Aedes geniculatus,Aedes,geniculatus,,,2012/4/30,9,Isra Deblauwe,50.3358627277969,5.0716363022496

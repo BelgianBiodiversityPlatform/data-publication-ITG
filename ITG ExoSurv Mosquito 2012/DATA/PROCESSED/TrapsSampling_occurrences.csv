@@ -1,0 +1,851 @@
+occurrenceID,type,eventID,basisOfRecord,lifeStage,scientificName,occurrenceRemarks,genus,sex,individualCount,IdentifiedBy,samplingProtocol,TrapCode
+ITG:MOSQ:SAMPL:EM001,event,ITG:MOSQ:SAMPL:EV:N2M002Jun,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM002,event,ITG:MOSQ:SAMPL:EV:N1M001Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM003,event,ITG:MOSQ:SAMPL:EV:N1M001Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM004,event,ITG:MOSQ:SAMPL:EV:N1M001Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM005,event,ITG:MOSQ:SAMPL:EV:N1M001Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM006,event,ITG:MOSQ:SAMPL:EV:N1M001Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM007,event,ITG:MOSQ:SAMPL:EV:N1M001Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM008,event,ITG:MOSQ:SAMPL:EV:N1M001Jul,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM009,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM010,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM011,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM012,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM013,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM014,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM015,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM016,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM017,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM018,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM019,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM020,event,ITG:MOSQ:SAMPL:EV:PEM011Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM021,event,ITG:MOSQ:SAMPL:EV:M1M003W28,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM022,event,ITG:MOSQ:SAMPL:EV:M1M003W28,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM023,event,ITG:MOSQ:SAMPL:EV:EVM010Jul,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM024,event,ITG:MOSQ:SAMPL:EV:DIM014Jul,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM025,event,ITG:MOSQ:SAMPL:EV:EPM007Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM026,event,ITG:MOSQ:SAMPL:EV:EPM007Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM027,event,ITG:MOSQ:SAMPL:EV:EPM007Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM028,event,ITG:MOSQ:SAMPL:EV:EPM007Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM029,event,ITG:MOSQ:SAMPL:EV:EPM007Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM030,event,ITG:MOSQ:SAMPL:EV:PGM005Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M005
+ITG:MOSQ:SAMPL:EM031,event,ITG:MOSQ:SAMPL:EV:PGM005Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M005
+ITG:MOSQ:SAMPL:EM032,event,ITG:MOSQ:SAMPL:EV:PGM005Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M005
+ITG:MOSQ:SAMPL:EM033,event,ITG:MOSQ:SAMPL:EV:PGM005Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M005
+ITG:MOSQ:SAMPL:EM034,event,ITG:MOSQ:SAMPL:EV:PGM005Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M005
+ITG:MOSQ:SAMPL:EM035,event,ITG:MOSQ:SAMPL:EV:VPM004Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM036,event,ITG:MOSQ:SAMPL:EV:VPM004Jul,preservedSpecimen,unknown,Culex pipiens?,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM037,event,ITG:MOSQ:SAMPL:EV:VPM004Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM038,event,ITG:MOSQ:SAMPL:EV:VPM004Jul,preservedSpecimen,unknown,Culex pipiens?,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM039,event,ITG:MOSQ:SAMPL:EV:VPM004Jul,preservedSpecimen,unknown,Culex pipiens?,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM040,event,ITG:MOSQ:SAMPL:EV:M1M003W29,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM041,event,ITG:MOSQ:SAMPL:EV:M1M003W29,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM042,event,ITG:MOSQ:SAMPL:EV:M1M003W29,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM043,event,ITG:MOSQ:SAMPL:EV:AOM009Jul,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM044,event,ITG:MOSQ:SAMPL:EV:AOM009Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM045,event,ITG:MOSQ:SAMPL:EV:AOM009Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM046,event,ITG:MOSQ:SAMPL:EV:AOM009Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM047,event,ITG:MOSQ:SAMPL:EV:AOM009Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM048,event,ITG:MOSQ:SAMPL:EV:AOM009Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM049,event,ITG:MOSQ:SAMPL:EV:E1M017Jul,preservedSpecimen,unknown,Aedes communis,,Aedes,female,2,Isra Deblauwe,Mosquito Magnet Liberty Plus,M017
+ITG:MOSQ:SAMPL:EM050,event,ITG:MOSQ:SAMPL:EV:ALM019Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM051,event,ITG:MOSQ:SAMPL:EV:ALM019Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM052,event,ITG:MOSQ:SAMPL:EV:ALM019Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM053,event,ITG:MOSQ:SAMPL:EV:ALM019Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM054,event,ITG:MOSQ:SAMPL:EV:ALM019Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM055,event,ITG:MOSQ:SAMPL:EV:ALM019Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM056,event,ITG:MOSQ:SAMPL:EV:ALM019Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM058,event,ITG:MOSQ:SAMPL:EV:E7M008Jul,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM059,event,ITG:MOSQ:SAMPL:EV:E7M008Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM060,event,ITG:MOSQ:SAMPL:EV:E7M008Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM061,event,ITG:MOSQ:SAMPL:EV:E7M008Jul,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM062,event,ITG:MOSQ:SAMPL:EV:E7M008Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM063,event,ITG:MOSQ:SAMPL:EV:E7M008Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM064,event,ITG:MOSQ:SAMPL:EV:E7M008Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM065,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM066,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM067,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM068,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM069,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM070,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM071,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM072,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM073,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM074,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM075,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM076,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM077,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM078,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM079,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM080,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM081,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM082,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM083,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM084,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM085,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM086,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM087,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM088,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM089,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM090,event,ITG:MOSQ:SAMPL:EV:VPM004Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM091,event,ITG:MOSQ:SAMPL:EV:ALM019Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM092,event,ITG:MOSQ:SAMPL:EV:ALM019Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM093,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM094,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM095,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM096,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM097,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM098,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM099,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM100,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM101,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM102,event,ITG:MOSQ:SAMPL:EV:E2M015Aug,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M015
+ITG:MOSQ:SAMPL:EM103,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Anopheles maculipennis/messae,determination uncertain,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM104,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Aedes koreicus,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM105,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM106,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM107,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM108,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM109,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM110,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM111,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM112,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM113,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM114,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM115,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM116,event,ITG:MOSQ:SAMPL:EV:M2M002Au2,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,5,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM117,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM118,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM119,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM120,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM121,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM122,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM123,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex torrentium,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM124,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM125,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM126,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM127,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM128,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,14,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM129,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,2,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM130,event,ITG:MOSQ:SAMPL:EV:ATM013Aug,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,male,7,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM131,event,ITG:MOSQ:SAMPL:EV:M1M003W33,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM132,event,ITG:MOSQ:SAMPL:EV:M1M003W33,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM133,event,ITG:MOSQ:SAMPL:EV:M1M003W33,preservedSpecimen,unknown,Anopheles maculipennis/messae,determination uncertain,Anopheles,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM134,event,ITG:MOSQ:SAMPL:EV:M1M003W32,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM135,event,ITG:MOSQ:SAMPL:EV:M1M003W32,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM136,event,ITG:MOSQ:SAMPL:EV:M1M003W32,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM137,event,ITG:MOSQ:SAMPL:EV:M1M003W32,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM138,event,ITG:MOSQ:SAMPL:EV:M1M003W32,preservedSpecimen,unknown,Aedes punctor,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM139,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM140,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM141,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM142,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM143,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM144,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM145,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM146,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM147,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM148,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM149,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM150,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM151,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM152,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM153,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM154,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM155,event,ITG:MOSQ:SAMPL:EV:AOM009Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM156,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,46,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM157,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM158,event,ITG:MOSQ:SAMPL:EV:M1M003W37,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM159,event,ITG:MOSQ:SAMPL:EV:M1M003W37,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM160,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM161,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM162,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM163,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM164,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM165,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM166,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM167,event,ITG:MOSQ:SAMPL:EV:TRM021Aug,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,2,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM168,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM169,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM170,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM171,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM172,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM173,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Anopheles maculipennis/messae,determination uncertain,Anopheles,male,2,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM174,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM175,event,ITG:MOSQ:SAMPL:EV:M1M003W30,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM176,event,ITG:MOSQ:SAMPL:EV:M1M003W34,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM177,event,ITG:MOSQ:SAMPL:EV:M1M003W34,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM178,event,ITG:MOSQ:SAMPL:EV:M1M003W34,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM179,event,ITG:MOSQ:SAMPL:EV:M1M003W34,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM180,event,ITG:MOSQ:SAMPL:EV:M1M003W34,preservedSpecimen,unknown,Aedes koreicus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM181,event,ITG:MOSQ:SAMPL:EV:M1M003W34,preservedSpecimen,unknown,Aedes koreicus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM182,event,ITG:MOSQ:SAMPL:EV:M1M003W34,preservedSpecimen,unknown,Aedes koreicus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM183,event,ITG:MOSQ:SAMPL:EV:EBM006Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM184,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM185,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM186,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM187,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM188,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM189,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM190,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM191,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM192,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM193,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM194,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM195,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM196,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM197,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM198,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM199,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM200,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM201,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM202,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM203,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM204,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM205,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM206,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM207,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM208,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM209,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM210,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM211,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM212,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM213,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM214,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM215,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM216,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM217,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM218,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM219,event,ITG:MOSQ:SAMPL:EV:EPM007Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM220,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM221,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM222,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM223,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM224,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM225,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM226,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM227,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM228,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM229,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM230,event,ITG:MOSQ:SAMPL:EV:E7M008Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M008
+ITG:MOSQ:SAMPL:EM231,event,ITG:MOSQ:SAMPL:EV:DIM014Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM232,event,ITG:MOSQ:SAMPL:EV:DIM014Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM233,event,ITG:MOSQ:SAMPL:EV:DIM014Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM234,event,ITG:MOSQ:SAMPL:EV:DIM014Aug,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM235,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM236,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM237,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM238,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM239,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM240,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM241,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM242,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,4,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM243,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM244,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM245,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,6,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM246,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Anopheles maculipennis/messae,determination uncertain,Anopheles,female,4,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM247,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Anopheles claviger,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM248,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Aedes annulipes,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM249,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,6,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM250,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM251,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM252,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM253,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM254,event,ITG:MOSQ:SAMPL:EV:3RM023Aug,preservedSpecimen,unknown,Aedes vexans,,Aedes,female,10,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM255,event,ITG:MOSQ:SAMPL:EV:EBM006Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM256,event,ITG:MOSQ:SAMPL:EV:EBM006Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM257,event,ITG:MOSQ:SAMPL:EV:EBM006Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM258,event,ITG:MOSQ:SAMPL:EV:EBM006Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM259,event,ITG:MOSQ:SAMPL:EV:EBM006Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM260,event,ITG:MOSQ:SAMPL:EV:EBM006Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM261,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM262,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM263,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM264,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM265,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM266,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM267,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM268,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM269,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM270,event,ITG:MOSQ:SAMPL:EV:EPM007Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM271,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM272,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM273,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM274,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM275,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM276,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM277,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM278,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM279,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM280,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM281,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM282,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM283,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM284,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM285,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM286,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM287,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM288,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Anopheles claviger,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM289,event,ITG:MOSQ:SAMPL:EV:A1M018Jul,preservedSpecimen,unknown,Aedes caspius,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM290,event,ITG:MOSQ:SAMPL:EV:ATM013Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM291,event,ITG:MOSQ:SAMPL:EV:ATM013Jul,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM292,event,ITG:MOSQ:SAMPL:EV:ATM013Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM293,event,ITG:MOSQ:SAMPL:EV:ATM013Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM294,event,ITG:MOSQ:SAMPL:EV:ATM013Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM295,event,ITG:MOSQ:SAMPL:EV:ATM013Jul,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM296,event,ITG:MOSQ:SAMPL:EV:ATM013Jul,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM297,event,ITG:MOSQ:SAMPL:EV:A1M018Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM298,event,ITG:MOSQ:SAMPL:EV:PEM011Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM299,event,ITG:MOSQ:SAMPL:EV:E3M016Jul,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M016
+ITG:MOSQ:SAMPL:EM300,event,ITG:MOSQ:SAMPL:EV:E3M016Jul,preservedSpecimen,unknown,Anopheles claviger,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M016
+ITG:MOSQ:SAMPL:EM301,event,ITG:MOSQ:SAMPL:EV:E3M016Jul,preservedSpecimen,unknown,Anopheles claviger,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M016
+ITG:MOSQ:SAMPL:EM302,event,ITG:MOSQ:SAMPL:EV:E3M016Jul,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M016
+ITG:MOSQ:SAMPL:EM303,event,ITG:MOSQ:SAMPL:EV:E3M016Jul,preservedSpecimen,unknown,Aedes cantans,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M016
+ITG:MOSQ:SAMPL:EM304,event,ITG:MOSQ:SAMPL:EV:E3M016Jul,preservedSpecimen,unknown,Aedes cantans,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M016
+ITG:MOSQ:SAMPL:EM305,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM306,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM307,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM308,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM309,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM310,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM311,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM312,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM313,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM314,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM315,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM316,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM317,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM318,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM319,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM320,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM321,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM322,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM323,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM324,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM325,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM326,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM327,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM328,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM329,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM330,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM331,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM332,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,10,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM333,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM334,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM335,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,3,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM336,event,ITG:MOSQ:SAMPL:EV:TRM021Jul,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM337,event,ITG:MOSQ:SAMPL:EV:M1M003W35,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM338,event,ITG:MOSQ:SAMPL:EV:M1M003W35,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM339,event,ITG:MOSQ:SAMPL:EV:M1M003W35,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM340,event,ITG:MOSQ:SAMPL:EV:M1M003W35,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM341,event,ITG:MOSQ:SAMPL:EV:M1M003W35,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM342,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM343,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM344,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM345,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM346,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM347,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM348,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM349,event,ITG:MOSQ:SAMPL:EV:N1M001Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM350,event,ITG:MOSQ:SAMPL:EV:E1M017Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M017
+ITG:MOSQ:SAMPL:EM351,event,ITG:MOSQ:SAMPL:EV:E1M017Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M017
+ITG:MOSQ:SAMPL:EM352,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM353,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Anopheles claviger,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM354,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM355,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM356,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM357,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM358,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM359,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM360,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM361,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM362,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM363,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM364,event,ITG:MOSQ:SAMPL:EV:PEM011Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM365,event,ITG:MOSQ:SAMPL:EV:M2M002Au1,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM366,event,ITG:MOSQ:SAMPL:EV:M2M002Au1,preservedSpecimen,unknown,Aedes cinereus/geminus,determination uncertain,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM367,event,ITG:MOSQ:SAMPL:EV:M2M002Au1,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM368,event,ITG:MOSQ:SAMPL:EV:M2M002Au1,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM369,event,ITG:MOSQ:SAMPL:EV:M2M002Au1,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM370,event,ITG:MOSQ:SAMPL:EV:M2M002Au1,preservedSpecimen,unknown,Aedes geniculatus,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM371,event,ITG:MOSQ:SAMPL:EV:M2M002Au1,preservedSpecimen,unknown,Aedes vexans,,Aedes,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M002
+ITG:MOSQ:SAMPL:EM372,event,ITG:MOSQ:SAMPL:EV:AZM022Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M022
+ITG:MOSQ:SAMPL:EM373,event,ITG:MOSQ:SAMPL:EV:M1M003W31,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM374,event,ITG:MOSQ:SAMPL:EV:M1M003W31,preservedSpecimen,unknown,Aedes koreicus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM375,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM376,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM377,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM378,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM379,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,4,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM380,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM381,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,2,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM382,event,ITG:MOSQ:SAMPL:EV:TRM021Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,3,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM383,event,ITG:MOSQ:SAMPL:EV:A1M018Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM384,event,ITG:MOSQ:SAMPL:EV:A1M018Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM385,event,ITG:MOSQ:SAMPL:EV:A1M018Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM386,event,ITG:MOSQ:SAMPL:EV:A1M018Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM387,event,ITG:MOSQ:SAMPL:EV:A1M018Aug,preservedSpecimen,unknown,Coquillettidia richiardii,,Coquillettidia,female,4,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM388,event,ITG:MOSQ:SAMPL:EV:A1M018Aug,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM389,event,ITG:MOSQ:SAMPL:EV:EVM010Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM390,event,ITG:MOSQ:SAMPL:EV:AOM009Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM391,event,ITG:MOSQ:SAMPL:EV:AOM009Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM392,event,ITG:MOSQ:SAMPL:EV:AOM009Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM393,event,ITG:MOSQ:SAMPL:EV:AOM009Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM394,event,ITG:MOSQ:SAMPL:EV:AOM009Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM395,event,ITG:MOSQ:SAMPL:EV:EVM010Aug,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM396,event,ITG:MOSQ:SAMPL:EV:EVM010Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM397,event,ITG:MOSQ:SAMPL:EV:EVM010Aug,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM398,event,ITG:MOSQ:SAMPL:EV:EVM010Aug,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,2,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM399,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM400,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM401,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM402,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM403,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM404,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM405,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM406,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM407,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM408,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM409,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM410,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM411,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM412,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM413,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM414,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM415,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM416,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM417,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM418,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM419,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Anopheles maculipennis/messae,determination uncertain,Anopheles,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM420,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Aedes koreicus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM421,event,ITG:MOSQ:SAMPL:EV:M1M003W36,preservedSpecimen,unknown,Aedes koreicus,,Aedes,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM422,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM423,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM424,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM425,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM426,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM427,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM428,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM429,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM430,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM431,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM432,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM433,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM434,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM435,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM436,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM437,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM438,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM439,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM440,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM441,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM442,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM443,event,ITG:MOSQ:SAMPL:EV:DIM014Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M014
+ITG:MOSQ:SAMPL:EM444,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM445,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM446,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM447,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM448,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM449,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM450,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM451,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM452,event,ITG:MOSQ:SAMPL:EV:ATM013Sep,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,male,2,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM453,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM454,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM455,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM456,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM457,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM458,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM459,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM460,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM461,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM462,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM463,event,ITG:MOSQ:SAMPL:EV:ALM019Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM464,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM465,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM466,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM467,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM468,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM469,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM470,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM471,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM472,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM473,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM474,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM475,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM476,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM477,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM478,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM479,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM480,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM481,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM482,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM483,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM484,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM485,event,ITG:MOSQ:SAMPL:EV:VPM004Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM486,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM487,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM488,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM489,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM490,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM491,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM492,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM493,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM494,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM495,event,ITG:MOSQ:SAMPL:EV:EBM006Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M006
+ITG:MOSQ:SAMPL:EM496,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM497,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM498,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM499,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM500,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM501,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM502,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM503,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM504,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM505,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM506,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM507,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM508,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM509,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM510,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM511,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM512,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM513,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM514,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM515,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM516,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM517,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM518,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM519,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM520,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM521,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM522,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM523,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM524,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM525,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM526,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM527,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM528,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM529,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM530,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM531,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM532,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM533,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM534,event,ITG:MOSQ:SAMPL:EV:AOM009Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M009
+ITG:MOSQ:SAMPL:EM535,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM536,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM537,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM538,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM539,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM540,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM541,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM542,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM543,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM544,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM545,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM546,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM547,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM548,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM549,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM550,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM551,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM552,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM553,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM554,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM555,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM556,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM557,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM558,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM559,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM560,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM561,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM562,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM563,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM564,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM565,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM566,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM567,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM568,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM569,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM570,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM571,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM572,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM573,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM574,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM575,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM576,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM577,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM578,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM579,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM580,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM581,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM582,event,ITG:MOSQ:SAMPL:EV:PGM010Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M010
+ITG:MOSQ:SAMPL:EM583,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM584,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM585,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM586,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM587,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM588,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM589,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM590,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM591,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM592,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM593,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM594,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM595,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM596,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM597,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM598,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM599,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM600,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM601,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM602,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM603,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM604,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM605,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM606,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM607,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM608,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM609,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM610,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM611,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM612,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM613,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM614,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM615,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM616,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM617,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM618,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM619,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM620,event,ITG:MOSQ:SAMPL:EV:N1M001Sep,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM621,event,ITG:MOSQ:SAMPL:EV:M1M003W41,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM622,event,ITG:MOSQ:SAMPL:EV:M1M003W41,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM623,event,ITG:MOSQ:SAMPL:EV:A2M012Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M012
+ITG:MOSQ:SAMPL:EM624,event,ITG:MOSQ:SAMPL:EV:A2M012Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M012
+ITG:MOSQ:SAMPL:EM625,event,ITG:MOSQ:SAMPL:EV:AZM022Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M022
+ITG:MOSQ:SAMPL:EM626,event,ITG:MOSQ:SAMPL:EV:AZM022Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M022
+ITG:MOSQ:SAMPL:EM627,event,ITG:MOSQ:SAMPL:EV:AZM022Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M022
+ITG:MOSQ:SAMPL:EM628,event,ITG:MOSQ:SAMPL:EV:PEM011Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM629,event,ITG:MOSQ:SAMPL:EV:PEM011Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM630,event,ITG:MOSQ:SAMPL:EV:PEM011Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M011
+ITG:MOSQ:SAMPL:EM631,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM632,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM633,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM634,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM635,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM636,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM637,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM638,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM639,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM640,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM641,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM642,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM643,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM644,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM645,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM646,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM647,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM648,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM649,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM650,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM651,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM652,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM653,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM654,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM655,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM656,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM657,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM658,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM659,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM660,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM661,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM662,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM663,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM664,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM665,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM666,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM667,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM668,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM669,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM670,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM671,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM672,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM673,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM674,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM675,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM676,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM677,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM678,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM679,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM680,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM681,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM682,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM683,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM684,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM685,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM686,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,3,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM687,event,ITG:MOSQ:SAMPL:EV:EPM007Oct,preservedSpecimen,unknown,Culiseta annulata,,Culiseta,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M007
+ITG:MOSQ:SAMPL:EM688,event,ITG:MOSQ:SAMPL:EV:M1M003W39,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM689,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM690,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM691,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM692,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM693,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM694,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM695,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM696,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM697,event,ITG:MOSQ:SAMPL:EV:N1M001Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M001
+ITG:MOSQ:SAMPL:EM698,event,ITG:MOSQ:SAMPL:EV:M1M003W42,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM699,event,ITG:MOSQ:SAMPL:EV:M1M003W38,preservedSpecimen,unknown,Aedes koreicus,,Aedes,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM700,event,ITG:MOSQ:SAMPL:EV:M1M003W38,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM701,event,ITG:MOSQ:SAMPL:EV:M1M003W38,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM702,event,ITG:MOSQ:SAMPL:EV:M1M003W38,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM703,event,ITG:MOSQ:SAMPL:EV:VPM004Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM704,event,ITG:MOSQ:SAMPL:EV:VPM004Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M004
+ITG:MOSQ:SAMPL:EM705,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM706,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM707,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM708,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM709,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM710,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM711,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM712,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM713,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM714,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM715,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM716,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM717,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM718,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM719,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM720,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM721,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM722,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM723,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM724,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM725,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM726,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM727,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM728,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM729,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM730,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM731,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM732,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM733,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM734,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM735,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM736,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM737,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM738,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM739,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM740,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM741,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM742,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM743,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM744,event,ITG:MOSQ:SAMPL:EV:ALM019Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M019
+ITG:MOSQ:SAMPL:EM745,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM746,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Charlotte,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM747,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Charlotte,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM748,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM749,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM750,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM751,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM752,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM753,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM754,event,ITG:MOSQ:SAMPL:EV:3RM023Oct,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M023
+ITG:MOSQ:SAMPL:EM755,event,ITG:MOSQ:SAMPL:EV:M1M003W40,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM756,event,ITG:MOSQ:SAMPL:EV:M1M003W40,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,male,1,Isra Deblauwe,LatinSquare,M003
+ITG:MOSQ:SAMPL:EM757,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM758,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM759,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM760,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM761,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM762,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM763,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM764,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM765,event,ITG:MOSQ:SAMPL:EV:A1M018Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M018
+ITG:MOSQ:SAMPL:EM766,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM767,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM768,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM769,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM770,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM771,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM772,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM773,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM774,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM775,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM776,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM777,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM778,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM779,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM780,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM781,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM782,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM783,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM784,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,2,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM785,event,ITG:MOSQ:SAMPL:EV:TRM021Oct,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,4,Isra Deblauwe,Mosquito Magnet Liberty Plus,M021
+ITG:MOSQ:SAMPL:EM786,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM787,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM788,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM789,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM790,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM791,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM792,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM793,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM794,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM795,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM796,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM797,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex torrentium,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM798,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM799,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM800,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM801,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM802,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM803,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM804,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM805,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens/torrentium,determination uncertain,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM806,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,female,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM807,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM808,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Culex pipiens,,Culex,male,1,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM809,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,5,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EM810,event,ITG:MOSQ:SAMPL:EV:ATM013Oct,preservedSpecimen,unknown,Anopheles plumbeus,,Anopheles,female,4,Isra Deblauwe,Mosquito Magnet Liberty Plus,M013
+ITG:MOSQ:SAMPL:EO001,event,ITG:MOSQ:SAMPL:EV:N1PP11Jun,preservedSpecimen,larvae,Culex pipiens/torrentium,determination uncertain,Culex,unknown,1,Isra Deblauwe,Ovitraps,PP11
+ITG:MOSQ:SAMPL:EO002,event,ITG:MOSQ:SAMPL:EV:N1P1-4Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,3,Isra Deblauwe,Ovitraps,P1-4
+ITG:MOSQ:SAMPL:EO003,event,ITG:MOSQ:SAMPL:EV:N1P1-4Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,1,Isra Deblauwe,Ovitraps,P1-4
+ITG:MOSQ:SAMPL:EO004,event,ITG:MOSQ:SAMPL:EV:N1P1-4Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,2,Isra Deblauwe,Ovitraps,P1-4
+ITG:MOSQ:SAMPL:EO005,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,24,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO006,event,ITG:MOSQ:SAMPL:EV:N1PP11Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,3,Isra Deblauwe,Ovitraps,PP11
+ITG:MOSQ:SAMPL:EO007,event,ITG:MOSQ:SAMPL:EV:N1P2-5Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,1,Isra Deblauwe,Ovitraps,P2-5
+ITG:MOSQ:SAMPL:EO008,event,ITG:MOSQ:SAMPL:EV:N1PP13Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,3,Isra Deblauwe,Ovitraps,PP13
+ITG:MOSQ:SAMPL:EO009,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,20,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO010,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jul,preservedSpecimen,larvae,Aedes geniculatus,,Aedes,unknown,5,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO011,event,ITG:MOSQ:SAMPL:EV:N1P1-5Jul,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,85,Isra Deblauwe,Ovitraps,P1-5
+ITG:MOSQ:SAMPL:EO012,event,ITG:MOSQ:SAMPL:EV:N1O021Jul,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,53,Isra Deblauwe,Ovitraps,O021
+ITG:MOSQ:SAMPL:EO013,event,ITG:MOSQ:SAMPL:EV:N1O022Jul,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,36,Isra Deblauwe,Ovitraps,O022
+ITG:MOSQ:SAMPL:EO014,event,ITG:MOSQ:SAMPL:EV:N1P1-3My2,preservedSpecimen,larvae,Culex pipiens/torrentium,determination uncertain,Culex,unknown,118,Isra Deblauwe,Ovitraps,P1-3
+ITG:MOSQ:SAMPL:EO015,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO016,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO017,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO018,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO019,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,female,1,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO020,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,female,1,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO021,event,ITG:MOSQ:SAMPL:EV:N1P1-1Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,female,1,Isra Deblauwe,Ovitraps,P1-1
+ITG:MOSQ:SAMPL:EO022,event,ITG:MOSQ:SAMPL:EV:N1PP13Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,PP13
+ITG:MOSQ:SAMPL:EO023,event,ITG:MOSQ:SAMPL:EV:N1PP13Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,PP13
+ITG:MOSQ:SAMPL:EO024,event,ITG:MOSQ:SAMPL:EV:N1PP13Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,PP13
+ITG:MOSQ:SAMPL:EO025,event,ITG:MOSQ:SAMPL:EV:N1PP13Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,female,1,Isra Deblauwe,Ovitraps,PP13
+ITG:MOSQ:SAMPL:EO026,event,ITG:MOSQ:SAMPL:EV:N1PP13Jun,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,female,1,Isra Deblauwe,Ovitraps,PP13
+ITG:MOSQ:SAMPL:EO027,event,ITG:MOSQ:SAMPL:EV:N1O021Jul,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,71,Isra Deblauwe,Ovitraps,O021
+ITG:MOSQ:SAMPL:EO028,event,ITG:MOSQ:SAMPL:EV:N1O022Jul,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,13,Isra Deblauwe,Ovitraps,O022
+ITG:MOSQ:SAMPL:EO029,event,ITG:MOSQ:SAMPL:EV:N1O007Jul,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,26,Isra Deblauwe,Ovitraps,O007
+ITG:MOSQ:SAMPL:EO030,event,ITG:MOSQ:SAMPL:EV:N1P2-1Jul,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,86,Isra Deblauwe,Ovitraps,P2-1
+ITG:MOSQ:SAMPL:EO031,event,ITG:MOSQ:SAMPL:EV:N1O022Jul,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,O022
+ITG:MOSQ:SAMPL:EO032,event,ITG:MOSQ:SAMPL:EV:N1O022Jul,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,female,1,Isra Deblauwe,Ovitraps,O022
+ITG:MOSQ:SAMPL:EO033,event,ITG:MOSQ:SAMPL:EV:N1P1-5Jul,preservedSpecimen,adult,Aedes japonicus japonicus,,Aedes,male,1,Isra Deblauwe,Ovitraps,P1-5
+ITG:MOSQ:SAMPL:EO034,event,ITG:MOSQ:SAMPL:EV:N1O021Aug,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,8,Isra Deblauwe,Ovitraps,O021
+ITG:MOSQ:SAMPL:EO035,event,ITG:MOSQ:SAMPL:EV:N1B003Aug,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,8,Isra Deblauwe,Ovitraps,B003
+ITG:MOSQ:SAMPL:EO036,event,ITG:MOSQ:SAMPL:EV:N1P1-4Aug,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,13,Isra Deblauwe,Ovitraps,P1-4
+ITG:MOSQ:SAMPL:EO037,event,ITG:MOSQ:SAMPL:EV:N1P1-4Aug,preservedSpecimen,larvae,Aedes geniculatus,,Aedes,unknown,1,Isra Deblauwe,Ovitraps,P1-4
+ITG:MOSQ:SAMPL:EO038,event,ITG:MOSQ:SAMPL:EV:N1P2-5Aug,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,1,Isra Deblauwe,Ovitraps,P2-5
+ITG:MOSQ:SAMPL:EO039,event,ITG:MOSQ:SAMPL:EV:N1B001Jul,preservedSpecimen,larvae,Aedes geniculatus,,Aedes,unknown,1,Isra Deblauwe,Ovitraps,B001
+ITG:MOSQ:SAMPL:EO040,event,ITG:MOSQ:SAMPL:EV:N1B001Aug,preservedSpecimen,larvae,Aedes japonicus japonicus,,Aedes,unknown,13,Isra Deblauwe,Ovitraps,B001
+ITG:MOSQ:SAMPL:EO041,event,ITG:MOSQ:SAMPL:EV:M2O036Aug,preservedSpecimen,larvae,Anopheles plumbeus,,Anopheles,unknown,1,Isra Deblauwe,Ovitraps,O036
