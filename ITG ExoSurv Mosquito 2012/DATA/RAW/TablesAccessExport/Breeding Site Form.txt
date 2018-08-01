@@ -1,95 +1,95 @@
 "Breeding Site Code";"Subsite Code";"Site Code";"Larval Habitat Type";"Larval Habitat Surface (m²)";"Address";"Municipality";"Zip Code";"Longitude";"Latitude";"Land Cover Level 1";"Land Cover Level 2";"Land Cover Level 3";"Comments"
-"3RL001";"NA";"3R";"drain channel";0,05;"Meerkenstraat 40";"Dilsen-Stokkem";3650,00;5,69;51,01;"1 Artificial surfaces";;;
-"A1L001";"NA";"A1";"bucket";0,13;"Antwerpsebaan 58";"Antwerpen";2000,00;4,34;51,32;"1 Artificial surfaces";;;
-"A2L001";"NA";"A2";"puddle";1,00;"Koordekenshoef";"Antwerpen";2000,00;4,39;51,25;"1 Artificial surfaces";;;
-"AOL001";"NA";"AO";"bucket";0,13;"Nieuwpoortsesteenweg 889";"Oostende";8400,00;2,86;51,20;"1 Artificial surfaces";;;
-"AOL002";"NA";"AO";"tyre";0,05;"Nieuwpoortsesteenweg 889";"Oostende";8400,00;2,86;51,20;"1 Artificial surfaces";;;
-"ATL001";"NA";"AT";"tyre";0,10;"Kerkstraat 90";"Beveren";9210,00;4,19;51,21;"2 Agricultural areas";;;"Vrasene"
-"AZL001";"NA";"AZ";"tree hole";0,01;"Koningin Astridlaan";"Brucargo";1931,00;4,46;50,90;"1 Artificial surfaces";;;
-"AZL002";"NA";"AZ";"drain channel";0,05;"Koningin Astridlaan";"Brucargo";1931,00;4,46;50,90;"1 Artificial surfaces";;;
-"DIL001";"NA";"DI";"tyre";0,05;"Europark 1029";"Houthalen-Helchteren";3530,00;5,39;51,03;"1 Artificial surfaces";;;
-"DIL002";"NA";"DI";"metal container";4,00;"Europark 1029";"Houthalen-Helchteren";3530,00;5,39;51,03;"1 Artificial surfaces";;;
-"E1L001";"NA";"E1";"tree hole";0,05;"Drève de l'Arc-en-ciel";"Arlon";6700,00;5,78;49,67;"3 Forest and semi-natural areas";;;
-"E2L001";"NA";"E2";"tree hole";0,05;"Aire de Hondelange";"Messancy";6780,00;5,83;49,64;"2 Agricultural areas";;;
-"E3L002";"NA";"E3";"tree hole";0,05;"Complexe douanier";"Aubange";6790,00;5,80;49,55;"3 Forest and semi-natural areas";;;
-"E7L001";"NA";"E7";"bucket";0,13;"Paradijsstraat 40";"Rekkem";8930,00;3,16;50,76;"2 Agricultural areas";;;
-"EBL001";"NA";"EB";"bucket";0,13;"Hoekskensstraat 105a";"Lochristi";9080,00;3,83;51,11;"2 Agricultural areas";;;
-"EBL002";"NA";"EB";"drain channel";0,05;"Hoekskensstraat 105a";"Lochristi";9080,00;3,83;51,11;"2 Agricultural areas";;;
-"EBL003";"NA";"EB";"bamboo in water";0,50;"Hoekskensstraat 105a";"Lochristi";9080,00;3,83;51,11;"2 Agricultural areas";;;
-"EPL001";"NA";"EP";"water recipient for flowers";1,00;"Vlamingstraat, 1";"Wevelgem";8560,00;3,21;50,81;"1 Artificial surfaces";;;
-"M2L001";"M2002";"M2";"dirt tracks";6,00;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"3 Forest and semi-natural areas";;;"next to forest M1"
-"M2L002";"M2002";"M2";"tyre";0,10;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;
-"M2L003";"M2002";"M2";"rain water barrel";0,13;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;"entrance car cemetry Armand Lowie"
-"M2L004";"M2003";"M2";"bucket";0,13;"Steenweg naar As";"Maasmechelen";3630,00;5,63;50,98;"3 Forest and semi-natural areas";;;"road next to Mechelse Bos close to industrial zone 'Op de Berg'"
-"M2L005";"M2003";"M2";"tree hole";0,01;"Steenweg naar As";"Maasmechelen";3630,00;5,63;50,98;"3 Forest and semi-natural areas";;;"road next to Mechelse Bos close to industrial zone 'Op de Berg'"
-"M2L006";"M2003";"M2";"tyre";0,10;"Steenweg naar As";"Maasmechelen";3630,00;5,63;50,99;"3 Forest and semi-natural areas";;;"Grondzorg Limburg NV at end of road next to Mechelse Bos"
-"M2L007";"M2015";"M2";"puddle";2,00;"Joseph Smeetslaan 278";"Maasmechelen";3630,00;5,65;50,97;"3 Forest and semi-natural areas";;;"in Nationaal Park Hoge Kempen"
-"M2L008";"M2016";"M2";"water trough";0,50;"Pastoor Petersstraat";"Zutendaal";3690,00;5,56;50,95;"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
-"M2L009";"M2016";"M2";"water trough";0,50;"Postesstraat";"Zutendaal";3690,00;5,56;50,95;"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
-"M2L010";"M2016";"M2";"water through";0,50;"Oude Postweg";"Zutendaal";3690,00;5,56;50,95;"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
-"M2L011";"M2016";"M2";"puddle";1,50;"Oude Postweg";"Zutendaal";3690,00;5,56;50,95;"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
-"M2L012";"M2016";"M2";"bucket";0,13;"Oude Postweg";"Zutendaal";3690,00;5,55;50,96;"3 Forest and semi-natural areas";;;"next to old house in forest"
-"M2L013";"M2016";"M2";"bucket";0,13;"Oude Postweg";"Zutendaal";3690,00;5,55;50,96;"3 Forest and semi-natural areas";;;"next to old house in forest"
-"M2L014";"M2013";"M2";"water through";0,50;"Oude Molenweg";"As";3668,00;5,58;51,01;"3 Forest and semi-natural areas";;;"Niel-bij-As, in meadow"
-"M2L015";"M2013";"M2";"water through";0,01;"Oude Molenweg";"As";3668,00;5,58;51,01;"3 Forest and semi-natural areas";;;"Niel-bij-As, next to meadow"
-"M2L016";"M2013";"M2";"water through";0,50;"Riddersbaan";"As";3668,00;5,59;51,01;"1 Artificial surfaces";;;"Niel-bij-As, in meadow"
-"M2L017";"M2013";"M2";"water through";2,00;"Grotstraat";"As";3668,00;5,60;51,01;"1 Artificial surfaces";;;"Niel-bij-As, in meadow"
-"M2L018";"M2014";"M2";"puddle";1,00;"Hoeveweg 145";"Dilsen-Stokkem";3650,00;5,65;51,00;"3 Forest and semi-natural areas";;;"Lanklaarderbos"
-"M2L019";"M2002";"M2";"bucket";0,13;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;"on private property of APK Infra & Bouw"
-"M2L020";"M2002";"M2";"metal container";1,00;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;"on private property of APK Infra & Bouw"
-"M2L021";"M2002";"M2";"tyre";0,05;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;"APK Infra & Bouw"
-"M2L022";"M2002";"M2";"plastic sheet";0,05;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;"APK Infra & Bouw"
-"M2L023";"M2010";"M2";"tyre";0,05;"Louis Mercierlaan";"Maasmechelen";3630,00;5,67;50,99;"3 Forest and semi-natural areas";;;"close to road"
-"M2L024";"M2003";"M2";"plastic container";0,13;"Steenweg naar As";"Maasmechelen";3630,00;5,63;50,99;"3 Forest and semi-natural areas";;;"close to car cemetry Armand Lowie"
-"M2L025";"M2003";"M2";"tyre";0,05;"Steenweg naar As";"Maasmechelen";3630,00;5,63;50,99;"3 Forest and semi-natural areas";;;"next to car cemetry Armand Lowie"
-"M2L026";"M2003";"M2";"plastic sheet";0,50;"Steenweg naar as";"Maasmechelen";3630,00;5,63;50,99;"3 Forest and semi-natural areas";;;"Grondzorg Limburg NV at end of road next to Mechelse Bos"
-"M2L027";"M2003";"M2";"metal container";0,01;"Steenweg naar as";"Maasmechelen";3630,00;5,63;50,99;"3 Forest and semi-natural areas";;;"Grondzorg Limburg NV at end of road next to Mechelse Bos"
-"M2L028";"M2010";"M2";"tyre";0,05;"Louis Mercierlaan";"Maasmechelen";3630,00;5,67;50,99;"3 Forest and semi-natural areas";;;"along path on the left of road (close to ovitraps)"
-"M2L029";"M2002";"M2";"metal container";0,06;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"3 Forest and semi-natural areas";;;"on private property of APK Infra & Bouw"
-"M2L030";"M2002";"M2";"metal container";1,00;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;"entrance car cemetry Armand Lowie"
-"M2L031";"M2015";"M2";"plastic container";0,08;"Joseph Smeetslaan 278";"Maasmechelen";3630,00;5,66;50,97;"3 Forest and semi-natural areas";;;"playground Salamanderke, clown feet"
-"M2L032";"M2016";"M2";"water trough";1,00;"Postesstraat";"Zutendaal";3690,00;5,56;50,95;"1 Artificial surfaces";;;"in meadow, Wiemesmeer"
-"M2L033";"M2013";"M2";"plastic container";0,10;"Oude Molenweg";"As";3668,00;5,58;51,01;"3 Forest and semi-natural areas";;;"Niel-bij-As, next to meadow (next to M2L015)"
-"M2L034";"M2014";"M2";"water trough";0,40;"Hoeveweg 145";"Dilsen-Stokkem";3650,00;5,65;51,00;"3 Forest and semi-natural areas";;;"meadow in front of restaurant De Litzberg"
-"M2L035";"M2002";"M2";"bucket";0,13;"Steenweg naar As";"Maasmechelen";3630,00;5,62;50,99;"1 Artificial surfaces";;;"black bucket, on private property of APK Infra & Bouw"
-"M2L036";"M2014";"M2";"water trough";0,50;"Hoeveweg 145";"Dilsen-Stokkem";3650,00;5,65;51,00;"3 Forest and semi-natural areas";;;"meadow left of restaurant De Litzberg"
-"M2L037";"M2014";"M2";"water trough";0,50;"Hoeveweg 167";"Dilsen-Stokkem";3650,00;5,63;51,00;"3 Forest and semi-natural areas";;;"horse meadow with a lot of water troughs"
-"M2L038";"M2007";"M2";"metal container";1,00;"Steenweg naar As";"Maasmechelen";3630,00;5,60;50,99;"3 Forest and semi-natural areas";;;"Sand and gravel quarry"
-"M2L039";"M2007";"M2";"tyre";0,50;"Steenweg naar As";"Maasmechelen";3630,00;5,60;50,99;"3 Forest and semi-natural areas";;;"Sand and gravel quarry"
-"M2L040";"M2010";"M2";"water recipient for flowers";3,0e-03;"Paul Lambertlaan 120";"Maasmechelen";3630,00;5,67;50,99;"3 Forest and semi-natural areas";;;"cemetry"
-"N1L001";"N1007";"N1";"tyre";0,10;"Rue de Lenny 103";"Hamois";5360,00;5,04;50,33;"3 Forest and semi-natural areas";;;"Natoye, Havelange"
-"N1L002";"N1007";"N1";"tree hole";0,01;"Rue de Lenny 103";"Hamois";5360,00;5,04;50,33;"3 Forest and semi-natural areas";;;"Natoye, Havelange"
-"N1L003";"N1007";"N1";"tree hole";0,01;"Rue de Lenny 103";"Hamois";5360,00;5,04;50,33;"3 Forest and semi-natural areas";;;"Natoye, Bois Henrard"
-"N1L004";"N1007";"N1";"tyre";0,10;"Chaussée de Namur 7";"Hamois";5360,00;5,07;50,33;"2 Agricultural areas";;;"Natoye, N2 Sarri Pneus"
-"N1L005";"N1001";"N1";"water trough";0,50;"Rue de la Gozée 35";"Hamois";5360,00;5,03;50,34;"2 Agricultural areas";;;"Natoye"
-"N1L006";"N1002";"N1";"water trough";3,00;"Rue de la Gozee 38";"Hamois";5360,00;5,03;50,34;"2 Agricultural areas";;;"Natoye"
-"N1L007";"N1003";"N1";"rain water barrel";0,13;"Rue des Rosticheux 9";"Ciney";5590,00;5,03;50,33;"3 Forest and semi-natural areas";;;"Vincon"
-"N1L008";"N1004";"N1";"puddle";9,00;"Rue du Bois Henrard 23";"Ciney";5590,00;5,03;50,33;"3 Forest and semi-natural areas";;;"Vincon"
-"N1L009";"N1005";"N1";"rain water barrel";0,13;"Rue de la Cense de Vincon 3";"Ciney";5590,00;5,03;50,33;"3 Forest and semi-natural areas";;;"Vincon, + 2 buckets"
-"N1L010";"N1005";"N1";"tyre";0,05;"Rue de la Cense de Vincon 3";"Ciney";5590,00;5,03;50,33;"3 Forest and semi-natural areas";;;"Vincon, on silage & next to stable"
-"N1L011";"N1006";"N1";"water trough";3,00;"Rue de Spontin";"Ciney";5590,00;5,03;50,32;"3 Forest and semi-natural areas";;;"Reuleau, open tank"
-"N1L012";"N1014";"N1";"tyre";0,10;"Rue de la Cense de Vincon";"Ciney";5590,00;5,02;50,32;"3 Forest and semi-natural areas";;;"Vincon, tyres in field"
-"N1L013";"N1017";"N1";"tyre";0,05;"Chaussée de Namur";"Hamois";5360,00;5,07;50,33;"2 Agricultural areas";;;"Natoye, tyres in field"
-"N1L014";"N1018";"N1";"tyre";0,05;"Rue de la Dauphine";"Ciney";5590,00;5,02;50,32;"3 Forest and semi-natural areas";;;"Reuleau, on silage"
-"N1L015";"N1019";"N1";"tyre";0,10;"Chaussée de Huy";"Assesse";5330,00;5,03;50,34;"2 Agricultural areas";;;
-"N1L016";"N1020";"N1";"tyre";0,05;"Chaussée de Namur";"Hamois";5360,00;5,06;50,34;"2 Agricultural areas";;;"Natoye, on silage"
-"N1L017";"N1021";"N1";"water trough";3,00;"Rue de Juplet";"Hamois";5360,00;5,04;50,35;"2 Agricultural areas";;;"Natoye, 3 water troughs"
-"N1L018";"N1036";"N1";"tyre";0,05;"Rue de Mière";"Assesse";5330,00;4,99;50,36;"3 Forest and semi-natural areas";;;"tyres next to field"
-"N1L019";"N1005";"N1";"plastic sheet";0,50;"Rue de la Cense de Vincon 3";"Ciney";5590,00;5,03;50,33;"3 Forest and semi-natural areas";;;"plastic on ground"
-"N1L020";"N1034";"N1";"water trough";4,00;"Rue du Bouchat";"Yvoir";5530,00;5,00;50,31;"3 Forest and semi-natural areas";;;"3 water troughs in front of football field"
-"N1L021";"N1034";"N1";"water trough";1,00;"Rue du Bouchat";"Yvoir";5530,00;5,00;50,30;"2 Agricultural areas";;;"towards Salazinnes"
-"N1L022";"N1034";"N1";"tyre";0,05;"Salazinnes";"Yvoir";5530,00;4,99;50,30;"2 Agricultural areas";;;"farm, tyres in grass and on silage"
-"N1L023";"N1039";"N1";"water trough";2,00;"Grognaux";"Dinant";5502,00;4,98;50,27;"3 Forest and semi-natural areas";;;
-"N1L024";"N1034";"N1";"water trough";2,00;"Rue Ferme du Mont";"Yvoir";5530,00;4,97;50,31;"2 Agricultural areas";;;"open tank"
-"N1L025";"N1034";"N1";"mud puddle";3,00;"Rue Ferme du Mont";"Yvoir";5530,00;4,97;50,31;"2 Agricultural areas";;;"mud next to water trough"
-"N1L026";"N1039";"N1";"water trough";1,00;"Route de Froidin 2";"Dinant";5501,00;4,95;50,28;"3 Forest and semi-natural areas";;;
-"N1L027";"N1036";"N1";"plastic container";1,00;"Rue de Mière";"Assesse";5330,00;4,99;50,36;"3 Forest and semi-natural areas";;;"next to N1L018"
-"N1L028";"N1023";"N1";"water trough";3,00;"Rue de la Gozée";"Hamois";5360,00;5,04;50,34;"3 Forest and semi-natural areas";;;"Natoye, in front of football field"
-"N1L029";"N1024";"N1";"water trough";2,00;"Rue des Comognes";"Assesse";5330,00;5,04;50,36;"2 Agricultural areas";;;
-"N1L030";"N1005";"N1";"plant box";0,10;"Rue de la Cense de Vincon 3";"Ciney";5590,00;5,03;50,33;"3 Forest and semi-natural areas";;;"Vincon, at entry, stone plant box"
-"PEL001";"NA";"PE";"metal container";0,50;"Mussepi 25";"Sint-Katelijne-Waver";2860,00;4,50;51,05;"2 Agricultural areas";;;
-"PEL002";"NA";"PE";"drain channel";0,05;"Mussepi 25";"Sint-Katelijne-Waver";2860,00;4,50;51,05;"2 Agricultural areas";;;
-"PGL001";"NA";"PG";"drain channel";0,05;"Langerbruggestraat 104";"Gent";9000,00;3,75;51,10;"1 Artificial surfaces";;;
-"TRL001";"NA";"TR";"tyre";0,10;"Rue Balasse 132";"La Louviere";7110,00;4,14;50,47;"3 Forest and semi-natural areas";;;"outside"
-"TRL002";"NA";"TR";"tyre";0,10;"Rue Balasse 132";"La Louviere";7110,00;4,14;50,47;"3 Forest and semi-natural areas";;;"inside"
-"VPL001";"NA";"VP";"tyre";0,10;"Rue de Waremme 128";"Villers Le Bouillet";4530,00;5,25;50,58;"2 Agricultural areas";;;
+"3RL001";"NA";"3R";"drain channel";"0,05";"Meerkenstraat 40";"Dilsen-Stokkem";3650,00;"5,697141";"51,014011";"1 Artificial surfaces";;;
+"A1L001";"NA";"A1";"bucket";"0,13";"Antwerpsebaan 58";"Antwerpen";2000,00;"4,345138072";"51,329413673";"1 Artificial surfaces";;;
+"A2L001";"NA";"A2";"puddle";"1";"Koordekenshoef";"Antwerpen";2000,00;"4,395134272";"51,252230006";"1 Artificial surfaces";;;
+"AOL001";"NA";"AO";"bucket";"0,13";"Nieuwpoortsesteenweg 889";"Oostende";8400,00;"2,866681";"51,203872";"1 Artificial surfaces";;;
+"AOL002";"NA";"AO";"tyre";"0,05";"Nieuwpoortsesteenweg 889";"Oostende";8400,00;"2,866681";"51,203872";"1 Artificial surfaces";;;
+"ATL001";"NA";"AT";"tyre";"0,1";"Kerkstraat 90";"Beveren";9210,00;"4,193505";"51,213511";"2 Agricultural areas";;;"Vrasene"
+"AZL001";"NA";"AZ";"tree hole";"0,01";"Koningin Astridlaan";"Brucargo";1931,00;"4,463900394";"50,9060497033342";"1 Artificial surfaces";;;
+"AZL002";"NA";"AZ";"drain channel";"0,05";"Koningin Astridlaan";"Brucargo";1931,00;"4,463900394";"50,9060497033342";"1 Artificial surfaces";;;
+"DIL001";"NA";"DI";"tyre";"0,05";"Europark 1029";"Houthalen-Helchteren";3530,00;"5,398155";"51,039147";"1 Artificial surfaces";;;
+"DIL002";"NA";"DI";"metal container";"4";"Europark 1029";"Houthalen-Helchteren";3530,00;"5,398104";"51,039195";"1 Artificial surfaces";;;
+"E1L001";"NA";"E1";"tree hole";"0,05";"Drève de l'Arc-en-ciel";"Arlon";6700,00;"5,784194";"49,67673";"3 Forest and semi-natural areas";;;
+"E2L001";"NA";"E2";"tree hole";"0,05";"Aire de Hondelange";"Messancy";6780,00;"5,830286";"49,643818";"2 Agricultural areas";;;
+"E3L002";"NA";"E3";"tree hole";"0,05";"Complexe douanier";"Aubange";6790,00;"5,80532";"49,551178";"3 Forest and semi-natural areas";;;
+"E7L001";"NA";"E7";"bucket";"0,13";"Paradijsstraat 40";"Rekkem";8930,00;"3,169899395";"50,765620316";"2 Agricultural areas";;;
+"EBL001";"NA";"EB";"bucket";"0,13";"Hoekskensstraat 105a";"Lochristi";9080,00;"3,836114";"51,112279";"2 Agricultural areas";;;
+"EBL002";"NA";"EB";"drain channel";"0,05";"Hoekskensstraat 105a";"Lochristi";9080,00;"3,836114";"51,112279";"2 Agricultural areas";;;
+"EBL003";"NA";"EB";"bamboo in water";"0,5";"Hoekskensstraat 105a";"Lochristi";9080,00;"3,836114";"51,112279";"2 Agricultural areas";;;
+"EPL001";"NA";"EP";"water recipient for flowers";"1";"Vlamingstraat, 1";"Wevelgem";8560,00;"3,211485304";"50,815884813";"1 Artificial surfaces";;;
+"M2L001";"M2002";"M2";"dirt tracks";"6";"Steenweg naar As";"Maasmechelen";3630,00;"5,620467";"50,996036";"3 Forest and semi-natural areas";;;"next to forest M1"
+"M2L002";"M2002";"M2";"tyre";"0,1";"Steenweg naar As";"Maasmechelen";3630,00;"5,621543";"50,996695";"1 Artificial surfaces";;;
+"M2L003";"M2002";"M2";"rain water barrel";"0,13";"Steenweg naar As";"Maasmechelen";3630,00;"5,624796";"50,991993";"1 Artificial surfaces";;;"entrance car cemetry Armand Lowie"
+"M2L004";"M2003";"M2";"bucket";"0,13";"Steenweg naar As";"Maasmechelen";3630,00;"5,63037";"50,989847";"3 Forest and semi-natural areas";;;"road next to Mechelse Bos close to industrial zone 'Op de Berg'"
+"M2L005";"M2003";"M2";"tree hole";"0,01";"Steenweg naar As";"Maasmechelen";3630,00;"5,630088";"50,989751";"3 Forest and semi-natural areas";;;"road next to Mechelse Bos close to industrial zone 'Op de Berg'"
+"M2L006";"M2003";"M2";"tyre";"0,1";"Steenweg naar As";"Maasmechelen";3630,00;"5,634575";"50,995636";"3 Forest and semi-natural areas";;;"Grondzorg Limburg NV at end of road next to Mechelse Bos"
+"M2L007";"M2015";"M2";"puddle";"2";"Joseph Smeetslaan 278";"Maasmechelen";3630,00;"5,653667";"50,972468";"3 Forest and semi-natural areas";;;"in Nationaal Park Hoge Kempen"
+"M2L008";"M2016";"M2";"water trough";"0,5";"Pastoor Petersstraat";"Zutendaal";3690,00;"5,56467011076122";"50,9520179606081";"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
+"M2L009";"M2016";"M2";"water trough";"0,5";"Postesstraat";"Zutendaal";3690,00;"5,56362";"50,950262";"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
+"M2L010";"M2016";"M2";"water through";"0,5";"Oude Postweg";"Zutendaal";3690,00;"5,56041";"50,959876";"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
+"M2L011";"M2016";"M2";"puddle";"1,5";"Oude Postweg";"Zutendaal";3690,00;"5,560445";"50,959844";"3 Forest and semi-natural areas";;;"in meadow, Wiemesmeer"
+"M2L012";"M2016";"M2";"bucket";"0,13";"Oude Postweg";"Zutendaal";3690,00;"5,554426";"50,963654";"3 Forest and semi-natural areas";;;"next to old house in forest"
+"M2L013";"M2016";"M2";"bucket";"0,13";"Oude Postweg";"Zutendaal";3690,00;"5,554471";"50,96364";"3 Forest and semi-natural areas";;;"next to old house in forest"
+"M2L014";"M2013";"M2";"water through";"0,5";"Oude Molenweg";"As";3668,00;"5,588637";"51,014708";"3 Forest and semi-natural areas";;;"Niel-bij-As, in meadow"
+"M2L015";"M2013";"M2";"water through";"0,01";"Oude Molenweg";"As";3668,00;"5,589064";"51,016441";"3 Forest and semi-natural areas";;;"Niel-bij-As, next to meadow"
+"M2L016";"M2013";"M2";"water through";"0,5";"Riddersbaan";"As";3668,00;"5,597542";"51,015543";"1 Artificial surfaces";;;"Niel-bij-As, in meadow"
+"M2L017";"M2013";"M2";"water through";"2";"Grotstraat";"As";3668,00;"5,600211";"51,01663";"1 Artificial surfaces";;;"Niel-bij-As, in meadow"
+"M2L018";"M2014";"M2";"puddle";"1";"Hoeveweg 145";"Dilsen-Stokkem";3650,00;"5,653517";"51,004878";"3 Forest and semi-natural areas";;;"Lanklaarderbos"
+"M2L019";"M2002";"M2";"bucket";"0,13";"Steenweg naar As";"Maasmechelen";3630,00;"5,621658";"50,996691";"1 Artificial surfaces";;;"on private property of APK Infra & Bouw"
+"M2L020";"M2002";"M2";"metal container";"1";"Steenweg naar As";"Maasmechelen";3630,00;"5,621494";"50,996136";"1 Artificial surfaces";;;"on private property of APK Infra & Bouw"
+"M2L021";"M2002";"M2";"tyre";"0,05";"Steenweg naar As";"Maasmechelen";3630,00;"5,6225054870487";"50,9977608044105";"1 Artificial surfaces";;;"APK Infra & Bouw"
+"M2L022";"M2002";"M2";"plastic sheet";"0,05";"Steenweg naar As";"Maasmechelen";3630,00;"5,622481";"50,997734";"1 Artificial surfaces";;;"APK Infra & Bouw"
+"M2L023";"M2010";"M2";"tyre";"0,05";"Louis Mercierlaan";"Maasmechelen";3630,00;"5,672062";"50,994774";"3 Forest and semi-natural areas";;;"close to road"
+"M2L024";"M2003";"M2";"plastic container";"0,13";"Steenweg naar As";"Maasmechelen";3630,00;"5,633004";"50,992849";"3 Forest and semi-natural areas";;;"close to car cemetry Armand Lowie"
+"M2L025";"M2003";"M2";"tyre";"0,05";"Steenweg naar As";"Maasmechelen";3630,00;"5,632722";"50,992564";"3 Forest and semi-natural areas";;;"next to car cemetry Armand Lowie"
+"M2L026";"M2003";"M2";"plastic sheet";"0,5";"Steenweg naar as";"Maasmechelen";3630,00;"5,634417";"50,995305";"3 Forest and semi-natural areas";;;"Grondzorg Limburg NV at end of road next to Mechelse Bos"
+"M2L027";"M2003";"M2";"metal container";"0,01";"Steenweg naar as";"Maasmechelen";3630,00;"5,634578";"50,995675";"3 Forest and semi-natural areas";;;"Grondzorg Limburg NV at end of road next to Mechelse Bos"
+"M2L028";"M2010";"M2";"tyre";"0,05";"Louis Mercierlaan";"Maasmechelen";3630,00;"5,671048";"50,99348";"3 Forest and semi-natural areas";;;"along path on the left of road (close to ovitraps)"
+"M2L029";"M2002";"M2";"metal container";"0,06";"Steenweg naar As";"Maasmechelen";3630,00;"5,621599";"50,996684";"3 Forest and semi-natural areas";;;"on private property of APK Infra & Bouw"
+"M2L030";"M2002";"M2";"metal container";"1";"Steenweg naar As";"Maasmechelen";3630,00;"5,624144";"50,99201";"1 Artificial surfaces";;;"entrance car cemetry Armand Lowie"
+"M2L031";"M2015";"M2";"plastic container";"0,08";"Joseph Smeetslaan 278";"Maasmechelen";3630,00;"5,660209";"50,977583";"3 Forest and semi-natural areas";;;"playground Salamanderke, clown feet"
+"M2L032";"M2016";"M2";"water trough";"1";"Postesstraat";"Zutendaal";3690,00;"5,560965";"50,951614";"1 Artificial surfaces";;;"in meadow, Wiemesmeer"
+"M2L033";"M2013";"M2";"plastic container";"0,1";"Oude Molenweg";"As";3668,00;"5,589155";"51,016436";"3 Forest and semi-natural areas";;;"Niel-bij-As, next to meadow (next to M2L015)"
+"M2L034";"M2014";"M2";"water trough";"0,4";"Hoeveweg 145";"Dilsen-Stokkem";3650,00;"5,6526";"51,00413";"3 Forest and semi-natural areas";;;"meadow in front of restaurant De Litzberg"
+"M2L035";"M2002";"M2";"bucket";"0,13";"Steenweg naar As";"Maasmechelen";3630,00;"5,621583";"50,996316";"1 Artificial surfaces";;;"black bucket, on private property of APK Infra & Bouw"
+"M2L036";"M2014";"M2";"water trough";"0,5";"Hoeveweg 145";"Dilsen-Stokkem";3650,00;"5,653311";"51,004056";"3 Forest and semi-natural areas";;;"meadow left of restaurant De Litzberg"
+"M2L037";"M2014";"M2";"water trough";"0,5";"Hoeveweg 167";"Dilsen-Stokkem";3650,00;"5,634747";"51,003673";"3 Forest and semi-natural areas";;;"horse meadow with a lot of water troughs"
+"M2L038";"M2007";"M2";"metal container";"1";"Steenweg naar As";"Maasmechelen";3630,00;"5,605077";"50,997802";"3 Forest and semi-natural areas";;;"Sand and gravel quarry"
+"M2L039";"M2007";"M2";"tyre";"0,5";"Steenweg naar As";"Maasmechelen";3630,00;"5,604197";"50,994426";"3 Forest and semi-natural areas";;;"Sand and gravel quarry"
+"M2L040";"M2010";"M2";"water recipient for flowers";"0,003";"Paul Lambertlaan 120";"Maasmechelen";3630,00;"5,674278";"50,994709";"3 Forest and semi-natural areas";;;"cemetry"
+"N1L001";"N1007";"N1";"tyre";"0,1";"Rue de Lenny 103";"Hamois";5360,00;"5,0457397";"50,339200617";"3 Forest and semi-natural areas";;;"Natoye, Havelange"
+"N1L002";"N1007";"N1";"tree hole";"0,01";"Rue de Lenny 103";"Hamois";5360,00;"5,044747";"50,338784";"3 Forest and semi-natural areas";;;"Natoye, Havelange"
+"N1L003";"N1007";"N1";"tree hole";"0,01";"Rue de Lenny 103";"Hamois";5360,00;"5,040579";"50,33775";"3 Forest and semi-natural areas";;;"Natoye, Bois Henrard"
+"N1L004";"N1007";"N1";"tyre";"0,1";"Chaussée de Namur 7";"Hamois";5360,00;"5,0716363022496";"50,3358627277969";"2 Agricultural areas";;;"Natoye, N2 Sarri Pneus"
+"N1L005";"N1001";"N1";"water trough";"0,5";"Rue de la Gozée 35";"Hamois";5360,00;"5,036792";"50,342681";"2 Agricultural areas";;;"Natoye"
+"N1L006";"N1002";"N1";"water trough";"3";"Rue de la Gozee 38";"Hamois";5360,00;"5,035509379";"50,341907037";"2 Agricultural areas";;;"Natoye"
+"N1L007";"N1003";"N1";"rain water barrel";"0,13";"Rue des Rosticheux 9";"Ciney";5590,00;"5,035870076";"50,335481202";"3 Forest and semi-natural areas";;;"Vincon"
+"N1L008";"N1004";"N1";"puddle";"9";"Rue du Bois Henrard 23";"Ciney";5590,00;"5,0370415069903";"50,3336308811245";"3 Forest and semi-natural areas";;;"Vincon"
+"N1L009";"N1005";"N1";"rain water barrel";"0,13";"Rue de la Cense de Vincon 3";"Ciney";5590,00;"5,031301";"50,331197";"3 Forest and semi-natural areas";;;"Vincon, + 2 buckets"
+"N1L010";"N1005";"N1";"tyre";"0,05";"Rue de la Cense de Vincon 3";"Ciney";5590,00;"5,0328486104137";"50,3316001165932";"3 Forest and semi-natural areas";;;"Vincon, on silage & next to stable"
+"N1L011";"N1006";"N1";"water trough";"3";"Rue de Spontin";"Ciney";5590,00;"5,035719";"50,327532";"3 Forest and semi-natural areas";;;"Reuleau, open tank"
+"N1L012";"N1014";"N1";"tyre";"0,1";"Rue de la Cense de Vincon";"Ciney";5590,00;"5,028772";"50,328419";"3 Forest and semi-natural areas";;;"Vincon, tyres in field"
+"N1L013";"N1017";"N1";"tyre";"0,05";"Chaussée de Namur";"Hamois";5360,00;"5,074139";"50,33597";"2 Agricultural areas";;;"Natoye, tyres in field"
+"N1L014";"N1018";"N1";"tyre";"0,05";"Rue de la Dauphine";"Ciney";5590,00;"5,027415";"50,32406";"3 Forest and semi-natural areas";;;"Reuleau, on silage"
+"N1L015";"N1019";"N1";"tyre";"0,1";"Chaussée de Huy";"Assesse";5330,00;"5,035574";"50,346665";"2 Agricultural areas";;;
+"N1L016";"N1020";"N1";"tyre";"0,05";"Chaussée de Namur";"Hamois";5360,00;"5,0640483970491";"50,3404118069542";"2 Agricultural areas";;;"Natoye, on silage"
+"N1L017";"N1021";"N1";"water trough";"3";"Rue de Juplet";"Hamois";5360,00;"5,047483";"50,352522";"2 Agricultural areas";;;"Natoye, 3 water troughs"
+"N1L018";"N1036";"N1";"tyre";"0,05";"Rue de Mière";"Assesse";5330,00;"4,9985009538961";"50,3649676625777";"3 Forest and semi-natural areas";;;"tyres next to field"
+"N1L019";"N1005";"N1";"plastic sheet";"0,5";"Rue de la Cense de Vincon 3";"Ciney";5590,00;"5,032999";"50,331517";"3 Forest and semi-natural areas";;;"plastic on ground"
+"N1L020";"N1034";"N1";"water trough";"4";"Rue du Bouchat";"Yvoir";5530,00;"5,00615";"50,315843";"3 Forest and semi-natural areas";;;"3 water troughs in front of football field"
+"N1L021";"N1034";"N1";"water trough";"1";"Rue du Bouchat";"Yvoir";5530,00;"5,00034";"50,303924";"2 Agricultural areas";;;"towards Salazinnes"
+"N1L022";"N1034";"N1";"tyre";"0,05";"Salazinnes";"Yvoir";5530,00;"4,994397";"50,301707";"2 Agricultural areas";;;"farm, tyres in grass and on silage"
+"N1L023";"N1039";"N1";"water trough";"2";"Grognaux";"Dinant";5502,00;"4,985958";"50,270289";"3 Forest and semi-natural areas";;;
+"N1L024";"N1034";"N1";"water trough";"2";"Rue Ferme du Mont";"Yvoir";5530,00;"4,978475";"50,311804";"2 Agricultural areas";;;"open tank"
+"N1L025";"N1034";"N1";"mud puddle";"3";"Rue Ferme du Mont";"Yvoir";5530,00;"4,978475";"50,311804";"2 Agricultural areas";;;"mud next to water trough"
+"N1L026";"N1039";"N1";"water trough";"1";"Route de Froidin 2";"Dinant";5501,00;"4,950025";"50,281399";"3 Forest and semi-natural areas";;;
+"N1L027";"N1036";"N1";"plastic container";"1";"Rue de Mière";"Assesse";5330,00;"4,9985009538961";"50,3649676625777";"3 Forest and semi-natural areas";;;"next to N1L018"
+"N1L028";"N1023";"N1";"water trough";"3";"Rue de la Gozée";"Hamois";5360,00;"5,048784";"50,34128";"3 Forest and semi-natural areas";;;"Natoye, in front of football field"
+"N1L029";"N1024";"N1";"water trough";"2";"Rue des Comognes";"Assesse";5330,00;"5,041324";"50,363868";"2 Agricultural areas";;;
+"N1L030";"N1005";"N1";"plant box";"0,1";"Rue de la Cense de Vincon 3";"Ciney";5590,00;"5,03139";"50,331272";"3 Forest and semi-natural areas";;;"Vincon, at entry, stone plant box"
+"PEL001";"NA";"PE";"metal container";"0,5";"Mussepi 25";"Sint-Katelijne-Waver";2860,00;"4,507211631";"51,055363237";"2 Agricultural areas";;;
+"PEL002";"NA";"PE";"drain channel";"0,05";"Mussepi 25";"Sint-Katelijne-Waver";2860,00;"4,507211631";"51,055363237";"2 Agricultural areas";;;
+"PGL001";"NA";"PG";"drain channel";"0,05";"Langerbruggestraat 104";"Gent";9000,00;"3,751125935";"51,108753876";"1 Artificial surfaces";;;
+"TRL001";"NA";"TR";"tyre";"0,1";"Rue Balasse 132";"La Louviere";7110,00;"4,141277";"50,472498";"3 Forest and semi-natural areas";;;"outside"
+"TRL002";"NA";"TR";"tyre";"0,1";"Rue Balasse 132";"La Louviere";7110,00;"4,141277";"50,472498";"3 Forest and semi-natural areas";;;"inside"
+"VPL001";"NA";"VP";"tyre";"0,1";"Rue de Waremme 128";"Villers Le Bouillet";4530,00;"5,259748";"50,585328";"2 Agricultural areas";;;
