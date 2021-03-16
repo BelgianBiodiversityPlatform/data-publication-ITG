@@ -1,0 +1,267 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="3331bcd4-f85e-4252-8e92-3aaa6fdc3eca/v1.10" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <alternateIdentifier>3331bcd4-f85e-4252-8e92-3aaa6fdc3eca</alternateIdentifier>
+  <alternateIdentifier>http://ipt.biodiversity.be/resource?r=modirisk-rbins-culidae-collection</alternateIdentifier>
+  <title xml:lang="eng">MODIRISK:RBINS Diptera: Culicidae Collection</title>
+      <creator>
+    <individualName>
+        <givenName>Wouter</givenName>
+      <surName>Dekoninck</surName>
+    </individualName>
+    <organizationName>RBINS</organizationName>
+    <positionName>curator of the entomological collections</positionName>
+    <address>
+        <city>Brussels</city>
+        <country>BE</country>
+    </address>
+    <electronicMailAddress>w.dekoninck@naturalsciences.be</electronicMailAddress>
+    <onlineUrl>http://www.naturalsciences.be</onlineUrl>
+      </creator>
+      <creator>
+    <individualName>
+        <givenName>Veerle</givenName>
+      <surName>Versteirt</surName>
+    </individualName>
+    <organizationName>Avia-GIS</organizationName>
+    <positionName>Researcher</positionName>
+    <address>
+        <country>BE</country>
+    </address>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Dimitri</givenName>
+      <surName>Brosens</surName>
+    </individualName>
+    <organizationName>Belgian Biodiversity Platform</organizationName>
+    <address>
+        <city>Brussels</city>
+        <country>BE</country>
+    </address>
+    <electronicMailAddress>dimitri.brosens@inbo.be</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-0846-9116</userId>
+      </metadataProvider>
+  <pubDate>
+      2017-03-10
+  </pubDate>
+  <language>eng</language>
+  <abstract>
+    <para>MODIRISK aimed at studying biodiversity of mosquitoes and monitoring/predicting its changes, and hence actively prepares to address issues on the impact of biodiversity change with particular reference to invasive species and the risk to introduce new pathogens. This is essential in the perspective of the ongoing global changes creating suitable conditions for the spread of invasive species and the (re)emergence of vector-borne diseases in Europe. The main strengths of the Modirisk project in the context of sustainable development are the link between biodiversity and health-environment, and its contribution to the development of tools to better describe the spatial distribution of mosquito biodiversity. MODIRISK addresses key topics of the global initiative Diversitas, which was one of the main drivers of the &apos;Research programme Science for a Sustainable Development&apos; www.belspo.be (SSD).
+
+This MODIRISK dataset contains the historic and recent Culicidae specimens, preserved in the Collections of the Royal Belgian Institute of Natural Sciences.</para>
+    <para>The project was coordinated by the Institute of Tropical Medicine(http://www.itg.be/E) in Antwerp.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Specimen</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>vector disease</keyword>
+            <keyword>mosquito</keyword>
+            <keyword>malaria</keyword>
+            <keyword>Eco-climatic changes</keyword>
+            <keyword>Culicidae</keyword>
+            <keyword>taxonomy</keyword>
+            <keyword>spatial distribution models</keyword>
+            <keyword>population genetics</keyword>
+            <keyword>ecology of invasive species</keyword>
+            <keyword>Voucher specimens</keyword>
+        <keywordThesaurus>n/a</keywordThesaurus>
+      </keywordSet>
+  <additionalInfo>
+    <para>This dataset is linked with 2 other mosquito related datasets. One dataset used for longitudinal study (http://www.gbif.org/dataset/9ee09033-8aab-4813-8c2b-db6d54d9817b) and the inventory dataset (http://www.gbif.org/dataset/6679952f-649b-4888-bd97-00daca4b8cc1)</para>
+  </additionalInfo>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Belgium</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>2.263</westBoundingCoordinate>
+          <eastBoundingCoordinate>6.658</eastBoundingCoordinate>
+          <northBoundingCoordinate>51.563</northBoundingCoordinate>
+          <southBoundingCoordinate>49.425</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+          <temporalCoverage>
+              <rangeOfDates>
+                  <beginDate>
+                    <calendarDate>1878</calendarDate>
+                  </beginDate>
+                <endDate>
+                  <calendarDate>2007</calendarDate>
+                </endDate>
+              </rangeOfDates>
+          </temporalCoverage>
+          <taxonomicCoverage>
+              <generalTaxonomicCoverage>Morphological identification of the Culicidae was done mainly using the electronic identification key of Schaffner et al. (2001) and the paper key of Becker et al. (2010). Data were stored into the web based database as described above.</generalTaxonomicCoverage>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Culicidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Diptera</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>class</taxonRankName>
+                <taxonRankValue>Insecta</taxonRankValue>
+              </taxonomicClassification>
+          </taxonomicCoverage>
+  </coverage>
+  <purpose>
+    <para>Mosquito-borne diseases are prime candidates as (re)emergencing vector-borne disease in Europe. Knowledge of the taxonomic and functional biodiversity of both endemic and invading mosquito species as well as the factors driving changes is/are missing in Belgium. Acquiring this knowledge is an essential step towards understanding current risk and preparing action plans for future threats. Therefore the objectives of MODIRISK are were (1) to inventorize endemic and invading mosquito species in Belgium considering environmental and taxonomic elements of biodiversity, (2) to assess the population dynamics of selected endemic and invasive mosquito species and their interrelationship (3) to model
+mosquito biodiversity distribution at a 1km resolution, and (4) to disseminate project outputs.</para>
+  </purpose>
+  <maintenance>
+    <description>
+      <para>No update planned</para>
+    </description>
+    <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Wouter</givenName>
+      <surName>Dekoninck</surName>
+    </individualName>
+    <organizationName>RBINS</organizationName>
+    <positionName>curator of the entomological collections</positionName>
+    <address>
+        <city>Brussels</city>
+        <country>BE</country>
+    </address>
+    <electronicMailAddress>w.dekoninck@naturalsciences.be</electronicMailAddress>
+    <onlineUrl>http://www.naturalsciences.be</onlineUrl>
+      </contact>
+      <contact>
+    <individualName>
+        <givenName>Veerle</givenName>
+      <surName>Versteirt</surName>
+    </individualName>
+    <organizationName>Avia-GIS</organizationName>
+    <positionName>Researcher</positionName>
+    <address>
+        <city>Zoersel</city>
+        <country>BE</country>
+    </address>
+      </contact>
+      <contact>
+    <individualName>
+        <givenName>Wim</givenName>
+      <surName>Van Bortel</surName>
+    </individualName>
+    <organizationName>ECDC</organizationName>
+    <positionName>Researcher</positionName>
+    <address>
+        <city>Stockholm</city>
+        <country>SE</country>
+    </address>
+      </contact>
+  <methods>
+        <methodStep>
+          <description>
+            <para>1. Fieldwork
+2. Validation
+3. Analyse
+4. Publication</para>
+          </description>
+        </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Specimen collections in the RBINS Diptera collection.
+
+The importance of museum collections to basic invertebrate inventories
+
+In the beginning of past century many mosquitoes were collected all over Belgium by dipterologists as M. Goetghebuer and M. Bequaert who both built up the most representative and rich collections of Belgian Diptera, preserved at RBINS (Grootaert et al., 1991). In the Belgian Culicidae collection of RBINS four subcollections are present: a general collection, two subcollections (Goetghebeur and Becquart), and a subcollection of unidentified specimens i.e. the supplements. The subcollection Bequaert was mainly collected between 1912-1958 and counts 135 voucher specimens. The subcollection Goetghebuer was collected between 1909-1946 (mainly between the period 1910-1930) and counts 269 specimens. In the general collection 241 specimens are present all of them collected between 1878-1967 (mainly between 1880-1925). The supplements are the largest subcollection with 737 specimens collected between 1892-2005 (mainly during 1920-1960).
+
+The most recent checklist of the Belgian Culicidae counted 24 species, which was the number of identified species found in RBINS collection and additional species mentioned in the card-indexes of RBINS (Gosseries and Goddeeris 1991). The latter authors suggested at that time that the real number of species to be expected to occur in Belgium being approximately 50. However since 1991 only a few mosquito species were added to the Belgian fauna; Culex hortensis (Versteirt et al. 2009) and Culiseta ochroptera (Schaffner pers. com.). All 1381 specimens (24 species) in RBINS collections were reidentified and digitised. Most of the specimens (77%) were collected between 1910 and 1960. Most specimens were collected between 1940 and 1950. The intensity of research and mosquito-sampling fluctuated during this period, as revealed by the number of voucher specimens per decade. The oldest specimens (collected in 1878) are deposit in the general collection. In this collection 16 species were discovered, in the subcollection Bequaert, the subcollection Goetghebuer and in the supplements respectively 18 species, 21 species and 20 species were counted.</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>At the Royal Belgian Institute of Natural Sciences (RBINS) about 1400 mosquito-specimens from the Belgian collection of the Entomology Department were screened. All these and previous Belgian records were added to a newlyestablished database CULIBEL. This database will be integrated into the Belgian Biodiversity Platform and will be kept updated by RBINS. Both RBINS and MODIRISK collections were used to compare recent and old data distributions (UTM 10x10km squares). A trend criterion was made of well surveyed grid cells and a decline of diversity near larger cities could be observed. An increase of distribution area was observed for several potential mosquito vectors having the capacity to use artificial containers as breeding sites. For 23 species there is a relative change in distribution area in 56 (10x10km) grid cells.</para>
+        </samplingDescription>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>All these and previous Belgian records were added to a the CULIBEL database. All voucher specimens from the available collections were re-identified at the species level using Schaffner et al., 2001.</para>
+        </description>
+      </qualityControl>
+  </methods>
+  <project >
+    <title>Mosquito vectors of disease: spatial biodiversity, drivers of change, and risk</title>
+      <personnel>
+        <individualName>
+            <givenName>Wouter</givenName>
+          <surName>Dekoninck</surName>
+        </individualName>
+        <role>author</role>
+      </personnel>
+      <abstract>
+        <para>Knowledge of the taxonomic and functional biodiversity of both endemic and invading vector mosquito species as well as the factors driving change, is missing in Belgium. Acquiring this knowledge is an essential step towards understanding current risk and preparing for future treads. Therefore the objectives of the project MODIRISK (Mosquito vectors of disease: spatial biodiversity, drivers of change, and risk) were (1) to inventory endemic and invading mosquito species in Belgium considering environmental and taxonomic elements of biodiversity, (2) to assess the population dynamics of endemic and invasive mosquito species and their interrelationship (3) to model mosquito biodiversity distribution at a one km resolution in the Benelux, and (4) to disseminate project outputs to the scientific community, end users and the general public. During the first phase (years 2007-2008), the project focused on the inventory activities; setting–up laboratory experiments for studying life history traits of Culex pipiens in relation to temperature and the first selection of models based on the field results. Whilst during the second phase of the project (years 2009-2010) the focus was on the spatial model building and validation, on the longitudinal study and dynamics of selected indigenous and exotic species that were found during the inventory of the first phase and on more population genetic driven research.</para>
+      </abstract>
+      <funding>
+        <para>Belspo, Science for Sustainable Development- Project SD/BD/04D (http://www.belspo.be/belspo/ssd/science/pr_biodiversity_en.stm)</para>
+      </funding>
+      <studyAreaDescription>
+        <descriptor name="generic"
+                    citableClassificationSystem="false">
+          <descriptorValue>Project fiche: http://www.belspo.be/belspo/ssd/science/projects/MODIRISK_en.pdf
+Project report:http://www.belspo.be/belspo/ssd/science/Reports/FinalReport_MODIRISK%20ML.pdf</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+      <designDescription>
+        <description>
+          <para>At the Royal Belgian Institute of Natural Sciences (RBINS) about 1400 mosquito-specimens from the Belgian collection of the Entomology Department were screened. All these Belgian records achieved from voucher specimens in the RBINS collection were added to a newly established database CULIBEL (CulicidaeBelgium). This database will be integrated into the Belgian Biodiversity Platform and will be kept updated by RBINS. Both RBINS and MODIRISK collections were used to compare recent and old data distributions (UTM 10x10km squares). A trend criterion was made of well surveyed grid cells and a decline of diversity near larger cities could be observed. An increase of distribution area was observed for several potential mosquito vectors having the capacity to use artificial containers as breeding sites. For 23 species there is a relative change in distribution area in 56 (10x10km) grid cells.
+</para>
+        </description>
+      </designDescription>
+  </project>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2017-02-15T02:27:15.831+01:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+            <citation identifier="doi:10.15468/3in3fb">Wouter Dekoninck W, Versteirt V, Van Bortel W, (2017): MODIRISK:RBINS Diptera: Culicidae Collection. v1.6. Royal Belgian Institute of Natural Sciences. Dataset/Occurrence. doi:10.15468/3in3fb</citation>
+          <bibliography>
+                <citation identifier="https://doi.org/10.1603/ME12134">Dekoninck et al, 2014, Changes in Species Richness and Spatial Distribution of Mosquitoes (Diptera: Culicidae) Inferred From Museum Specimen Records and a Recent Inventory: A Case Study From Belgium Suggests Recent Expanded Distribution of Arbovirus and Malaria Vectors, J Med Entomol (2013) 50 (2): 237-243.</citation>
+                <citation>Gosseries, J. &amp; Goddeeris, B. (1991) Culicidae. In: Grootaert, P., De Bruyn, L. &amp; De Meyer, M. (1991). Catalogue of the Diptera of Belgium. Studiedocumenten van het K.B.I.N. 70, 37-38.</citation>
+                <citation>Grootaert, P., De Bruyn, L. &amp; De Meyer, M. (1991) Catalogue of the Diptera of Belgium. Studiedocumenten van het K.B.I.N. 70, 1-338.</citation>
+                <citation>Schaffner, F., Angel, G., Geoffroy, B., Hervy, J.-P., Rhaiem, A. &amp; Brunhes, J. (2001) The mosquitoes of Europe, identification and training program. Montepellier.</citation>
+                <citation>Versteirt, V., Schaffner, F., Garros, C., Dekoninck, W., Coosemans, M. &amp; Van Bortel, W. (2009) Introduction and Establishment of the Exotic Mosquito Species Aedes japonicas japonicus (Diptera: Culicidae) in Belgium. Journal of Medical Entomology 46, 1464–1467.</citation>
+                <citation>Versteirt V., De Clercq E., Dekoninck W., Damiens D., Ayrinhac A., Jacobs F. &amp; Van Bortel W. &quot;Mosquito vectors of disease: spatial biodiversity, drivers of change, and risk&quot;. Final Report. Brussels : Belgian Science Policy 2009 –152 p. (Research Programme Science for a Sustainable Development)</citation>
+                <citation>Dekoninck W, De Keyser R, Hendrickx F, Kerkhof S, Van Bortel W, Versteirt V &amp; Grootaert P, 2011. Mosquito (Culicidae) voucher specimens in the RBINS collection: remnants of a past glory or hidden treasure? European Mosquito Bulletin, 29: 13-21.</citation>
+                <citation>DEKONINCK W, HENDRICKX F, VERSTEIRT V, COOSEMANS M, DE CLERCQ EM, HENDRICKX G, HANCE T &amp; GROOTAERT P, 2013. Changes in species richness and spatial distribution of mosquitoes inferred from museum specimen records and a recent inventory; a case study from Belgium suggests recent expanded distribution of arbovirus- and malaria vectors (Diptera: Culicidae). Journal of Medical Entomology, 50(2): 237–243.</citation>
+          </bibliography>
+          <resourceLogoUrl>http://ipt.biodiversity.be/logo.do?r=modirisk-rbins-culidae-collection</resourceLogoUrl>
+              <collection>
+                  <parentCollectionIdentifier>RBINS-Entomology Collection</parentCollectionIdentifier>
+                <collectionName>Coll. M. Bequaert</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>RBINS-Entomology Collection</parentCollectionIdentifier>
+                <collectionName>Coll. M. Goetghebuer</collectionName>
+              </collection>
+              <collection>
+                  <parentCollectionIdentifier>RBINS-Entomology Collection</parentCollectionIdentifier>
+                <collectionName>RBINS Insect Collection</collectionName>
+              </collection>
+                <specimenPreservationMethod>pinned</specimenPreservationMethod>
+          <dc:replaces>3331bcd4-f85e-4252-8e92-3aaa6fdc3eca/v1.1.xml</dc:replaces>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

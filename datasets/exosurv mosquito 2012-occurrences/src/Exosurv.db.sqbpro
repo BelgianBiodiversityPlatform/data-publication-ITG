@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/dimitri_brosens/Documents/SQLite/Exosurv.db" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="187"/><column_width id="3" width="6412"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="exosurvLarvalSampling_occurrences"/><default_encoding codec=""/><browsetable_info data="AAAADgAAAEIAZQB4AG8AcwB1AHIAdgBMAGEAcgB2AGEAbABTAGEAbQBwAGwAaQBuAGcAXwBvAGMAYwB1AHIAcgBlAG4AYwBlAHMAAAAAAAAAAAAAAAIAAAAFAAAAZAAAAAEAAABkAAAAAAAAAAAA//////////8AAAAA/////wAAACoAZQB4AG8AcwB1AHIAdgBMAGEAcgB2AGEAbABTAGEAbQBwAGwAaQBuAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////AAAADgBlAHgAbwBzAHUAcgB2AAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAABAAUwBpAHQAZQBGAG8AcgBtAAAAAAAAAAAAAAADAAAADQAAAGQAAAAFAAAAZAAAAAEAAABkAAAAAAAAAAAA//////////8AAAAA/////wAAABAAUwBpAHQAZQBEAGEAdABhAAAAAQAAAAEAAAADAAAAEwAAAMIAAAAFAAAA1AAAAAEAAAEkAAAAAQAAAAEAAAAAAAAAAAD//////////wAAAAD/////AAAAEgBTAGkAdABlACAARgBvAHIAbQAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////AAAAAP////8AAAAYAFMAYQBtAHAAbABpAG4AZwBNAE0ATABQAAAABgAAAAEAAAABAAAABgAAAMEAAAAAAAAAAAD//////////wAAAAD/////AAAAMgBTAGEAbQBwAGwAaQBuAGcATABhAHQAaQBuAFMAcQB1AGEAcgBlAEQAZQBzAGkAZwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAA/////wAAADAATQBNAEwAUABfAEwAYQB0AGkAbgBTAGEAbQBwAGwAaQBuAGcASgBvAGkAbgBlAGQAAAAAAAAAAAAAAAEAAAAGAAAAZAAAAAAAAAAAAP//////////AAAAAP////8AAAAcAEwAYQByAHYAYQBsAFMAYQBtAHAAbABpAG4AZwAAAAAAAAAAAAAAAgAAAAQAAAC1AAAAAgAAAOEAAAAAAAAAAAD//////////wAAAAD/////AAAAOABJAGQAZQBuAHQAaQBmAGkAYwBhAHQAaQBvAG4AbABhAHIAdgBhAGwAcwBhAG0AcABsAGkAbgBnAAAAAAAAAAAAAAABAAAADQAAAI0AAAAPAAAADgAAAAAAAAANAAAAAAAAAAwAAAAAAAAACwAAAAAAAAAKAAAAAAAAAAkAAAAAAAAACAAAAAAAAAAHAAAAAAAAAAYAAAAAAAAABQAAAAAAAAAEAAAAAAAAAAMAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////AAAAJABJAGQAZQBuAHQAaQBmAGkAYwBhAHQAaQBvAG4ATQBNAEwAUAAAAAAAAAAAAAAAAQAAAAYAAABkAAAAAAAAAAAA//////////8AAAAA/////wAAACAAQgByAGUAZQBkAGkAbgBnAFMAaQB0AGUARgBvAHIAbQAAAAAAAAAAAAAAAgAAAAQAAABkAAAAAgAAAGQAAAAAAAAAAAD//////////wAAAAD/////AAAAJABCAHIAZQBlAGQAaQBuAGcAIABTAGkAdABlACAARgBvAHIAbQAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////AAAAAP////8="/></tab_browse><tab_sql><sql name="ExosurvQuerie1SQLITE.sql">Drop view exosurvSiteInfo;
+create view exosurvSiteInfo as
+SELECT SiteForm.[SiteCode] as [locationIDSiteCode]
+	, SiteForm.[SiteName] as [locality]
+	, BreedingSiteForm.[Latitutde] as [decimalLatitudeSiteForm]
+	, BreedingSiteForm.[Longitude] as [decimalLongitudeSiteForm]
+	, SiteForm.[comments]
+	, SiteForm.[landCoverLevel1]
+	, BreedingSiteCode as [locationIDBreedingSiteCode]
+	, BreedingSiteForm.[LandCoverLevel1] as [landcoverlevel1BreedingSiteForm]
+	, BreedingSiteForm.[Municipality]
+	, LarvalHabitatSurface
+	
+	
+FROM SiteForm
+	 LEFT join BreedingSiteForm  ON BreedingSiteForm.[Sitecode] = SiteForm.[SiteCode]
+	 LEFT join SubsiteForm on SubsiteForm.SiteCode = SiteForm.SiteCode ;
+	 
+	 </sql><sql name="exosurv_MMLP_Latin_Sampling_occurrences.sql">Drop view exosurvMMLPLatinSampling_occurrences;
+create view exosurvMMLPLatinSampling_occurrences as
+
+SELECT IdentificationMMLP.SamplingCode as samplingID
+		,IdentificationMMLP.Genus as genus
+		,IdentificationMMLP.Sex as sex
+		,IdentificationMMLP.Species as specificEpithet
+		,IdentificationMMLP.Tubenumber as occurrenceID
+		,IdentificationMMLP.Number as individualCount
+		,IdentificationMMLP.Comments as occurrenceRemarks
+		,IdentificationMMLP.DateID as dateIdentified
+		,IdentificationMMLP.Number as individualCount
+		,'Isra Deblauwe' as identifiedBy
+		,SiteForm.Latitutde as decimalLatitude
+		,SiteForm.Longitude as decimalLongitude
+		,SiteForm.Municipality as municipality
+		,SiteForm.Comments as comments
+		,SiteForm.SiteCode as locationID
+		,SiteForm.SiteName as locality
+		,SiteForm.Municipality as municipality
+
+		
+FROM IdentificationMMLP
+	 LEFT join MMLP_LatinSamplingJoined  ON  MMLP_LatinSamplingJoined.SamplingCode = IdentificationMMLP.SamplingCode
+	 LEFT join SiteForm ON SiteForm.SiteCode = MMLP_LatinSamplingJoined.SiteCode
+	 
+</sql><sql name="UNION_OVITRAPS_MMLP_LATIN_occurrences.sql">Drop table Sampling_UNION_OVITRAPS_MMLP_LATIN_occurrences;
+create table Sampling_UNION_OVITRAPS_MMLP_LATIN_occurrences as
+
+SELECT *
+    , 'Ovitrap' as samplingProtocol
+FROM IdentificationOvitraps
+--WHERE Presencemosquitoes = 1
+UNION 
+
+SELECT  *
+	, 'noCode' as subSiteCode
+	, 'not relevant' as EclosiondateAdultLarvae
+	, 'MosquitoMagnet' as samplingProtocol
+FROM IdentificationMMLP
+
+
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
