@@ -30,3 +30,6 @@ ITG ExoSurv Mosquito 2012/DATA/RAW/ExoSurv2012.accdb
 
 documentation/
 datasets/
+
+*.csv
+*.sql
