@@ -28,8 +28,10 @@ ITG ExoSurv Mosquito 2012/DATA/RAW/ExoSurv2012.accdb
 *.accdb
 .Rproj.user
 
-documentation/
-datasets/
+Ignore folders
+
+documentation/*
+datasets/*
 
 *.csv
 *.sql
