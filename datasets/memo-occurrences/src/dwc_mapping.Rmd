@@ -68,9 +68,9 @@ input_data %<>% select(-c("phone_contact1","phone_contact2","phone_contact3","em
 fix issue with decimal lat and decimal long
 
 ```{r}
-integer_part_lat <- map_chr(input_data$latitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
+integer_part_lat <- map_chr(input_data$poe_latitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
 
-decimal_part_lat <- map(input_data$latitude, function(x) {
+decimal_part_lat <- map(input_data$poe_latitude, function(x) {
  decimal_parts_lat <- NA_character_
  splitted_string_lat <- str_split(x, pattern = "\\.")[[1]]
  if (length(splitted_string_lat) > 1) {
@@ -82,9 +82,9 @@ decimal_part_lat <- map(input_data$latitude, function(x) {
  }
 })
 
-integer_part_long <- map_chr(input_data$longitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
+integer_part_long <- map_chr(input_data$poe_longitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
 
-decimal_part_long <- map(input_data$longitude, function(x) {
+decimal_part_long <- map(input_data$peo_longitude, function(x) {
  decimal_parts_long <- NA_character_
  splitted_string_long <- str_split(x, pattern = "\\.")[[1]]
  if (length(splitted_string_long) > 1) {
@@ -98,95 +98,18 @@ decimal_part_long <- map(input_data$longitude, function(x) {
 
 
 input_data %>%
- mutate(decimalLatitude = as.numeric(paste(integer_part_lat, decimal_part_lat, sep = "."))) %>%
- mutate(decimalLongitude = as.numeric(paste(integer_part_long, decimal_part_long, sep = ".")))
+ mutate(decimalLatitude_poe = as.numeric(paste(integer_part_lat, decimal_part_lat, sep = "."))) %>%
+ mutate(decimalLongitude_poe = as.numeric(paste(integer_part_long, decimal_part_long, sep = ".")))
 ```
 
 
 
 ```{r}
-input_interim %>% head(n = 5)
+input_data %>% head(n = 5)
 ```
 
 # Georeference source data
-
-## Lambert to Decimals
-
-### Keep original x,Y as verbatimcoordinates
-
-We want to keep the original verbatim Coordinates
-The original X,Y will be used for creating decimalLatitude and decimalLongitude
-
-```{r}
-input_interim %<>% mutate(verbatimLongitude = Longitude) %>%
-                   mutate(verbatimLatitude = Latitude)
-```
-
-### Create a spacial dataframe
-
-Create spatial dataframe and define the CRS (31370 is Belgian Lambert 72)(crs = 28992 is the Dutch system used here)
-We indicate the x,y columns as coordinates and define the coordinate system
-
-```{r}
-input_interim = st_as_sf(input_interim, coords = c("Longitude","Latitude"), crs = 28992 , agr = "constant" )
-input_interim %>% head(n = 5)
-```
-
-## Transform the data in WGS84
-
-Now we transform the Lambert 72 in WGS84
-
-```{r}
-input_interim <- st_transform(input_interim, crs = 4326)
-input_interim %>% head(n = 5)
-```
-
-### Create a dataframe with column decimalLatitude & decimalLongitude
-
-In order to add the decimal coordinates into the original df we create an x_y dataframe
-
-```{r}
-x_y <- as.data.frame(st_coordinates(input_interim))
-x_y %>% head(n = 5)
-
-#write_csv(x_y, here::here("datasets", "mica-uvw-occurrences", "data", "interim/x_y.csv"), na = "")
-```
-
-# Create extra dataframe to work with 
-
-```{r}
-input_interim_df <- input_interim
-```
-
-# Remove geometry from dataframe 'input_interim_df'
-
-We remove all geometry from the spacial dataframe, to create a normal df
-
-```{r}
-##input_interim_df <- st_geometry(NULL)
-
-st_geometry(input_interim_df) <- NULL
-
-input_interim_df %>% head(n = 5)
-```
-
-### Bind columns x_y and input_interim_df
-
-Join both df's to have the decimalLat & Lon
-
-```{r}
-input_interim_df = bind_cols(input_interim_df,x_y, .id = NULL)
-
-input_interim_df %>% head(n = 5)
-```
-
-### Integrate x-y coordinates in original dataframe
-
-We can safely substitute input_interim 
-
-```{r}
-input_interim <- input_interim_df
-```
+data is already in WGS84
 
 # Occurrence core
 
@@ -195,20 +118,22 @@ input_interim <- input_interim_df
 Create a dataframe occurrence data only 
 
 ```{r}
-occurrence <- input_interim
+occurrence <- input_data
 ```
 
-## Remove obsolete columns
 
-```{r}
-#occurrence %<>% select(-c(kind_nl,day, month, year))
-```
 
 # Term mapping
 
-Map the data to [Darwin Core Occurrence](http://rs.gbif.org/core/dwc_occurrence_2015-07-02.xml).
+Map the data to [Darwin Core Event](https://rs.gbif.org/core/dwc_event_2016_06_21.xml).
 
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
+
+## Remove obsolete columns for event
+
+```{r}
+event %<>% select(-c(latitude,longitude, month, year))
+```
 
 # Event
 
@@ -234,7 +159,7 @@ occurrence %<>% mutate(license = "http://creativecommons.org/publicdomain/zero/1
 ### rightsHolder
 
 ```{r}
-occurrence %<>% mutate(rightsHolder = "Unie Van Waterschappen") # e.g. "INBO"
+occurrence %<>% mutate(rightsHolder = "Institute of Tropical Medicine Antwerp") # e.g. "INBO"
 ```
 
 ### accessRights
@@ -246,19 +171,19 @@ occurrence %<>% mutate(accessRights = "http://www.inbo.be/en/norms-for-data-use"
 ### datasetID
 
 ```{r}
-occurrence %<>% mutate(datasetID = "https://doi.org/10.15468/qjds4c")
+occurrence %<>% mutate(datasetID = "complete")
 ```
 
 ### institutionCode
 
 ```{r}
-occurrence %<>% mutate(institutionCode = "Unie Van Waterschappen") # e.g. "INBO"
+occurrence %<>% mutate(institutionCode = "ITG") # e.g. "INBO"
 ```
 
 ### datasetName
 
 ```{r}
-occurrence %<>% mutate(datasetName = "MICA - Muskrat and Coypu occurrences collected by UVW in the Netherlands") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+occurrence %<>% mutate(datasetName = "MEMO - Exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
 
 The following terms contain information about the taxon:
@@ -438,6 +363,13 @@ occurrence %<>% mutate(verbatimSRS = "EPSG:28992")
 ```{r}
 occurrence %<>% mutate(identifiedBy = WaterAuthorityName)
 ```
+
+Map the data to [Darwin Core Occurrence](http://rs.gbif.org/core/dwc_occurrence_2015-07-02.xml).
+
+Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
+
+
+
 
 ### scientificName 
 
