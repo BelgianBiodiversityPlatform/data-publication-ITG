@@ -40,7 +40,7 @@ File exported to csv
 ```{r}
 #input_interim <- read_csv2(file = here:here("datasets", "mica-uvw-occurrences", "data", "raw", "2020_11_18_Vangstgegevens #muskus- en beverratten_NL_2019.csv"))  
 
-input_data <- read_csv2(file = here::here("datasets", "memo-occurrences", "data", "raw", "00_MEMO_DATABASE_GBIF.csv"))
+input_data <- read.csv(file = here::here("datasets", "memo-occurrences", "data", "raw", "00_MEMO_DATABASE_GBIF.csv"), sep = ';')
 ```
 
 Preview data:
@@ -63,7 +63,43 @@ input_data %<>% remove_empty("rows")
 delete obsolete columns
 
 ```{r}
-input_data %<>% select(-c("phone_contact1","phone_contact2","phone_contact3","email_contact1","email_contact2","email_contact3","poe_street","poe_postalcode","contactname1","contactname2","website","poe_contact_remark"))
+input_data %<>% select(-c("phone_contact1","phone_contact2","phone_contact3","email_contact1","email_contact2","email_contact3","poe_street","poe_postalcode","contactname1","contactname2","website","poe_contact_remark","collector_2","collector_3"))
+```
+fix issue with decimal lat and decimal long
+
+```{r}
+integer_part_lat <- map_chr(input_data$latitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
+
+decimal_part_lat <- map(input_data$latitude, function(x) {
+ decimal_parts_lat <- NA_character_
+ splitted_string_lat <- str_split(x, pattern = "\\.")[[1]]
+ if (length(splitted_string_lat) > 1) {
+   decimal_parts_lat <- paste0(splitted_string_lat[2:length(splitted_string_lat)])
+   paste0(decimal_parts_lat, collapse = "")
+   }
+ else {
+   ""
+ }
+})
+
+integer_part_long <- map_chr(input_data$longitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
+
+decimal_part_long <- map(input_data$longitude, function(x) {
+ decimal_parts_long <- NA_character_
+ splitted_string_long <- str_split(x, pattern = "\\.")[[1]]
+ if (length(splitted_string_long) > 1) {
+   decimal_parts_long <- paste0(splitted_string_long[2:length(splitted_string_long)])
+   paste0(decimal_parts_long, collapse = "")
+   }
+ else {
+   ""
+ }
+})
+
+
+input_data %>%
+ mutate(decimalLatitude = as.numeric(paste(integer_part_lat, decimal_part_lat, sep = "."))) %>%
+ mutate(decimalLongitude = as.numeric(paste(integer_part_long, decimal_part_long, sep = ".")))
 ```
 
 
