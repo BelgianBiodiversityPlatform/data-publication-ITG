@@ -63,7 +63,7 @@ input_data %<>% remove_empty("rows")
 delete obsolete columns
 
 ```{r}
-input_data %<>% select(-c("phone_contact1","phone_contact2","phone_contact3","email_contact1","email_contact2","email_contact3","poe_street","poe_postalcode","contactname1","contactname2","website","poe_contact_remark","collector_2","collector_3"))
+input_data %<>% select(-c("phone_contact1","phone_contact2","phone_contact3","email_contact1","email_contact2","email_contact3","poe_street","poe_postalcode","contactname1","contactname2","contactname3","website","poe_contact_remark","collector_2","collector_3"))
 ```
 fix issue with decimal lat and decimal long
 
@@ -84,7 +84,7 @@ decimal_part_lat <- map(input_data$poe_latitude, function(x) {
 
 integer_part_long <- map_chr(input_data$poe_longitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
 
-decimal_part_long <- map(input_data$peo_longitude, function(x) {
+decimal_part_long <- map(input_data$poe_longitude, function(x) {
  decimal_parts_long <- NA_character_
  splitted_string_long <- str_split(x, pattern = "\\.")[[1]]
  if (length(splitted_string_long) > 1) {
@@ -97,7 +97,7 @@ decimal_part_long <- map(input_data$peo_longitude, function(x) {
 })
 
 
-input_data %>%
+input_data %<>%
  mutate(decimalLatitude_poe = as.numeric(paste(integer_part_lat, decimal_part_lat, sep = "."))) %>%
  mutate(decimalLongitude_poe = as.numeric(paste(integer_part_long, decimal_part_long, sep = ".")))
 ```
@@ -119,6 +119,7 @@ Create a dataframe occurrence data only
 
 ```{r}
 occurrence <- input_data
+event <- input_data
 ```
 
 
@@ -128,84 +129,103 @@ occurrence <- input_data
 Map the data to [Darwin Core Event](https://rs.gbif.org/core/dwc_event_2016_06_21.xml).
 
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
-
+# Record-level
+# Event 
 ## Remove obsolete columns for event
 
 ```{r}
-event %<>% select(-c(latitude,longitude, month, year))
+event %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, species.f, sex_collected, sex_stored))
+```
+## eventID
+
+```{r}
+event %<>% mutate(dwc_eventID = ï..sampling_code)
 ```
 
-# Event
 
 ### type
 
 ```{r}
-occurrence %<>% mutate(type = "Event")
+event %<>% mutate(dwc_type = "Event")
 ```
 
 ### language
 
 ```{r}
-occurrence %<>% mutate(language = "en") # e.g. "en"
+event %<>% mutate(dwc_language = "en") # e.g. "en"
 ```
 
 ### license
 
 ```{r}
-occurrence %<>% mutate(license = "http://creativecommons.org/publicdomain/zero/1.0/") 
+event %<>% mutate(dwc_license = "http://creativecommons.org/publicdomain/zero/1.0/") 
 # e.g. "http://creativecommons.org/publicdomain/zero/1.0/"
 ```
 
 ### rightsHolder
 
 ```{r}
-occurrence %<>% mutate(rightsHolder = "Institute of Tropical Medicine Antwerp") # e.g. "INBO"
+event %<>% mutate(dwc_rightsHolder = "Institute of Tropical Medicine Antwerp") # e.g. "INBO"
 ```
 
 ### accessRights
 
 ```{r}
-occurrence %<>% mutate(accessRights = "http://www.inbo.be/en/norms-for-data-use") 
+event %<>% mutate(dwc_accessRights = "http://www.inbo.be/en/norms-for-data-use") 
 ```
+### institutionID
+
 
 ### datasetID
 
 ```{r}
-occurrence %<>% mutate(datasetID = "complete")
+event %<>% mutate(dwc_datasetID = "complete")
 ```
 
 ### institutionCode
 
 ```{r}
-occurrence %<>% mutate(institutionCode = "ITG") # e.g. "INBO"
+event %<>% mutate(dwc_institutionCode = "ITG") # e.g. "INBO"
+```
+### collectionCode
+
+```{r}
+event %<>% mutate(dwc_collectionID = "ITG:Memo")
 ```
 
 ### datasetName
 
 ```{r}
-occurrence %<>% mutate(datasetName = "MEMO - Exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+event %<>% mutate(dwc_datasetName = "MEMO - Exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
-
-The following terms contain information about the taxon:
-
 ### basisOfRecord
 
 ```{r}
-occurrence %<>% mutate(basisOfRecord = "HumanObservation")
+event %<>% mutate(basisOfRecord = "HumanObservation")
 ```
+
+
+```{r}
+head(event, n = 10)
+```
+
+
+# Event
+
+### eventDate
+
+```{r}
+ event %<>% mutate(eventDate = paste(dmy(start_date),dmy(end_date), sep = "/"))
+```
+
+
 
 ### informationWithHeld
 
 ### dataGeneralizations
 
-### occurrenceID
+### dynamicProperties
 
-**This need to be fixed**
-
-```{r}
-occurrence %<>% rename(occurrenceID = 'Id') 
-#                mutate(occurrenceID = str_c("UVW:", occurrenceID))
-```
 
 ### recordedBy
 
@@ -213,55 +233,12 @@ occurrence %<>% rename(occurrenceID = 'Id')
 occurrence %<>% mutate(recordedBy = WaterAuthorityName)
 ```
 
-### individualCount
 
-```{r}
-occurrence %<>% rename(individualCount='NumberOfCatches') 
-```
-
-### organismQuantity
-
-### organismQuentityType
-
-### sex
-
-```{r}
-occurrence %<>% mutate(sex = recode(Gender,
-"Muskusrat" = "Muskusrat",
-                   "jong"  = "juvenile",
-                   "oud" = "adult",
-                   "Onbekend" = "",
-                                   ))
-```
-
-### lifeStage
-
-```{r}
-occurrence %<>% mutate(lifeStage = recode(Age,
-"Muskusrat" = "Muskusrat",
-                   "moer"  = "female",
-                   "ram" = "male",
-                   "Onbekend" = "",
-                                   ))
-```
-
-### behavior
-
-### occurrenceRemarks
-
-```{r}
-# occurrence %<>% rename(occurrenceRemarks = 'action_en')
-```
 
 ### samplingProtocol
 
 ### samplingEffort
 
-### eventDate
-
-```{r}
-occurrence %<>% mutate(eventDate = dmy_hm(CreatedOn)) 
-```
 
 ```{r}
 occurrence %<>% mutate(year = year(eventDate)) %<>%
@@ -358,6 +335,9 @@ occurrence %<>% mutate(verbatimSRS = "EPSG:28992")
 
 ### georeferenceRemarks
 
+The following terms contain information about the taxon:
+
+
 ### identifiedBy
 
 ```{r}
@@ -369,7 +349,53 @@ Map the data to [Darwin Core Occurrence](http://rs.gbif.org/core/dwc_occurrence_
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
 
 
+### occurrenceID
 
+**This need to be fixed**
+
+```{r}
+occurrence %<>% rename(occurrenceID = 'Id') 
+#                mutate(occurrenceID = str_c("UVW:", occurrenceID))
+```
+### individualCount
+
+```{r}
+occurrence %<>% rename(individualCount='NumberOfCatches') 
+```
+
+### organismQuantity
+
+### organismQuentityType
+
+### sex
+
+```{r}
+occurrence %<>% mutate(sex = recode(Gender,
+"Muskusrat" = "Muskusrat",
+                   "jong"  = "juvenile",
+                   "oud" = "adult",
+                   "Onbekend" = "",
+                                   ))
+```
+
+### lifeStage
+
+```{r}
+occurrence %<>% mutate(lifeStage = recode(Age,
+"Muskusrat" = "Muskusrat",
+                   "moer"  = "female",
+                   "ram" = "male",
+                   "Onbekend" = "",
+                                   ))
+```
+
+### behavior
+
+### occurrenceRemarks
+
+```{r}
+# occurrence %<>% rename(occurrenceRemarks = 'action_en')
+```
 
 ### scientificName 
 
