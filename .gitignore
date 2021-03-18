@@ -29,7 +29,4 @@ data-publication-ITG-datasets/*/
 *.sql
 *.csv
 *.zip
-*.csv
-*.csv
-*.csv
 .Rhistory
