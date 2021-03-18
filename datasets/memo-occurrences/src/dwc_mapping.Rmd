@@ -235,17 +235,20 @@ event %<>% mutate(dwc_habitat = pbs_type)
 
 ### locationID
 
+```{r}
+event %<>% mutate(dwc_locationID = poe_code) # e.g. "Belgium = BE"
+```
 
 ### continent
 
 ```{r}
-event %<>% mutate(continent = "Europe") # e.g. "Belgium = BE"
+event %<>% mutate(dwc_continent = "Europe") # e.g. "Belgium = BE"
 ```
 
 ### countryCode
 
 ```{r}
-event %<>% mutate(countryCode = "BE") # e.g. "Belgium = BE"
+event %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
 ```
 
 ### municipality
@@ -311,39 +314,21 @@ colnames(event) <- str_remove(colnames(event), "dwc_")
 event %<>% distinct()
 ```
 
-The following terms contain information about the taxon:
+The following terms contain information about the occurrence:
 
-### informationWithHeld
-
-### dataGeneralizations
-
-### dynamicProperties
-
-
-### recordedBy
-
-```{r}
-occurrence %<>% mutate(recordedBy = WaterAuthorityName)
-```
-
-
-
-
-
-
-
-
-
-### identifiedBy
-
-```{r}
-occurrence %<>% mutate(identifiedBy = WaterAuthorityName)
-```
 
 Map the data to [Darwin Core Occurrence](http://rs.gbif.org/core/dwc_occurrence_2015-07-02.xml).
 
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
 
+
+REmove all columns not relevant for occurrence
+
+## Remove obsolete columns for event
+
+```{r}
+occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, ))
+```
 
 ### occurrenceID
 
@@ -353,6 +338,22 @@ Start with record-level terms which contain metadata about the dataset (which is
 occurrence %<>% rename(occurrenceID = 'Id') 
 #                mutate(occurrenceID = str_c("UVW:", occurrenceID))
 ```
+
+
+### recordedBy
+
+```{r}
+occurrence %<>% mutate(recordedBy = WaterAuthorityName)
+```
+
+### identifiedBy
+
+```{r}
+occurrence %<>% mutate(identifiedBy = WaterAuthorityName)
+```
+
+
+
 ### individualCount
 
 ```{r}
