@@ -2,22 +2,17 @@
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
-
 # Folder config file
 Desktop.ini
-
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
 # Windows Installer files
 *.cab
 *.msi
 *.msm
 *.msp
-
 # Windows shortcuts
 *.lnk
-
 # =========================
 # Operating System Files
 # =========================
@@ -27,12 +22,9 @@ ITG ExoSurv Mosquito 2012/DATA/RAW/ExoSurv2012.accdb
 *.accdb
 *.accdb
 .Rproj.user
-
 Ignore folders
-
 documentation/*
 data-publication-ITG-datasets/*/
-
 *.csv
 *.sql
 *.csv
@@ -40,3 +32,4 @@ data-publication-ITG-datasets/*/
 *.csv
 *.csv
 *.csv
+.Rhistory
