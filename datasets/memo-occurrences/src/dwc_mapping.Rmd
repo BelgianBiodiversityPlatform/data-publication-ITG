@@ -134,7 +134,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 ## Remove obsolete columns for event
 
 ```{r}
-event %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, species.f, sex_collected, sex_stored))
+event %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, species.f, sex_collected, sex_stored, trap_code, pbs_code))
 ```
 ## eventID
 
@@ -215,7 +215,7 @@ head(event, n = 10)
 ### eventDate
 
 ```{r}
- event %<>% mutate(eventDate = paste(dmy(start_date),dmy(end_date), sep = "/"))
+ event %<>% mutate(eventDate = paste(dmy(start_date),dmy(end_date), sep = " / "))
 ```
 ### samplingProtocol
 
@@ -223,36 +223,18 @@ head(event, n = 10)
 event %<>% mutate(dwc_samplingProtocol = trap_type)
 ```
 
+
+### habitat
+
+```{r}
+event %<>% mutate(dwc_habitat = pbs_type)
+```
+
+
 # Location
 
+### locationID
 
-
-```{r}
-event %<>% rename(decimalLongitude = X) %>%
-                rename(decimalLatitude = Y) %>%
-                mutate(geodeticDatum = "WGS84") %>%
-                mutate(coordinateUncertaintyInMeters = "30") %>%
-                mutate(verbatimCoordinateSystem = "Rijksdriehoekscoördinaten") %>%
-                mutate(countryCode = "NL")  %>%            
-                mutate(continent = "Europe")
-```
-
-```{r}
-head(occurrence, n = 5)
-occurrence %<>%
-   mutate(verbatimLongitude = round(verbatimLongitude, digits = 0 )) %>%
-   mutate(verbatimLatitude = round(verbatimLatitude, digits = 0)) %>%
-   mutate(decimalLongitude = round(decimalLongitude, digits = 5)) %>%
-   mutate(decimalLatitude = round(decimalLatitude, digits = 5))
-```
-
-```{r}
-occurrence %<>%   
-   mutate(decimalLatitude = as.character(format(decimalLatitude, nsmall = 5))) %>%
-   mutate(decimalLongitude = as.character(format(decimalLongitude, nsmall = 5))) %>%
-   mutate(verbatimLatitude = as.character(format(verbatimLatitude, nsmall = 0))) %>%
-   mutate(verbatimLongitude = as.character(format(verbatimLongitude, nsmall = 0)))
-```
 
 ### continent
 
@@ -274,23 +256,60 @@ event %<>%
   mutate(municipality = poe_city)
 ```
 
-### locationID
+### locality
 
 ```{r}
-event %<>% mutate(locationID = SubAreaName)
+event %<>%
+  mutate(municipality = poe_name_extra)
+```
+
+### decimalLatitude & decimalLongitude
+
+```{r}
+head(event, n = 5)
+event %<>%
+   mutate(dwc_decimalLongitude = round(decimalLongitude_poe, digits = 5)) %>%
+   mutate(dwc_decimalLatitude = round(decimalLatitude_poe, digits = 5))
 ```
 
 
+```{r}
+event %<>%   
+   mutate(dwc_decimalLatitude = as.character(format(dwc_decimalLatitude, nsmall = 5))) %>%
+   mutate(dwc_decimalLongitude = as.character(format(dwc_decimalLongitude, nsmall = 5)))
 
-### decimalLatitude
 
-### decimalLongitude
+   
+```
 
 ### geodeticDatum
 
+```{r}
+event %<>%
+  mutate(dwc_geodeticDatum = 'WGS84')
+```
+
 ### coordinateUncertaintyInMeters
 
+
+```{r}
+event %<>%
+  mutate(dwc_coordinateUncertaintyInMeters = '30')
+```
+
 ### georeferenceRemarks
+
+## Post-processing Event
+
+```{r}
+event %<>% select(starts_with("dwc_"))
+
+colnames(event) <- str_remove(colnames(event), "dwc_")
+  #remove collection columns
+          ##  rename(scientificName = verbatimScientificName) 
+
+event %<>% distinct()
+```
 
 The following terms contain information about the taxon:
 
