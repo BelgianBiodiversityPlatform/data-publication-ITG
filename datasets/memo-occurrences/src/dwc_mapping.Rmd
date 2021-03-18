@@ -217,40 +217,18 @@ head(event, n = 10)
 ```{r}
  event %<>% mutate(eventDate = paste(dmy(start_date),dmy(end_date), sep = "/"))
 ```
-
-
-
-### informationWithHeld
-
-### dataGeneralizations
-
-### dynamicProperties
-
-
-### recordedBy
-
-```{r}
-occurrence %<>% mutate(recordedBy = WaterAuthorityName)
-```
-
-
-
 ### samplingProtocol
 
-### samplingEffort
-
-
 ```{r}
-occurrence %<>% mutate(year = year(eventDate)) %<>%
-                mutate(month = month(eventDate)) %<>%
-                mutate(day = day(eventDate)) %<>%
-                mutate(eventDate = date(eventDate))
+event %<>% mutate(dwc_samplingProtocol = trap_type)
 ```
 
 # Location
 
+
+
 ```{r}
-occurrence %<>% rename(decimalLongitude = X) %>%
+event %<>% rename(decimalLongitude = X) %>%
                 rename(decimalLatitude = Y) %>%
                 mutate(geodeticDatum = "WGS84") %>%
                 mutate(coordinateUncertaintyInMeters = "30") %>%
@@ -279,51 +257,30 @@ occurrence %<>%
 ### continent
 
 ```{r}
-##occurrence %<>% mutate(continent = "Europe") # e.g. "Belgium = BE"
+event %<>% mutate(continent = "Europe") # e.g. "Belgium = BE"
 ```
 
 ### countryCode
 
 ```{r}
-#occurrence %<>% mutate(countryCode = "NL") # e.g. "Belgium = BE"
+event %<>% mutate(countryCode = "BE") # e.g. "Belgium = BE"
 ```
 
 ### municipality
 
-municipality already in source file
 
 ```{r}
-#occurrence %<>%
-#  mutate(municipality = str_remove(municipality,"\\(BE\\)"))
+event %<>%
+  mutate(municipality = poe_city)
 ```
 
 ### locationID
 
 ```{r}
-occurrence %<>% mutate(locationID = SubAreaName)
+event %<>% mutate(locationID = SubAreaName)
 ```
 
-### verbatimCoordinates
 
-```{r}
-occurrence %<>% mutate(locationID = HourSquareName)
-```
-
-### verbatimLatitude
-
-### verbatimLongitude
-
-### verbatimCoordinateSystem
-
-```{r}
-#occurrence %<>% mutate(verbatimcoordinatesystem = "Amersfoort/RD new") # 
-```
-
-### verbatimSRS
-
-```{r}
-occurrence %<>% mutate(verbatimSRS = "EPSG:28992")
-```
 
 ### decimalLatitude
 
@@ -336,6 +293,26 @@ occurrence %<>% mutate(verbatimSRS = "EPSG:28992")
 ### georeferenceRemarks
 
 The following terms contain information about the taxon:
+
+### informationWithHeld
+
+### dataGeneralizations
+
+### dynamicProperties
+
+
+### recordedBy
+
+```{r}
+occurrence %<>% mutate(recordedBy = WaterAuthorityName)
+```
+
+
+
+
+
+
+
 
 
 ### identifiedBy
