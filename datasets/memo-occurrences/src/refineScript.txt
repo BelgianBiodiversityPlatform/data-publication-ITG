@@ -1,0 +1,724 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5.0451260509999996"
+        ],
+        "to": "50.451260509999996"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5.060006606"
+        ],
+        "to": "50.60006606"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5.063235069"
+        ],
+        "to": "50.63235069"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5.089905652"
+        ],
+        "to": "50.89905652"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5.111195116"
+        ],
+        "to": "51.11195116"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5.125155894"
+        ],
+        "to": "51.25155894"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "509.060497"
+        ],
+        "to": "50.9060497"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "50.451260509999996"
+        ],
+        "to": "50.4512605"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLatitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLatitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "50.648771000000004"
+        ],
+        "to": "50.648771"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLongitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLongitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "504.547"
+        ],
+        "to": "5.04547"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLongitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLongitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "504.574"
+        ],
+        "to": "5.04574"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column decimalLongitude_poe",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "decimalLongitude_poe",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "629.456"
+        ],
+        "to": "6.29456"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column unique_id_code",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "unique_id_code",
+          "expression": "value",
+          "columnName": "unique_id_code",
+          "invert": false,
+          "selection": [],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": true,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "unique_id_code",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [
+          ""
+        ],
+        "to": " "
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column unique_id_code using expression grel:'ITG' + ':' + 'MEMO' + ':' + value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "unique_id_code",
+    "expression": "grel:'ITG' + ':' + 'MEMO' + ':' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column unique_id_code using expression grel:value + '0000000'[0,7-row.index.length()] + row.index+1",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "unique_id_code",
+          "expression": "value",
+          "columnName": "unique_id_code",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ITG:MEMO: ",
+                "l": "ITG:MEMO: "
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "unique_id_code",
+    "expression": "grel:value + '0000000'[0,7-row.index.length()] + row.index+1",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column collector_1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collector_1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Isra",
+          "Isra "
+        ],
+        "to": "Isra"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Anna",
+          "Anna "
+        ],
+        "to": "Anna"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Adwine",
+          "Adwine "
+        ],
+        "to": "Adwine"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Ã¯..sampling_code to sampling_code",
+    "oldColumnName": "Ã¯..sampling_code",
+    "newColumnName": "sampling_code"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column sampling_remarks",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sampling_remarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "change gf",
+          "CHANGE GF",
+          "CHANGE GF ",
+          "Change GF"
+        ],
+        "to": "change gf"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "no larvae",
+          "No larvae",
+          "no larvae ",
+          "No larvae "
+        ],
+        "to": "no larvae"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "geen larven ",
+          "geen larven"
+        ],
+        "to": "no larvae"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "new trap placed",
+          "New trap placed"
+        ],
+        "to": "new trap placed"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "outside swissport",
+          "outside Swissport"
+        ],
+        "to": "outside swissport"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "gas tank empty, pinking red",
+          "gas tank empty? pinking red."
+        ],
+        "to": "gas tank empty, pinking red"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "no fan did not work",
+          "no fan, did not work"
+        ],
+        "to": "no fan, did not work"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "adwine",
+          "Adwine"
+        ],
+        "to": "adwine"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "op 19/6 val verzet nr deel van MB. Deel ernaast van nieuwe eigenaar ORT EM.",
+          "op 19/6 val verzet nr deel MB. Deel ernaast van nieuwe eigenaar ORT EM."
+        ],
+        "to": "op 19/6 val verzet nr deel van MB. Deel ernaast van nieuwe eigenaar ORT EM."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "A lot of fish",
+          "a lot of fish"
+        ],
+        "to": "A lot of fish"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "bij A2 no larvae",
+          "no larvae, bij A2"
+        ],
+        "to": "bij A2 no larvae"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "omgevallen droog",
+          "omgevallen, droog"
+        ],
+        "to": "omgevallen droog"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "red led flashing tank not empty removal of trap",
+          "red led flashing, tank not empty, removal of trap"
+        ],
+        "to": "red led flashing tank not empty removal of trap"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Zone 6",
+          "zone 6"
+        ],
+        "to": "Zone 6"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Watering sink at Wirtzfeld cemetery",
+          "watering sink at cemetery Wirtzfeld"
+        ],
+        "to": "Watering sink at Wirtzfeld cemetery"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "hangars boven B-Close",
+          "hangars boven b-close"
+        ],
+        "to": "hangars boven B-Close"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "done on 29/6",
+          "Done on 29/6"
+        ],
+        "to": "done on 29/6"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "collected on 16/8, dried out",
+          "dried out, collected on 16/8"
+        ],
+        "to": "collected on 16/8, dried out"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "trap gone cpuld not put new trap because there where no more extra pots in the van isra wil place a new pot when she comes on friday the 10 of august, found back on 24/8",
+          "trap gone cpuld not put new trap because there where no more extra pots in the van isra wil place a new pot when she comes on friday the 10 of august, found back on 24/8."
+        ],
+        "to": "trap gone cpuld not put new trap because there where no more extra pots in the van isra wil place a new pot when she comes on friday the 10 of august, found back on 24/8"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "dried out",
+          "dried  out"
+        ],
+        "to": "dried out"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "big",
+          "big "
+        ],
+        "to": "big"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "fallen  over",
+          "fallen over"
+        ],
+        "to": "fallen over"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Esco culex",
+          "culex, esco"
+        ],
+        "to": "culex, esco"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "no mosquitoes",
+          "no mosquitoes "
+        ],
+        "to": "no mosquitoes"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "dry",
+          "dry!"
+        ],
+        "to": "dry"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "culex",
+          "Culex"
+        ],
+        "to": "Culex"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Rocherath",
+          "rocherath"
+        ],
+        "to": "Rocherath"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tyres in field",
+          "tyres in field"
+        ],
+        "to": "Tyres in field"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "started on 24/9, collected on 12/11",
+          "started  on 24/9, collected on 12/11"
+        ],
+        "to": "started on 24/9, collected on 12/11"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "annimal nibbels",
+          "annimal nibbels?"
+        ],
+        "to": "annimal nibbels"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sterke verbrandingsgeur van rubber.",
+          "Sterke verbrandingsgeur van rubber. "
+        ],
+        "to": "Sterke verbrandingsgeur van rubber."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2 MONTHS",
+          "2 months"
+        ],
+        "to": "2 MONTHS"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "dead mouse",
+          "mouse dead"
+        ],
+        "to": "dead mouse"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "culex & aedes japonicus",
+          "Culex & aedes japonicus"
+        ],
+        "to": "culex & aedes japonicus"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "larvae found",
+          "larvae found "
+        ],
+        "to": "larvae found"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column sampling_remarks",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sampling_remarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "tier gone - 26/09 - put new pot same place",
+          "tier gone -26/09- put new pot same place"
+        ],
+        "to": "tier gone - 26/09 - put new pot same place"
+      }
+    ]
+  }
+]
