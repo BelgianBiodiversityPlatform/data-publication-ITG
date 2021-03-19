@@ -720,5 +720,131 @@
         "to": "tier gone - 26/09 - put new pot same place"
       }
     ]
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "species.f",
+          "expression": "value",
+          "columnName": "species.f",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Inconclusive Inconclusive",
+                "l": "Inconclusive Inconclusive"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "species.f",
+          "expression": "value",
+          "columnName": "species.f",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Inconclusive Inconclusive",
+                "l": "Inconclusive Inconclusive"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "species.f",
+          "expression": "value",
+          "columnName": "species.f",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "No Culicidae",
+                "l": "No Culicidae"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "species.f",
+          "expression": "value",
+          "columnName": "species.f",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "No Culicidae",
+                "l": "No Culicidae"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
   }
 ]
