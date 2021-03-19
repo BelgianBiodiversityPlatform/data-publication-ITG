@@ -115,13 +115,28 @@ data is already in WGS84
 
 ## Pre-processing
 
+
+
+save input_data for open refine, as we have values in decimalLongitude and decimalLatitude where '.' are misplaced during previuos corrections in ITG
+
+
+
+```{r}
+write_csv(input_data, here::here("datasets","memo-occurrences", "data", "interim", "memoRawData.csv"), na = "")
+
+```
+
+```{r}
+interim_data <- read.csv(file = here::here("datasets", "memo-occurrences", "data", "interim", "memoRawDataRefined.csv"), sep = ',')
+
+head(input_data, n=5)
+```
 Create a dataframe occurrence data only 
 
 ```{r}
-occurrence <- input_data
-event <- input_data
+occurrence <- interim_data
+event <- interim_data
 ```
-
 
 
 # Term mapping
@@ -139,7 +154,7 @@ event %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_lon
 ## eventID
 
 ```{r}
-event %<>% mutate(dwc_eventID = ï..sampling_code)
+event %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", sampling_code))
 ```
 
 
@@ -236,7 +251,7 @@ event %<>% mutate(dwc_habitat = pbs_type)
 ### locationID
 
 ```{r}
-event %<>% mutate(dwc_locationID = poe_code) # e.g. "Belgium = BE"
+event %<>% mutate(dwc_locationID = str_c("ITG:MEMO:",poe_code)) # e.g. "Belgium = BE"
 ```
 
 ### continent
@@ -314,6 +329,19 @@ colnames(event) <- str_remove(colnames(event), "dwc_")
 event %<>% distinct()
 ```
 
+Save to CSV:
+
+```{r}
+write_csv(event, here::here("datasets/memo-occurrences", "data", "processed", "event.csv"), na = "")
+
+
+
+```
+
+
+
+
+
 The following terms contain information about the occurrence:
 
 
@@ -327,7 +355,7 @@ REmove all columns not relevant for occurrence
 ## Remove obsolete columns for event
 
 ```{r}
-occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, ))
+occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, poe_type, poe_code, location, poe_type, poe_city, poe_country, poe_municipality, poe_name, poe_name_extra, decimalLatitude_poe, decimalLongitude_poe ))
 ```
 
 ### occurrenceID
@@ -335,21 +363,20 @@ occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, po
 **This need to be fixed**
 
 ```{r}
-occurrence %<>% rename(occurrenceID = 'Id') 
-#                mutate(occurrenceID = str_c("UVW:", occurrenceID))
+occurrence %<>% mutate(dwc_occurrenceID = unique_id_code)
 ```
 
 
 ### recordedBy
 
 ```{r}
-occurrence %<>% mutate(recordedBy = WaterAuthorityName)
+occurrence %<>% mutate(dwc_recordedBy = collector_1)
 ```
 
 ### identifiedBy
 
 ```{r}
-occurrence %<>% mutate(identifiedBy = WaterAuthorityName)
+occurrence %<>% mutate(dwc_identifiedBy = executor)
 ```
 
 
@@ -357,7 +384,7 @@ occurrence %<>% mutate(identifiedBy = WaterAuthorityName)
 ### individualCount
 
 ```{r}
-occurrence %<>% rename(individualCount='NumberOfCatches') 
+occurrence %<>% mutate(dwc_individualCount= number) 
 ```
 
 ### organismQuantity
@@ -367,46 +394,31 @@ occurrence %<>% rename(individualCount='NumberOfCatches')
 ### sex
 
 ```{r}
-occurrence %<>% mutate(sex = recode(Gender,
-"Muskusrat" = "Muskusrat",
-                   "jong"  = "juvenile",
-                   "oud" = "adult",
-                   "Onbekend" = "",
-                                   ))
+occurrence %<>% mutate(dwc_sex = recode(sex_collected,
+                   "egg" = "",
+                   "larva"  = "",
+                   "pupa" = "",
+                                ))
 ```
 
 ### lifeStage
 
 ```{r}
-occurrence %<>% mutate(lifeStage = recode(Age,
-"Muskusrat" = "Muskusrat",
-                   "moer"  = "female",
-                   "ram" = "male",
-                   "Onbekend" = "",
-                                   ))
+occurrence %<>% mutate(lifeStage = recode(sex_collected,
+                   "female" = "adult",
+                   "male"  = "adult",
+                                     ))
 ```
 
-### behavior
 
-### occurrenceRemarks
 
-```{r}
-# occurrence %<>% rename(occurrenceRemarks = 'action_en')
-```
+
 
 ### scientificName 
 
 ```{r}
-head(occurrence, n=5)
-occurrence %<>% mutate(scientificName = recode(CatchTypeName
-                   , "Beverrat ram oud (>1jr)"  = "Myocastor coypus"
-                   , "Muskusrat" = "Ondatra zibethicus"
-                   , "Beverrat"  = "Myocastor coypus"
-                   , "Muskusrat ram oud (>1jr)" = "Ondatra zibethicus"
-                   , "Muskusrat ram jong (<1jr)" = "Ondatra zibethicus"
-                   , "Muskusrat moer oud (>1jr)" = "Ondatra zibethicus"
-                   , "Muskusrat moer jong (<1jr)" = "Ondatra zibethicus"
-                                       ))
+
+occurrence %<>% mutate(dwc_ scientificName = species.f)
 ```
 
 ### kingdom
@@ -415,33 +427,6 @@ occurrence %<>% mutate(scientificName = recode(CatchTypeName
 occurrence %<>% mutate(kingdom = "Animalia")
 ```
 
-### scientificNameAuthorship
-
-```{r}
-occurrence %<>% mutate(scientificNameAuthorship = recode(CatchTypeName
-                  ,"Muskusrat" = "Linnaeus, 1766"
-                  ,"Beverrat"  = "Molina, 1782"
-                  ,"Beverrat ram oud (>1jr)"  = "Molina, 1782"
-                  ,"Muskusrat ram oud (>1jr)" = "Linnaeus, 1766"
-                  ,"Muskusrat ram jong (<1jr)" = "Linnaeus, 1766"
-                  ,"Muskusrat moer oud (>1jr)" = "Linnaeus, 1766"
-                  ,"Muskusrat moer jong (<1jr)" = "Linnaeus, 1766"
-                                       ))
-```
-
-### verbatimScientificName
-
-```{r}
-occurrence %<>% mutate(verbatimScientificName = recode(CatchTypeName
-                  , "Muskusrat" = "Muskusrat"
-                  , "Beverrat"  = "Beverrat"
-                  , "Beverrat ram oud (>1jr)"  =   "Beverrat"
-                  , "Muskusrat ram oud (>1jr)" =   "Muskusrat"
-                  , "Muskusrat ram jong (<1jr)" =  "Muskusrat"
-                  , "Muskusrat moer oud (>1jr)" =  "Muskusrat"
-                  , "Muskusrat moer jong (<1jr)" = "Muskusrat"
-                                       ))
-```
 
 # taxonRank
 
