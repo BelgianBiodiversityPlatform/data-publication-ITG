@@ -418,20 +418,26 @@ occurrence %<>% mutate(lifeStage = recode(sex_collected,
 
 ```{r}
 
-occurrence %<>% mutate(dwc_ scientificName = species.f)
+occurrence %<>% mutate(dwc_scientificName = species.f)
 ```
 
 ### kingdom
 
 ```{r}
-occurrence %<>% mutate(kingdom = "Animalia")
+occurrence %<>% mutate(dwc_kingdom = "Animalia")
 ```
 
 
 # taxonRank
 
 ```{r}
-occurrence %<>% mutate(taxonRank = "species")
+occurrence %<>% mutate(dwc_taxonRank = case_when(
+                   species.f == 'Culex spp.' ~ "genus"
+                  ,species.f == 'Culiseta spp.' ~ "genus"
+                  ,species.f == 'Aedes spp.' ~ "genus"
+                  ,species.f == '' ~ ''
+                  ,species.f == 'Anopheles spp.' ~ "genus"
+                  ,TRUE ~ "species"                   ))
 ```
 
 # nomenclaturalCode
