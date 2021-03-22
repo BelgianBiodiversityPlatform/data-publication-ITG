@@ -202,11 +202,7 @@ event %<>% mutate(dwc_datasetID = "complete")
 ```{r}
 event %<>% mutate(dwc_institutionCode = "ITG") # e.g. "INBO"
 ```
-### collectionCode
 
-```{r}
-event %<>% mutate(dwc_collectionID = "ITG:Memo")
-```
 
 ### datasetName
 
@@ -216,7 +212,7 @@ event %<>% mutate(dwc_datasetName = "MEMO - Exotic mosquitoes in Belgium") # e.g
 ### basisOfRecord
 
 ```{r}
-event %<>% mutate(basisOfRecord = "HumanObservation")
+event %<>% mutate(dwc_basisOfRecord = "HumanObservation")
 ```
 
 
@@ -230,7 +226,7 @@ head(event, n = 10)
 ### eventDate
 
 ```{r}
- event %<>% mutate(eventDate = paste(dmy(start_date),dmy(end_date), sep = " / "))
+ event %<>% mutate(dwc_eventDate = paste(dmy(start_date),dmy(end_date), sep = "/"))
 ```
 ### samplingProtocol
 
@@ -365,7 +361,17 @@ occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, po
 ```{r}
 occurrence %<>% mutate(dwc_occurrenceID = unique_id_code)
 ```
+## eventID
 
+```{r}
+occurrence %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", sampling_code))
+```
+
+### basisOfRecord
+
+```{r}
+occurrence %<>% mutate(dwc_basisOfRecord = "HumanObservation")
+```
 
 ### recordedBy
 
@@ -378,7 +384,11 @@ occurrence %<>% mutate(dwc_recordedBy = collector_1)
 ```{r}
 occurrence %<>% mutate(dwc_identifiedBy = executor)
 ```
+### collectionCode
 
+```{r}
+occurrence %<>% mutate(dwc_collectionCode = "ITG:Memo")
+```
 
 
 ### individualCount
@@ -457,28 +467,20 @@ occurrence %<>%
                                 )
 ```
 
-## Post-processing
+## Post-processing Occurrence
+
+
 
 ```{r}
+occurrence %<>% select(starts_with("dwc_"))
+
 colnames(occurrence) <- str_remove(colnames(occurrence), "dwc_")
-occurrence %<>% select(-c(CatchTypeName, Gender, Age, HourSquareName, CreatedOn, year, month, day))  #remove collection columns
+  #remove collection columns
           ##  rename(scientificName = verbatimScientificName) 
+
+occurrence %<>% distinct()
 ```
 
-Define the order of the output columns
-
-```{r}
-col_order <- c( "type","language","license","rightsHolder","accessRights","datasetID"
-               ,"institutionCode","datasetName","basisOfRecord","occurrenceID","recordedBy"
-               ,"individualCount","occurrenceStatus","eventDate","locationID", "continent","countryCode"
-               ,"verbatimLatitude","verbatimLongitude","verbatimCoordinateSystem","verbatimSRS"
-               ,"decimalLatitude","decimalLongitude","geodeticDatum","coordinateUncertaintyInMeters"
-               ,"identifiedBy","scientificName","kingdom","scientificNameAuthorship","taxonRank","nomenclaturalCode"
-               ) 
-               # still needed for this dataset 
-               # removed for this dataset,"occurrenceRemarks","municipality","samplingProtocol","samplingEffort"
-occurrence <- occurrence[, col_order]
-```
 
 Preview data:
 
@@ -486,11 +488,11 @@ Preview data:
 occurrence %>% head()
 ```
 
+
 Save to CSV:
 
 ```{r}
-write_csv(occurrence, here::here("datasets/mica-uvw-occurrences", "data", "processed", "occurrence.csv"), na = "")
-
+write_csv(occurrence, here::here("datasets","memo-occurrences", "data", "processed", "occurrence.csv"), na = "")
 
 
 ```
