@@ -207,7 +207,7 @@ event %<>% mutate(dwc_institutionCode = "ITG") # e.g. "INBO"
 ### datasetName
 
 ```{r}
-event %<>% mutate(dwc_datasetName = "MEMO - Exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+event %<>% mutate(dwc_datasetName = "MEMO - Monitoring exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
 ### basisOfRecord
 
