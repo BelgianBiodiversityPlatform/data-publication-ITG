@@ -404,7 +404,7 @@ occurrence %<>% mutate(dwc_sex = recode(sex_collected,
 ### lifeStage
 
 ```{r}
-occurrence %<>% mutate(lifeStage = recode(sex_collected,
+occurrence %<>% mutate(dwc_lifeStage = recode(sex_collected,
                    "female" = "adult",
                    "male"  = "adult",
                                      ))
@@ -443,7 +443,7 @@ occurrence %<>% mutate(dwc_taxonRank = case_when(
 # nomenclaturalCode
 
 ```{r}
-occurrence %<>% mutate(nomenclaturalCode = "ICZN") # e.g. "ICZN"
+occurrence %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
 ```
 
 ### occurrenceStatus
@@ -451,8 +451,8 @@ occurrence %<>% mutate(nomenclaturalCode = "ICZN") # e.g. "ICZN"
 ```{r}
 occurrence %<>% 
     ##select(individualCount) %>%
-    mutate(occurrenceStatus = case_when(individualCount > 0 ~ "present",
-                              individualCount == 0 ~ "absent"
+    mutate(dwc_occurrenceStatus = case_when(dwc_individualCount > 0 ~ "present",
+                              dwc_individualCount == 0 ~ "absent"
                                  )
                                 )
 ```
