@@ -57,17 +57,21 @@ Clean data somewhat:
 
 ```{r}
 input_data %<>% remove_empty("rows")
+
+head(input_data, n = 5)
 ```
 
 
 delete obsolete columns
 
 ```{r}
-input_data %<>% select(-c("phone_contact1","phone_contact2","email_contact1","email_contact2","poe_street","poe_postalcode","contactname1","contactname2","collector_2"))
+input_data %<>% select(-c("phone_contact1","phone_contact2","email_contact1","email_contact2","poe_street","poe_postalcode","contactname1","contactname2","collector_2", "polystyrene_status","polystyrene_next_to_trap","polystyrene_bitemarks","presence_pbstype","poe_street","poe_country","sex_stored1","sex_stored2","sex_stored3"))
+
+head(input_data, n = 5)
 ```
 fix issue with decimal lat and decimal long
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 integer_part_lat <- map_chr(input_data$poe_latitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
 
 decimal_part_lat <- map(input_data$poe_latitude, function(x) {
@@ -122,12 +126,12 @@ save input_data for open refine, as we have values in decimalLongitude and decim
 
 
 ```{r}
-write_csv(input_data, here::here("datasets","memo-occurrences", "data", "interim", "memoRawData.csv"), na = "")
+write_csv(input_data, here::here("datasets","memoplus-occurrences", "data", "interim", "memoplusRawData.csv"), na = "")
 
 ```
 
 ```{r}
-interim_data <- read.csv(file = here::here("datasets", "memo-occurrences", "data", "interim", "memoRawDataRefined.csv"), sep = ',')
+interim_data <- read.csv(file = here::here("datasets", "memoplus-occurrences", "data", "interim", "memoplusRawDataRefined.csv"), sep = ',')
 
 head(input_data, n=5)
 ```
@@ -149,12 +153,15 @@ Start with record-level terms which contain metadata about the dataset (which is
 ## Remove obsolete columns for event
 
 ```{r}
-event %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, species.f, sex_collected, sex_stored, trap_code, pbs_code))
+
+head (event, n = 5)
+event %<>% select(-c(trap_status,year, poe_latitude, poe_longitude, species.f, sex_collected, sex_stored1,sex_stored2, sex_stored3 , number, Photo, trap_code, pbs_code))
+head (event, n = 5)
 ```
 ## eventID
 
 ```{r}
-event %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", sampling_code))
+event %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", Ã...sampling_code))
 ```
 
 
@@ -173,7 +180,7 @@ event %<>% mutate(dwc_language = "en") # e.g. "en"
 ### license
 
 ```{r}
-event %<>% mutate(dwc_license = "http://creativecommons.org/publicdomain/zero/1.0/") 
+event %<>% mutate(dwc_license = "http://https://creativecommons.org/licenses/by/4.0/") 
 # e.g. "http://creativecommons.org/publicdomain/zero/1.0/"
 ```
 
