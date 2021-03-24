@@ -131,7 +131,7 @@ write_csv(input_data, here::here("datasets","memoplus-occurrences", "data", "int
 ```
 
 ```{r}
-interim_data <- read.csv(file = here::here("datasets", "memoplus-occurrences", "data", "interim", "memoplusRawDataRefined.csv"), sep = ',')
+interim_data <- read.delim2(file = here::here("datasets", "memoplus-occurrences", "data", "interim", "memoplusRawData.tsv"), dec = ',', sep = '\t')
 
 head(input_data, n=5)
 ```
@@ -214,7 +214,7 @@ event %<>% mutate(dwc_institutionCode = "ITG") # e.g. "INBO"
 ### datasetName
 
 ```{r}
-event %<>% mutate(dwc_datasetName = "MEMO - Monitoring exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+event %<>% mutate(dwc_datasetName = "MEMOplus - Monitoring exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
 ### basisOfRecord
 
@@ -274,30 +274,30 @@ event %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
 
 ```{r}
 event %<>%
-  mutate(municipality = poe_city)
+  mutate(dwc_municipality = poe_city)
 ```
 
 ### locality
 
 ```{r}
 event %<>%
-  mutate(municipality = poe_name_extra)
+  mutate(dwc_locality = poe_name)
 ```
 
 ### decimalLatitude & decimalLongitude
 
 ```{r}
-head(event, n = 5)
+
 event %<>%
-   mutate(dwc_decimalLongitude = round(decimalLongitude_poe, digits = 5)) %>%
-   mutate(dwc_decimalLatitude = round(decimalLatitude_poe, digits = 5))
+   mutate(dwc_decimalLongitude = (longitude)) %>%
+   mutate(dwc_decimalLatitude = (latitude))
 ```
 
 
 ```{r}
 event %<>%   
-   mutate(dwc_decimalLatitude = as.character(format(dwc_decimalLatitude, nsmall = 5))) %>%
-   mutate(dwc_decimalLongitude = as.character(format(dwc_decimalLongitude, nsmall = 5)))
+   mutate(dwc_decimalLatitude = as.character(format(latitude, nsmall = 5))) %>%
+   mutate(dwc_decimalLongitude = as.character(format(longitude, nsmall = 5)))
 
 
    
