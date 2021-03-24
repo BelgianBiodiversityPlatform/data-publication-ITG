@@ -180,7 +180,7 @@ event %<>% mutate(dwc_language = "en") # e.g. "en"
 ### license
 
 ```{r}
-event %<>% mutate(dwc_license = "http://https://creativecommons.org/licenses/by/4.0/") 
+event %<>% mutate(dwc_license = "http://creativecommons.org/licenses/by/4.0/") 
 # e.g. "http://creativecommons.org/publicdomain/zero/1.0/"
 ```
 
