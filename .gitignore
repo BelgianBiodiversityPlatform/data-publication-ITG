@@ -30,3 +30,4 @@ data-publication-ITG-datasets/*/
 *.csv
 *.zip
 .Rhistory
+memoplusRawData.tsv
