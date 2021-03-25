@@ -555,7 +555,7 @@ occurrence %>% head()
 Save to CSV:
 
 ```{r}
-write_csv(occurrence, here::here("datasets","memo-occurrences", "data", "processed", "occurrence.csv"), na = "")
+write_csv(occurrence, here::here("datasets","memoplus-occurrences", "data", "processed", "occurrence.csv"), na = "")
 
 
 ```
