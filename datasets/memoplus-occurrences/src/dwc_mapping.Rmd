@@ -155,7 +155,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 ```{r}
 
 head (event, n = 5)
-event %<>% select(-c(trap_status,year, poe_latitude, poe_longitude, species.f, sex_collected, sex_stored1,sex_stored2, sex_stored3 , number, Photo, trap_code, pbs_code))
+event %<>% select(-c(trap_status,year, latitude, longitude, species.f, sex_collected, sex_stored1,sex_stored2, sex_stored3 , number, Photo, trap_code, pbs_code))
 head (event, n = 5)
 ```
 ## eventID
@@ -286,23 +286,38 @@ event %<>%
 
 ### decimalLatitude & decimalLongitude
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 
 event %<>%
-   mutate(dwc_decimalLongitude = (longitude)) %>%
-   mutate(dwc_decimalLatitude = (latitude))
+   mutate(dwc_decimalLongitude = (poe_longitude)) %>%
+   mutate(dwc_decimalLatitude = (poe_latitude))
+```
+```{r eval=FALSE, include=FALSE}
+
+head(event, n = 5)
+event %<>%
+   mutate(dwc_decimalLongitude = round(poe_longitude, digits = 5)) %>%
+   mutate(dwc_decimalLatitude = round(poe_atitude, digits = 5))
+
 ```
 
 
 ```{r}
 event %<>%   
-   mutate(dwc_decimalLatitude = as.character(format(latitude, nsmall = 5))) %>%
-   mutate(dwc_decimalLongitude = as.character(format(longitude, nsmall = 5)))
+   mutate(dwc_decimalLatitude = as.numeric(format(poe_latitude, digits = 5))) %>%
+   mutate(dwc_decimalLongitude = as.numeric(format(poe_longitude, digits = 5)))
 
 
    
 ```
+```{r}
 
+
+event %<>%
+   mutate(dwc_decimalLongitude = round(dwc_decimalLongitude, digits = 5)) %>%
+   mutate(dwc_decimalLatitude = round(dwc_decimalLatitude, digits = 5))
+head(event, n = 5)
+```
 ### geodeticDatum
 
 ```{r}
