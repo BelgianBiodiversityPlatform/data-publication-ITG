@@ -202,7 +202,12 @@ event %<>% mutate(dwc_datasetID = "complete")
 ```{r}
 event %<>% mutate(dwc_institutionCode = "ITG") # e.g. "INBO"
 ```
+### collectionCode
 
+
+```{r}
+event %<>% mutate(dwc_collectionCode = "ITG:Mosquitoes") # e.g. "INBO"
+```
 
 ### datasetName
 
@@ -346,17 +351,23 @@ Map the data to [Darwin Core Occurrence](http://rs.gbif.org/core/dwc_occurrence_
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
 
 
-REmove all columns not relevant for occurrence
+Remove all columns not relevant for occurrence
 
 ## Remove obsolete columns for event
 
 ```{r}
 occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, poe_type, poe_code, location, poe_type, poe_city, poe_country, poe_municipality, poe_name, poe_name_extra, decimalLatitude_poe, decimalLongitude_poe ))
 ```
+#materialSampleID
+
+```{r}
+occurrence %<>% mutate(dwc_materialSampleID = storage_box_code)
+```
+
 
 ### occurrenceID
 
-**This need to be fixed**
+
 
 ```{r}
 occurrence %<>% mutate(dwc_occurrenceID = unique_id_code)
@@ -420,9 +431,38 @@ occurrence %<>% mutate(dwc_lifeStage = recode(sex_collected,
                                      ))
 ```
 
+### occurrenceStatus
 
+```{r}
+occurrence %<>% 
+    ##select(individualCount) %>%
+    mutate(dwc_occurrenceStatus = case_when(dwc_individualCount > 0 ~ "present",
+                              dwc_individualCount == 0 ~ "absent"
+                                 )
+                                )
+```
 
+# identification
 
+### identifiedBy
+
+```{r}
+occurrence %<>% mutate(dwc_identifiedBy = executor)
+```
+
+### dateIdentified
+
+```{r}
+occurrence %<>% mutate(dwc_dateIdentified = date_lab_id)
+```
+
+### identificationRemarks
+
+```{r}
+occurrence %<>% mutate(dwc_identificationRemarks = lab_remarks)
+```
+
+# taxon
 
 ### scientificName 
 
@@ -456,16 +496,7 @@ occurrence %<>% mutate(dwc_taxonRank = case_when(
 occurrence %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
 ```
 
-### occurrenceStatus
 
-```{r}
-occurrence %<>% 
-    ##select(individualCount) %>%
-    mutate(dwc_occurrenceStatus = case_when(dwc_individualCount > 0 ~ "present",
-                              dwc_individualCount == 0 ~ "absent"
-                                 )
-                                )
-```
 
 ## Post-processing Occurrence
 
