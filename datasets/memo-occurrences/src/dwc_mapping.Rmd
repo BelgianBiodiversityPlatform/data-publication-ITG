@@ -430,6 +430,132 @@ occurrence %<>% mutate(dwc_lifeStage = recode(sex_collected,
                    "male"  = "adult",
                                      ))
 ```
+### establishmentMeans
+
+```{r}
+occurrence %<>% mutate(dwc_establishmentMeans = recode(species.f,
+                     "Culicidae" = "" ,
+                     "Anopheles claviger" = "introduced" ,
+                     "Anopheles spp." = "introduced" ,
+                     "Culex pipiens/torrentium" = "" ,
+                     "Culiseta annulata" = "native" ,
+                     "Culex spp." = "" ,
+                     "Anopheles plumbeus" = "introduced" ,
+                     "Aedes japonicus" = "introduced" ,
+                     "Aedes geniculatus" = "native" ,
+                     "Culiseta spp." = "" ,
+                     "Anopheles maculipennis s.l." = "introduced" ,
+                     "Anopheles daciae" = "introduced" ,
+                     "Culex hortensis" = "native" ,
+                     "Aedes spp." = "" ,
+                     "Aedes koreicus" = "introduced" ,
+                     "Culiseta longiareolata" = "introduced" ,
+                     "Anopheles maculipennis" = "introduced" ,
+                     "Aedes rusticus" = "native" ,
+                     "Aedes albopictus" = "introduced" ,
+                     "Culex modestus" = "introduced" ,
+                     "Culex torrentium" = "native" ,
+                     "Culiseta morsitans" = "native" ,
+                     "Aedes annulipes/cantans" = "" ,
+                     "Aedes sticticus" = "native" ,
+                     "Coquillettidia richiardii" = "introduced" ,
+                     "Aedes vexans" = "native" ,
+                     "Aedes communis" = "introduced" ,
+                     "Aedes cinereus/geminus" = "" ,
+                     "Aedes punctor" = "introduced" ,
+                     "Anopheles pharoensis" = "introduced" ,
+                     "Aedes caspius/dorsalis" = "" ,
+                     "Culiseta fumipennis" = "native" ,
+                     "Culex territans" = "native" ,
+                     "Anopheles atroparvus" = "introduced" ,
+                     "Aedes detritus" = "native" 
+                                     ))
+```
+### degreeOfEstablishment
+
+```{r}
+occurrence %<>% mutate(dwc_establishmentMeans = recode(species.f,
+                     "Culicidae" = "" ,
+                     "Anopheles claviger" = "introduced" ,
+                     "Anopheles spp." = "introduced" ,
+                     "Culex pipiens/torrentium" = "" ,
+                     "Culiseta annulata" = "native" ,
+                     "Culex spp." = "" ,
+                     "Anopheles plumbeus" = "introduced" ,
+                     "Aedes japonicus" = "introduced" ,
+                     "Aedes geniculatus" = "native" ,
+                     "Culiseta spp." = "" ,
+                     "Anopheles maculipennis s.l." = "introduced" ,
+                     "Anopheles daciae" = "introduced" ,
+                     "Culex hortensis" = "native" ,
+                     "Aedes spp." = "" ,
+                     "Aedes koreicus" = "introduced" ,
+                     "Culiseta longiareolata" = "introduced" ,
+                     "Anopheles maculipennis" = "introduced" ,
+                     "Aedes rusticus" = "native" ,
+                     "Aedes albopictus" = "introduced" ,
+                     "Culex modestus" = "introduced" ,
+                     "Culex torrentium" = "native" ,
+                     "Culiseta morsitans" = "native" ,
+                     "Aedes annulipes/cantans" = "" ,
+                     "Aedes sticticus" = "native" ,
+                     "Coquillettidia richiardii" = "introduced" ,
+                     "Aedes vexans" = "native" ,
+                     "Aedes communis" = "introduced" ,
+                     "Aedes cinereus/geminus" = "" ,
+                     "Aedes punctor" = "introduced" ,
+                     "Anopheles pharoensis" = "introduced" ,
+                     "Aedes caspius/dorsalis" = "" ,
+                     "Culiseta fumipennis" = "native" ,
+                     "Culex territans" = "native" ,
+                     "Anopheles atroparvus" = "introduced" ,
+                     "Aedes detritus" = "native" 
+                                     ))
+```
+
+### pathway
+
+
+```{r}
+occurrence %<>% mutate(dwc_establishmentMeans = recode(species.f,
+                   "Culicidae" = "" ,
+                  "Anopheles claviger" = "introduced" ,
+                  "Anopheles spp." = "introduced" ,
+                  "Culex pipiens/torrentium" = "" ,
+                  "Culiseta annulata" = "native" ,
+                  "Culex spp." = "" ,
+                  "Anopheles plumbeus" = "introduced" ,
+                  "Aedes japonicus" = "introduced" ,
+                  "Aedes geniculatus" = "native" ,
+                  "Culiseta spp." = "" ,
+                  "Anopheles maculipennis s.l." = "introduced" ,
+                  "Anopheles daciae" = "introduced" ,
+                  "Culex hortensis" = "native" ,
+                  "Aedes spp." = "" ,
+                  "Aedes koreicus" = "introduced" ,
+                  "Culiseta longiareolata" = "introduced" ,
+                  "Anopheles maculipennis" = "introduced" ,
+                  "Aedes rusticus" = "native" ,
+                  "Aedes albopictus" = "introduced" ,
+                  "Culex modestus" = "introduced" ,
+                  "Culex torrentium" = "native" ,
+                  "Culiseta morsitans" = "native" ,
+                  "Aedes annulipes/cantans" = "" ,
+                  "Aedes sticticus" = "native" ,
+                  "Coquillettidia richiardii" = "introduced" ,
+                  "Aedes vexans" = "native" ,
+                  "Aedes communis" = "introduced" ,
+                  "Aedes cinereus/geminus" = "" ,
+                  "Aedes punctor" = "introduced" ,
+                  "Anopheles pharoensis" = "introduced" ,
+                  "Aedes caspius/dorsalis" = "" ,
+                  "Culiseta fumipennis" = "native" ,
+                  "Culex territans" = "native" ,
+                  "Anopheles atroparvus" = "introduced" ,
+                  "Aedes detritus" = "native" 
+                                     ))
+```
+
 
 ### occurrenceStatus
 
@@ -527,3 +653,19 @@ write_csv(occurrence, here::here("datasets","memo-occurrences", "data", "process
 
 
 ```
+
+
+# Data quality tests
+
+```{r}
+parsed_names <- occurrence %>%
+  distinct(scientificName)  %>%
+  pull() %>% # Create vector from dataframe
+  parsenames() # An rgbif function
+
+speciesList <- parsed_names %>%
+   select(scientificname)
+
+write_csv(speciesList, here::here("datasets","memo-occurrences", "data", "processed", "specieslist.csv"), na = "")
+```
+
