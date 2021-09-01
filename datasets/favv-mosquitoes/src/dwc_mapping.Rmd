@@ -427,25 +427,36 @@ occurrence %<>% mutate(dwc_individualCount= Number)
 ### sex
 
 ```{r}
-occurrence %<>% mutate(dwc_sex = recode(sex_collected,
+occurrence %<>% mutate(dwc_sex = recode(Sex,
                    "egg" = "",
                    "larva"  = "",
                    "pupa" = "",
+                   "Unknown" = "",
+                   "Female" = "female",
+                   "Male" = "male"
                                 ))
 ```
 
 ### lifeStage
 
 ```{r}
-occurrence %<>% mutate(dwc_lifeStage = recode(sex_collected,
-                   "female" = "adult",
-                   "male"  = "adult",
+occurrence %<>% mutate(dwc_lifeStage = recode(Sex,
+                   "Female" = "adult",
+                   "Male"  = "adult",
+                   "Unknown" = ""
                                      ))
 ```
+### scientificName
+
+```{r}
+occurrence %<>% mutate(dwc_scientificName = paste(Genus, Species))
+```
+
+
 ### establishmentMeans
 
 ```{r}
-occurrence %<>% mutate(dwc_establishmentMeans = recode(species.f,
+occurrence %<>% mutate(dwc_establishmentMeans = recode(dwc_scientificName,
                      "Culicidae" = "" ,
                      "Anopheles claviger" = "introduced" ,
                      "Anopheles spp." = "introduced" ,
@@ -585,29 +596,26 @@ occurrence %<>%
 ### identifiedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_identifiedBy = executor)
+occurrence %<>% mutate(dwc_identifiedBy = Identifier)
 ```
 
 ### dateIdentified
 
 ```{r}
-occurrence %<>% mutate(dwc_dateIdentified = date_lab_id)
+occurrence %<>% mutate(dwc_dateIdentified = Date.ID)
 ```
 
 ### identificationRemarks
 
 ```{r}
-occurrence %<>% mutate(dwc_identificationRemarks = lab_remarks)
+occurrence %<>% mutate(dwc_identificationRemarks = Comments.identification)
 ```
 
 # taxon
 
 ### scientificName 
 
-```{r}
 
-occurrence %<>% mutate(dwc_scientificName = species.f)
-```
 
 ### kingdom
 
@@ -620,11 +628,11 @@ occurrence %<>% mutate(dwc_kingdom = "Animalia")
 
 ```{r}
 occurrence %<>% mutate(dwc_taxonRank = case_when(
-                   species.f == 'Culex spp.' ~ "genus"
-                  ,species.f == 'Culiseta spp.' ~ "genus"
-                  ,species.f == 'Aedes spp.' ~ "genus"
-                  ,species.f == '' ~ ''
-                  ,species.f == 'Anopheles spp.' ~ "genus"
+                   dwc_scientificName == 'Culex spp.' ~ "genus"
+                  ,dwc_scientificName == 'Culiseta spp.' ~ "genus"
+                  ,dwc_scientificName == 'Aedes spp.' ~ "genus"
+                  ,dwc_scientificName == '' ~ ''
+                  ,dwc_scientificName == 'Anopheles spp.' ~ "genus"
                   ,TRUE ~ "species"                   ))
 ```
 
@@ -661,7 +669,7 @@ occurrence %>% head()
 Save to CSV:
 
 ```{r}
-write_csv(occurrence, here::here("datasets","memo-occurrences", "data", "processed", "occurrence.csv"), na = "")
+write_csv(occurrence, here::here("datasets","favv-mosquitoes", "data", "processed", "occurrence.csv"), na = "")
 
 
 ```
@@ -678,6 +686,6 @@ parsed_names <- occurrence %>%
 speciesList <- parsed_names %>%
    select(scientificname)
 
-write_csv(speciesList, here::here("datasets","memo-occurrences", "data", "processed", "specieslist.csv"), na = "")
+write_csv(speciesList, here::here("datasets","favv-mosquitoes", "data", "processed", "specieslist.csv"), na = "")
 ```
 
