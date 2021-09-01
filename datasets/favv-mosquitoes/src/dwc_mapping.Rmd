@@ -113,7 +113,14 @@ input_data %>% head(n = 5)
 # Georeference source data
 data is already in WGS84
 
-# Occurrence core
+# Create eventID
+
+```{r}
+input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:", Start.Date, End.Date , Latitutde, Longitude ))
+
+```
+
+# Occurrence core & eventCore
 
 
 Create a dataframe event data only 
@@ -134,7 +141,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 ## Remove obsolete columns for event
 
 ```{r}
-event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Number, Box, Storage.of.Box, Status, Identifier, Date.ID, Comments.identification))
+event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Number, Box, Storage.of.Box, Status, Identifier, Date.ID, Comments.identification, Trap.Code, Comments.sampling))
 ```
 #group By for eventCore
 
@@ -154,9 +161,6 @@ event <- event %>% mutate(rowtID = row_number())
 ```
 
 
-```{r}
-event %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:", row_number(), Trap.Code))
-```
 
 
 ### type
@@ -213,7 +217,7 @@ event %<>% mutate(dwc_collectionCode = "ITG:Mosquitoes") # e.g. "INBO"
 ### datasetName
 
 ```{r}
-event %<>% mutate(dwc_datasetName = "MEMO - Monitoring exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+event %<>% mutate(dwc_datasetName = "FAVV - Exotic vector and pathogen surveillance programme in Belgium - Mosquitoes") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
 ### basisOfRecord
 
@@ -232,7 +236,7 @@ head(event, n = 10)
 ### eventDate
 
 ```{r}
- event %<>% mutate(dwc_eventDate = paste(dmy(start_date),dmy(end_date), sep = "/"))
+ event %<>% mutate(dwc_eventDate = paste((Start.Date),"/",(End.Date)))
 ```
 ### samplingProtocol
 
