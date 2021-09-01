@@ -63,11 +63,13 @@ input_data %<>% remove_empty("rows")
 delete obsolete columns
 
 ```{r}
-input_data %<>% select(-c("phone_contact1","phone_contact2","phone_contact3","email_contact1","email_contact2","email_contact3","poe_street","poe_postalcode","contactname1","contactname2","contactname3","website","poe_contact_remark","collector_2","collector_3"))
+input_data %<>% select(-c("ZIP.Code","Website"))
 ```
 fix issue with decimal lat and decimal long
 
-```{r}
+Not needed in this dataset
+
+```{r eval=FALSE, include=FALSE}
 integer_part_lat <- map_chr(input_data$poe_latitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
 
 decimal_part_lat <- map(input_data$poe_latitude, function(x) {
@@ -113,29 +115,12 @@ data is already in WGS84
 
 # Occurrence core
 
-## Pre-processing
 
-
-
-save input_data for open refine, as we have values in decimalLongitude and decimalLatitude where '.' are misplaced during previuos corrections in ITG
-
-
+Create a dataframe event data only 
 
 ```{r}
-write_csv(input_data, here::here("datasets","memo-occurrences", "data", "interim", "memoRawData.csv"), na = "")
-
-```
-
-```{r}
-interim_data <- read.csv(file = here::here("datasets", "memo-occurrences", "data", "interim", "memoRawDataRefined.csv"), sep = ',')
-
-head(input_data, n=5)
-```
-Create a dataframe occurrence data only 
-
-```{r}
-occurrence <- interim_data
-event <- interim_data
+occurrence <- input_data
+event <- input_data
 ```
 
 
@@ -149,12 +134,21 @@ Start with record-level terms which contain metadata about the dataset (which is
 ## Remove obsolete columns for event
 
 ```{r}
-event %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, species.f, sex_collected, sex_stored, trap_code, pbs_code))
+event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Number, Box, Storage.of.Box, Status, Identifier, Date.ID, Comments.identification))
 ```
+#group By for eventCore
+
+```{r}
+event %<>% distinct()
+
+```
+
+
+
 ## eventID
 
 ```{r}
-event %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", sampling_code))
+event %<>% mutate(dwc_eventID = str_c("IGT:FAVV:"))
 ```
 
 
@@ -353,7 +347,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 
 Remove all columns not relevant for occurrence
 
-## Remove obsolete columns for event
+## Remove obsolete columns for occurrence
 
 ```{r}
 occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, poe_type, poe_code, location, poe_type, poe_city, poe_country, poe_municipality, poe_name, poe_name_extra, decimalLatitude_poe, decimalLongitude_poe ))
