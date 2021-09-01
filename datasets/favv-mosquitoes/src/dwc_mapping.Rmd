@@ -116,7 +116,12 @@ data is already in WGS84
 # Create eventID
 
 ```{r}
-input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:", Start.Date, End.Date , Latitutde, Longitude ))
+input_data %<>% mutate(dwc_eventID2 = str_c("IGT:FAVV:EV:", Start.Date , End.Date , Latitutde, Longitude ))
+```
+
+
+```{r}
+input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",str_replace(Start.Date,",","-") ,str_replace(End.Date, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-")))
 
 ```
 
@@ -141,7 +146,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 ## Remove obsolete columns for event
 
 ```{r}
-event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Number, Box, Storage.of.Box, Status, Identifier, Date.ID, Comments.identification, Trap.Code, Comments.sampling))
+event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Number, Box, Storage.of.Box, Status, Identifier, Date.ID, Comments.identification, Trap.Code, Comments.sampling, Site.Name, Larval.habitat.code, Larval.habitat.type))
 ```
 #group By for eventCore
 
@@ -241,7 +246,7 @@ head(event, n = 10)
 ### samplingProtocol
 
 ```{r}
-event %<>% mutate(dwc_samplingProtocol = trap_type)
+event %<>% mutate(dwc_samplingProtocol = Trap.type)
 ```
 
 
