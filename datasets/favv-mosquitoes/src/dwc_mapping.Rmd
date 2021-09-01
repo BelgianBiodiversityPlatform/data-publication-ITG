@@ -263,7 +263,7 @@ event %<>% mutate(dwc_habitat = pbs_type)
 ### locationID
 
 ```{r}
-event %<>% mutate(dwc_locationID = str_c("ITG:MEMO:",Collection.sites_Site.Code)) # e.g. "Belgium = BE"
+event %<>% mutate(dwc_locationID = str_c("ITG:FAVV:",Collection.sites_Site.Code)) # e.g. "Belgium = BE"
 ```
 
 ### continent
@@ -300,18 +300,24 @@ event %<>%
 ```{r}
 head(event, n = 5)
 event %<>%
-   mutate(dwc_decimalLongitude = Longitude) %>%
-   mutate(dwc_decimalLatitude = Latitutde)
+   mutate(dwc_decimalLongitude = str_replace(Longitude, ",",".")) %>%
+   mutate(dwc_decimalLatitude = str_replace(Latitutde, ",","."))
 ```
 
 
 ```{r}
 event %<>%   
-   mutate(dwc_decimalLatitude = as.character(format(dwc_decimalLatitude, nsmall = 5))) %>%
-   mutate(dwc_decimalLongitude = as.character(format(dwc_decimalLongitude, nsmall = 5)))
+   mutate(dwc_decimalLatitude = (round(as.numeric(dwc_decimalLatitude), digits = 5))) %>%
+   mutate(dwc_decimalLongitude = (round(as.numeric(dwc_decimalLongitude), digits = 5)))
 
 
    
+```
+this is not needed anymore here
+```{r eval=FALSE, include=FALSE}
+event %<>%   
+   mutate(dwc_decimalLatitude2 = (round(dwc_decimalLatitude, digits = 5))) %>%
+   mutate(dwc_decimalLongitude2 = (round(dwc_decimalLongitude, digits = 5)))
 ```
 
 ### geodeticDatum
@@ -346,7 +352,7 @@ event %<>% distinct()
 Save to CSV:
 
 ```{r}
-write_csv(event, here::here("datasets/memo-occurrences", "data", "processed", "event.csv"), na = "")
+write_csv(event, here::here("datasets/favv-mosquitoes", "data", "processed", "event.csv"), na = "")
 
 
 
