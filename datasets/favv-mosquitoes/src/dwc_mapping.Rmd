@@ -146,7 +146,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 ## Remove obsolete columns for event
 
 ```{r}
-event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Number, Box, Storage.of.Box, Status, Identifier, Date.ID, Comments.identification, Trap.Code, Comments.sampling, Site.Name, Larval.habitat.code, Larval.habitat.type))
+event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Number, Box, Storage.of.Box, Status, Identifier, Date.ID, Comments.identification, Trap.Code, Comments.sampling,  Larval.habitat.code, Larval.habitat.type))
 ```
 #group By for eventCore
 
@@ -251,8 +251,9 @@ event %<>% mutate(dwc_samplingProtocol = Trap.type)
 
 
 ### habitat
+no habitat available here
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 event %<>% mutate(dwc_habitat = pbs_type)
 ```
 
@@ -262,7 +263,7 @@ event %<>% mutate(dwc_habitat = pbs_type)
 ### locationID
 
 ```{r}
-event %<>% mutate(dwc_locationID = str_c("ITG:MEMO:",poe_code)) # e.g. "Belgium = BE"
+event %<>% mutate(dwc_locationID = str_c("ITG:MEMO:",Collection.sites_Site.Code)) # e.g. "Belgium = BE"
 ```
 
 ### continent
@@ -282,14 +283,16 @@ event %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
 
 ```{r}
 event %<>%
-  mutate(municipality = poe_city)
+  mutate(municipality = Municipality)
 ```
 
 ### locality
 
+I understand the erros... think about this
+
 ```{r}
 event %<>%
-  mutate(municipality = poe_name_extra)
+  mutate(locality = Site.Name)
 ```
 
 ### decimalLatitude & decimalLongitude
@@ -297,8 +300,8 @@ event %<>%
 ```{r}
 head(event, n = 5)
 event %<>%
-   mutate(dwc_decimalLongitude = round(decimalLongitude_poe, digits = 5)) %>%
-   mutate(dwc_decimalLatitude = round(decimalLatitude_poe, digits = 5))
+   mutate(dwc_decimalLongitude = Longitude) %>%
+   mutate(dwc_decimalLatitude = Latitutde)
 ```
 
 
