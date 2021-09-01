@@ -115,10 +115,6 @@ data is already in WGS84
 
 # Create eventID
 
-```{r}
-input_data %<>% mutate(dwc_eventID2 = str_c("IGT:FAVV:EV:", Start.Date , End.Date , Latitutde, Longitude ))
-```
-
 
 ```{r}
 input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",str_replace(Start.Date,",","-") ,str_replace(End.Date, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-")))
@@ -283,7 +279,7 @@ event %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
 
 ```{r}
 event %<>%
-  mutate(municipality = Municipality)
+  mutate(dwc_municipality = Municipality)
 ```
 
 ### locality
@@ -292,7 +288,7 @@ I understand the erros... think about this
 
 ```{r}
 event %<>%
-  mutate(locality = Site.Name)
+  mutate(dwc_locality = Site.Name)
 ```
 
 ### decimalLatitude & decimalLongitude
@@ -375,12 +371,12 @@ Remove all columns not relevant for occurrence
 ## Remove obsolete columns for occurrence
 
 ```{r}
-occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, poe_type, poe_code, location, poe_type, poe_city, poe_country, poe_municipality, poe_name, poe_name_extra, decimalLatitude_poe, decimalLongitude_poe ))
+occurrence %<>% select(-c(Latitutde,Longitude, Municipality, Collection.sites_Site.Code, Site.Name, Site.type, UnionQuery1_Site.Code, Trap.type, Trap.Code, Start.Date, End.Date, Comments.sampling  ))
 ```
 #materialSampleID
 
 ```{r}
-occurrence %<>% mutate(dwc_materialSampleID = storage_box_code)
+occurrence %<>% mutate(dwc_materialSampleID = Box)
 ```
 
 
@@ -389,13 +385,10 @@ occurrence %<>% mutate(dwc_materialSampleID = storage_box_code)
 
 
 ```{r}
-occurrence %<>% mutate(dwc_occurrenceID = unique_id_code)
+occurrence %<>% mutate(dwc_occurrenceID = ID)
 ```
 ## eventID
 
-```{r}
-occurrence %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", sampling_code))
-```
 
 ### basisOfRecord
 
@@ -406,25 +399,25 @@ occurrence %<>% mutate(dwc_basisOfRecord = "HumanObservation")
 ### recordedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_recordedBy = collector_1)
+occurrence %<>% mutate(dwc_recordedBy = "ITG")
 ```
 
 ### identifiedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_identifiedBy = executor)
+occurrence %<>% mutate(dwc_identifiedBy = Identifier)
 ```
 ### collectionCode
 
 ```{r}
-occurrence %<>% mutate(dwc_collectionCode = "ITG:Memo")
+occurrence %<>% mutate(dwc_collectionCode = "ITG:FAVV")
 ```
 
 
 ### individualCount
 
 ```{r}
-occurrence %<>% mutate(dwc_individualCount= number) 
+occurrence %<>% mutate(dwc_individualCount= Number) 
 ```
 
 ### organismQuantity
