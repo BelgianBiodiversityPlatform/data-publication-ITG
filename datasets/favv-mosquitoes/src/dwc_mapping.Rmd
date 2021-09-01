@@ -147,8 +147,15 @@ event %<>% distinct()
 
 ## eventID
 
+add row number
+
 ```{r}
-event %<>% mutate(dwc_eventID = str_c("IGT:FAVV:"))
+event <- event %>% mutate(rowtID = row_number())
+```
+
+
+```{r}
+event %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:", row_number(), Trap.Code))
 ```
 
 
