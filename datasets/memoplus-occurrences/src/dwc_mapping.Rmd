@@ -24,7 +24,7 @@ library(rgbif)          # To use GBIF services
 library(sp)             # coordinate transformation
 library(leaflet)        # coordinate transformation
 library(widgetframe)    # coordinate transformation
-library(sf)             # coordinate transformation
+#library(sf)             # coordinate transformation
 library(lubridate)      # date transformation
 ```
 
@@ -456,6 +456,131 @@ occurrence %<>% mutate(dwc_sex = recode(sex_collected,
 occurrence %<>% mutate(dwc_lifeStage = recode(sex_collected,
                    "female" = "adult",
                    "male"  = "adult",
+                                     ))
+```
+### establishmentMeans
+
+```{r}
+occurrence %<>% mutate(dwc_establishmentMeans = recode(species.f,
+                     "Culicidae" = "" ,
+                     "Anopheles claviger" = "native" ,
+                     "Anopheles spp." = "native" ,
+                     "Culex pipiens/torrentium" = "native" ,
+                     "Culiseta annulata" = "native" ,
+                     "Culex spp." = "native" ,
+                     "Anopheles plumbeus" = "native" ,
+                     "Aedes japonicus" = "introduced" ,
+                     "Aedes geniculatus" = "native" ,
+                     "Culiseta spp." = "native" ,
+                     "Anopheles maculipennis s.l." = "native" ,
+                     "Anopheles daciae" = "native" ,
+                     "Culex hortensis" = "native" ,
+                     "Aedes spp." = "" ,
+                     "Aedes koreicus" = "introduced" ,
+                     "Culiseta longiareolata" = "introduced" ,
+                     "Anopheles maculipennis" = "introduced" ,
+                     "Aedes rusticus" = "native" ,
+                     "Aedes albopictus" = "introduced" ,
+                     "Culex modestus" = "vagrant" ,
+                     "Culex torrentium" = "native" ,
+                     "Culiseta morsitans" = "native" ,
+                     "Aedes annulipes/cantans" = "native" ,
+                     "Aedes sticticus" = "native" ,
+                     "Coquillettidia richiardii" = "native" ,
+                     "Aedes vexans" = "native" ,
+                     "Aedes communis" = "native" ,
+                     "Aedes cinereus/geminus" = "native" ,
+                     "Aedes punctor" = "native" ,
+                     "Anopheles pharoensis" = "introduced" ,
+                     "Aedes caspius/dorsalis" = "native" ,
+                     "Culiseta fumipennis" = "native" ,
+                     "Culex territans" = "native" ,
+                     "Anopheles atroparvus" = "native" ,
+                     "Aedes detritus" = "native" 
+                                     ))
+```
+### degreeOfEstablishment
+
+```{r}
+occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(species.f,
+                     "Culicidae" = "" ,
+                     "Anopheles claviger" = "native" ,
+                     "Anopheles spp." = "native" ,
+                     "Culex pipiens/torrentium" = "native" ,
+                     "Culiseta annulata" = "native" ,
+                     "Culex spp." = "native" ,
+                     "Anopheles plumbeus" = "native" ,
+                     "Aedes japonicus" = "established" ,
+                     "Aedes geniculatus" = "native" ,
+                     "Culiseta spp." = "native" ,
+                     "Anopheles maculipennis s.l." = "native" ,
+                     "Anopheles daciae" = "native" ,
+                     "Culex hortensis" = "native" ,
+                     "Aedes spp." = "" ,
+                     "Aedes koreicus" = "established" ,
+                     "Culiseta longiareolata" = "vagrant" ,
+                     "Anopheles maculipennis" = "introduced" ,
+                     "Aedes rusticus" = "native" ,
+                     "Aedes albopictus" = "uncertain" ,
+                     "Culex modestus" = "vagrant" ,
+                     "Culex torrentium" = "native" ,
+                     "Culiseta morsitans" = "native" ,
+                     "Aedes annulipes/cantans" = "native" ,
+                     "Aedes sticticus" = "native" ,
+                     "Coquillettidia richiardii" = "native" ,
+                     "Aedes vexans" = "native" ,
+                     "Aedes communis" = "native" ,
+                     "Aedes cinereus/geminus" = "native" ,
+                     "Aedes punctor" = "native" ,
+                     "Anopheles pharoensis" = "vagrant" ,
+                     "Aedes caspius/dorsalis" = "" ,
+                     "Culiseta fumipennis" = "native" ,
+                     "Culex territans" = "native" ,
+                     "Anopheles atroparvus" = "native" ,
+                     "Aedes detritus" = "native" 
+                                     ))
+```
+
+### pathway
+
+
+```{r}
+occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(species.f,
+                   "Culicidae" = "" ,
+                  "Anopheles claviger" = "native" ,
+                  "Anopheles spp." = "native" ,
+                  "Culex pipiens/torrentium" = "native" ,
+                  "Culiseta annulata" = "native" ,
+                  "Culex spp." = "native" ,
+                  "Anopheles plumbeus" = "native" ,
+                  "Aedes japonicus" = "established" ,
+                  "Aedes geniculatus" = "native" ,
+                  "Culiseta spp." = "native" ,
+                  "Anopheles maculipennis s.l." = "native" ,
+                  "Anopheles daciae" = "native" ,
+                  "Culex hortensis" = "native" ,
+                  "Aedes spp." = "native" ,
+                  "Aedes koreicus" = "established" ,
+                  "Culiseta longiareolata" = "established" ,
+                  "Anopheles maculipennis" = "native" ,
+                  "Aedes rusticus" = "native" ,
+                  "Aedes albopictus" = "reproducing" ,
+                  "Culex modestus" = "native" ,
+                  "Culex torrentium" = "native" ,
+                  "Culiseta morsitans" = "native" ,
+                  "Aedes annulipes/cantans" = "native" ,
+                  "Aedes sticticus" = "native" ,
+                  "Coquillettidia richiardii" = "native" ,
+                  "Aedes vexans" = "native" ,
+                  "Aedes communis" = "native" ,
+                  "Aedes cinereus/geminus" = "native" ,
+                  "Aedes punctor" = "native" ,
+                  "Anopheles pharoensis" = "casual" ,
+                  "Aedes caspius/dorsalis" = "native" ,
+                  "Culiseta fumipennis" = "native" ,
+                  "Culex territans" = "native" ,
+                  "Anopheles atroparvus" = "native" ,
+                  "Aedes detritus" = "native" 
                                      ))
 ```
 
