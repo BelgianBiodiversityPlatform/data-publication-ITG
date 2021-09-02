@@ -60,6 +60,7 @@ input_data %<>% remove_empty("rows")
 ```
 
 
+
 delete obsolete columns
 
 ```{r}
@@ -364,6 +365,26 @@ The following terms contain information about the occurrence:
 Map the data to [Darwin Core Occurrence](http://rs.gbif.org/core/dwc_occurrence_2015-07-02.xml).
 
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
+
+remove all row not relevant for occurrence (no occurrence)
+
+Identify zero occurrences
+
+
+```{r}
+occurrence[is.na(occurrence)] = 0
+```
+
+
+
+
+```{r}
+occurrence$Family[occurrence$Family == ""] <- NA_character_
+occurrence <- occurrence %>% mutate(dwc_family = replace_na(Family, replace = "Culicidae"))
+
+
+```
+
 
 
 Remove all columns not relevant for occurrence
