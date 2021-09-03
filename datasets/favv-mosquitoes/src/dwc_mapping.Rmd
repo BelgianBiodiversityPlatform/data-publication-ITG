@@ -664,6 +664,7 @@ occurrence %<>% mutate(dwc_taxonRank = case_when(
                   ,dwc_scientificName == 'Aedes' ~ "genus"
                   ,dwc_scientificName == '' ~ ''
                   ,dwc_scientificName == 'Anopheles spp.' ~ "genus"
+                  ,dwc_scientificName == 'Coquillettidia' ~ "genus"
                   ,TRUE ~ "species"                   ))
 ```
 
@@ -672,7 +673,11 @@ occurrence %<>% mutate(dwc_taxonRank = case_when(
 ```{r}
 occurrence %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
 ```
+# remove unidenfifiable
 
+```{r}
+occurrence <- filter(occurrence,Genus != 'Unidentifiable' ) 
+```
 
 
 ## Post-processing Occurrence
