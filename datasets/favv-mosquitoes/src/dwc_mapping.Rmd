@@ -376,13 +376,18 @@ occurrence[is.na(occurrence)] = 0
 ```
 
 
+Won't use, also others than cullicidae here
+script to fill empty spaces
 
-
-```{r}
+```{r eval=FALSE, include=FALSE}
 occurrence$Family[occurrence$Family == ""] <- NA_character_
 occurrence <- occurrence %>% mutate(dwc_family = replace_na(Family, replace = "Culicidae"))
 
 
+```
+```{r}
+occurrence %<>%
+  mutate(dwc_order = 'Diptera')
 ```
 
 
@@ -562,7 +567,7 @@ occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
 
 ```{r}
 occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
-                   "Culicidae" = "" ,
+                  "Culicidae" = "" ,
                   "Anopheles claviger" = "native" ,
                   "Anopheles spp." = "native" ,
                   "Culex pipiens/torrentium" = "native" ,
@@ -651,7 +656,12 @@ occurrence %<>% mutate(dwc_kingdom = "Animalia")
 occurrence %<>% mutate(dwc_taxonRank = case_when(
                    dwc_scientificName == 'Culex spp.' ~ "genus"
                   ,dwc_scientificName == 'Culiseta spp.' ~ "genus"
+                  ,dwc_scientificName == 'Culiseta' ~ "genus"
+                  ,dwc_scientificName == 'Culex ' ~ "genus"
+                  ,dwc_scientificName == 'Anopheles' ~ "genus"
+                  ,dwc_scientificName == 'Culicoides spp.' ~ "genus"
                   ,dwc_scientificName == 'Aedes spp.' ~ "genus"
+                  ,dwc_scientificName == 'Aedes' ~ "genus"
                   ,dwc_scientificName == '' ~ ''
                   ,dwc_scientificName == 'Anopheles spp.' ~ "genus"
                   ,TRUE ~ "species"                   ))
