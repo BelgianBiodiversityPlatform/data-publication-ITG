@@ -64,7 +64,7 @@ input_data %<>% remove_empty("rows")
 delete obsolete columns
 
 ```{r}
-input_data %<>% select(-c("ZIP.Code","Website"))
+input_data %<>% select(-c("Male","Female","Larva","Nymph","ID.1"))
 ```
 fix issue with decimal lat and decimal long
 
@@ -118,18 +118,22 @@ data is already in WGS84
 
 
 ```{r}
-input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",str_replace(Start.Date,",","-") ,str_replace(End.Date, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-")))
+input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:T:EV:",str_replace(Collectiondate,",","-") ,str_replace(Extractiondate, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-")))
 
 ```
 
-# Occurrence core & eventCore
+# Occurrence core 
 
 
-Create a dataframe event data only 
+Create dataframes for occurrence (1 ticks, 2)
 
 ```{r}
-occurrence <- input_data
-event <- input_data
+occurrence1 <- input_data
+occurrence2 <- input_data
+occurrence3 <- input_data
+occurrence4 <- input_data
+occurrence5 <- input_data
+
 ```
 
 
