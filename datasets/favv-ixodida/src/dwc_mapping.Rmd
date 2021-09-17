@@ -298,15 +298,15 @@ occurrence1 %<>%
 ```{r}
 head(occurrence1, n = 5)
 occurrence1 %<>%
-   mutate(dwc_decimalLongitude = str_replace(Longitude, ",",".")) %>%
-   mutate(dwc_decimalLatitude = str_replace(Latitutde, ",","."))
+   mutate(decimalLongitude = str_replace(Longitude, ",",".")) %>%
+   mutate(decimalLatitude = str_replace(Latitutde, ",","."))
 ```
 
 
 ```{r}
 occurrence1 %<>%   
-   mutate(dwc_decimalLatitude2 = (round(as.numeric(dwc_decimalLatitude), digits = 5))) %>%
-   mutate(dwc_decimalLongitude2 = (round(as.numeric(dwc_decimalLongitude), digits = 5)))
+   mutate(dwc_decimalLatitude = (round(as.numeric(decimalLatitude), digits = 5))) %>%
+   mutate(dwc_decimalLongitude = (round(as.numeric(decimalLongitude), digits = 5)))
 
 head(occurrence1)
    
@@ -501,30 +501,24 @@ occurrence1 %<>% mutate(dwc_kingdom = "Animalia")
 # taxonRank
 
 ```{r}
-occurrence %<>% mutate(dwc_taxonRank = case_when(
-                   dwc_scientificName == 'Culex spp.' ~ "genus"
-                  ,dwc_scientificName == 'Culiseta spp.' ~ "genus"
-                  ,dwc_scientificName == 'Culiseta' ~ "genus"
-                  ,dwc_scientificName == 'Culex ' ~ "genus"
-                  ,dwc_scientificName == 'Anopheles' ~ "genus"
-                  ,dwc_scientificName == 'Culicoides spp.' ~ "genus"
-                  ,dwc_scientificName == 'Aedes spp.' ~ "genus"
-                  ,dwc_scientificName == 'Aedes' ~ "genus"
-                  ,dwc_scientificName == '' ~ ''
-                  ,dwc_scientificName == 'Anopheles spp.' ~ "genus"
-                  ,dwc_scientificName == 'Coquillettidia' ~ "genus"
-                  ,TRUE ~ "species"                   ))
+occurrence1 %<>% mutate(dwc_taxonRank = case_when(
+                   dwc_scientificName == 'Ixodes ricinus' ~ "species",
+                   dwc_scientificName == 'Ixodes ' ~ "genus",
+                   dwc_scientificName == 'Dermacentor reticulatus' ~ "species"
+                                                        ))
+
+#,TRUE ~ "species"
 ```
 
 # nomenclaturalCode
 
 ```{r}
-occurrence %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
+occurrence1 %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
 ```
 # remove unidenfifiable
 
-```{r}
-occurrence <- filter(occurrence,Genus != 'Unidentifiable' ) 
+```{r eval=FALSE, include=FALSE}
+occurrence1 <- filter(occurrence,Genus != 'Unidentifiable' ) 
 ```
 
 
@@ -533,48 +527,30 @@ occurrence <- filter(occurrence,Genus != 'Unidentifiable' )
 
 
 ```{r}
-occurrence %<>% select(starts_with("dwc_"))
+occurrence1 %<>% select(starts_with("dwc_"))
 
-colnames(occurrence) <- str_remove(colnames(occurrence), "dwc_")
-  #remove collection columns
-          ##  rename(scientificName = verbatimScientificName) 
-
-occurrence %<>% distinct()
-```
-
-## Post-processing Event
-
-```{r}
-event %<>% select(starts_with("dwc_"))
-
-colnames(event) <- str_remove(colnames(event), "dwc_")
+colnames(occurrence1) <- str_remove(colnames(occurrence1), "dwc_")
   #remove collection columns
           ##  rename(scientificName = verbatimScientificName) 
 
 occurrence1 %<>% distinct()
 ```
 
-Save to CSV:
-
-```{r}
-write_csv(event, here::here("datasets/favv-mosquitoes", "data", "processed", "event.csv"), na = "")
 
 
-
-```
 
 
 Preview data:
 
 ```{r}
-occurrence %>% head()
+occurrence1 %>% head()
 ```
 
 
 Save to CSV:
 
 ```{r}
-write_csv(occurrence, here::here("datasets","favv-mosquitoes", "data", "processed", "occurrence.csv"), na = "")
+write_csv(occurrence1, here::here("datasets","favv-ixodida", "data", "processed", "occurrence_host.csv"), na = "")
 
 
 ```
@@ -583,7 +559,7 @@ write_csv(occurrence, here::here("datasets","favv-mosquitoes", "data", "processe
 # Data quality tests
 
 ```{r}
-parsed_names <- occurrence %>%
+parsed_names <- occurrence1 %>%
   distinct(scientificName)  %>%
   pull() %>% # Create vector from dataframe
   parsenames() # An rgbif function
@@ -591,6 +567,6 @@ parsed_names <- occurrence %>%
 speciesList <- parsed_names %>%
    select(scientificname)
 
-write_csv(speciesList, here::here("datasets","favv-mosquitoes", "data", "processed", "specieslist.csv"), na = "")
+write_csv(speciesList, here::here("datasets","favv-ixodida", "data", "processed", "specieslist.csv"), na = "")
 ```
 
