@@ -155,6 +155,21 @@ input_data %<>%  mutate(dwc_sex = case_when(
 
 ```
 
+```{r}
+
+
+input_data %<>%  mutate(par_extractiontype = case_when(
+                  scientificName == 'borelia' ~ tolower(extractiontype),
+                  scientificName == 'tbe' ~ tolower(extractiontype),
+                  scientificName == 'babesiacanis_caballi' ~ tolower(extractiontype),
+                  scientificName == 'theileriaequi' ~ tolower(extractiontype)
+                  
+))
+
+
+
+```
+```
 
 
 
