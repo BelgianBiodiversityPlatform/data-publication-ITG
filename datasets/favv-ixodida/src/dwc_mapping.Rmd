@@ -26,6 +26,7 @@ library(leaflet)        # coordinate transformation
 library(widgetframe)    # coordinate transformation
 #library(sf)             # coordinate transformation
 library(lubridate)      # date transformation
+
 ```
 
 # Read source data
@@ -82,9 +83,9 @@ input_data %<>%
 
          mutate(
            Theileriaequi = na_if(theileriaequi, "negative"),
-           `babesiacanis_caballi` = na_if(`babesiacanis_caballi`, "negative"),
+           `Babesiacanis_caballi` = na_if(`babesiacanis_caballi`, "negative"),
            TBE = na_if(tbe, "negative"),
-           borrelia = na_if(borrelia, "negative"),
+           Borrelia = na_if(borrelia, "negative"),
            host = "host"
          ) %>%
          gather(
@@ -107,7 +108,7 @@ input_data %<>%
    mutate(scientificName = if_else(
    parasite == "host",
    paste(genus, species),
-   parasite
+   str_to_title(parasite)
              ))
 
 
