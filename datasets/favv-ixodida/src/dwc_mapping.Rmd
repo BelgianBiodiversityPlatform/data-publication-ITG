@@ -337,26 +337,6 @@ occurrence1 %<>%
 
 ### georeferenceRemarks
 
-## Post-processing Event
-
-```{r}
-event %<>% select(starts_with("dwc_"))
-
-colnames(event) <- str_remove(colnames(event), "dwc_")
-  #remove collection columns
-          ##  rename(scientificName = verbatimScientificName) 
-
-event %<>% distinct()
-```
-
-Save to CSV:
-
-```{r}
-write_csv(event, here::here("datasets/favv-mosquitoes", "data", "processed", "event.csv"), na = "")
-
-
-
-```
 
 
 
@@ -436,14 +416,14 @@ occurrence1 %<>% mutate(dwc_identifiedBy = 'ITG')
 ### collectionCode
 
 ```{r}
-occurrence %<>% mutate(dwc_collectionCode = "ITG:FAVV")
+occurrence1 %<>% mutate(dwc_collectionCode = "ITG:FAVV")
 ```
 
 
 ### individualCount
 
 ```{r}
-occurrence %<>% mutate(dwc_individualCount= Number) 
+occurrence1 %<>% mutate(dwc_individualCount = Poolnumber) 
 ```
 
 ### organismQuantity
@@ -453,163 +433,41 @@ occurrence %<>% mutate(dwc_individualCount= Number)
 ### sex
 
 ```{r}
-occurrence %<>% mutate(dwc_sex = recode(Sex,
+occurrence1 %<>% mutate(dwc_sex = recode(Sex,
                    "egg" = "",
                    "larva"  = "",
                    "pupa" = "",
+                   "nymph" = "",
                    "Unknown" = "",
                    "Female" = "female",
-                   "Male" = "male"
+                   "Male" = "male",
+                   "?" = ""
                                 ))
 ```
 
 ### lifeStage
 
 ```{r}
-occurrence %<>% mutate(dwc_lifeStage = recode(Sex,
+occurrence1 %<>% mutate(dwc_lifeStage = recode(Sex,
                    "Female" = "adult",
                    "Male"  = "adult",
-                   "Unknown" = ""
+                   "Unknown" = "",
+                   "?" = ""
                                      ))
 ```
 ### scientificName
 
 ```{r}
-occurrence %<>% mutate(dwc_scientificName = paste(Genus, Species))
+occurrence1 %<>% mutate(dwc_scientificName = paste(Genus, Species))
 ```
 
 
-### establishmentMeans
-
-```{r}
-occurrence %<>% mutate(dwc_establishmentMeans = recode(dwc_scientificName,
-                     "Culicidae" = "" ,
-                     "Anopheles claviger" = "native" ,
-                     "Anopheles spp." = "native" ,
-                     "Culex pipiens/torrentium" = "native" ,
-                     "Culiseta annulata" = "native" ,
-                     "Culex spp." = "native" ,
-                     "Anopheles plumbeus" = "native" ,
-                     "Aedes japonicus" = "introduced" ,
-                     "Aedes geniculatus" = "native" ,
-                     "Culiseta spp." = "native" ,
-                     "Anopheles maculipennis s.l." = "native" ,
-                     "Anopheles daciae" = "native" ,
-                     "Culex hortensis" = "native" ,
-                     "Aedes spp." = "" ,
-                     "Aedes koreicus" = "introduced" ,
-                     "Culiseta longiareolata" = "introduced" ,
-                     "Anopheles maculipennis" = "introduced" ,
-                     "Aedes rusticus" = "native" ,
-                     "Aedes albopictus" = "introduced" ,
-                     "Culex modestus" = "vagrant" ,
-                     "Culex torrentium" = "native" ,
-                     "Culiseta morsitans" = "native" ,
-                     "Aedes annulipes/cantans" = "native" ,
-                     "Aedes sticticus" = "native" ,
-                     "Coquillettidia richiardii" = "native" ,
-                     "Aedes vexans" = "native" ,
-                     "Aedes communis" = "native" ,
-                     "Aedes cinereus/geminus" = "native" ,
-                     "Aedes punctor" = "native" ,
-                     "Anopheles pharoensis" = "introduced" ,
-                     "Aedes caspius/dorsalis" = "native" ,
-                     "Culiseta fumipennis" = "native" ,
-                     "Culex territans" = "native" ,
-                     "Anopheles atroparvus" = "native" ,
-                     "Aedes detritus" = "native" 
-                                     ))
-```
-### degreeOfEstablishment
-
-```{r}
-occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
-                     "Culicidae" = "" ,
-                     "Anopheles claviger" = "native" ,
-                     "Anopheles spp." = "native" ,
-                     "Culex pipiens/torrentium" = "native" ,
-                     "Culiseta annulata" = "native" ,
-                     "Culex spp." = "native" ,
-                     "Anopheles plumbeus" = "native" ,
-                     "Aedes japonicus" = "established" ,
-                     "Aedes geniculatus" = "native" ,
-                     "Culiseta spp." = "native" ,
-                     "Anopheles maculipennis s.l." = "native" ,
-                     "Anopheles daciae" = "native" ,
-                     "Culex hortensis" = "native" ,
-                     "Aedes spp." = "" ,
-                     "Aedes koreicus" = "established" ,
-                     "Culiseta longiareolata" = "vagrant" ,
-                     "Anopheles maculipennis" = "introduced" ,
-                     "Aedes rusticus" = "native" ,
-                     "Aedes albopictus" = "uncertain" ,
-                     "Culex modestus" = "vagrant" ,
-                     "Culex torrentium" = "native" ,
-                     "Culiseta morsitans" = "native" ,
-                     "Aedes annulipes/cantans" = "native" ,
-                     "Aedes sticticus" = "native" ,
-                     "Coquillettidia richiardii" = "native" ,
-                     "Aedes vexans" = "native" ,
-                     "Aedes communis" = "native" ,
-                     "Aedes cinereus/geminus" = "native" ,
-                     "Aedes punctor" = "native" ,
-                     "Anopheles pharoensis" = "vagrant" ,
-                     "Aedes caspius/dorsalis" = "" ,
-                     "Culiseta fumipennis" = "native" ,
-                     "Culex territans" = "native" ,
-                     "Anopheles atroparvus" = "native" ,
-                     "Aedes detritus" = "native" 
-                                     ))
-```
-
-### pathway
-
-
-```{r}
-occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
-                  "Culicidae" = "" ,
-                  "Anopheles claviger" = "native" ,
-                  "Anopheles spp." = "native" ,
-                  "Culex pipiens/torrentium" = "native" ,
-                  "Culiseta annulata" = "native" ,
-                  "Culex spp." = "native" ,
-                  "Anopheles plumbeus" = "native" ,
-                  "Aedes japonicus" = "established" ,
-                  "Aedes geniculatus" = "native" ,
-                  "Culiseta spp." = "native" ,
-                  "Anopheles maculipennis s.l." = "native" ,
-                  "Anopheles daciae" = "native" ,
-                  "Culex hortensis" = "native" ,
-                  "Aedes spp." = "native" ,
-                  "Aedes koreicus" = "established" ,
-                  "Culiseta longiareolata" = "established" ,
-                  "Anopheles maculipennis" = "native" ,
-                  "Aedes rusticus" = "native" ,
-                  "Aedes albopictus" = "reproducing" ,
-                  "Culex modestus" = "native" ,
-                  "Culex torrentium" = "native" ,
-                  "Culiseta morsitans" = "native" ,
-                  "Aedes annulipes/cantans" = "native" ,
-                  "Aedes sticticus" = "native" ,
-                  "Coquillettidia richiardii" = "native" ,
-                  "Aedes vexans" = "native" ,
-                  "Aedes communis" = "native" ,
-                  "Aedes cinereus/geminus" = "native" ,
-                  "Aedes punctor" = "native" ,
-                  "Anopheles pharoensis" = "casual" ,
-                  "Aedes caspius/dorsalis" = "native" ,
-                  "Culiseta fumipennis" = "native" ,
-                  "Culex territans" = "native" ,
-                  "Anopheles atroparvus" = "native" ,
-                  "Aedes detritus" = "native" 
-                                     ))
-```
 
 
 ### occurrenceStatus
 
 ```{r}
-occurrence %<>% 
+occurrence1 %<>% 
     ##select(individualCount) %>%
     mutate(dwc_occurrenceStatus = case_when(dwc_individualCount > 0 ~ "present",
                               dwc_individualCount == 0 ~ "absent"
@@ -622,20 +480,10 @@ occurrence %<>%
 ### identifiedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_identifiedBy = Identifier)
+occurrence1 %<>% mutate(dwc_identifiedBy = 'ITG')
 ```
 
-### dateIdentified
 
-```{r}
-occurrence %<>% mutate(dwc_dateIdentified = Date.ID)
-```
-
-### identificationRemarks
-
-```{r}
-occurrence %<>% mutate(dwc_identificationRemarks = Comments.identification)
-```
 
 # taxon
 
@@ -646,7 +494,7 @@ occurrence %<>% mutate(dwc_identificationRemarks = Comments.identification)
 ### kingdom
 
 ```{r}
-occurrence %<>% mutate(dwc_kingdom = "Animalia")
+occurrence1 %<>% mutate(dwc_kingdom = "Animalia")
 ```
 
 
@@ -692,6 +540,27 @@ colnames(occurrence) <- str_remove(colnames(occurrence), "dwc_")
           ##  rename(scientificName = verbatimScientificName) 
 
 occurrence %<>% distinct()
+```
+
+## Post-processing Event
+
+```{r}
+event %<>% select(starts_with("dwc_"))
+
+colnames(event) <- str_remove(colnames(event), "dwc_")
+  #remove collection columns
+          ##  rename(scientificName = verbatimScientificName) 
+
+occurrence1 %<>% distinct()
+```
+
+Save to CSV:
+
+```{r}
+write_csv(event, here::here("datasets/favv-mosquitoes", "data", "processed", "event.csv"), na = "")
+
+
+
 ```
 
 
