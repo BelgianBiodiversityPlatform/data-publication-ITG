@@ -323,7 +323,7 @@ event %<>%
 ### geodeticDatum
 
 ```{r}
-event %<>%
+occurrence1 %<>%
   mutate(dwc_geodeticDatum = 'WGS84')
 ```
 
@@ -331,7 +331,7 @@ event %<>%
 
 
 ```{r}
-event %<>%
+occurrence1 %<>%
   mutate(dwc_coordinateUncertaintyInMeters = '30')
 ```
 
@@ -374,8 +374,8 @@ remove all row not relevant for occurrence (no occurrence)
 Identify zero occurrences
 
 
-```{r}
-occurrence[is.na(occurrence)] = 0
+```{r eval=FALSE, include=FALSE}
+occurrence1[is.na(occurrence)] = 0
 ```
 
 
@@ -388,9 +388,11 @@ occurrence <- occurrence %>% mutate(dwc_family = replace_na(Family, replace = "C
 
 
 ```
+
+
 ```{r}
-occurrence %<>%
-  mutate(dwc_order = 'Diptera')
+occurrence1 %<>%
+  mutate(dwc_order = 'Ixodida')
 ```
 
 
@@ -399,13 +401,8 @@ Remove all columns not relevant for occurrence
 
 ## Remove obsolete columns for occurrence
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 occurrence %<>% select(-c(Latitutde,Longitude, Municipality, Collection.sites_Site.Code, Site.Name, Site.type, UnionQuery1_Site.Code, Trap.type, Trap.Code, Start.Date, End.Date, Comments.sampling  ))
-```
-#materialSampleID
-
-```{r}
-occurrence %<>% mutate(dwc_materialSampleID = Box)
 ```
 
 
@@ -414,7 +411,7 @@ occurrence %<>% mutate(dwc_materialSampleID = Box)
 str_c("ITG:FAVV:",Collection.sites_Site.Code))
 
 ```{r}
-occurrence %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:OCC:",ID))
+occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",ID))
 ```
 ## eventID
 
@@ -422,19 +419,19 @@ occurrence %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:OCC:",ID))
 ### basisOfRecord
 
 ```{r}
-occurrence %<>% mutate(dwc_basisOfRecord = "HumanObservation")
+occurrence1 %<>% mutate(dwc_basisOfRecord = "HumanObservation")
 ```
 
 ### recordedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_recordedBy = "ITG")
+occurrence1 %<>% mutate(dwc_recordedBy = "ITG")
 ```
 
 ### identifiedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_identifiedBy = Identifier)
+occurrence1 %<>% mutate(dwc_identifiedBy = 'ITG')
 ```
 ### collectionCode
 
