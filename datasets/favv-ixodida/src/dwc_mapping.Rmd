@@ -57,59 +57,53 @@ Clean data somewhat:
 
 ```{r}
 input_data %<>% remove_empty("rows")
+
 ```
 
+```{r}
+input_data %<>%
+   clean_names()
+```
 
 
 delete obsolete columns
 
 ```{r}
-input_data %<>% select(-c("Male","Female","Larva","Nymph","ID.1"))
+input_data %<>% select(-c("male","female","larva","nymph","id_1"))
 ```
-fix issue with decimal lat and decimal long
-
-Not needed in this dataset
-
-```{r eval=FALSE, include=FALSE}
-integer_part_lat <- map_chr(input_data$poe_latitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
-
-decimal_part_lat <- map(input_data$poe_latitude, function(x) {
- decimal_parts_lat <- NA_character_
- splitted_string_lat <- str_split(x, pattern = "\\.")[[1]]
- if (length(splitted_string_lat) > 1) {
-   decimal_parts_lat <- paste0(splitted_string_lat[2:length(splitted_string_lat)])
-   paste0(decimal_parts_lat, collapse = "")
-   }
- else {
-   ""
- }
-})
-
-integer_part_long <- map_chr(input_data$poe_longitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
-
-decimal_part_long <- map(input_data$poe_longitude, function(x) {
- decimal_parts_long <- NA_character_
- splitted_string_long <- str_split(x, pattern = "\\.")[[1]]
- if (length(splitted_string_long) > 1) {
-   decimal_parts_long <- paste0(splitted_string_long[2:length(splitted_string_long)])
-   paste0(decimal_parts_long, collapse = "")
-   }
- else {
-   ""
- }
-})
-
-
-input_data %<>%
- mutate(decimalLatitude_poe = as.numeric(paste(integer_part_lat, decimal_part_lat, sep = "."))) %>%
- mutate(decimalLongitude_poe = as.numeric(paste(integer_part_long, decimal_part_long, sep = ".")))
-```
-
 
 
 ```{r}
 input_data %>% head(n = 5)
 ```
+
+```{r}
+input_data %<>%
+
+         mutate(
+           Theileriaequi = na_if(theileriaequi, "negative"),
+           `babesiacanis_caballi` = na_if(`babesiacanis_caballi`, "negative"),
+           TBE = na_if(tbe, "negative"),
+           borrelia = na_if(borrelia, "negative"),
+           host = "host"
+         ) %>%
+         gather(
+           parasite,
+           value,
+           host, theileriaequi, `babesiacanis_caballi`, tbe, borrelia,
+           na.rm = TRUE,
+           convert = TRUE
+         )
+
+
+
+
+```
+
+
+
+
+
 
 # Georeference source data
 data is already in WGS84
@@ -118,7 +112,7 @@ data is already in WGS84
 
 
 ```{r}
-input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:T:EV:",str_replace(Collectiondate,",","-") ,str_replace(Extractiondate, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-")))
+input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:T:EV:",str_replace(collectiondate,",","-") ,str_replace(extractiondate, ",","-") ,str_replace(latitutde, ",","-"),str_replace(longitude, ",","-")))
 
 ```
 
@@ -139,14 +133,22 @@ occurrence5 <- input_data
 
 # Term mapping occurrence1 -
 
-Map the data to [Darwin Core Event](https://rs.gbif.org/core/dwc_event_2016_06_21.xml).
+Map the data to [Darwin Core occurrence](https://rs.gbif.org/core/dwc_occurrence_2020-07-15.xml).
 
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
 # Record-level
 # occurrence 
+
+
+
+
+
+
+
+
 ## Remove obsolete columns for event
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 occurrence1 %<>% select(-c(Extractiontype, Extractiondate, Extractor, Storageextract, StoragePCRproduct, PCRcode, PCRdate, ExecutorPCR, ExecutorRFLP))
 ```
 
@@ -156,7 +158,7 @@ occurrence1 %<>% select(-c(Extractiontype, Extractiondate, Extractor, Storageext
 add row number
 
 ```{r}
-occurrence1 <- occurrence1 %>% mutate(rowtID = row_number())
+occurrence1 <- occurrence1 %>% mutate(rowID = row_number())
 ```
 
 
@@ -235,7 +237,7 @@ head(occurrence1, n = 10)
 ### eventDate
 
 ```{r}
-occurrence1 %<>% mutate(dwc_eventDate = Collectiondate)
+occurrence1 %<>% mutate(dwc_eventDate = collectiondate)
    
 #paste((Start.Date),"/",(End.Date)                        
 
@@ -261,7 +263,7 @@ event %<>% mutate(dwc_habitat = pbs_type)
 ### locationID
 
 ```{r}
-occurrence1 %<>% mutate(dwc_locationID = str_c("ITG:FAVV:",Sitecode)) # e.g. "Belgium = BE"
+occurrence1 %<>% mutate(dwc_locationID = str_c("ITG:FAVV:",sitecode)) # e.g. "Belgium = BE"
 ```
 
 ### continent
@@ -281,7 +283,7 @@ occurrence1 %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
 
 ```{r}
 occurrence1 %<>%
-  mutate(dwc_municipality = Municipality)
+  mutate(dwc_municipality = municipality)
 ```
 
 ### locality
@@ -290,7 +292,7 @@ occurrence1 %<>%
 
 ```{r}
 occurrence1 %<>%
-  mutate(dwc_locality = SiteName)
+  mutate(dwc_locality = site_name)
 ```
 
 ### decimalLatitude & decimalLongitude
@@ -298,8 +300,8 @@ occurrence1 %<>%
 ```{r}
 head(occurrence1, n = 5)
 occurrence1 %<>%
-   mutate(decimalLongitude = str_replace(Longitude, ",",".")) %>%
-   mutate(decimalLatitude = str_replace(Latitutde, ",","."))
+   mutate(decimalLongitude = str_replace(longitude, ",",".")) %>%
+   mutate(decimalLatitude = str_replace(latitutde, ",","."))
 ```
 
 
@@ -391,7 +393,7 @@ occurrence %<>% select(-c(Latitutde,Longitude, Municipality, Collection.sites_Si
 str_c("ITG:FAVV:",Collection.sites_Site.Code))
 
 ```{r}
-occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",ID))
+occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",id))
 ```
 ## eventID
 
@@ -423,7 +425,7 @@ occurrence1 %<>% mutate(dwc_collectionCode = "ITG:FAVV")
 ### individualCount
 
 ```{r}
-occurrence1 %<>% mutate(dwc_individualCount = Poolnumber) 
+occurrence1 %<>% mutate(dwc_individualCount = poolnumber) 
 ```
 
 ### organismQuantity
@@ -433,7 +435,7 @@ occurrence1 %<>% mutate(dwc_individualCount = Poolnumber)
 ### sex
 
 ```{r}
-occurrence1 %<>% mutate(dwc_sex = recode(Sex,
+occurrence1 %<>% mutate(dwc_sex = recode(sex,
                    "egg" = "",
                    "larva"  = "",
                    "pupa" = "",
@@ -448,7 +450,7 @@ occurrence1 %<>% mutate(dwc_sex = recode(Sex,
 ### lifeStage
 
 ```{r}
-occurrence1 %<>% mutate(dwc_lifeStage = recode(Sex,
+occurrence1 %<>% mutate(dwc_lifeStage = recode(sex,
                    "Female" = "adult",
                    "Male"  = "adult",
                    "Unknown" = "",
@@ -458,7 +460,7 @@ occurrence1 %<>% mutate(dwc_lifeStage = recode(Sex,
 ### scientificName
 
 ```{r}
-occurrence1 %<>% mutate(dwc_scientificName = paste(Genus, Species))
+occurrence1 %<>% mutate(dwc_scientificName = paste(genus, species))
 ```
 
 
@@ -515,11 +517,6 @@ occurrence1 %<>% mutate(dwc_taxonRank = case_when(
 ```{r}
 occurrence1 %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
 ```
-# remove unidenfifiable
-
-```{r eval=FALSE, include=FALSE}
-occurrence1 <- filter(occurrence,Genus != 'Unidentifiable' ) 
-```
 
 
 ## Post-processing Occurrence
@@ -550,7 +547,7 @@ occurrence1 %>% head()
 Save to CSV:
 
 ```{r}
-write_csv(occurrence1, here::here("datasets","favv-ixodida", "data", "processed", "occurrence_host.csv"), na = "")
+write_csv(occurrence1, here::here("datasets","favv-ixodida", "data", "processed", "occurrence.csv"), na = "")
 
 
 ```
