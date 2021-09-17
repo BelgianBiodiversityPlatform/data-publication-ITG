@@ -101,6 +101,17 @@ input_data %<>%
 ```
 
 
+```{r}
+
+input_data %<>%
+   mutate(scientificName = if_else(
+   parasite == "host",
+   paste(genus, species),
+   parasite
+             ))
+
+
+```
 
 
 
@@ -116,6 +127,38 @@ input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:T:EV:",str_replace(collecti
 
 ```
 
+#remove obsolete columns input_data
+
+```{r}
+
+input_data %<>% select(-c(species, genus))
+
+head(input_data)
+
+```
+# add rownumbers for occ ID
+
+```{r}
+input_data <- input_data %>% mutate(row_id = row_number())
+```
+
+```{r}
+
+input_data %<>%  mutate(dwc_sex = case_when(
+                  scientificName == 'Dermacentor reticulatus' ~ tolower(sex),
+                  scientificName == 'Ixodes ricinus' ~ tolower(sex),
+                  scientificName == 'Ixodes ' ~ tolower(sex)
+                  
+))
+
+
+
+```
+
+
+
+
+
 # Occurrence core 
 
 
@@ -123,10 +166,7 @@ Create dataframes for occurrence (1 ticks, 2)
 
 ```{r}
 occurrence1 <- input_data
-occurrence2 <- input_data
-occurrence3 <- input_data
-occurrence4 <- input_data
-occurrence5 <- input_data
+
 
 ```
 
@@ -137,30 +177,18 @@ Map the data to [Darwin Core occurrence](https://rs.gbif.org/core/dwc_occurrence
 
 Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
 # Record-level
-# occurrence 
+# occurrenceID
 
+### occurrenceID
 
+str_c("ITG:FAVV:",Collection.sites_Site.Code))
 
-
-
-
-
-
-## Remove obsolete columns for event
-
-```{r eval=FALSE, include=FALSE}
-occurrence1 %<>% select(-c(Extractiontype, Extractiondate, Extractor, Storageextract, StoragePCRproduct, PCRcode, PCRdate, ExecutorPCR, ExecutorRFLP))
+```{r}
+occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",id, row_id))
 ```
 
 
 ## eventID
-
-add row number
-
-```{r}
-occurrence1 <- occurrence1 %>% mutate(rowID = row_number())
-```
-
 
 
 
@@ -388,13 +416,7 @@ occurrence %<>% select(-c(Latitutde,Longitude, Municipality, Collection.sites_Si
 ```
 
 
-### occurrenceID
 
-str_c("ITG:FAVV:",Collection.sites_Site.Code))
-
-```{r}
-occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",id))
-```
 ## eventID
 
 
