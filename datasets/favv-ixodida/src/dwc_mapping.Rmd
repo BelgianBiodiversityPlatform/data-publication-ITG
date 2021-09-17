@@ -67,6 +67,7 @@ input_data %<>%
 ```
 
 
+
 delete obsolete columns
 
 ```{r}
@@ -114,6 +115,15 @@ input_data %<>%
 
 ```
 
+
+```{r}
+input_data %<>%
+    mutate (dwc_scientificName = recode(scientificName ,
+   "Babesiacanis_caballi" = "Babesiacanis caballi",
+   "Tbe" = "Tick-borne encephalitis virus"
+   
+             ))
+```
 
 
 
