@@ -119,8 +119,8 @@ input_data %<>%
 ```{r}
 input_data %<>%
     mutate (dwc_scientificName = recode(scientificName ,
-   "Babesiacanis_caballi" = "Babesiacanis caballi",
-   "Tbe" = "Tick-borne encephalitis virus"
+                        "Babesiacanis_caballi" = "Babesiacanis caballi",
+                        "Tbe" = "Tick-borne encephalitis virus"
    
              ))
 ```
@@ -142,7 +142,7 @@ input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:T:EV:",str_replace(collecti
 
 ```{r}
 
-input_data %<>% select(-c(species, genus))
+input_data %<>% select(-c(species, genus, Theileriaequi, Babesiacanis_caballi, TBE))
 
 head(input_data)
 
@@ -169,21 +169,17 @@ input_data %<>%  mutate(dwc_sex = case_when(
 ```{r}
 
 
-input_data %<>%  mutate(par_extractiontype = case_when(
-                  scientificName == 'borelia' ~ tolower(extractiontype),
-                  scientificName == 'tbe' ~ tolower(extractiontype),
-                  scientificName == 'babesiacanis_caballi' ~ tolower(extractiontype),
-                  scientificName == 'theileriaequi' ~ tolower(extractiontype)
+input_data %<>%  mutate(parasite_extractiontype = case_when(
+                  scientificName == 'Borelia' ~ tolower(extractiontype),
+                  scientificName == 'Tbe' ~ tolower(extractiontype),
+                  scientificName == 'Babesiacanis_caballi' ~ tolower(extractiontype),
+                  scientificName == 'Theileriaequi' ~ tolower(extractiontype)
                   
 ))
 
 
 
 ```
-```
-
-
-
 
 # Occurrence core 
 
@@ -192,7 +188,6 @@ Create dataframes for occurrence (1 ticks, 2)
 
 ```{r}
 occurrence1 <- input_data
-
 
 ```
 
@@ -428,22 +423,25 @@ occurrence <- occurrence %>% mutate(dwc_family = replace_na(Family, replace = "C
 
 ```{r}
 occurrence1 %<>%
-  mutate(dwc_order = 'Ixodida')
+  mutate(dwc_order = case_when(
+                  scientificName == 'Dermacentor reticulatus' ~ 'Ixodida',
+                  scientificName == 'Ixodes ricinus' ~ 'Ixodida',
+                  scientificName == 'Ixodes ' ~ 'Ixodida',
+                  scientificName == 'Babesiacanis caballi' ~ 'Piroplasmida',
+                  scientificName == 'Borelia' ~ 'Spirochaetales',
+                  scientificName == 'Theileriaequi' ~ 'Piroplasmida',
+                  scientificName == 'Tbe' ~ 'Amarillovirales'
+                  ))
+                  
+                  
 ```
+
+
+
 
 
 
 Remove all columns not relevant for occurrence
-
-## Remove obsolete columns for occurrence
-
-```{r eval=FALSE, include=FALSE}
-occurrence %<>% select(-c(Latitutde,Longitude, Municipality, Collection.sites_Site.Code, Site.Name, Site.type, UnionQuery1_Site.Code, Trap.type, Trap.Code, Start.Date, End.Date, Comments.sampling  ))
-```
-
-
-
-## eventID
 
 
 ### basisOfRecord
@@ -473,8 +471,14 @@ occurrence1 %<>% mutate(dwc_collectionCode = "ITG:FAVV")
 ### individualCount
 
 ```{r}
-occurrence1 %<>% mutate(dwc_individualCount = poolnumber) 
+occurrence1 %<>% mutate(dwc_individualCount = case_when(
+                            scientificName == 'Dermacentor reticulatus' ~ poolnumber,
+                           scientificName == 'Ixodes ricinus' ~ poolnumber,
+                           scientificName == 'Ixodes ' ~ poolnumber
+                            ))
 ```
+
+
 
 ### organismQuantity
 
