@@ -486,34 +486,19 @@ occurrence1 %<>% mutate(dwc_individualCount = case_when(
 
 ### sex
 
-```{r}
-occurrence1 %<>% mutate(dwc_sex = recode(sex,
-                   "egg" = "",
-                   "larva"  = "",
-                   "pupa" = "",
-                   "nymph" = "",
-                   "Unknown" = "",
-                   "Female" = "female",
-                   "Male" = "male",
-                   "?" = ""
-                                ))
-```
 
 ### lifeStage
 
 ```{r}
-occurrence1 %<>% mutate(dwc_lifeStage = recode(sex,
-                   "Female" = "adult",
-                   "Male"  = "adult",
-                   "Unknown" = "",
-                   "?" = ""
-                                     ))
+occurrence1 %<>% mutate(dwc_lifeStage = case_when(
+                            scientificName == 'Dermacentor reticulatus' ~ lifestage,
+                            scientificName == 'Ixodes ricinus' ~ lifestage,
+                            scientificName == 'Ixodes ' ~ lifestage
+                            ))
 ```
 ### scientificName
 
-```{r}
-occurrence1 %<>% mutate(dwc_scientificName = paste(genus, species))
-```
+
 
 
 
@@ -523,8 +508,9 @@ occurrence1 %<>% mutate(dwc_scientificName = paste(genus, species))
 ```{r}
 occurrence1 %<>% 
     ##select(individualCount) %>%
-    mutate(dwc_occurrenceStatus = case_when(dwc_individualCount > 0 ~ "present",
-                              dwc_individualCount == 0 ~ "absent"
+    mutate(dwc_occurrenceStatus = case_when(value == 'positive' ~ "present",
+                                            value == 'negative' ~ "absent" ,
+                                            value == 'host' ~"present"
                                  )
                                 )
 ```
