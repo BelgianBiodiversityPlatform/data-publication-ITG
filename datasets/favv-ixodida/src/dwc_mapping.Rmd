@@ -41,7 +41,7 @@ File exported to csv
 ```{r}
 #input_interim <- read_csv2(file = here:here("datasets", "mica-uvw-occurrences", "data", "raw", "2020_11_18_Vangstgegevens #muskus- en beverratten_NL_2019.csv"))  
 
-input_data <- read.csv(file = here::here("datasets", "favv-ixodida", "data", "interim", "Integrated_output_ticks_ITG.csv"), sep = ',')
+input_data <- read.csv(file = here::here("datasets", "favv-ixodida", "data", "interim", "IntegratedOutput_Ticks_ITG.csv"), sep = ',')
 ```
 
 Preview data:
