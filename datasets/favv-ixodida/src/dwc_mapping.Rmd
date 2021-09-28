@@ -546,7 +546,8 @@ occurrence1 %<>% mutate(dwc_taxonRank = case_when(
                    dwc_scientificName == 'Ixodes ricinus' ~ "species",
                    dwc_scientificName == 'Ixodes ' ~ "genus",
                    dwc_scientificName == 'Dermacentor reticulatus' ~ "species",
-                   dwc_scientificName == 'Theileria equi' ~ "species"
+                   dwc_scientificName == 'Theileria equi' ~ "species" ,
+                   dwc_scientificName == 'Tick-borne encephalitis virus' ~ "species"
                                                         ))
 
 #,TRUE ~ "species"
@@ -555,7 +556,13 @@ occurrence1 %<>% mutate(dwc_taxonRank = case_when(
 # nomenclaturalCode
 
 ```{r}
-occurrence1 %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
+occurrence1 %<>% mutate(dwc_nomenclaturalCode = case_when(
+                   dwc_scientificName == 'Ixodes ricinus' ~ "ICZN",
+                   dwc_scientificName == 'Ixodes ' ~ "ICZN",
+                   dwc_scientificName == 'Dermacentor reticulatus' ~ "ICZN",
+                   dwc_scientificName == 'Theileria equi' ~ "ICZN" ,
+                   dwc_scientificName == 'Tick-borne encephalitis virus' ~ "ICTV"
+                                                        ))
 ```
 
 
