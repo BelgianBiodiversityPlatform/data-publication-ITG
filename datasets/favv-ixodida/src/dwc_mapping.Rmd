@@ -24,7 +24,7 @@ library(rgbif)          # To use GBIF services
 library(sp)             # coordinate transformation
 library(leaflet)        # coordinate transformation
 library(widgetframe)    # coordinate transformation
-#library(sf)             # coordinate transformation
+library(sf)             # coordinate transformation
 library(lubridate)      # date transformation
 
 ```
@@ -120,7 +120,8 @@ input_data %<>%
 input_data %<>%
     mutate (dwc_scientificName = recode(scientificName ,
                         "Babesiacanis_caballi" = "Babesiacanis caballi",
-                        "Tbe" = "Tick-borne encephalitis virus"
+                        "Tbe" = "Tick-borne encephalitis virus",
+                        "Theileriaequi" = "Theieria equi"
    
              ))
 ```
@@ -544,7 +545,8 @@ occurrence1 %<>% mutate(dwc_kingdom = "Animalia")
 occurrence1 %<>% mutate(dwc_taxonRank = case_when(
                    dwc_scientificName == 'Ixodes ricinus' ~ "species",
                    dwc_scientificName == 'Ixodes ' ~ "genus",
-                   dwc_scientificName == 'Dermacentor reticulatus' ~ "species"
+                   dwc_scientificName == 'Dermacentor reticulatus' ~ "species",
+                   dwc_scientificName == 'Theileria equi' ~ "species"
                                                         ))
 
 #,TRUE ~ "species"
