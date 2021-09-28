@@ -546,7 +546,9 @@ occurrence1 %<>% mutate(dwc_taxonRank = case_when(
                    dwc_scientificName == 'Ixodes ricinus' ~ "species",
                    dwc_scientificName == 'Ixodes ' ~ "genus",
                    dwc_scientificName == 'Dermacentor reticulatus' ~ "species",
-                   dwc_scientificName == 'Theileria equi' ~ "species" ,
+                   dwc_scientificName == 'Babesiacanis caballi' ~ "species",
+                   dwc_scientificName == 'Theieria equi' ~ "species" ,  
+                   dwc_scientificName == 'Borrelia' ~ "genus" ,
                    dwc_scientificName == 'Tick-borne encephalitis virus' ~ "species"
                                                         ))
 
@@ -559,10 +561,31 @@ occurrence1 %<>% mutate(dwc_taxonRank = case_when(
 occurrence1 %<>% mutate(dwc_nomenclaturalCode = case_when(
                    dwc_scientificName == 'Ixodes ricinus' ~ "ICZN",
                    dwc_scientificName == 'Ixodes ' ~ "ICZN",
-                   dwc_scientificName == 'Dermacentor reticulatus' ~ "ICZN",
-                   dwc_scientificName == 'Theileria equi' ~ "ICZN" ,
+                   dwc_scientificName == 'Dermacentor reticulatus' ~ "ICZN",   
+                   dwc_scientificName == 'Babesiacanis caballi' ~ "ICZN",
+                   dwc_scientificName == 'Theieria equi' ~ "ICZN" ,  
+                   dwc_scientificName == 'Borrelia' ~ "ICZN" ,
                    dwc_scientificName == 'Tick-borne encephalitis virus' ~ "ICTV"
                                                         ))
+```
+```{r}
+
+host_df <-  occurrence1 %>% 
+   filter(parasite == 'host') %>%
+   mutate(hostoccurrenceID = id) %>%
+   select(hostoccurrenceID, id)
+
+                             
+```
+```{r}
+#occurrence1 %<>% left_join(host_df, by = ('id'))
+
+occurrence1 %<>% left_join(host_df, by = c('id' = 'hostoccurrenceID'))
+```
+remove not tested occurrences
+
+```{r}
+occurrence1 %<>% filter(value != '')
 ```
 
 
