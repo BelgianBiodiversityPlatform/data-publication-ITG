@@ -625,19 +625,19 @@ resourceRelationShip %<>% filter(dwc_scientificName != 'Ixodes ricinus',
 
 ```{r}
 
-resourceRelationShip %<>% mutate(dwc_resourceID = id)
+resourceRelationShip %<>% mutate(ddwc_resourceID = id)
 
 ```
 
 ```{r}
 
-resourceRelationShip %<>% mutate(dwc_relatedresourceID = unique_id)
+resourceRelationShip %<>% mutate(ddwc_relatedresourceID = unique_id)
 
 ```
 
 
 ```{r}
-resourceRelationShip %<>% mutate(dwc_relationshipOfResource = 'is pathogen in')
+resourceRelationShip %<>% mutate(ddwc_relationshipOfResource = 'is pathogen in')
 ```
 
 
@@ -657,13 +657,28 @@ occurrence1 %<>% distinct()
 ```
 
 
+## post processing sourceRElationShip
 
+## Post-processing Occurrence
+
+
+
+```{r}
+resourceRelationShip %<>% select(starts_with("ddwc_"))
+
+colnames(resourceRelationShip) <- str_remove(colnames(resourceRelationShip), "ddwc_")
+  #remove collection columns
+          ##  rename(scientificName = verbatimScientificName) 
+
+#resourceRelationShip %<>% distinct()
+```
 
 
 Preview data:
 
 ```{r}
 occurrence1 %>% head()
+resourceRelationShip %>% head()
 ```
 
 
