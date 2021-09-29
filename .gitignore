@@ -39,3 +39,4 @@ memoplusRawData.tsv
 *.accdb
 *.laccdb
 .RData
+.Rhistory
