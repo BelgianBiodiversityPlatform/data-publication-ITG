@@ -75,9 +75,14 @@ input_data %<>% select(-c("male","female","larva","nymph","id_1"))
 ```
 
 
+
+
+
 ```{r}
 input_data %>% head(n = 5)
 ```
+
+
 
 ```{r}
 input_data %<>%
@@ -114,6 +119,23 @@ input_data %<>%
 
 
 ```
+
+```{r}
+input_data <-
+ input_data %>%
+ group_by(id) %>%
+ add_tally() %>%
+ mutate(progressive_number = row_number()) %>%
+ mutate(unique_id = if_else(n > 1,
+                            paste0(id, ":", progressive_number),
+                            as.character(id))) %>%
+ ungroup() %>%
+ select(-c(progressive_number, n)) %>%
+ select(id,unique_id, everything())
+```
+
+
+
 
 
 ```{r}
