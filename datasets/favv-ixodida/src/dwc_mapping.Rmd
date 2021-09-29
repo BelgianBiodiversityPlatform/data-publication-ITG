@@ -609,6 +609,37 @@ remove not tested occurrences
 ```{r}
 occurrence1 %<>% filter(value != '')
 ```
+## Create resourceRelationShip
+
+```{r}
+resourceRelationShip <- occurrence1
+```
+
+```{r}
+resourceRelationShip %<>% filter(dwc_scientificName != 'Ixodes ricinus',
+                                 dwc_scientificName != 'Ixodes ',
+                                 dwc_scientificName != 'Dermacentor reticulatus'   
+                                 )
+```
+
+
+```{r}
+
+resourceRelationShip %<>% mutate(dwc_resourceID = id)
+
+```
+
+```{r}
+
+resourceRelationShip %<>% mutate(dwc_relatedresourceID = unique_id)
+
+```
+
+
+```{r}
+resourceRelationShip %<>% mutate(dwc_relationshipOfResource = 'is pathogen in')
+```
+
 
 
 ## Post-processing Occurrence
