@@ -477,11 +477,19 @@ occurrence %<>% mutate(dwc_lifeStage = recode(Sex,
 ```{r}
 occurrence %<>% mutate(dwc_scientificName = paste(Genus, Species))
 ```
+```{r}
+occurrence %<>% mutate(dwc_scientificName = case_when(
+                              dwc_scientificName == ' ' ~ dwc_order
+                            , dwc_scientificName != ' ' ~ dwc_scientificName
+                            
+))
+
+```
 
 
 ### establishmentMeans
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 occurrence %<>% mutate(dwc_establishmentMeans = recode(dwc_scientificName,
                      "Culicidae" = "" ,
                      "Anopheles claviger" = "native" ,
@@ -522,7 +530,7 @@ occurrence %<>% mutate(dwc_establishmentMeans = recode(dwc_scientificName,
 ```
 ### degreeOfEstablishment
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
                      "Culicidae" = "" ,
                      "Anopheles claviger" = "native" ,
@@ -565,7 +573,7 @@ occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
 ### pathway
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
                   "Culicidae" = "" ,
                   "Anopheles claviger" = "native" ,
@@ -601,7 +609,8 @@ occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
                   "Culiseta fumipennis" = "native" ,
                   "Culex territans" = "native" ,
                   "Anopheles atroparvus" = "native" ,
-                  "Aedes detritus" = "native" 
+                  "Aedes detritus" = "native",
+                  "Culex pipiens" = "native"
                                      ))
 ```
 
@@ -665,6 +674,7 @@ occurrence %<>% mutate(dwc_taxonRank = case_when(
                   ,dwc_scientificName == '' ~ ''
                   ,dwc_scientificName == 'Anopheles spp.' ~ "genus"
                   ,dwc_scientificName == 'Coquillettidia' ~ "genus"
+                  ,dwc_scientificName == 'Diptera' ~ "order"
                   ,TRUE ~ "species"                   ))
 ```
 
@@ -677,6 +687,11 @@ occurrence %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
 
 ```{r}
 occurrence <- filter(occurrence,Genus != 'Unidentifiable' ) 
+```
+# remove zero occurrences
+
+```{r}
+
 ```
 
 
