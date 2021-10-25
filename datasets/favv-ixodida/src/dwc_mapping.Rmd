@@ -142,9 +142,9 @@ input_data <-
 input_data %<>%
     mutate (dwc_scientificName = recode(scientificName ,
                         "Babesiacanis_caballi" = "Babesiacanis caballi",
-                        "Tbe" = "Tick-borne encephalitis virus",
-                        "Theileriaequi" = "Theieria equi"
-   
+                        "Tbe"                  = "Tick-borne encephalitis virus",
+                        "Theileriaequi"        = "Theieria equi",
+                        "Ixodes "               = "Ixodes ricinus"
              ))
 ```
 
