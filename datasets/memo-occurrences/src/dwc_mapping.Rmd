@@ -353,7 +353,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 
 Remove all columns not relevant for occurrence
 
-## Remove obsolete columns for event
+## Remove obsolete columns for occurrence
 
 ```{r}
 occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, poe_type, poe_code, location, poe_type, poe_city, poe_country, poe_municipality, poe_name, poe_name_extra, decimalLatitude_poe, decimalLongitude_poe ))
