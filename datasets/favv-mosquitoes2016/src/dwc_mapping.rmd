@@ -436,7 +436,7 @@ occurrence %<>% mutate(dwc_recordedBy = "ITM")
 ### identifiedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_identifiedBy = Identifier)
+occurrence %<>% mutate(dwc_identifiedBy = "ITM")
 ```
 ### collectionCode
 
@@ -448,7 +448,7 @@ occurrence %<>% mutate(dwc_collectionCode = "ITG:FAVV")
 ### individualCount
 
 ```{r}
-occurrence %<>% mutate(dwc_individualCount= Number) 
+occurrence %<>% mutate(dwc_individualCount= tblMorphIdentification_Number) 
 ```
 
 ### organismQuantity
@@ -458,10 +458,7 @@ occurrence %<>% mutate(dwc_individualCount= Number)
 ### sex
 
 ```{r}
-occurrence %<>% mutate(dwc_sex = recode(Sex,
-                   "egg" = "",
-                   "larva"  = "",
-                   "pupa" = "",
+occurrence %<>% mutate(dwc_sex = recode(tblMorphIdentification_Sex,
                    "Unknown" = "",
                    "Female" = "female",
                    "Male" = "male"
@@ -471,7 +468,7 @@ occurrence %<>% mutate(dwc_sex = recode(Sex,
 ### lifeStage
 
 ```{r}
-occurrence %<>% mutate(dwc_lifeStage = recode(Sex,
+occurrence %<>% mutate(dwc_lifeStage = recode(tblMorphIdentification_Sex,
                    "Female" = "adult",
                    "Male"  = "adult",
                    "Unknown" = ""
@@ -480,8 +477,10 @@ occurrence %<>% mutate(dwc_lifeStage = recode(Sex,
 ### scientificName
 
 ```{r}
-occurrence %<>% mutate(dwc_scientificName = paste(Genus, Species))
+occurrence %<>% mutate(dwc_scientificName = paste(occurrence2016_Genus, occurrence2016_Species))
 ```
+
+
 ```{r}
 occurrence %<>% mutate(dwc_scientificName = case_when(
                               dwc_scientificName == ' ' ~ dwc_order
