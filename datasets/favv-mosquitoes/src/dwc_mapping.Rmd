@@ -244,8 +244,19 @@ head(event, n = 10)
 ### eventDate
 
 ```{r}
- event %<>% mutate(dwc_eventDate = paste((Start.Date),"/",(End.Date)))
+ event %<>% mutate(dwc_eventDate = paste((trimws(Start.Date)),"/",(End.Date))) 
+
+
+
+            
 ```
+
+```{r}
+event %<>% mutate(dwc_eventDate = str_replace_all(dwc_eventDate, " ",""))
+```
+
+
+
 ### samplingProtocol
 
 ```{r}
