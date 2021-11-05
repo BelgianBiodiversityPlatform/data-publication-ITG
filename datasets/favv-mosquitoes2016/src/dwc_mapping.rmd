@@ -163,7 +163,7 @@ event %<>% distinct()
 add row number
 
 ```{r}
-event <- event %>% mutate(rowtID = row_number())
+event <- event %<>% mutate(rowID = row_number())
 ```
 
 
@@ -410,13 +410,17 @@ occurrence %<>% select(-c(Latitutde,Longitude, Municipality, Collection.sites_Si
 occurrence %<>% mutate(dwc_materialSampleID = tblMorphIdentification_Box.code)
 ```
 
+```{r}
+occurrence %<>% mutate(rowID = row_number())
+```
+
 
 ### occurrenceID
 
 str_c("ITG:FAVV:",Collection.sites_Site.Code))
 
 ```{r}
-occurrence %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:OCC:",occurrence2016_Tube.ID))
+occurrence %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:OCC:",occurrence2016_Tube.ID,":",rowID))
 ```
 ## eventID
 
