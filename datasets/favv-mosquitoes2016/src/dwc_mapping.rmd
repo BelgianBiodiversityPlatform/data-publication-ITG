@@ -242,7 +242,7 @@ head(event, n = 10)
 ### eventDate
 
 ```{r}
- event %<>% mutate(dwc_eventDate = paste((Start.date),"/",(End.Date)))
+ event %<>% mutate(dwc_eventDate = paste((str_trim(Start.date)),"/",(str_trim(End.Date))))
 ```
 ### samplingProtocol
 
@@ -354,7 +354,7 @@ event %<>% distinct()
 Save to CSV:
 
 ```{r}
-write_csv(event, here::here("datasets/favv-mosquitoes2016", "data", "processed", "event.csv"), na = "")
+write_csv(event, here::here("datasets/favv-mosquitoes2016", "data", "processed", "event2.csv"), na = "")
 
 
 
@@ -635,19 +635,19 @@ occurrence %<>%
 ### identifiedBy
 
 ```{r}
-occurrence %<>% mutate(dwc_identifiedBy = Identifier)
+occurrence %<>% mutate(dwc_identifiedBy = "ITM")
 ```
 
 ### dateIdentified
 
 ```{r}
-occurrence %<>% mutate(dwc_dateIdentified = Date.ID)
+occurrence %<>% mutate(dwc_dateIdentified = tblMorphIdentification_Date.ID)
 ```
 
 ### identificationRemarks
 
 ```{r}
-occurrence %<>% mutate(dwc_identificationRemarks = Comments.identification)
+occurrence %<>% mutate(dwc_identificationRemarks = tblMorphIdentification_Comments)
 ```
 
 # taxon
@@ -680,6 +680,10 @@ occurrence %<>% mutate(dwc_taxonRank = case_when(
                   ,dwc_scientificName == 'Coquillettidia' ~ "genus"
                   ,dwc_scientificName == 'Diptera' ~ "order"
                   ,TRUE ~ "species"                   ))
+
+
+
+
 ```
 
 # nomenclaturalCode
@@ -689,7 +693,7 @@ occurrence %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
 ```
 # remove unidenfifiable
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 occurrence <- filter(occurrence,Genus != 'Unidentifiable' ) 
 ```
 # remove zero occurrences
@@ -724,7 +728,7 @@ occurrence %>% head()
 Save to CSV:
 
 ```{r}
-write_csv(occurrence, here::here("datasets","favv-mosquitoes", "data", "processed", "occurrence.csv"), na = "")
+write_csv(occurrence, here::here("datasets","favv-mosquitoes2016", "data", "processed", "occurrence2.csv"), na = "")
 
 
 ```
@@ -741,6 +745,6 @@ parsed_names <- occurrence %>%
 speciesList <- parsed_names %>%
    select(scientificname)
 
-write_csv(speciesList, here::here("datasets","favv-mosquitoes", "data", "processed", "specieslist.csv"), na = "")
+write_csv(speciesList, here::here("datasets","favv-mosquitoes2016", "data", "processed", "specieslist.csv"), na = "")
 ```
 
