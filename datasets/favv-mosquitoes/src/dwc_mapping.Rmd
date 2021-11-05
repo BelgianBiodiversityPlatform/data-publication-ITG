@@ -116,9 +116,15 @@ data is already in WGS84
 
 # Create eventID
 
+add row number
 
 ```{r}
-input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",str_replace(Start.Date,",","-") ,str_replace(End.Date, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-")))
+input_data %<>% mutate(rowID = row_number())
+```
+
+
+```{r}
+input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",str_replace(Start.Date,",","-") ,str_replace(End.Date, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-"), rowID ))
 
 ```
 
