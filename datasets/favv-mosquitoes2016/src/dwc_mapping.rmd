@@ -125,6 +125,11 @@ data is already in WGS84
 input_data_event %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",Sampling.ID ))
 
 ```
+```{r}
+input_data_occurrence %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",occurrence2016_Sampling.ID ))
+
+```
+
 
 # Occurrence core & eventCore
 
