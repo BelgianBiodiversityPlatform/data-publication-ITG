@@ -137,6 +137,13 @@ data is already in WGS84
 input_data_event %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",Sampling.ID ))
 
 ```
+
+```{r}
+input_data_join %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",eventID ))
+```
+
+
+
 ```{r}
 input_data_occurrence %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",occurrence2016_Sampling.ID ))
 
@@ -149,7 +156,7 @@ input_data_occurrence %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",occurrence2
 Create a dataframe event data only 
 
 ```{r}
-occurrence <- input_data_occurrence
+occurrence <- input_data_join
 event <- input_data_event
 ```
 
@@ -169,7 +176,7 @@ event %<>% select(-c(ID,UnionQuery1_Site.Code,Family, Genus, Species, Sex, Numbe
 #group By for eventCore
 
 ```{r}
-event %<>% distinct()
+occurrence %<>% distinct()
 
 ```
 
@@ -180,7 +187,7 @@ event %<>% distinct()
 add row number
 
 ```{r}
-event <- event %<>% mutate(rowID = row_number())
+occurrence <- occurrence %<>% mutate(rowID = row_number())
 ```
 
 
@@ -189,32 +196,32 @@ event <- event %<>% mutate(rowID = row_number())
 ### type
 
 ```{r}
-event %<>% mutate(dwc_type = "Event")
+occurrence %<>% mutate(dwc_type = "Event")
 ```
 
 ### language
 
 ```{r}
-event %<>% mutate(dwc_language = "en") # e.g. "en"
+occurrence %<>% mutate(dwc_language = "en") # e.g. "en"
 ```
 
 ### license
 
 ```{r}
-event %<>% mutate(dwc_license = "https://creativecommons.org/licenses/by/4.0/") 
+occurrence %<>% mutate(dwc_license = "https://creativecommons.org/licenses/by/4.0/") 
 # e.g. "http://creativecommons.org/publicdomain/zero/1.0/"
 ```
 
 ### rightsHolder
 
 ```{r}
-event %<>% mutate(dwc_rightsHolder = "Institute of Tropical Medicine Antwerp") # e.g. "INBO"
+occurrence %<>% mutate(dwc_rightsHolder = "Institute of Tropical Medicine Antwerp") # e.g. "INBO"
 ```
 
 ### accessRights
 
 ```{r}
-event %<>% mutate(dwc_accessRights = "http://www.inbo.be/en/norms-for-data-use") 
+occurrence %<>% mutate(dwc_accessRights = "http://www.inbo.be/en/norms-for-data-use") 
 ```
 ### institutionID
 
@@ -222,30 +229,30 @@ event %<>% mutate(dwc_accessRights = "http://www.inbo.be/en/norms-for-data-use")
 ### datasetID
 
 ```{r}
-event %<>% mutate(dwc_datasetID = "complete")
+occurrence %<>% mutate(dwc_datasetID = "I10.15468/g7yq9x")
 ```
 
 ### institutionCode
 
 ```{r}
-event %<>% mutate(dwc_institutionCode = "ITM") # e.g. "INBO"
+occurrence %<>% mutate(dwc_institutionCode = "ITM") # e.g. "INBO"
 ```
 ### collectionCode
 
 
 ```{r}
-event %<>% mutate(dwc_collectionCode = "ITG:Mosquitoes") # e.g. "INBO"
+occurrence %<>% mutate(dwc_collectionCode = "ITG:Mosquitoes") # e.g. "INBO"
 ```
 
 ### datasetName
 
 ```{r}
-event %<>% mutate(dwc_datasetName = "FAVV - Exotic vector and pathogen surveillance programme in Belgium - Mosquitoes") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+occurrence %<>% mutate(dwc_datasetName = "FASFC - Exotic vector and pathogen surveillance programme in Belgium - Mosquitoes") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
 ### basisOfRecord
 
 ```{r}
-event %<>% mutate(dwc_basisOfRecord = "HumanObservation")
+occurrence %<>% mutate(dwc_basisOfRecord = "HumanObservation")
 ```
 
 
@@ -259,18 +266,18 @@ head(event, n = 10)
 ### eventDate
 
 ```{r}
- event %<>% mutate(dwc_eventDate = paste((str_trim(Start.date)),"/",(str_trim(End.Date))))
+occurrence %<>% mutate(dwc_eventDate = paste((str_trim(Start.date)),"/",(str_trim(End.Date))))
 ```
 
 
 ```{r}
-event %<>% mutate(dwc_eventDate = str_replace_all(dwc_eventDate, " ",""))
+occurrence%<>% mutate(dwc_eventDate = str_replace_all(dwc_eventDate, " ",""))
 ```
 
 ### samplingProtocol
 
 ```{r}
-event %<>% mutate(dwc_samplingProtocol = Description)
+occurrence %<>% mutate(dwc_samplingProtocol = Description)
 ```
 
 
@@ -287,26 +294,26 @@ event %<>% mutate(dwc_habitat = pbs_type)
 ### locationID
 
 ```{r}
-event %<>% mutate(dwc_locationID = str_c("ITG:FAVV:",Site.Code)) # e.g. "Belgium = BE"
+occurrence %<>% mutate(dwc_locationID = str_c("ITG:FAVV:",Site.Code)) # e.g. "Belgium = BE"
 ```
 
 ### continent
 
 ```{r}
-event %<>% mutate(dwc_continent = "Europe") # e.g. "Belgium = BE"
+occurrence %<>% mutate(dwc_continent = "Europe") # e.g. "Belgium = BE"
 ```
 
 ### countryCode
 
 ```{r}
-event %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
+occurrence %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
 ```
 
 ### municipality
 
 
 ```{r}
-event %<>%
+occurrence %<>%
   mutate(dwc_municipality = Municipality)
 ```
 
@@ -315,7 +322,7 @@ event %<>%
 
 
 ```{r}
-event %<>%
+occurrence %<>%
   mutate(dwc_locality = Site.Name)
 ```
 
@@ -323,7 +330,7 @@ event %<>%
 
 ```{r}
 
-event %<>%
+occurrence %<>%
    mutate(dwc_decimalLongitude = str_replace(Longitude, ",",".")) %>%
    mutate(dwc_decimalLatitude = str_replace(Latitutde, ",","."))
 head(event, n = 5)
@@ -331,7 +338,7 @@ head(event, n = 5)
 
 
 ```{r}
-event %<>%   
+occurrence %<>%   
    mutate(dwc_decimalLatitude = (round(as.numeric(dwc_decimalLatitude), digits = 5))) %>%
    mutate(dwc_decimalLongitude = (round(as.numeric(dwc_decimalLongitude), digits = 5)))
 
@@ -348,7 +355,7 @@ event %<>%
 ### geodeticDatum
 
 ```{r}
-event %<>%
+occurrence %<>%
   mutate(dwc_geodeticDatum = 'WGS84')
 ```
 
@@ -356,7 +363,7 @@ event %<>%
 
 
 ```{r}
-event %<>%
+occurrence %<>%
   mutate(dwc_coordinateUncertaintyInMeters = '30')
 ```
 
@@ -364,7 +371,7 @@ event %<>%
 
 ## Post-processing Event
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 event %<>% select(starts_with("dwc_"))
 
 colnames(event) <- str_remove(colnames(event), "dwc_")
@@ -376,7 +383,7 @@ event %<>% distinct()
 
 Save to CSV:
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 write_csv(event, here::here("datasets/favv-mosquitoes2016", "data", "processed", "event2.csv"), na = "")
 
 
