@@ -1,0 +1,746 @@
+---
+title: "dwc_mapping_occ"
+author: "Dimitri Brosens"
+date: "17-3-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Load libraries:
+
+```{r message = FALSE}
+library(tidyverse)      # To do data science
+library(tidylog)        # To provide feedback on dplyr functions
+library(magrittr)       # To use %<>% pipes
+library(here)           # To find files
+library(janitor)        # To clean input data
+library(readxl)         # To read Excel files
+library(digest)         # To generate hashes
+library(rgbif)          # To use GBIF services
+library(sp)             # coordinate transformation
+library(leaflet)        # coordinate transformation
+library(widgetframe)    # coordinate transformation
+#library(sf)             # coordinate transformation
+library(lubridate)      # date transformation
+```
+
+# Read source data
+
+Create a data frame `input_data` from the source data:
+The source data was corrected in Excel
+Muskrat occurrences opened in openRefine
+Obsolete columns removed
+some columns renamed to DwC term
+File exported to csv
+
+```{r}
+#input_interim <- read_csv2(file = here:here("datasets", "mica-uvw-occurrences", "data", "raw", "2020_11_18_Vangstgegevens #muskus- en beverratten_NL_2019.csv"))  
+
+input_data <- read.csv(file = here::here("datasets", "favv-mosquitoes", "data", "raw", "unionSamplingALL.csv"), sep = ';')
+```
+
+Preview data:
+
+```{r}
+input_data %>% head(n = 5)
+```
+
+# Process source data
+
+## Tidy data
+
+Clean data somewhat:
+
+```{r}
+input_data %<>% remove_empty("rows")
+```
+
+
+
+delete obsolete columns
+
+```{r}
+input_data %<>% select(-c("ZIP.Code","Website"))
+```
+fix issue with decimal lat and decimal long
+
+Not needed in this dataset
+
+```{r eval=FALSE, include=FALSE}
+integer_part_lat <- map_chr(input_data$poe_latitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
+
+decimal_part_lat <- map(input_data$poe_latitude, function(x) {
+ decimal_parts_lat <- NA_character_
+ splitted_string_lat <- str_split(x, pattern = "\\.")[[1]]
+ if (length(splitted_string_lat) > 1) {
+   decimal_parts_lat <- paste0(splitted_string_lat[2:length(splitted_string_lat)])
+   paste0(decimal_parts_lat, collapse = "")
+   }
+ else {
+   ""
+ }
+})
+
+integer_part_long <- map_chr(input_data$poe_longitude, function(x) str_split(x, pattern = "\\.")[[1]][1])
+
+decimal_part_long <- map(input_data$poe_longitude, function(x) {
+ decimal_parts_long <- NA_character_
+ splitted_string_long <- str_split(x, pattern = "\\.")[[1]]
+ if (length(splitted_string_long) > 1) {
+   decimal_parts_long <- paste0(splitted_string_long[2:length(splitted_string_long)])
+   paste0(decimal_parts_long, collapse = "")
+   }
+ else {
+   ""
+ }
+})
+
+
+input_data %<>%
+ mutate(decimalLatitude_poe = as.numeric(paste(integer_part_lat, decimal_part_lat, sep = "."))) %>%
+ mutate(decimalLongitude_poe = as.numeric(paste(integer_part_long, decimal_part_long, sep = ".")))
+```
+
+
+
+```{r}
+input_data %>% head(n = 5)
+```
+
+# Georeference source data
+data is already in WGS84
+
+# Create eventID
+
+add row number
+
+```{r}
+input_data %<>% mutate(rowID = row_number())
+```
+
+
+```{r}
+input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:EV:",str_replace(End.Date, ",","-") ,str_replace(Latitutde, ",","-"),str_replace(Longitude, ",","-"),str_replace(Start.Date,",","-"), Trap.Code))
+
+```
+
+# Occurrence core & eventCore
+
+# CReate occurrence Only file, event not doable
+
+Create a dataframe event data only 
+
+```{r}
+occurrence <- input_data
+event <- input_data
+```
+
+
+# Term mapping
+
+Map the data to [Darwin Core Event](https://rs.gbif.org/core/dwc_event_2016_06_21.xml).
+
+Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
+# Record-level
+
+## eventID
+
+add row number
+
+```{r}
+occurrence <- event %>% mutate(rowtID = row_number())
+```
+
+
+
+
+### type
+
+```{r}
+occurrence %<>% mutate(dwc_type = "Event")
+```
+
+### language
+
+```{r}
+occurrence %<>% mutate(dwc_language = "en") # e.g. "en"
+```
+
+### license
+
+```{r}
+occurrence %<>% mutate(dwc_license = "https://creativecommons.org/licenses/by/4.0/") 
+# e.g. "http://creativecommons.org/publicdomain/zero/1.0/"
+```
+
+### rightsHolder
+
+```{r}
+occurrence %<>% mutate(dwc_rightsHolder = "Institute of Tropical Medicine Antwerp") # e.g. "INBO"
+```
+
+### accessRights
+
+```{r}
+occurrence %<>% mutate(dwc_accessRights = "http://www.inbo.be/en/norms-for-data-use") 
+```
+### institutionID
+
+
+### datasetID
+
+```{r}
+occurrence %<>% mutate(dwc_datasetID = "complete")
+```
+
+### institutionCode
+
+```{r}
+occurrence %<>% mutate(dwc_institutionCode = "ITM") # e.g. "INBO"
+```
+### collectionCode
+
+
+```{r}
+occurrence %<>% mutate(dwc_collectionCode = "ITG:Mosquitoes") # e.g. "INBO"
+```
+
+### datasetName
+
+```{r}
+occurrence %<>% mutate(dwc_datasetName = "FASFC - Exotic vector and pathogen surveillance programme in Belgium - Mosquitoes") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+```
+### basisOfRecord
+
+```{r}
+occurrence %<>% mutate(dwc_basisOfRecord = "HumanObservation")
+```
+
+
+```{r}
+head(occurrence, n = 10)
+```
+
+
+# Event
+
+### eventDate
+
+```{r}
+occurrence %<>% mutate(dwc_eventDate = paste((trimws(Start.Date)),"/",(End.Date))) 
+
+
+
+            
+```
+
+```{r}
+occurrence %<>% mutate(dwc_eventDate = str_replace_all(dwc_eventDate, " ",""))
+```
+
+
+
+### samplingProtocol
+
+```{r}
+occurrence %<>% mutate(dwc_samplingProtocol = Trap.type)
+```
+
+
+### habitat
+no habitat available here
+
+```{r eval=FALSE, include=FALSE}
+occurrence %<>% mutate(dwc_habitat = pbs_type)
+```
+
+
+# Location
+
+### locationID
+
+```{r}
+occurrence %<>% mutate(dwc_locationID = str_c("ITG:FAVV:",Collection.sites_Site.Code)) # e.g. "Belgium = BE"
+```
+
+### continent
+
+```{r}
+occurrence %<>% mutate(dwc_continent = "Europe") # e.g. "Belgium = BE"
+```
+
+### countryCode
+
+```{r}
+occurrence %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
+```
+
+### municipality
+
+
+```{r}
+occurrence %<>%
+  mutate(dwc_municipality = Municipality)
+```
+
+### locality
+
+
+
+```{r}
+occurrence %<>%
+  mutate(dwc_locality = Site.Name)
+```
+
+### decimalLatitude & decimalLongitude
+
+```{r}
+head(occurrence, n = 5)
+occurrence %<>%
+   mutate(dwc_decimalLongitude = str_replace(Longitude, ",",".")) %>%
+   mutate(dwc_decimalLatitude = str_replace(Latitutde, ",","."))
+```
+
+
+```{r}
+occurrence %<>%   
+   mutate(dwc_decimalLatitude = (round(as.numeric(dwc_decimalLatitude), digits = 5))) %>%
+   mutate(dwc_decimalLongitude = (round(as.numeric(dwc_decimalLongitude), digits = 5)))
+
+
+   
+```
+this is not needed anymore here
+```{r eval=FALSE, include=FALSE}
+occurrence %<>%   
+   mutate(dwc_decimalLatitude2 = (round(dwc_decimalLatitude, digits = 5))) %>%
+   mutate(dwc_decimalLongitude2 = (round(dwc_decimalLongitude, digits = 5)))
+```
+
+### geodeticDatum
+
+```{r}
+occurrence %<>%
+  mutate(dwc_geodeticDatum = 'WGS84')
+```
+
+### coordinateUncertaintyInMeters
+
+
+```{r}
+occurrence %<>%
+  mutate(dwc_coordinateUncertaintyInMeters = '30')
+```
+
+### georeferenceRemarks
+
+## Post-processing Event
+
+```{r}
+event %<>% select(starts_with("dwc_"))
+
+colnames(event) <- str_remove(colnames(event), "dwc_")
+  #remove collection columns
+          ##  rename(scientificName = verbatimScientificName) 
+
+event %<>% distinct()
+```
+
+Save to CSV:
+
+```{r eval=FALSE, include=FALSE}
+write_csv(event, here::here("datasets/favv-mosquitoes", "data", "processed", "event.csv"), na = "")
+
+
+
+```
+
+
+
+
+
+The following terms contain information about the occurrence:
+
+
+Map the data to [Darwin Core Occurrence](http://rs.gbif.org/core/dwc_occurrence_2015-07-02.xml).
+
+Start with record-level terms which contain metadata about the dataset (which is generally the same for all records).
+
+remove all row not relevant for occurrence (no occurrence)
+
+Identify zero occurrences
+
+
+```{r}
+occurrence[is.na(occurrence)] = 0
+```
+
+
+Won't use, also others than cullicidae here
+script to fill empty spaces
+
+```{r eval=FALSE, include=FALSE}
+occurrence$Family[occurrence$Family == ""] <- NA_character_
+occurrence <- occurrence %>% mutate(dwc_family = replace_na(Family, replace = "Culicidae"))
+
+
+```
+```{r}
+occurrence %<>%
+  mutate(dwc_order = 'Diptera')
+```
+
+
+
+Remove all columns not relevant for occurrence
+
+## Remove obsolete columns for occurrence
+
+```{r eval=FALSE, include=FALSE}
+occurrence %<>% select(-c(Latitutde,Longitude, Municipality, Collection.sites_Site.Code, Site.Name, Site.type, UnionQuery1_Site.Code, Trap.type, Trap.Code, Start.Date, End.Date, Comments.sampling  ))
+```
+#materialSampleID
+
+```{r}
+occurrence %<>% mutate(dwc_materialSampleID = Box)
+```
+
+
+### occurrenceID
+
+str_c("ITG:FAVV:",Collection.sites_Site.Code))
+
+```{r}
+occurrence %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:OCC:",ID))
+```
+## eventID
+
+
+### basisOfRecord
+
+```{r}
+occurrence %<>% mutate(dwc_basisOfRecord = "HumanObservation")
+```
+
+### recordedBy
+
+```{r}
+occurrence %<>% mutate(dwc_recordedBy = "ITM")
+```
+
+### identifiedBy
+
+```{r}
+occurrence %<>% mutate(dwc_identifiedBy = Identifier)
+```
+### collectionCode
+
+```{r}
+occurrence %<>% mutate(dwc_collectionCode = "ITG:FAVV")
+```
+
+
+### individualCount
+
+```{r}
+occurrence %<>% mutate(dwc_individualCount= Number) 
+```
+
+### organismQuantity
+
+### organismQuentityType
+
+### sex
+
+```{r}
+occurrence %<>% mutate(dwc_sex = recode(Sex,
+                   "egg" = "",
+                   "larva"  = "",
+                   "pupa" = "",
+                   "Unknown" = "",
+                   "Female" = "female",
+                   "Male" = "male"
+                                ))
+```
+
+### lifeStage
+
+```{r}
+occurrence %<>% mutate(dwc_lifeStage = recode(Sex,
+                   "Female" = "adult",
+                   "Male"  = "adult",
+                   "Unknown" = ""
+                                     ))
+```
+### scientificName
+
+```{r}
+occurrence %<>% mutate(dwc_scientificName = paste(Genus, Species))
+```
+```{r}
+occurrence %<>% mutate(dwc_scientificName = case_when(
+                              dwc_scientificName == ' ' ~ dwc_order
+                            , dwc_scientificName != ' ' ~ dwc_scientificName
+                            
+))
+
+```
+
+
+### establishmentMeans
+
+```{r eval=FALSE, include=FALSE}
+occurrence %<>% mutate(dwc_establishmentMeans = recode(dwc_scientificName,
+                     "Culicidae" = "" ,
+                     "Anopheles claviger" = "native" ,
+                     "Anopheles spp." = "native" ,
+                     "Culex pipiens/torrentium" = "native" ,
+                     "Culiseta annulata" = "native" ,
+                     "Culex spp." = "native" ,
+                     "Anopheles plumbeus" = "native" ,
+                     "Aedes japonicus" = "introduced" ,
+                     "Aedes geniculatus" = "native" ,
+                     "Culiseta spp." = "native" ,
+                     "Anopheles maculipennis s.l." = "native" ,
+                     "Anopheles daciae" = "native" ,
+                     "Culex hortensis" = "native" ,
+                     "Aedes spp." = "" ,
+                     "Aedes koreicus" = "introduced" ,
+                     "Culiseta longiareolata" = "introduced" ,
+                     "Anopheles maculipennis" = "introduced" ,
+                     "Aedes rusticus" = "native" ,
+                     "Aedes albopictus" = "introduced" ,
+                     "Culex modestus" = "vagrant" ,
+                     "Culex torrentium" = "native" ,
+                     "Culiseta morsitans" = "native" ,
+                     "Aedes annulipes/cantans" = "native" ,
+                     "Aedes sticticus" = "native" ,
+                     "Coquillettidia richiardii" = "native" ,
+                     "Aedes vexans" = "native" ,
+                     "Aedes communis" = "native" ,
+                     "Aedes cinereus/geminus" = "native" ,
+                     "Aedes punctor" = "native" ,
+                     "Anopheles pharoensis" = "introduced" ,
+                     "Aedes caspius/dorsalis" = "native" ,
+                     "Culiseta fumipennis" = "native" ,
+                     "Culex territans" = "native" ,
+                     "Anopheles atroparvus" = "native" ,
+                     "Aedes detritus" = "native" 
+                                     ))
+```
+### degreeOfEstablishment
+
+```{r eval=FALSE, include=FALSE}
+occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
+                     "Culicidae" = "" ,
+                     "Anopheles claviger" = "native" ,
+                     "Anopheles spp." = "native" ,
+                     "Culex pipiens/torrentium" = "native" ,
+                     "Culiseta annulata" = "native" ,
+                     "Culex spp." = "native" ,
+                     "Anopheles plumbeus" = "native" ,
+                     "Aedes japonicus" = "established" ,
+                     "Aedes geniculatus" = "native" ,
+                     "Culiseta spp." = "native" ,
+                     "Anopheles maculipennis s.l." = "native" ,
+                     "Anopheles daciae" = "native" ,
+                     "Culex hortensis" = "native" ,
+                     "Aedes spp." = "" ,
+                     "Aedes koreicus" = "established" ,
+                     "Culiseta longiareolata" = "vagrant" ,
+                     "Anopheles maculipennis" = "introduced" ,
+                     "Aedes rusticus" = "native" ,
+                     "Aedes albopictus" = "uncertain" ,
+                     "Culex modestus" = "vagrant" ,
+                     "Culex torrentium" = "native" ,
+                     "Culiseta morsitans" = "native" ,
+                     "Aedes annulipes/cantans" = "native" ,
+                     "Aedes sticticus" = "native" ,
+                     "Coquillettidia richiardii" = "native" ,
+                     "Aedes vexans" = "native" ,
+                     "Aedes communis" = "native" ,
+                     "Aedes cinereus/geminus" = "native" ,
+                     "Aedes punctor" = "native" ,
+                     "Anopheles pharoensis" = "vagrant" ,
+                     "Aedes caspius/dorsalis" = "" ,
+                     "Culiseta fumipennis" = "native" ,
+                     "Culex territans" = "native" ,
+                     "Anopheles atroparvus" = "native" ,
+                     "Aedes detritus" = "native" 
+                                     ))
+```
+
+### pathway
+
+
+```{r eval=FALSE, include=FALSE}
+occurrence %<>% mutate(dwc_degreeOfEstablishment = recode(dwc_scientificName,
+                  "Culicidae" = "" ,
+                  "Anopheles claviger" = "native" ,
+                  "Anopheles spp." = "native" ,
+                  "Culex pipiens/torrentium" = "native" ,
+                  "Culiseta annulata" = "native" ,
+                  "Culex spp." = "native" ,
+                  "Anopheles plumbeus" = "native" ,
+                  "Aedes japonicus" = "established" ,
+                  "Aedes geniculatus" = "native" ,
+                  "Culiseta spp." = "native" ,
+                  "Anopheles maculipennis s.l." = "native" ,
+                  "Anopheles daciae" = "native" ,
+                  "Culex hortensis" = "native" ,
+                  "Aedes spp." = "native" ,
+                  "Aedes koreicus" = "established" ,
+                  "Culiseta longiareolata" = "established" ,
+                  "Anopheles maculipennis" = "native" ,
+                  "Aedes rusticus" = "native" ,
+                  "Aedes albopictus" = "reproducing" ,
+                  "Culex modestus" = "native" ,
+                  "Culex torrentium" = "native" ,
+                  "Culiseta morsitans" = "native" ,
+                  "Aedes annulipes/cantans" = "native" ,
+                  "Aedes sticticus" = "native" ,
+                  "Coquillettidia richiardii" = "native" ,
+                  "Aedes vexans" = "native" ,
+                  "Aedes communis" = "native" ,
+                  "Aedes cinereus/geminus" = "native" ,
+                  "Aedes punctor" = "native" ,
+                  "Anopheles pharoensis" = "casual" ,
+                  "Aedes caspius/dorsalis" = "native" ,
+                  "Culiseta fumipennis" = "native" ,
+                  "Culex territans" = "native" ,
+                  "Anopheles atroparvus" = "native" ,
+                  "Aedes detritus" = "native",
+                  "Culex pipiens" = "native"
+                                     ))
+```
+
+
+### occurrenceStatus
+
+```{r}
+occurrence %<>% 
+    ##select(individualCount) %>%
+    mutate(dwc_occurrenceStatus = case_when(dwc_individualCount > 0 ~ "present",
+                              dwc_individualCount == 0 ~ "absent"
+                                 )
+                                )
+```
+
+# identification
+
+### identifiedBy
+
+```{r}
+occurrence %<>% mutate(dwc_identifiedBy = Identifier)
+```
+
+### dateIdentified
+
+```{r}
+occurrence %<>% mutate(dwc_dateIdentified = Date.ID)
+```
+
+### identificationRemarks
+
+```{r}
+occurrence %<>% mutate(dwc_identificationRemarks = Comments.identification)
+```
+
+# taxon
+
+### scientificName 
+
+
+
+### kingdom
+
+```{r}
+occurrence %<>% mutate(dwc_kingdom = "Animalia")
+```
+
+
+# taxonRank
+
+```{r}
+occurrence %<>% mutate(dwc_taxonRank = case_when(
+                   dwc_scientificName == 'Culex spp.' ~ "genus"
+                  ,dwc_scientificName == 'Culiseta spp.' ~ "genus"
+                  ,dwc_scientificName == 'Culiseta' ~ "genus"
+                  ,dwc_scientificName == 'Culex ' ~ "genus"
+                  ,dwc_scientificName == 'Anopheles' ~ "genus"
+                  ,dwc_scientificName == 'Culicoides spp.' ~ "genus"
+                  ,dwc_scientificName == 'Aedes spp.' ~ "genus"
+                  ,dwc_scientificName == 'Aedes' ~ "genus"
+                  ,dwc_scientificName == '' ~ ''
+                  ,dwc_scientificName == 'Anopheles spp.' ~ "genus"
+                  ,dwc_scientificName == 'Coquillettidia' ~ "genus"
+                  ,dwc_scientificName == 'Diptera' ~ "order"
+                  ,TRUE ~ "species"                   ))
+```
+
+# nomenclaturalCode
+
+```{r}
+occurrence %<>% mutate(dwc_nomenclaturalCode = "ICZN") # e.g. "ICZN"
+```
+# remove unidenfifiable
+
+```{r}
+occurrence <- filter(occurrence,Genus != 'Unidentifiable' ) 
+```
+# remove zero occurrences
+
+```{r}
+
+```
+
+
+## Post-processing Occurrence
+
+
+
+```{r}
+occurrence %<>% select(starts_with("dwc_"))
+
+colnames(occurrence) <- str_remove(colnames(occurrence), "dwc_")
+  #remove collection columns
+          ##  rename(scientificName = verbatimScientificName) 
+
+occurrence %<>% distinct()
+```
+
+
+Preview data:
+
+```{r}
+occurrence %>% head()
+```
+
+
+Save to CSV:
+
+```{r}
+write_csv(occurrence, here::here("datasets","favv-mosquitoes", "data", "processed", "occurrence.csv"), na = "")
+
+
+```
+
+
+# Data quality tests
+
+```{r}
+parsed_names <- occurrence %>%
+  distinct(scientificName)  %>%
+  pull() %>% # Create vector from dataframe
+  parsenames() # An rgbif function
+
+speciesList <- parsed_names %>%
+   select(scientificname)
+
+write_csv(speciesList, here::here("datasets","favv-mosquitoes", "data", "processed", "specieslist.csv"), na = "")
+```
+
