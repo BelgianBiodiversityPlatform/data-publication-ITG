@@ -121,14 +121,14 @@ save input_data for open refine, as we have values in decimalLongitude and decim
 
 
 ```{r}
-write_csv(input_data, here::here("datasets","memo-occurrences", "data", "interim", "memoRawData.csv"), na = "")
+#write_csv(input_data, here::here("datasets","memo-occurrences", "data", "interim", "memoRawData.csv"), na = "")
 
 ```
 
 ```{r}
 interim_data <- read.csv(file = here::here("datasets", "memo-occurrences", "data", "interim", "memoRawDataRefined.csv"), sep = ',')
 
-head(input_data, n=5)
+head(interim_data, n=5)
 ```
 Create a dataframe occurrence data only 
 
@@ -153,7 +153,7 @@ event %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_lon
 ## eventID
 
 ```{r}
-event %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", sampling_code))
+event %<>% mutate(dwc_eventID = str_c("ITG:MEMO:EV", sampling_code))
 ```
 
 
@@ -271,14 +271,14 @@ event %<>% mutate(dwc_countryCode = "BE") # e.g. "Belgium = BE"
 
 ```{r}
 event %<>%
-  mutate(municipality = poe_city)
+  mutate(dwc_municipality = poe_municipality)
 ```
 
 ### locality
 
 ```{r}
 event %<>%
-  mutate(municipality = poe_name_extra)
+  mutate(dwc_locality = poe_name_extra)
 ```
 
 ### decimalLatitude & decimalLongitude
@@ -299,6 +299,36 @@ event %<>%
 
    
 ```
+
+# CHANGE data according to ISRA for one specific coördinate
+
+```{r}
+
+event %<>%
+  mutate(dwc_decimalLatitude = case_when(
+              dwc_eventID == 'ITG:MEMO:EVM17RAL003SEP20' ~ "50.63235"
+            , TRUE ~ dwc_decimalLatitude
+  ))
+
+
+
+```
+
+```{r}
+
+event %<>%
+   mutate(dwc_decimalLongitude = case_when(
+              dwc_eventID == 'ITG:MEMO:EVM17RAL003SEP20' ~ "6.07321"
+            , TRUE ~ dwc_decimalLongitude
+              
+  ))
+
+
+
+```
+
+
+
 
 ### geodeticDatum
 
@@ -374,7 +404,7 @@ occurrence %<>% mutate(dwc_occurrenceID = unique_id_code)
 ## eventID
 
 ```{r}
-occurrence %<>% mutate(dwc_eventID = str_c("IGT:MEMO:EV", sampling_code))
+occurrence %<>% mutate(dwc_eventID = str_c("ITG:MEMO:EV", sampling_code))
 ```
 
 ### basisOfRecord
