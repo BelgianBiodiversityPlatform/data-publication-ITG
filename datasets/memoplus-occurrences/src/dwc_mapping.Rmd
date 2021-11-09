@@ -121,7 +121,7 @@ data is already in WGS84
 
 
 
-save input_data for open refine, as we have values in decimalLongitude and decimalLatitude where '.' are misplaced during previuos corrections in ITG
+save input_data for open refine, as we have values in decimalLongitude and decimalLatitude where '.' are misplaced during previous corrections in ITG
 
 
 
@@ -323,6 +323,12 @@ event %<>%
    mutate(dwc_decimalLatitude = round(dwc_decimalLatitude, digits = 5))
 head(event, n = 5)
 ```
+
+
+
+
+
+
 ### geodeticDatum
 
 ```{r}
