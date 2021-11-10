@@ -224,7 +224,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 str_c("ITG:FAVV:",Collection.sites_Site.Code))
 
 ```{r}
-occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",id, row_id))
+occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",unique_id))
 ```
 
 
@@ -617,17 +617,20 @@ resourceRelationShip %<>% filter(dwc_scientificName != 'Ixodes ricinus',
                                  dwc_scientificName != 'Dermacentor reticulatus'   
                                  )
 ```
+```{r}
+resourceRelationShip %<>% mutate(ddwc_occurrenceID =  dwc_occurrenceID)
+```
 
 
 ```{r}
 
-resourceRelationShip %<>% mutate(ddwc_resourceID = id)
+resourceRelationShip %<>% mutate(ddwc_resourceID = str_c("ITG:FAVV:IX:OCC:",id, ":1"))
 
 ```
 
 ```{r}
 
-resourceRelationShip %<>% mutate(ddwc_relatedresourceID = unique_id)
+resourceRelationShip %<>% mutate(ddwc_relatedresourceID = str_c("ITG:FAVV:IX:OCC:",unique_id))
 
 ```
 
@@ -682,6 +685,8 @@ Save to CSV:
 
 ```{r}
 write_csv(occurrence1, here::here("datasets","favv-ixodida", "data", "processed", "occurrence.csv"), na = "")
+
+write_csv(resourceRelationShip, here::here("datasets","favv-ixodida", "data", "processed", "resourceRelationship.csv"), na = "")
 
 
 ```
