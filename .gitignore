@@ -42,3 +42,5 @@ memoplusRawData.tsv
 *.docx
 *.PNG
 *.rtf
+*.db
+
