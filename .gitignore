@@ -39,3 +39,5 @@ memoplusRawData.tsv
 *.accdb
 *.laccdb
 *.txt
+*.docx
+*.PNG
