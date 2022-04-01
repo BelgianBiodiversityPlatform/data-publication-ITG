@@ -115,7 +115,7 @@ taxolist %<>% select(-C(phylum))
 taxotree(taxolist, sum1 = 'species', n = 25 )
 ```
 ```{r}
-treemap(Culicidae, index=c("family","order","scientificName"), vSize="cellID", type= "index")
+treemap(Culicidae, index=c("family","order","verbatimScientificName"), vSize="cellID", type= "index")
 
 
 ```
