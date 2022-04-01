@@ -180,7 +180,7 @@ event %<>% mutate(dwc_language = "en") # e.g. "en"
 ### license
 
 ```{r}
-event %<>% mutate(dwc_license = "http://creativecommons.org/licenses/by/4.0/") 
+event %<>% mutate(dwc_license = "https://creativecommons.org/publicdomain/zero/1.0/") 
 # e.g. "http://creativecommons.org/publicdomain/zero/1.0/"
 ```
 
@@ -219,7 +219,7 @@ event %<>% mutate(dwc_collectionCode = "ITG:Mosquitoes") # e.g. "INBO"
 ### datasetName
 
 ```{r}
-event %<>% mutate(dwc_datasetName = "MEMOplus - Monitoring exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+event %<>% mutate(dwc_datasetName = "MEMOplus2020 - Monitoring exotic mosquitoes in Belgium") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
 ### basisOfRecord
 
