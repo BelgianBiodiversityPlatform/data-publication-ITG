@@ -48,3 +48,4 @@ gis
 Qgis2022
 .RData
 .Rhistory
+gdalwmscache/*/
