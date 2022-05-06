@@ -39,3 +39,13 @@ memoplusRawData.tsv
 *.accdb
 *.laccdb
 *.txt
+*.docx
+*.PNG
+*.rtf
+*.db
+Qgis2022/*
+gis
+Qgis2022
+.RData
+.Rhistory
+gdalwmscache/*/

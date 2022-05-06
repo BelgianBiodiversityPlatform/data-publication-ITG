@@ -1,0 +1,122 @@
+---
+title: "DAtaVizScript"
+author: "Dimitri Brosens"
+date: "17-3-2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load libraries:
+
+```{r message = FALSE}
+library(tidyverse)      # To do data science
+library(tidylog)        # To provide feedback on dplyr functions
+library(magrittr)       # To use %<>% pipes
+library(here)           # To find files
+library(janitor)        # To clean input data
+library(readxl)         # To read Excel files
+library(digest)         # To generate hashes
+library(rgbif)          # To use GBIF services
+library(sp)             # coordinate transformation
+library(leaflet)        # coordinate transformation
+library(widgetframe)    # coordinate transformation
+library(sf)             # coordinate transformation
+library(lubridate)      # date transformation
+library (bdvis)         # vizualisation data
+library (taxotools)     # something with taxonomy
+library (treemap)       #treemap
+
+```
+
+Create a data frame `input_data` from the source data:
+
+
+```{r}
+#input_interim <- read_csv2(file = here:here("datasets", "mica-uvw-occurrences", "data", "raw", "2020_11_18_Vangstgegevens #muskus- en beverratten_NL_2019.csv"))  
+
+input_data <- read.csv(file = here::here("datasets", "memo-occurrences", "data", "processed","MemoAndMemoPlus_simple", "MeMo_All_simple.csv" ,""), sep = '\t')
+```
+
+Preview data:
+
+```{r}
+input_data %>% head(n = 5)
+```
+
+
+
+
+```{r}
+Culicidae <- format_bdvis(input_data, 'rgbif')
+
+```
+
+```{r}
+#Culicidae %<>% mutate(scientific_name = scientificName)
+
+
+```
+```{r}
+Culicidae %<>% mutate(canonical = species)
+
+
+```
+```{r}
+Culicidae %<>% select(-c(kingdom,genus,order,family, class,phylum))
+
+
+```
+
+
+```{r}
+bdcomplete(Culicidae, recs = 50, gridscale = 1)
+```
+
+
+# Create gridded species density map
+
+```{r}
+
+mapgrid(Culicidae, ptype = 'presence' ,  region = ('Belgium'), gridscale = 0.01)
+```
+
+```{r}
+tempolar(Culicidae, color='blue', plottype='p', timescale = 'm' )
+```
+```{r}
+chronohorogram(Culicidae, ptsize = 1)
+```
+```{r}
+bdcalendarheat(Culicidae)
+```
+```{r}
+bdsummary(Culicidae)
+```
+
+```{r}
+taxolist <- list_higher_taxo(Culicidae, canonical= 'species')
+```
+
+```{r}
+head(taxolist, n = 5)
+```
+
+
+
+```{r}
+taxolist %<>% select(-C(phylum))
+```
+
+
+```{r}
+taxotree(taxolist, sum1 = 'species', n = 25 )
+```
+```{r}
+treemap(Culicidae, index=c("family","order","verbatimScientificName"), vSize="cellID", type= "index")
+
+
+```
+

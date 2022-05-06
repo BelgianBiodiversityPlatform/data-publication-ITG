@@ -26,6 +26,7 @@ library(leaflet)        # coordinate transformation
 library(widgetframe)    # coordinate transformation
 #library(sf)             # coordinate transformation
 library(lubridate)      # date transformation
+library(inborutils)
 ```
 
 # Read source data
@@ -42,7 +43,12 @@ File exported to csv
 input_data <- read.csv(file = here::here("datasets", "memo-occurrences", "data", "raw", "00_MEMO_DATABASE_GBIF.csv"), sep = ';')
 ```
 
-Preview data:
+```{r}
+input_data <-  inborutils::convertdf_enc(input_data, from = "latin1", to = "UTF-8")
+```
+
+
+ data:
 
 ```{r}
 input_data %>% head(n = 5)
@@ -172,7 +178,7 @@ event %<>% mutate(dwc_language = "en") # e.g. "en"
 ### license
 
 ```{r}
-event %<>% mutate(dwc_license = "https://creativecommons.org/licenses/by/4.0/") 
+event %<>% mutate(dwc_license = "https://creativecommons.org/publicdomain/zero/1.0/") 
 # e.g. "http://creativecommons.org/publicdomain/zero/1.0/"
 ```
 
@@ -385,7 +391,7 @@ Remove all columns not relevant for occurrence
 ## Remove obsolete columns for occurrence
 
 ```{r}
-occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, start_date, end_date, trap_type, pbs_type, number_containers_checked, sampling_remarks, poe_type, poe_code, location, poe_type, poe_city, poe_country, poe_municipality, poe_name, poe_name_extra, decimalLatitude_poe, decimalLongitude_poe ))
+occurrence %<>% select(-c(latitude,longitude, trap_status,year, poe_latitude, poe_longitude, trap_code, pbs_code, trap_type, pbs_type, number_containers_checked, sampling_remarks, poe_type, poe_code, location, poe_type, poe_city, poe_country, poe_municipality, poe_name, poe_name_extra, decimalLatitude_poe, decimalLongitude_poe ))
 ```
 #materialSampleID
 
@@ -406,6 +412,20 @@ occurrence %<>% mutate(dwc_occurrenceID = unique_id_code)
 ```{r}
 occurrence %<>% mutate(dwc_eventID = str_c("ITG:MEMO:EV", sampling_code))
 ```
+### eventDate
+
+
+```{r}
+occurrence %<>% mutate(dwc_eventDate = paste(dmy(start_date),dmy(end_date), sep = "/"))
+```
+```{r}
+occurrence %<>% mutate(dwc_eventDate2 = (dmy(start_date)))
+```
+```{r}
+occurrence %<>% mutate(dwc_eventDate3 = (dmy(end_date)))
+```
+
+
 
 ### basisOfRecord
 
@@ -642,6 +662,10 @@ occurrence %<>% mutate(dwc_taxonRank = case_when(
                   ,species.f == 'Aedes spp.' ~ "genus"
                   ,species.f == '' ~ ''
                   ,species.f == 'Anopheles spp.' ~ "genus"
+                  ,species.f == 'Culex pipiens/torrentium' ~ "species aggregate"
+                  ,species.f == 'Aedes annulipes/cantans' ~ "species aggregate"
+                  ,species.f == 'Aedes cinereus/geminus' ~ "species aggregate"
+                  ,species.f == 'Aedes caspius/dorsalis' ~ "species aggregate"
                   ,TRUE ~ "species"                   ))
 ```
 

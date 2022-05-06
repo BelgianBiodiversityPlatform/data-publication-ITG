@@ -32,11 +32,7 @@ library(lubridate)      # date transformation
 # Read source data
 
 Create a data frame `input_data` from the source data:
-The source data was corrected in Excel
-Muskrat occurrences opened in openRefine
-Obsolete columns removed
-some columns renamed to DwC term
-File exported to csv
+
 
 ```{r}
 #input_interim <- read_csv2(file = here:here("datasets", "mica-uvw-occurrences", "data", "raw", "2020_11_18_Vangstgegevens #muskus- en beverratten_NL_2019.csv"))  
@@ -157,7 +153,7 @@ data is already in WGS84
 
 
 ```{r}
-input_data %<>% mutate(dwc_eventID = str_c("IGT:FAVV:T:EV:",str_replace(collectiondate,",","-") ,str_replace(extractiondate, ",","-") ,str_replace(latitutde, ",","-"),str_replace(longitude, ",","-")))
+input_data %<>% mutate(dwc_eventID = str_c("ITG:FAVV:T:EV:",str_replace(collectiondate,",","-") ,str_replace(extractiondate, ",","-") ,str_replace(latitutde, ",","-"),str_replace(longitude, ",","-")))
 
 ```
 
@@ -228,7 +224,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 str_c("ITG:FAVV:",Collection.sites_Site.Code))
 
 ```{r}
-occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",id, row_id))
+occurrence1 %<>% mutate(dwc_occurrenceID = str_c("ITG:FAVV:IX:OCC:",unique_id))
 ```
 
 
@@ -278,7 +274,7 @@ occurrence1 %<>% mutate(dwc_datasetID = "complete")
 ### institutionCode
 
 ```{r}
-occurrence1 %<>% mutate(dwc_institutionCode = "ITG") # e.g. "INBO"
+occurrence1 %<>% mutate(dwc_institutionCode = "ITM") # e.g. "INBO"
 ```
 ### collectionCode
 
@@ -290,7 +286,7 @@ occurrence1 %<>% mutate(dwc_collectionCode = "ITG:ixodida") # e.g. "INBO"
 ### datasetName
 
 ```{r}
-occurrence1 %<>% mutate(dwc_datasetName = "FAVV - Exotic vector and pathogen surveillance programme in Belgium - Ixodida_host") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
+occurrence1 %<>% mutate(dwc_datasetName = "FASFC - Exotic vector and pathogen surveillance programme in Belgium - Ixodida_host") # e.g. "Checklist of non-native freshwater fishes in Flanders, Belgium"
 ```
 ### basisOfRecord
 
@@ -476,7 +472,7 @@ occurrence1 %<>% mutate(dwc_basisOfRecord = "HumanObservation")
 ### recordedBy
 
 ```{r}
-occurrence1 %<>% mutate(dwc_recordedBy = "ITG")
+occurrence1 %<>% mutate(dwc_recordedBy = "ITM")
 ```
 
 ### identifiedBy
@@ -621,17 +617,20 @@ resourceRelationShip %<>% filter(dwc_scientificName != 'Ixodes ricinus',
                                  dwc_scientificName != 'Dermacentor reticulatus'   
                                  )
 ```
+```{r}
+resourceRelationShip %<>% mutate(ddwc_occurrenceID =  dwc_occurrenceID)
+```
 
 
 ```{r}
 
-resourceRelationShip %<>% mutate(ddwc_resourceID = id)
+resourceRelationShip %<>% mutate(ddwc_resourceID = str_c("ITG:FAVV:IX:OCC:",id, ":1"))
 
 ```
 
 ```{r}
 
-resourceRelationShip %<>% mutate(ddwc_relatedresourceID = unique_id)
+resourceRelationShip %<>% mutate(ddwc_relatedresourceID = str_c("ITG:FAVV:IX:OCC:",unique_id))
 
 ```
 
@@ -686,6 +685,8 @@ Save to CSV:
 
 ```{r}
 write_csv(occurrence1, here::here("datasets","favv-ixodida", "data", "processed", "occurrence.csv"), na = "")
+
+write_csv(resourceRelationShip, here::here("datasets","favv-ixodida", "data", "processed", "resourceRelationship.csv"), na = "")
 
 
 ```
