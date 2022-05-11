@@ -1,1 +1,0 @@
-# DNA identification pipeline
