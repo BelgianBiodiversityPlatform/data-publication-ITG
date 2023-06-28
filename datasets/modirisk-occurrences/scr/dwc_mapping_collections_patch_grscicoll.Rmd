@@ -1,0 +1,33 @@
+---
+title: "Modirisk_patch_GRiSCiColl"
+author: "Dimitri Brosens"
+date: "2023-06-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load libraries:
+
+```{r}
+library(tidyverse)      # To do data science
+library(tidylog)        # To provide feedback on dplyr functions
+library(magrittr)       # To use %<>% pipes
+library(here)           # To find files
+library(janitor)        # To clean input data
+library(readxl)         # To read Excel files
+library(digest)         # To generate hashes
+library(rgbif)          # To use GBIF services
+```
+
+# Read source data
+
+Create a data frame `input_data` from the source data:
+
+```{r}
+input_data <- read_csv(here::here("datasets", "modirisk-occurrences", "Collections_data", "data", "processed", "occurrenceCulibel.csv"))
+```
+
+
