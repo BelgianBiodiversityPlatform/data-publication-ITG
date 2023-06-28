@@ -30,4 +30,44 @@ Create a data frame `input_data` from the source data:
 input_data <- read_csv(here::here("datasets", "modirisk-occurrences", "Collections_data", "data", "processed", "occurrenceCulibel.csv"))
 ```
 
+# Preprocessing
+
+## Tidy data
+
+Clean data somewhat:
+
+```{r}
+input_data %<>% remove_empty("rows")
+```
+
+# Darwin Core mapping
+
+## Create occurrence core
+
+Create a dataframe with occurrence data:
+
+```{r}
+occurrence <- input_data
+```
+
+# Remove obsolete columns (Bijvangst)
+
+```{r}
+occurrence %<>% select(-c(collectionCode))
+```
+
+Add columns:
+
+```{r eval = FALSE}
+occurrence %<>%
+  mutate(institutionID = "https://ror.org/02y22ws83") %>%
+  mutate(collectionCode = "INV-ENT")
+```
+
+Save to CSV:
+
+```{r}
+write_csv(occurrence, here::here("datasets", "modirisk-occurrences", "Collections_data", "data", "processed", "occurrence.csv"), na = "")
+
+```
 
