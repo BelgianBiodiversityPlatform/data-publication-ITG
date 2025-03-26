@@ -61,7 +61,7 @@ Add columns:
 ```{r eval = FALSE}
 occurrence %<>%
   mutate(institutionID = "https://ror.org/02y22ws83") %>%
-  mutate(collectionCode = "INV-ENT")
+  mutate(collectionCode = "INV-INS")
 ```
 
 Save to CSV:
